@@ -1,0 +1,2399 @@
+{
+  "schemaVersion": "classroom-os-public-window/v2",
+  "contentVersion": "2026-fall-live-election-v1",
+  "sourceUpdatedAt": "2026-08-23T18:00:00Z",
+  "window": {
+    "id": "september-opening",
+    "effectiveFrom": "2026-09-08",
+    "effectiveTo": "2026-09-11",
+    "state": "up-next",
+    "shared": {
+      "eyebrow": "SEPTEMBER · OPENING OUR LEARNING COMMUNITY",
+      "title": "Make the Call: Technology & AI in Grade 6",
+      "bigQuestion": "When does technology strengthen our learning—and what choices keep the thinking, safety, and responsibility with us?",
+      "summary": "During the Grade 6 rotations, students work through fast, concrete technology and AI decisions. In pairs and table groups they test whether authorship can be guessed from style, sort six classroom situations, repair a shortcut prompt, challenge a confident AI response, and propose a usable class commitment. Each student then writes and signs a one-page learning, technology, and AI agreement for the teacher who will receive them.",
+      "learningArc": [
+        {
+          "timing": "0–5 min",
+          "label": "Launch",
+          "studentAction": "Name one learning job a tool can help with and one choice that could weaken trust.",
+          "outcome": "Technology is discussed through learning purposes and responsible decisions, not app popularity."
+        },
+        {
+          "timing": "5–13 min",
+          "label": "Detect",
+          "studentAction": "Vote HUMAN, AI, or CANNOT TELL for three samples, then point to evidence and its limits.",
+          "outcome": "Students replace style-based guesses with questions about process, sources, drafts, and explanation."
+        },
+        {
+          "timing": "13–23 min",
+          "label": "Sort",
+          "studentAction": "Place classroom situations in HELPS LEARNING, CHECK IT, or STOP + ASK and defend the call.",
+          "outcome": "Students reason with privacy, accuracy, ownership, attribution, and learning purpose."
+        },
+        {
+          "timing": "23–32 min",
+          "label": "Prompt",
+          "studentAction": "Repair a prompt so AI questions and coaches instead of completing the work.",
+          "outcome": "The learner's decisions, evidence, and final explanation remain visible."
+        },
+        {
+          "timing": "32–42 min",
+          "label": "Repair",
+          "studentAction": "Mark a confident AI response KEEP, CHECK, or CHANGE and rewrite one weak claim.",
+          "outcome": "Students separate useful language from reliable evidence."
+        },
+        {
+          "timing": "42–50 min",
+          "label": "Draft",
+          "studentAction": "Write and stress-test one table commitment using a real scenario.",
+          "outcome": "The class gathers observable commitments rather than broad slogans."
+        },
+        {
+          "timing": "50–58 min",
+          "label": "Agree",
+          "studentAction": "Complete a personal learning, technology, and AI agreement.",
+          "outcome": "Each student names a support, a commitment, a stop-and-ask moment, and a teacher question."
+        },
+        {
+          "timing": "58–60 min",
+          "label": "Sign",
+          "studentAction": "Check, sign, and place the named page in the rotation collection tray.",
+          "outcome": "The receiving teacher gets a practical starting point for a follow-up conversation."
+        }
+      ],
+      "visual": {
+        "src": "/images/grade-6-ai-technology-decision-lab-v1.webp",
+        "alt": "Grade 6 students working in table groups with paper decision cards while one teacher-controlled screen supports the discussion.",
+        "caption": "One shared decision lab: talk first, make a call, test the reasoning, and revise."
+      },
+      "primaryResource": {
+        "label": "Download the student agreement",
+        "href": "/printables/grade-6-learning-technology-ai-agreement.pdf",
+        "format": "PDF · one page per student",
+        "description": "My Grade 6 Learning, Technology & AI Agreement—the individual handoff completed during minutes 50–60."
+      },
+      "thinkingMoves": [
+        {
+          "id": "ask-better-questions",
+          "label": "Ask better questions",
+          "prompt": "What question would reveal the process or evidence?"
+        },
+        {
+          "id": "verify",
+          "label": "Verify",
+          "prompt": "Which claim matters enough to trace to a current, named source?"
+        },
+        {
+          "id": "challenge-assumptions",
+          "label": "Challenge assumptions",
+          "prompt": "What are we assuming from style, confidence, or convenience?"
+        },
+        {
+          "id": "weigh-trade-offs",
+          "label": "Weigh trade-offs",
+          "prompt": "What does this choice strengthen, and what responsibility does it create?"
+        },
+        {
+          "id": "improve",
+          "label": "Improve",
+          "prompt": "How can we revise the prompt, response, or commitment so it works in a real situation?"
+        },
+        {
+          "id": "reflect",
+          "label": "Reflect",
+          "prompt": "What choice will help me learn and make my process honest and visible?"
+        }
+      ],
+      "subjectSnapshot": [
+        {
+          "subject": "Career Education & ADST",
+          "now": "Learning, Technology & AI Agreement Lab",
+          "why": "Make specific choices about privacy, accuracy, ownership, help-seeking, and how tools support learning."
+        },
+        {
+          "subject": "English Language Arts",
+          "now": "Ordinary-Object Story and Friday Learning Story",
+          "why": "Use visible details, audience, voice, retelling, and reflection to become known without requiring private disclosure."
+        },
+        {
+          "subject": "Mathematics",
+          "now": "Magnitude Gallery",
+          "why": "Represent and compare very large and very small quantities while explaining estimation strategies."
+        },
+        {
+          "subject": "Social Studies",
+          "now": "Learning with place and preparing for the Fleetwood Evidence Case File",
+          "why": "Notice how place, evidence, maps, and perspective shape the stories communities tell."
+        },
+        {
+          "subject": "PHE & Community",
+          "now": "Movement, collaboration, routines, and belonging",
+          "why": "Practise participating safely, sharing airtime, disagreeing with reasons, and asking for useful support."
+        }
+      ]
+    },
+    "student": {
+      "label": "STUDENT PATH",
+      "title": "Make the Call: Technology & AI in Grade 6",
+      "why": "You will use technology, search, and sometimes AI during Grade 6. This lab helps you know what to check, what to keep as your own thinking, what information to protect, and when to ask for help.",
+      "summary": "Work with a partner and table to investigate realistic classroom choices. You will make evidence-based calls, improve a prompt and an AI response, help write a class commitment, and finish with an agreement in your own words.",
+      "duration": "60 minutes",
+      "grouping": "Partner talk and tables of 3–4 for the investigations; your personal agreement is individual because it describes your commitments, supports, and question.",
+      "routeTitle": "Your 60-minute decision lab",
+      "bring": [
+        "A pencil or another way to record your ideas",
+        "Your reasons, questions, and willingness to change your mind",
+        "No passwords, account names, photos, schedules, or private family information"
+      ],
+      "firstMove": "Think of one time technology helped you imagine, practise, organize, check, communicate, create, access support, or collaborate. Tell a partner what it helped you do.",
+      "quickReference": {
+        "firstMove": "Tell a partner about one time technology helped you learn. Name what it helped you do.",
+        "handIn": "Put your named agreement in the rotation tray. It is practice, not a grade.",
+        "missed": "Ask for the short scenario and agreement. Use the four-question check if you get stuck."
+      },
+      "firstMoveNote": "Name the learning job, not just the app or device. Then predict one choice that could make the result less useful or trustworthy.",
+      "steps": [
+        "Detect: vote HUMAN, AI, or CANNOT TELL and explain what your clue can prove.",
+        "Sort: place classroom situations in HELPS LEARNING, CHECK IT, or STOP + ASK.",
+        "Prompt: turn ‘do it for us’ into a prompt that asks questions and waits for student decisions.",
+        "Repair: mark a confident AI response KEEP, CHECK, or CHANGE and rewrite one problem.",
+        "Draft: help your table write one commitment that tells people what to do in a real moment.",
+        "Agree: choose two class commitments and write one commitment of your own.",
+        "Personalize: name one support that helps you learn, one stop-and-ask moment, and one teacher question.",
+        "Sign and submit: check that the agreement sounds like you and contains no private account information."
+      ],
+      "choices": [
+        "Use speaking, writing, pointing, table cards, dictation to an adult, or labelled drawings to show your reasoning.",
+        "Disagree with a table call when you can give a reason tied to learning, privacy, accuracy, ownership, or fairness.",
+        "Describe a school-learning support that is useful to your teacher; private medical, diagnostic, or family details are not required."
+      ],
+      "product": "One table commitment plus your signed, one-page My Grade 6 Learning, Technology & AI Agreement.",
+      "finish": "You can explain one decision your thinking group made, show how a prompt or response was improved, and submit an agreement with a specific commitment, a stop-and-ask moment, a learning support, and a teacher question.",
+      "handInOrSave": "Place the named agreement in the labelled rotation tray. It goes privately to your receiving Grade 6 teacher as the start of a conversation; it is not graded.",
+      "ifAbsentOrStuck": "If absent, ask for the short scenario-and-agreement route. If stuck, choose one situation and use four questions: What is the learning purpose? Is private information involved? What needs checking? Who makes the final decision?",
+      "spacesNote": "The named agreement is not posted to SpacesEDU. Later in September, you may choose stronger evidence for a Learning Story about how your thinking changed."
+    },
+    "family": {
+      "label": "FAMILY WINDOW",
+      "title": "The first Grade 6 technology decisions",
+      "summary": "During the opening rotations, students spend one 60-minute lesson investigating realistic choices about search, devices, and AI. The focus is practical: privacy, checking claims, keeping student thinking visible, explaining help received, and knowing when to stop and ask an adult.",
+      "whyThisMatters": "Students need more than a slogan such as ‘use AI responsibly.’ They practise making and defending a decision in situations they may actually encounter, including a confident claim with no source, a request for private information, and a tool that offers to complete the student's work.",
+      "whatStudentsDo": "Students first work in pairs and tables to examine three authorship samples, sort six scenarios, repair a shortcut prompt, audit four claims in an AI response, and write one testable table commitment. In the final ten minutes, each student completes and signs an individual learning, technology, and AI agreement.",
+      "quickReference": {
+        "atSchool": "In pairs and table groups, students sort six realistic situations, improve an AI prompt and response, then write their own one-page agreement.",
+        "home": "Nothing to prepare or finish at home.",
+        "assessment": "The teacher observes reasoning and revision. The agreement is practice—not a grade or placement decision.",
+        "spaces": "The agreement stays with the teacher. Selected learning and feedback may appear in SpacesEDU later."
+      },
+      "product": "A table contributes one proposed class commitment. Each student submits a one-page agreement naming a useful learning purpose, two class commitments, one personal commitment, a stop-and-ask situation, a learning support, and a question for the receiving teacher.",
+      "assessment": "This is low-stakes formative evidence. The teacher listens for clear reasons, willingness to verify, respect for privacy and authentic voices, honest explanation of tool help, and the student's ability to keep final decisions visible. The agreement is not graded and does not affect class placement.",
+      "agreementNote": "This is a student-to-teacher learning agreement, not a legal contract or family consent form. It does not give permission to create accounts or use unapproved tools, and it does not replace Surrey Schools policies or teacher directions. Commitments may be discussed and revised as the class learns.",
+      "groupAndIndividualEvidence": "Table talk shows how students compare evidence, share airtime, and revise a decision. The individual page preserves each student's own commitment, support, and question. Named completed agreements stay private with the teacher.",
+      "milestones": [
+        {
+          "date": "Sept. 8–11",
+          "label": "Grade 6 rotations · Technology & AI Decision Lab and agreement handoff",
+          "shortLabel": "Technology & AI rotations"
+        },
+        {
+          "date": "Sept. 14–18",
+          "label": "First formed-class week · five ways for students to become known",
+          "shortLabel": "First week with your class"
+        },
+        {
+          "date": "Sept. 29",
+          "label": "Learning-with-place classroom sharing",
+          "shortLabel": "Learning-with-place sharing"
+        }
+      ],
+      "homework": "No special supplies or at-home completion are expected. The decision lab and agreement are completed at school with teacher guidance.",
+      "supportAtHome": [
+        "Ask your child to explain one HELPS LEARNING, CHECK IT, or STOP + ASK decision and the reason for it.",
+        "Ask what evidence would be stronger than guessing authorship from polished or rough writing.",
+        "Please let the agreement remain in the student's own words; a family conversation is welcome, but no rewriting is needed.",
+        "Share important learning, health, belonging, or safety information directly with the school when it would help the classroom plan."
+      ],
+      "conversationPrompts": [
+        "Which scenario was hardest to decide, and what changed your mind?",
+        "How did your group change a prompt so students still did the important thinking?",
+        "What will you stop and ask an adult about this year?"
+      ],
+      "spacesNote": "The named agreement stays with the teacher and is not posted to SpacesEDU. Later September portfolio evidence may include a student-selected Learning Story, not private operational or account information."
+    }
+  },
+  "newsroom": {
+    "id": "grade-6-newsroom",
+    "contentVersion": "source-lab-newsroom-2026-08-20-v3",
+    "shared": {
+      "eyebrow": "SOURCE LAB & NEWSROOM · CURRENT + HISTORICAL",
+      "title": "Source Lab & Newsroom",
+      "bigQuestion": "What does this source show—and what would we need to check before believing more?",
+      "summary": "Begin with one real photograph, map, graph, quotation, headline, short text, or video. Students examine it together before they receive an explanation, make a claim, or decide what to investigate next.",
+      "cadence": "Use a Quick Look for an 8–12 minute source conversation or a Deep Dive when the source deserves comparison, research, or a longer response.",
+      "sourcePromise": "Every source is visible, named, dated when possible, and linked to its publisher or archive. Current sources receive a review date; historical sources keep their archive credit and context.",
+      "routes": [
+        {
+          "id": "quick-look",
+          "label": "QUICK LOOK",
+          "minutes": "8–12 min",
+          "path": "Look → Notice → Claim → Next",
+          "use": "One source, one careful claim, one uncertainty. End with discussion or save one question."
+        },
+        {
+          "id": "deep-dive",
+          "label": "DEEP DIVE",
+          "minutes": "25–45 min",
+          "path": "Look → Notice → Claim → Compare → Check → Next",
+          "use": "Open the source record, compare another source or perspective, and create a response only when the question earns more time."
+        }
+      ],
+      "routine": [
+        {
+          "id": "watch",
+          "label": "LOOK",
+          "title": "Meet the source",
+          "prompt": "Study it quietly once. What is literally here before anyone explains it?"
+        },
+        {
+          "id": "notice",
+          "label": "NOTICE",
+          "title": "Collect clues",
+          "prompt": "Point to exact words, dates, numbers, labels, objects, sounds, or visible details."
+        },
+        {
+          "id": "question",
+          "label": "CLAIM",
+          "title": "Make a careful first idea",
+          "prompt": "What might the source show or suggest? What question or uncertainty must stay attached?"
+        },
+        {
+          "id": "discuss",
+          "label": "COMPARE",
+          "title": "Test the idea with other people",
+          "prompt": "In a pair or team, compare interpretations. Which clues support each idea, and where are we relying on assumptions?"
+        },
+        {
+          "id": "investigate",
+          "label": "CHECK",
+          "title": "Open the source record",
+          "prompt": "Who made it, when, for what purpose, and what changes after reading its caption, context, data notes, or another source?"
+        },
+        {
+          "id": "imagine",
+          "label": "NEXT",
+          "title": "Choose how this source ends",
+          "prompt": "Revise the claim, stop after a useful discussion, save a strong question, or continue into research, writing, data, art, design, or action."
+        }
+      ],
+      "endings": [
+        {
+          "id": "discuss-only",
+          "label": "DISCUSS & STOP",
+          "title": "A useful conversation can be enough",
+          "detail": "Name one careful conclusion and one uncertainty. Nothing needs to be posted."
+        },
+        {
+          "id": "save-seed",
+          "label": "SAVE A SEED",
+          "title": "Carry one question forward",
+          "detail": "Write a promising question in an inquiry notebook, team passport, or the class question wall."
+        },
+        {
+          "id": "teacher-follow-up",
+          "label": "FOLLOW IT",
+          "title": "Continue when the question earns more time",
+          "detail": "The teacher may choose a source set, field observation, interview, data task, story, model, or design challenge."
+        }
+      ]
+    },
+    "student": {
+      "title": "Start with the source—not the answer.",
+      "summary": "Your job is to collect clues, make a possible claim, hear another interpretation, and revise when the caption, context, or another source changes the evidence.",
+      "firstMove": "Look quietly. Point to one exact detail and say, “I notice ___.” Do not explain it yet.",
+      "inquiryRoutes": [
+        {
+          "title": "Talk it through",
+          "detail": "The class makes sense of the story and stops. Good thinking does not need to become an assignment."
+        },
+        {
+          "title": "Keep the question",
+          "detail": "Write one inquiry seed you genuinely want to revisit. Include why it matters and what kind of evidence could help."
+        },
+        {
+          "title": "Build, teach, or act",
+          "detail": "When a question connects to our Big Ideas, the class may investigate, make something, teach an audience, or propose a careful solution."
+        }
+      ],
+      "finish": "I can say what the source supports, what remains uncertain, and the next question I would ask.",
+      "absentOrStuck": "Ask a partner for the source, the class question, and one detail they can point to. Add your own question before asking for the class conclusion.",
+      "spacesNote": "Most Source Lab work stays in discussion, notebooks, and class work. Only selected evidence or reflection belongs in SpacesEDU."
+    },
+    "family": {
+      "title": "What families should know about Source Lab & Newsroom",
+      "summary": "Students regularly examine a real current or historical source and practise separating observation, inference, evidence, context, and uncertainty. Some sources lead only to a short conversation; others connect to a larger inquiry or project.",
+      "quickReference": [
+        {
+          "label": "What students do",
+          "detail": "Study one visible, teacher-reviewed source, identify exact clues, compare interpretations, open its context, and decide whether a question deserves more investigation."
+        },
+        {
+          "label": "How collaboration works",
+          "detail": "Pairs or small groups are common because explaining, questioning, and revising with other people strengthens the thinking. Individual reflection is used when each student's own learning matters."
+        },
+        {
+          "label": "Visual clue challenges",
+          "detail": "The teacher leads one whole-class visual challenge while teams record three precise details, a place or time range, one uncertainty, and a revision after the reveal. Students do not need an account and do not post a public response."
+        },
+        {
+          "label": "How it is assessed",
+          "detail": "The teacher looks for careful use of evidence, useful questions, listening, revision, and honest uncertainty. A student's political opinion is not graded."
+        },
+        {
+          "label": "What comes home",
+          "detail": "You may see a discussion question, inquiry seed, or selected learning artifact. Most stories remain short classroom conversations and do not become portfolio posts."
+        }
+      ],
+      "conversationPrompts": [
+        "What detail changed or complicated your first idea?",
+        "Whose experience or perspective was missing from the source?",
+        "What would you need to check before sharing that claim?"
+      ],
+      "spacesNote": "SpacesEDU remains the secure home for selected evidence and reflection; the public site does not collect student responses."
+    },
+    "featured": {
+      "id": "fleetwood-skytrain-current-work-2026",
+      "title": "What is being built now—and what is still on the plan?",
+      "topic": "Fleetwood · construction, maps, and future transit",
+      "question": "How can one official project use maps and status words to show both the present and the future?",
+      "summary": "Major construction is underway on the planned 16-kilometre Surrey–Langley SkyTrain extension with eight stations. Passenger service is not running on the extension; late 2029 is described as an anticipated in-service date.",
+      "whyNow": "Students in Fleetwood can see signs of a major local change. This feature helps them separate construction happening now, a future plan, and the different experiences a project map cannot show by itself.",
+      "minutes": "12–18 min",
+      "checkedOn": "2026-08-20",
+      "reviewBy": "2026-09-25",
+      "publicFrom": "2026-08-20",
+      "publicUntil": "2026-09-25",
+      "preview": {
+        "kind": "short-text",
+        "label": "BC GOVERNMENT NEWS RELEASE · MAY 8, 2026",
+        "text": "All eight stations along the 16-kilometre extension are now under construction.",
+        "credit": "Province of British Columbia · Ministry of Transportation and Transit",
+        "sourceUrl": "https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026TT0022-000515.htm",
+        "checkedOn": "2026-08-20",
+        "prompt": "Which words describe something happening now—and which details on the full page describe a future plan?"
+      },
+      "factStrip": [
+        {
+          "value": "16 km",
+          "label": "PLANNED EXTENSION",
+          "note": "Length named by the project"
+        },
+        {
+          "value": "8",
+          "label": "STATIONS",
+          "note": "All were under construction May 8, 2026"
+        },
+        {
+          "value": ">30%",
+          "label": "GUIDEWAY COMPLETE",
+          "note": "Reported in the May 8 news release"
+        },
+        {
+          "value": "late 2029",
+          "label": "ANTICIPATED SERVICE",
+          "note": "A forecast—not a guarantee"
+        }
+      ],
+      "statusStrip": [
+        {
+          "label": "HAPPENING NOW",
+          "detail": "Station and guideway construction",
+          "state": "now"
+        },
+        {
+          "label": "STILL BEING BUILT",
+          "detail": "Track, stations, systems, and testing",
+          "state": "building"
+        },
+        {
+          "label": "ANTICIPATED FUTURE",
+          "detail": "Passenger service in late 2029",
+          "state": "future"
+        }
+      ],
+      "sourceOrganization": "Province of British Columbia · BC Gov News · Province of British Columbia · Surrey Langley SkyTrain · Province of British Columbia",
+      "sources": [
+        {
+          "title": "New SkyTrain stations taking shape for transit riders south of Fraser River",
+          "organization": "Province of British Columbia · BC Gov News",
+          "url": "https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026TT0022-000515.htm",
+          "sourceKind": "official-news-release",
+          "sourceFocus": "Find one detail happening now and one forecast about the future. Remember that this is a government announcement about its own project, not independent reporting.",
+          "publishedOn": "2026-05-08",
+          "checkedOn": "2026-08-20",
+          "reproduction": "short-excerpt"
+        },
+        {
+          "title": "Current Work",
+          "organization": "Province of British Columbia · Surrey Langley SkyTrain",
+          "url": "https://surreylangleyskytrain.gov.bc.ca/current-work/",
+          "sourceKind": "official-page",
+          "sourceFocus": "On Current Work, find a present-tense construction detail and a date. Do not treat a construction update as proof that passenger service is running.",
+          "checkedOn": "2026-08-20",
+          "reproduction": "link-only"
+        },
+        {
+          "title": "Maps",
+          "organization": "Province of British Columbia · Surrey Langley SkyTrain",
+          "url": "https://surreylangleyskytrain.gov.bc.ca/maps/",
+          "sourceKind": "official-map",
+          "sourceFocus": "On the map, find the extension line, station symbols, and Fleetwood locations. Notice what the map represents and what experiences it cannot show.",
+          "checkedOn": "2026-08-20",
+          "reproduction": "link-only"
+        },
+        {
+          "title": "Surrey Langley SkyTrain",
+          "organization": "Province of British Columbia",
+          "url": "https://surreylangleyskytrain.gov.bc.ca/",
+          "sourceKind": "official-page",
+          "sourceFocus": "Find the project length, planned station count, current project wording, and the word anticipated beside the future in-service date.",
+          "checkedOn": "2026-08-20",
+          "reproduction": "link-only"
+        },
+        {
+          "title": "Photos and Videos",
+          "organization": "Province of British Columbia · Surrey Langley SkyTrain",
+          "url": "https://surreylangleyskytrain.gov.bc.ca/photos-and-videos/",
+          "sourceKind": "official-photo-gallery",
+          "sourceFocus": "Choose one dated progress photograph. Separate what the image shows from what its project caption claims, and notice what is outside the frame.",
+          "checkedOn": "2026-08-20",
+          "reproduction": "link-only"
+        }
+      ],
+      "firstMove": "Find and point to one word or number that describes the project now, and one that describes the future plan. Do not explain the effects yet.",
+      "inquirySeeds": [
+        "What can an official project map show well, and what does it leave out?",
+        "How might construction be experienced differently by students, businesses, transit riders, and nearby residents?",
+        "What evidence would help us describe a local change without guessing?"
+      ],
+      "curriculumConnections": [
+        "Social Studies",
+        "English Language Arts",
+        "ADST"
+      ],
+      "familyConversationPrompt": "What change have you noticed along Fraser Highway, and what would we need to check before claiming who benefits or faces difficulty?",
+      "spacesDisposition": "discussion-only"
+    },
+    "features": [
+      {
+        "id": "fleetwood-skytrain-current-work-2026",
+        "title": "What is being built now—and what is still on the plan?",
+        "topic": "Fleetwood · construction, maps, and future transit",
+        "question": "How can one official project use maps and status words to show both the present and the future?",
+        "summary": "Major construction is underway on the planned 16-kilometre Surrey–Langley SkyTrain extension with eight stations. Passenger service is not running on the extension; late 2029 is described as an anticipated in-service date.",
+        "whyNow": "Students in Fleetwood can see signs of a major local change. This feature helps them separate construction happening now, a future plan, and the different experiences a project map cannot show by itself.",
+        "minutes": "12–18 min",
+        "checkedOn": "2026-08-20",
+        "reviewBy": "2026-09-25",
+        "publicFrom": "2026-08-20",
+        "publicUntil": "2026-09-25",
+        "preview": {
+          "kind": "short-text",
+          "label": "BC GOVERNMENT NEWS RELEASE · MAY 8, 2026",
+          "text": "All eight stations along the 16-kilometre extension are now under construction.",
+          "credit": "Province of British Columbia · Ministry of Transportation and Transit",
+          "sourceUrl": "https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026TT0022-000515.htm",
+          "checkedOn": "2026-08-20",
+          "prompt": "Which words describe something happening now—and which details on the full page describe a future plan?"
+        },
+        "factStrip": [
+          {
+            "value": "16 km",
+            "label": "PLANNED EXTENSION",
+            "note": "Length named by the project"
+          },
+          {
+            "value": "8",
+            "label": "STATIONS",
+            "note": "All were under construction May 8, 2026"
+          },
+          {
+            "value": ">30%",
+            "label": "GUIDEWAY COMPLETE",
+            "note": "Reported in the May 8 news release"
+          },
+          {
+            "value": "late 2029",
+            "label": "ANTICIPATED SERVICE",
+            "note": "A forecast—not a guarantee"
+          }
+        ],
+        "statusStrip": [
+          {
+            "label": "HAPPENING NOW",
+            "detail": "Station and guideway construction",
+            "state": "now"
+          },
+          {
+            "label": "STILL BEING BUILT",
+            "detail": "Track, stations, systems, and testing",
+            "state": "building"
+          },
+          {
+            "label": "ANTICIPATED FUTURE",
+            "detail": "Passenger service in late 2029",
+            "state": "future"
+          }
+        ],
+        "sourceOrganization": "Province of British Columbia · BC Gov News · Province of British Columbia · Surrey Langley SkyTrain · Province of British Columbia",
+        "sources": [
+          {
+            "title": "New SkyTrain stations taking shape for transit riders south of Fraser River",
+            "organization": "Province of British Columbia · BC Gov News",
+            "url": "https://archive.news.gov.bc.ca/releases/news_releases_2024-2028/2026TT0022-000515.htm",
+            "sourceKind": "official-news-release",
+            "sourceFocus": "Find one detail happening now and one forecast about the future. Remember that this is a government announcement about its own project, not independent reporting.",
+            "publishedOn": "2026-05-08",
+            "checkedOn": "2026-08-20",
+            "reproduction": "short-excerpt"
+          },
+          {
+            "title": "Current Work",
+            "organization": "Province of British Columbia · Surrey Langley SkyTrain",
+            "url": "https://surreylangleyskytrain.gov.bc.ca/current-work/",
+            "sourceKind": "official-page",
+            "sourceFocus": "On Current Work, find a present-tense construction detail and a date. Do not treat a construction update as proof that passenger service is running.",
+            "checkedOn": "2026-08-20",
+            "reproduction": "link-only"
+          },
+          {
+            "title": "Maps",
+            "organization": "Province of British Columbia · Surrey Langley SkyTrain",
+            "url": "https://surreylangleyskytrain.gov.bc.ca/maps/",
+            "sourceKind": "official-map",
+            "sourceFocus": "On the map, find the extension line, station symbols, and Fleetwood locations. Notice what the map represents and what experiences it cannot show.",
+            "checkedOn": "2026-08-20",
+            "reproduction": "link-only"
+          },
+          {
+            "title": "Surrey Langley SkyTrain",
+            "organization": "Province of British Columbia",
+            "url": "https://surreylangleyskytrain.gov.bc.ca/",
+            "sourceKind": "official-page",
+            "sourceFocus": "Find the project length, planned station count, current project wording, and the word anticipated beside the future in-service date.",
+            "checkedOn": "2026-08-20",
+            "reproduction": "link-only"
+          },
+          {
+            "title": "Photos and Videos",
+            "organization": "Province of British Columbia · Surrey Langley SkyTrain",
+            "url": "https://surreylangleyskytrain.gov.bc.ca/photos-and-videos/",
+            "sourceKind": "official-photo-gallery",
+            "sourceFocus": "Choose one dated progress photograph. Separate what the image shows from what its project caption claims, and notice what is outside the frame.",
+            "checkedOn": "2026-08-20",
+            "reproduction": "link-only"
+          }
+        ],
+        "firstMove": "Find and point to one word or number that describes the project now, and one that describes the future plan. Do not explain the effects yet.",
+        "inquirySeeds": [
+          "What can an official project map show well, and what does it leave out?",
+          "How might construction be experienced differently by students, businesses, transit riders, and nearby residents?",
+          "What evidence would help us describe a local change without guessing?"
+        ],
+        "curriculumConnections": [
+          "Social Studies",
+          "English Language Arts",
+          "ADST"
+        ],
+        "familyConversationPrompt": "What change have you noticed along Fraser Highway, and what would we need to check before claiming who benefits or faces difficulty?",
+        "spacesDisposition": "discussion-only"
+      },
+      {
+        "id": "surrey-election-claims-and-power-2026",
+        "title": "Can the winner do that alone?",
+        "topic": "Surrey election · promises, evidence, and real power",
+        "question": "How can we test a campaign promise against the real job, the evidence, and the people who must decide together?",
+        "summary": "Students test a real, teacher-selected campaign statement against official Surrey descriptions of mayor, council, and trustee responsibilities. The goal is a more accurate claim—not a candidate ranking.",
+        "whyNow": "The official candidate period is underway, so students can move from generic civics to dated local evidence while keeping political neutrality and jurisdiction visible.",
+        "minutes": "12–20 min",
+        "checkedOn": "2026-08-23",
+        "reviewBy": "2026-10-16",
+        "publicFrom": "2026-09-26",
+        "publicUntil": "2026-10-16",
+        "preview": null,
+        "factStrip": [
+          {
+            "value": "1",
+            "label": "MAYOR",
+            "note": "Leads council; does not replace council"
+          },
+          {
+            "value": "8",
+            "label": "COUNCILLORS",
+            "note": "Work with the mayor as city council"
+          },
+          {
+            "value": "6",
+            "label": "SURREY TRUSTEES",
+            "note": "Elected in Surrey for the Board of Education"
+          },
+          {
+            "value": "TOGETHER",
+            "label": "HOW DECISIONS HAPPEN",
+            "note": "Council and the board act collectively"
+          }
+        ],
+        "statusStrip": [
+          {
+            "label": "1 · NAME THE CLAIM",
+            "detail": "Keep the candidate's exact words and date",
+            "state": "now"
+          },
+          {
+            "label": "2 · CHECK THE POWER",
+            "detail": "Open the official roles source",
+            "state": "building"
+          },
+          {
+            "label": "3 · TRACE WHAT'S NEEDED",
+            "detail": "Evidence, votes, funding, partners, and time",
+            "state": "future"
+          }
+        ],
+        "sourceOrganization": "City of Surrey · Surrey Schools · Elections Canada",
+        "sources": [
+          {
+            "title": "Mayor, council & trustee roles",
+            "organization": "City of Surrey",
+            "url": "https://www.surrey.ca/city-government/2026-municipal-election/candidates/elected-positions-roles-responsibilities",
+            "sourceKind": "official-page",
+            "sourceFocus": "Choose one mayor, council, or trustee responsibility. Find the wording that shows whether one person can act alone or a council or board must decide together.",
+            "checkedOn": "2026-08-23",
+            "reproduction": "link-only"
+          },
+          {
+            "title": "Candidates",
+            "organization": "City of Surrey",
+            "url": "https://www.surrey.ca/city-government/2026-municipal-election/candidates",
+            "sourceKind": "official-page",
+            "sourceFocus": "Use the official list only after nominations close. Choose one candidate statement from a teacher-opened source, record its exact words and date, and do not infer a position from a name or photograph.",
+            "checkedOn": "2026-08-23",
+            "reproduction": "link-only"
+          },
+          {
+            "title": "Board of Education overview",
+            "organization": "Surrey Schools",
+            "url": "https://www.surreyschools.ca/board-overview",
+            "sourceKind": "official-page",
+            "sourceFocus": "Find the board's responsibilities and the sentence explaining that trustees act as a board rather than as individuals.",
+            "checkedOn": "2026-08-23",
+            "reproduction": "link-only"
+          },
+          {
+            "title": "Digital Skills for Democracy",
+            "organization": "Elections Canada",
+            "url": "https://electionsanddemocracy.ca/digital-skills-democracy",
+            "sourceKind": "official-page",
+            "sourceFocus": "Use one verification move to separate the campaign claim, the supporting evidence, and a conclusion the source does not yet prove.",
+            "checkedOn": "2026-08-23",
+            "reproduction": "link-only"
+          }
+        ],
+        "firstMove": "Open the official roles page. Beside one teacher-selected campaign statement, point to the action word, name the office, and find who must decide with that person.",
+        "inquirySeeds": [
+          "What can this office actually decide?",
+          "Which promise needs another government, a collective vote, funding, evidence, or time?",
+          "Whose perspective is missing from the way this issue is described?"
+        ],
+        "curriculumConnections": [
+          "Social Studies",
+          "English Language Arts",
+          "Media Literacy"
+        ],
+        "familyConversationPrompt": "Choose one local promise you have heard. Which elected body could act on it, and what else would have to happen?",
+        "spacesDisposition": "discussion-only"
+      },
+      {
+        "id": "surrey-election-results-and-next-2026",
+        "title": "When results are posted, what can the winners do next?",
+        "topic": "Surrey election · results, responsibility, and what happens next",
+        "question": "What do the results show—and what still has to happen before an election promise becomes a public decision?",
+        "summary": "After polls close, students check the official Surrey results page and use Student Vote results only when available. They then use the roles sources to move from ‘who won?’ to ‘what can happen next?’ without treating a result as proof that every promise is possible.",
+        "whyNow": "Once official results are posted, the first days after the vote are the strongest moment to examine collective power, practical limits, continued participation, and the difference between a result and governing.",
+        "minutes": "15–25 min",
+        "checkedOn": "2026-08-23",
+        "reviewBy": "2026-10-23",
+        "publicFrom": "2026-10-17",
+        "publicUntil": "2026-10-23",
+        "preview": null,
+        "factStrip": [],
+        "statusStrip": [
+          {
+            "label": "1 · OFFICIAL SURREY RESULT",
+            "detail": "Check preliminary or official status and date",
+            "state": "now"
+          },
+          {
+            "label": "2 · STUDENT VOTE",
+            "detail": "Compare only when CIVIX publishes results",
+            "state": "building"
+          },
+          {
+            "label": "3 · WHAT NEXT",
+            "detail": "Trace authority, votes, funding, evidence, and time",
+            "state": "future"
+          }
+        ],
+        "sourceOrganization": "City of Surrey · CIVIX · Student Vote · Surrey Schools",
+        "sources": [
+          {
+            "title": "2026 Surrey Municipal Election",
+            "organization": "City of Surrey",
+            "url": "https://www.surrey.ca/city-government/2026-municipal-election",
+            "sourceKind": "official-page",
+            "sourceFocus": "Open the election results door only after polls close. Identify whether the result is preliminary or official, the update time, and the office before recording any outcome.",
+            "checkedOn": "2026-08-23",
+            "reproduction": "link-only"
+          },
+          {
+            "title": "BC local elections Student Vote",
+            "organization": "CIVIX · Student Vote",
+            "url": "https://studentvote.ca/",
+            "sourceKind": "official-page",
+            "sourceFocus": "After polls close, look for the published Student Vote results. If they are not available yet, say ‘not available yet’ and continue without inventing or substituting a class tally.",
+            "checkedOn": "2026-08-23",
+            "reproduction": "link-only"
+          },
+          {
+            "title": "Mayor, council & trustee roles",
+            "organization": "City of Surrey",
+            "url": "https://www.surrey.ca/city-government/2026-municipal-election/candidates/elected-positions-roles-responsibilities",
+            "sourceKind": "official-page",
+            "sourceFocus": "Return to the official role descriptions. For one winner's promise, identify what the office can begin and what requires council, the board, another government, funding, or time.",
+            "checkedOn": "2026-08-23",
+            "reproduction": "link-only"
+          },
+          {
+            "title": "Board of Education overview",
+            "organization": "Surrey Schools",
+            "url": "https://www.surreyschools.ca/board-overview",
+            "sourceKind": "official-page",
+            "sourceFocus": "For trustee results, use the board overview to check why an elected trustee still acts through the board rather than changing district policy alone.",
+            "checkedOn": "2026-08-23",
+            "reproduction": "link-only"
+          }
+        ],
+        "firstMove": "Open the City of Surrey election page. Find the result status and update time before recording any winner. If results are not posted yet, say ‘not available yet’ and stop there.",
+        "inquirySeeds": [
+          "What surprised us, and what source detail supports that response?",
+          "Which winning promise can the office act on, and which part needs council, the board, the province, funding, evidence, consultation, or time?",
+          "How can people—including students—continue to influence what happens next?"
+        ],
+        "curriculumConnections": [
+          "Social Studies",
+          "English Language Arts",
+          "Media Literacy"
+        ],
+        "familyConversationPrompt": "What should an elected council or school board do first after winning, and what evidence or public input should it seek?",
+        "spacesDisposition": "discussion-only"
+      }
+    ],
+    "election": {
+      "title": "Surrey Votes · October 17, 2026",
+      "question": "Who decides what—and how can we check the reasons people give?",
+      "calendar": [
+        {
+          "date": "SEPT. 1–11",
+          "label": "Nominations"
+        },
+        {
+          "date": "SEPT. 11",
+          "label": "Declared candidates"
+        },
+        {
+          "date": "MID/LATE SEPT.",
+          "label": "Investigate"
+        },
+        {
+          "date": "EARLY OCT.",
+          "label": "Check and compare"
+        },
+        {
+          "date": "BEFORE OCT. 17",
+          "label": "Class vote"
+        },
+        {
+          "date": "AFTER OCT. 17",
+          "label": "Results and responsibility"
+        }
+      ],
+      "sources": [
+        {
+          "title": "2026 Surrey Municipal Election",
+          "organization": "City of Surrey",
+          "url": "https://www.surrey.ca/city-government/2026-municipal-election",
+          "dated": "Updated for 2026"
+        },
+        {
+          "title": "Candidates",
+          "organization": "City of Surrey",
+          "url": "https://www.surrey.ca/city-government/2026-municipal-election/candidates",
+          "dated": "Declared list after Sept. 11 · recheck after Sept. 18"
+        },
+        {
+          "title": "Mayor, council & trustee roles",
+          "organization": "City of Surrey",
+          "url": "https://www.surrey.ca/city-government/2026-municipal-election/candidates/elected-positions-roles-responsibilities",
+          "dated": "Checked Aug. 23, 2026"
+        },
+        {
+          "title": "Board of Education overview",
+          "organization": "Surrey Schools",
+          "url": "https://www.surreyschools.ca/board-overview",
+          "dated": "Checked Aug. 22, 2026"
+        },
+        {
+          "title": "BC local elections Student Vote",
+          "organization": "CIVIX · Student Vote",
+          "url": "https://studentvote.ca/",
+          "dated": "October 17, 2026 program"
+        }
+      ],
+      "familyPrompt": "Which Surrey decision affects young people most, and who has the authority to act on it?"
+    },
+    "issues": [
+      {
+        "id": "arctic-sovereignty-inuit-nunangat",
+        "scope": "CANADA + WORLD",
+        "title": "Who decides in the Arctic?",
+        "question": "What should sovereignty mean in a region that is Canadian territory, an Inuit homeland, and part of a changing international Arctic?",
+        "whyItMatters": "Students compare three real uses of power: a country protecting territory, Inuit exercising self-determination, and countries cooperating under international rules.",
+        "familyPrompt": "When a place is both a homeland and part of a country, who should help make decisions about it?",
+        "sources": [
+          {
+            "title": "Inuit Nunangat Map",
+            "organization": "Inuit Tapiriit Kanatami",
+            "url": "https://itk.ca/inuit-nunangat-map/",
+            "kind": "map",
+            "sourcePrompt": "Notice that Inuit Nunangat includes land, water, ice, and four regions. Compare it with a standard political map of Canada."
+          }
+        ]
+      },
+      {
+        "id": "first-nations-data-sovereignty",
+        "scope": "CANADA",
+        "title": "Who controls community information?",
+        "question": "Why might a First Nation require ownership, control, access, and possession of information about its people and community?",
+        "whyItMatters": "Data is not neutral. This investigation connects research, privacy, power, and First Nations self-determination without treating one framework as universal to all Indigenous Peoples.",
+        "familyPrompt": "Who should decide how information about a community is collected, explained, and shared?",
+        "sources": [
+          {
+            "title": "The First Nations Principles of OCAP®",
+            "organization": "First Nations Information Governance Centre",
+            "url": "https://fnigc.ca/ocap-training/",
+            "kind": "learning-resource",
+            "sourcePrompt": "Find what each letter means and why FNIGC describes OCAP® as a path toward First Nations data sovereignty."
+          }
+        ]
+      },
+      {
+        "id": "democracy-information-pressure",
+        "scope": "CANADA",
+        "title": "Can a democracy decide well with unreliable information?",
+        "question": "How can people protect democratic decisions from misleading information without giving one person control over every idea?",
+        "whyItMatters": "Students practise verification, disagreement, and democratic responsibility using Canadian civic-education resources rather than partisan claims.",
+        "familyPrompt": "What should we check before a dramatic online claim affects a public decision?",
+        "sources": [
+          {
+            "title": "Digital Skills for Democracy",
+            "organization": "Elections Canada",
+            "url": "https://electionsanddemocracy.ca/digital-skills-democracy",
+            "kind": "learning-resource",
+            "sourcePrompt": "Identify the verification strategies and why trustworthy information matters before a political or election decision."
+          },
+          {
+            "title": "Break the Fake quizzes",
+            "organization": "MediaSmarts",
+            "url": "https://mediasmarts.ca/digital-media-literacy/educational-games/break-fake-quizzes",
+            "kind": "learning-resource",
+            "sourcePrompt": "Try one teacher-previewed example, then name the clue that helped and the check that still matters."
+          }
+        ]
+      },
+      {
+        "id": "ai-transparency-power-canada",
+        "scope": "CANADA",
+        "title": "Who should know when AI is involved?",
+        "question": "What should people be told about an AI system or AI-made content so they can question, challenge, and make an informed decision?",
+        "whyItMatters": "Canada is holding a real public consultation on AI transparency. Students can investigate a live governance question without being told that either unrestricted technology or maximum control is automatically best.",
+        "familyPrompt": "What should a company or government have to tell you before AI influences an important decision about you?",
+        "sources": [
+          {
+            "title": "Have your say on advancing AI transparency in Canada",
+            "organization": "Innovation, Science and Economic Development Canada",
+            "url": "https://ised-isde.canada.ca/site/ised/en/have-your-say-advancing-ai-transparency-canada",
+            "kind": "policy",
+            "sourcePrompt": "Find what information the government is considering requiring, who would use it, and what problem transparency is meant to solve. Keep the Sept. 23 consultation deadline attached."
+          }
+        ]
+      },
+      {
+        "id": "ai-energy-physical-system",
+        "scope": "CANADA + WORLD",
+        "title": "What does an AI answer physically require?",
+        "question": "When might using AI be worth the electricity, cooling, equipment, minerals, networks, and replacement hardware it requires?",
+        "whyItMatters": "Students connect apparently weightless digital activity to physical systems while also investigating ways AI could improve energy, climate research, monitoring, transportation, and waste reduction.",
+        "familyPrompt": "Which uses of AI seem worth real resources, and what would you want measured before deciding?",
+        "sources": [
+          {
+            "title": "Recommendation on the Ethics of Artificial Intelligence",
+            "organization": "UNESCO",
+            "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+            "kind": "policy",
+            "sourcePrompt": "Find why environmental and ecosystem well-being belongs in AI decisions alongside human rights, fairness, and oversight."
+          }
+        ]
+      },
+      {
+        "id": "forced-displacement-education",
+        "scope": "WORLD",
+        "title": "What happens to learning when people are forced to move?",
+        "question": "What responsibilities do countries and communities have when conflict or persecution interrupts a child's home and education?",
+        "whyItMatters": "The lesson connects migration, rights, inequality, and international cooperation while avoiding simulations that ask students to pretend to be refugees.",
+        "familyPrompt": "If a child is forced to leave home, which responsibilities belong to governments, international organizations, and schools?",
+        "sources": [
+          {
+            "title": "Education for Refugees",
+            "organization": "UNHCR Canada",
+            "url": "https://www.unhcr.ca/our-work/ongoing-support/education/",
+            "kind": "article",
+            "sourcePrompt": "Find why education is described as a right, a protection, and a pathway—not simply a charitable extra."
+          }
+        ]
+      },
+      {
+        "id": "climate-justice-adaptation",
+        "scope": "CANADA + WORLD",
+        "title": "Who faces the effects—and who shapes the response?",
+        "question": "How should climate responses change when causes, impacts, resources, and decision-making power are not shared equally?",
+        "whyItMatters": "Students move beyond a generic ‘save the planet’ message by comparing evidence, unequal impacts, Indigenous-led adaptation, and realistic responsibilities.",
+        "familyPrompt": "How should a climate response change when the people most affected did not create most of the problem?",
+        "sources": [
+          {
+            "title": "Youth on the Frontlines: Indigenous Youth Leading Climate Innovation",
+            "organization": "Indigenous Climate Hub",
+            "url": "https://indigenousclimatehub.ca/2025/06/youth-on-the-frontlines-indigenous-youth-leading-climate-innovation/",
+            "kind": "article",
+            "sourcePrompt": "Identify what young people are doing, what knowledge guides the work, and who controls the response."
+          }
+        ]
+      }
+    ]
+  },
+  "portfolioSummary": {
+    "primaryHome": "SpacesEDU is the primary digital home for selected evidence, feedback, and reflection.",
+    "majorAnchorCount": 12,
+    "referenceYearStudentPosts": 50,
+    "annualCap": false,
+    "explanation": "Students complete 12 planned anchor posts across the year, plus shorter posts when another piece of work helps show important learning or progress. Twelve is not a limit.",
+    "selectionGuidance": "Major projects get time to finish and revise well. Shorter posts can capture other worthwhile learning; crafts, colouring, performances, and displays may also stay in the classroom.",
+    "referenceYearNote": "Last year's students made about 50 posts. That is a useful reference point, not a quota or ceiling.",
+    "projectHighlightCount": 8
+  },
+  "yearMonths": [
+    {
+      "month": "September",
+      "timing": "Sept. 8–30 · about 15 instructional days",
+      "phase": "Build the learning community",
+      "focus": "Belonging, routines, learning profiles, and how inquiry begins",
+      "learning": "Students practise noticing, wondering, listening, discussion, source care, and responsible technology use while the class develops shared agreements.",
+      "subjects": [
+        "ELA",
+        "Career",
+        "PHE",
+        "Arts"
+      ],
+      "highlights": [
+        "Weeks 1–2 · belonging, learning profiles, discussion and source-care routines",
+        "Sept. 14–24 · truth-and-reconciliation learning and attributed local-place work",
+        "Sept. 28–29 · revise and share the class learning display"
+      ],
+      "anticipatedShare": "Sept. 29 · learning-with-place display; leave a question or responsibility visible for later return."
+    },
+    {
+      "month": "October",
+      "timing": "Oct. 1–30 · about 20 instructional days",
+      "phase": "Learn from place and perspective",
+      "focus": "Identity, place, evidence, maps, and whose perspectives are represented",
+      "learning": "Short, supported inquiries teach students how to read closely, distinguish observation from inference, and attribute ideas to specific sources and knowledge holders.",
+      "subjects": [
+        "Social Studies",
+        "ELA",
+        "Arts",
+        "Math"
+      ],
+      "highlights": [
+        "Weeks 1–2 · Maps Make Arguments using the three authentic map sources",
+        "Weeks 2–3 · Trace the Claim: Two Lies and a Truth + source verification",
+        "Weeks 3–4 · perspective listening simulation and Fleetwood case file"
+      ],
+      "anticipatedShare": "Late October · Fleetwood evidence-board gallery walk; archive selected boards for the inquiry-topic bank."
+    },
+    {
+      "month": "November",
+      "timing": "Nov. 2–30 · about 19 instructional days",
+      "phase": "Investigate power and rights",
+      "focus": "Government, human rights, media, systems, and respectful disagreement",
+      "learning": "Students compare accounts, examine causes and consequences, participate in structured dialogue, and support claims with relevant evidence.",
+      "subjects": [
+        "Social Studies",
+        "ELA",
+        "Career",
+        "Arts"
+      ],
+      "highlights": [
+        "Weeks 1–2 · power-in-the-room simulation and levels of government",
+        "Weeks 2–3 · compare government systems and trace how a decision moves",
+        "Weeks 3–4 · Juniper Park public-decision lab; inquiry teams form and choose topics"
+      ],
+      "anticipatedShare": "Nov. 27 · team inquiry-question clinic and power-map feedback wall."
+    },
+    {
+      "month": "December",
+      "timing": "Dec. 1–18 · about 14 instructional days",
+      "phase": "Think like a solutionary",
+      "focus": "Root causes, affected perspectives, existing responses, and possible leverage points",
+      "learning": "Teams investigate a manageable issue without rushing to a solution. They learn to ask who is affected, what evidence is missing, and what responsible action might look like.",
+      "subjects": [
+        "Social Studies",
+        "ELA",
+        "ADST",
+        "Math"
+      ],
+      "highlights": [
+        "Dec. 1–4 · human-rights cases and Universal Declaration source work",
+        "Dec. 7–10 · Human Rights Day teaching gallery",
+        "Dec. 11–18 · root causes, global connections, existing responses, and mid-year reflection"
+      ],
+      "anticipatedShare": "Dec. 10 · Human Rights Day gallery; Dec. 17 · quiet reflection and inquiry-progress share."
+    },
+    {
+      "month": "January",
+      "timing": "Jan. 4–29 · about 20 instructional days",
+      "phase": "Move toward independent inquiry",
+      "focus": "Focused inquiry plus an original story students turn into a tested game",
+      "learning": "Social inquiry continues three blocks each week while an ELA/ADST studio turns an original story blueprint into a short Bloxels game. Students build small, watch a new player, and revise both writing and design.",
+      "subjects": [
+        "Social Studies",
+        "ELA",
+        "ADST",
+        "Arts"
+      ],
+      "highlights": [
+        "Week 1 · reset Social inquiry roles and write the Bloxels story blueprint",
+        "Week 2 · paper level map, Bloxels tool practice, and minimum playable build",
+        "Week 3 · continue inquiry research while game teams complete the smallest working version",
+        "Week 4 · silent playtest, one story revision, one game/access revision, and private class arcade"
+      ],
+      "anticipatedShare": "Late January · private class arcade and inquiry works-in-progress studio; feedback stays focused on story, usability, evidence, and revision."
+    },
+    {
+      "month": "February",
+      "timing": "Feb. 1–26 · about 18 instructional days",
+      "phase": "Share and bridge into Science",
+      "focus": "Social Studies teaching experiences, reflection, and scientific ways of knowing",
+      "learning": "Teams teach the class, answer questions, and reflect on individual growth. Science begins with evidence, fair testing, models, and the limits of explanations.",
+      "subjects": [
+        "Social Studies",
+        "ELA",
+        "Science",
+        "Career"
+      ],
+      "highlights": [
+        "Feb. 1–11 · Black History Month learning woven into source, power, and resistance analysis",
+        "Feb. 16–24 · inquiry teaching experiences, audience questions, Pink Shirt connection, and revision",
+        "Feb. 25–26 · individual SpacesEDU reflection and Science inquiry launch"
+      ],
+      "anticipatedShare": "Feb. 18–24 · rotating expert-teaching showcase; keep selected learning visible into March."
+    },
+    {
+      "month": "March",
+      "timing": "Mar. 1–12 and 30–31 · spring break Mar. 15–29",
+      "phase": "Study interacting life systems",
+      "focus": "Body systems, homeostasis, variation, data, and ethical health communication",
+      "learning": "Students investigate reaction-time variation, learn through expert groups, reason through multi-system cases, and communicate body knowledge accurately and respectfully.",
+      "subjects": [
+        "Science",
+        "Math",
+        "PHE",
+        "ELA"
+      ],
+      "highlights": [
+        "Mar. 1–5 · fair-test launch, reaction-time investigation, and anonymous data",
+        "Mar. 8–11 · systems experts + anti-racism evidence mini-inquiry before the long break",
+        "Mar. 30–31 · retrieval, model repair, and return to body-system cases"
+      ],
+      "anticipatedShare": "Mar. 11 · evidence-against-racism mini-gallery; scientific work returns as a fresh evidence wall after the break."
+    },
+    {
+      "month": "April",
+      "timing": "Apr. 1–30 · about 21 instructional days",
+      "phase": "Separate, test, and care for materials",
+      "focus": "Mixtures, properties, separation, water systems, and place-based knowledge",
+      "learning": "Students move between hands-on stations, media, reading, data, and a practical separation challenge. Earth Day connections invite—not force—possible solutionary questions.",
+      "subjects": [
+        "Science",
+        "Math",
+        "ADST",
+        "ELA"
+      ],
+      "highlights": [
+        "Apr. 1–7 · multi-system cases, reproduction/development learning, and Unit 1 synthesis",
+        "Apr. 8–16 · mystery mixtures, property tests, and separation experts",
+        "Apr. 19–22 · water systems and Earth Day solutionary connection",
+        "Apr. 23–30 · mixture-rescue design, explanation, and revision"
+      ],
+      "anticipatedShare": "Apr. 22 · water-and-materials learning display; Apr. 29 · mixture-rescue demonstration share."
+    },
+    {
+      "month": "May",
+      "timing": "May 3–31 · about 18 instructional days",
+      "phase": "Design with force and evidence",
+      "focus": "Newton’s laws, motion, impact safety, fair testing, and iterative design",
+      "learning": "Students gather repeated evidence, critique models, build and revise a protective design, and explain why evidence—not appearance—supports a design decision.",
+      "subjects": [
+        "Science",
+        "Math",
+        "ADST",
+        "ELA"
+      ],
+      "highlights": [
+        "May 3–7 · motion and reference-point phenomena",
+        "May 10–14 · Newton’s laws stations and human-movement evidence",
+        "May 17–20 · impact safety and Delivery Pod planning",
+        "May 25–31 · repeated tests, revision, explanation, and possible expert topics"
+      ],
+      "anticipatedShare": "May 28–31 · design museum with test evidence beside every prototype; Asian Heritage learning appears through purposeful texts and contributions across subjects."
+    },
+    {
+      "month": "June",
+      "timing": "June 1–24 · about 18 instructional days",
+      "phase": "Place ourselves in the universe",
+      "focus": "Scale, motion, models, Earth and space, expert teaching, and year-end reflection",
+      "learning": "Students use physical and digital models, then choose evidence from across the year to teach, create, and reflect. Final forms can include Minecraft without making it the only pathway.",
+      "subjects": [
+        "Science",
+        "Math",
+        "ELA",
+        "Arts",
+        "ADST"
+      ],
+      "highlights": [
+        "June 1–8 · cosmic address, scale, motion, viewpoints, and evidence limits",
+        "June 9–15 · choose expert topics, build and peer-test teaching experiences",
+        "June 16–21 · expert showcase and National Indigenous Peoples Day learning",
+        "June 22–24 · portfolio curation, Core Competency reflection, and next-year goal"
+      ],
+      "anticipatedShare": "June 17–21 · expert showcase; June 24 · compact year-of-learning gallery and portfolio celebration."
+    }
+  ],
+  "projects": [
+    {
+      "id": "learning-story",
+      "timing": "September",
+      "title": "My learning story",
+      "question": "Who am I as a learner, what helps me contribute, and what is one meaningful goal?",
+      "subjects": [
+        "ELA",
+        "Career Education",
+        "Core Competencies"
+      ],
+      "evidence": [
+        "Short written, audio, or video learning profile",
+        "Specific example of a strength",
+        "One goal and a realistic strategy"
+      ],
+      "assessment": "Checkpoint: communication + reflection",
+      "format": "Individual · 1 SpacesEDU post",
+      "reflection": "What should my teacher know so I can learn well—and what responsibility can I take?"
+    },
+    {
+      "id": "perspective-case",
+      "timing": "October–November",
+      "title": "Evidence and perspective case file",
+      "question": "How does the evidence—and the perspective of the source—change what we understand?",
+      "subjects": [
+        "Social Studies",
+        "ELA",
+        "Arts Education"
+      ],
+      "evidence": [
+        "Two or more meaningfully different sources",
+        "Annotated evidence and source notes",
+        "Perspective map or visual response",
+        "Supported conclusion with a stated limit"
+      ],
+      "assessment": "Assessment highlight: Social Studies + ELA",
+      "format": "Individual or partners · case-file post",
+      "reflection": "Which source changed or complicated my thinking, and why?"
+    },
+    {
+      "id": "civic-rights-showcase",
+      "timing": "November–December",
+      "title": "Civic decision and human-rights showcase",
+      "question": "How should a public institution respond while sharing power, protecting rights, and remaining accountable?",
+      "subjects": [
+        "Social Studies",
+        "ELA",
+        "Career Education"
+      ],
+      "evidence": [
+        "Focused public question and correct jurisdiction",
+        "Power, rights, and affected-perspective evidence",
+        "Compared options with consequences and safeguards",
+        "Cited recommendation with review and one serious limit"
+      ],
+      "assessment": "Assessment highlight: civic reasoning",
+      "format": "One team artifact · one short individual SpacesEDU reflection",
+      "reflection": "Which evidence or counterargument changed my thinking, and how could someone participate responsibly?"
+    },
+    {
+      "id": "bloxels-story-game",
+      "timing": "January",
+      "title": "Bloxels story-game project",
+      "question": "How can a player experience the story through the game—not only read it before playing?",
+      "subjects": [
+        "ELA",
+        "ADST"
+      ],
+      "evidence": [
+        "Original story blueprint and paper level map",
+        "Short complete Bloxels game or equivalent paper route",
+        "Silent playtest record",
+        "One visible story revision and one gameplay/access revision",
+        "Individual contribution and creator explanation"
+      ],
+      "assessment": "Major highlight: ELA + ADST assessed separately",
+      "format": "Individual or pair project · one combined SpacesEDU post",
+      "reflection": "What did a player do that caused you to change the story or game—and why was that change useful?"
+    },
+    {
+      "id": "expert-teach-back",
+      "timing": "January–February",
+      "title": "Expert-team teaching experience",
+      "question": "How can we help classmates understand something complex without oversimplifying it?",
+      "subjects": [
+        "Social Studies",
+        "ELA",
+        "ADST",
+        "Arts Education"
+      ],
+      "evidence": [
+        "Reliable research trail and source notes",
+        "Interactive exhibit, podcast, video, simulation, model, or live lesson",
+        "New-audience test and teach-back",
+        "One content revision, one design revision, and individual reflection"
+      ],
+      "assessment": "Major highlight: content + communication",
+      "format": "Team product · individual post and reflection",
+      "reflection": "What did I contribute, what did our audience understand, and what evidence caused us to revise?"
+    },
+    {
+      "id": "science-story",
+      "timing": "March–April",
+      "title": "Science investigation story",
+      "question": "What pattern does our evidence support, and how certain should we be?",
+      "subjects": [
+        "Science",
+        "Math",
+        "ELA"
+      ],
+      "evidence": [
+        "Question and prediction with a reason",
+        "Photos or video of the process",
+        "Measurements, graph, or organized observations",
+        "Claim supported by evidence",
+        "Limitation and next test"
+      ],
+      "assessment": "Assessment highlight: investigation competencies",
+      "format": "Team investigation · individual explanation",
+      "reflection": "What did the evidence make us revise?"
+    },
+    {
+      "id": "design-evidence",
+      "timing": "May",
+      "title": "Design evidence: safer by revision",
+      "question": "Which design decision is supported by testing—not just by appearance?",
+      "subjects": [
+        "Science",
+        "ADST",
+        "Math",
+        "ELA"
+      ],
+      "evidence": [
+        "Initial plan and scientific reason",
+        "Comparable test results",
+        "Visible before/after revision",
+        "Explanation connecting force, motion, and design",
+        "Next improvement"
+      ],
+      "assessment": "Major highlight: application + design",
+      "format": "Team prototype · individual evidence post",
+      "reflection": "Which failure or surprise taught our team the most?"
+    },
+    {
+      "id": "year-showcase",
+      "timing": "June",
+      "title": "Year-end expert showcase",
+      "question": "What can we now understand, create, or contribute that we could not at the start of the year?",
+      "subjects": [
+        "Topic-dependent",
+        "ELA",
+        "Core Competencies"
+      ],
+      "evidence": [
+        "Selected final teaching product",
+        "Sources or evidence trail",
+        "Response to audience questions",
+        "Individual reflection using two earlier artifacts",
+        "A next-year goal"
+      ],
+      "assessment": "Culminating body of evidence—not one all-purpose grade",
+      "format": "Choice product · individual portfolio curation",
+      "reflection": "Which two artifacts best show my growth, and what changed between them?"
+    }
+  ],
+  "guideSections": [
+    {
+      "title": "Absent",
+      "lead": "Recover the essential learning—not every missed minute.",
+      "items": [
+        "Students should recover the essential learning, not recreate every missed minute. The teacher will identify the smallest useful catch-up pathway.",
+        "Check Now and SpacesEDU, then ask Mr. Wyatt what matters most."
+      ]
+    },
+    {
+      "title": "Homework",
+      "lead": "Homework should protect learning—not compete with childhood.",
+      "items": [
+        "If homework is regularly causing distress, conflict, sleep loss, or taking far longer than expected, stop and contact the teacher. That is useful information—not a failure."
+      ]
+    },
+    {
+      "title": "SpacesEDU",
+      "lead": "Selected evidence, feedback, and reflection live in SpacesEDU.",
+      "items": [
+        "Open it when the teacher asks or when your family wants to review recent learning.",
+        "Major projects get time to finish and revise; shorter posts may capture other worthwhile learning."
+      ]
+    },
+    {
+      "title": "Contact",
+      "lead": "Email Mr. Wyatt when something is unclear or a pattern is becoming concerning.",
+      "items": [
+        "Use school email for questions, meeting requests, or the most important catch-up step after an absence."
+      ]
+    }
+  ],
+  "safeLinks": {
+    "spacesEduCanada": "https://ca.spacesedu.com/",
+    "school": "https://www.surreyschools.ca/walnutroad",
+    "surreyCalendar": "https://www.surreyschools.ca/school-year-calendars",
+    "bcCurriculum": "https://curriculum.gov.bc.ca/curriculum",
+    "email": "mailto:wyatt_daryl@surreyschools.ca"
+  },
+  "windows": [
+    {
+      "id": "september-opening",
+      "effectiveFrom": "2026-09-08",
+      "effectiveTo": "2026-09-11",
+      "state": "up-next",
+      "shared": {
+        "eyebrow": "SEPTEMBER · OPENING OUR LEARNING COMMUNITY",
+        "title": "Make the Call: Technology & AI in Grade 6",
+        "bigQuestion": "When does technology strengthen our learning—and what choices keep the thinking, safety, and responsibility with us?",
+        "summary": "During the Grade 6 rotations, students work through fast, concrete technology and AI decisions. In pairs and table groups they test whether authorship can be guessed from style, sort six classroom situations, repair a shortcut prompt, challenge a confident AI response, and propose a usable class commitment. Each student then writes and signs a one-page learning, technology, and AI agreement for the teacher who will receive them.",
+        "learningArc": [
+          {
+            "timing": "0–5 min",
+            "label": "Launch",
+            "studentAction": "Name one learning job a tool can help with and one choice that could weaken trust.",
+            "outcome": "Technology is discussed through learning purposes and responsible decisions, not app popularity."
+          },
+          {
+            "timing": "5–13 min",
+            "label": "Detect",
+            "studentAction": "Vote HUMAN, AI, or CANNOT TELL for three samples, then point to evidence and its limits.",
+            "outcome": "Students replace style-based guesses with questions about process, sources, drafts, and explanation."
+          },
+          {
+            "timing": "13–23 min",
+            "label": "Sort",
+            "studentAction": "Place classroom situations in HELPS LEARNING, CHECK IT, or STOP + ASK and defend the call.",
+            "outcome": "Students reason with privacy, accuracy, ownership, attribution, and learning purpose."
+          },
+          {
+            "timing": "23–32 min",
+            "label": "Prompt",
+            "studentAction": "Repair a prompt so AI questions and coaches instead of completing the work.",
+            "outcome": "The learner's decisions, evidence, and final explanation remain visible."
+          },
+          {
+            "timing": "32–42 min",
+            "label": "Repair",
+            "studentAction": "Mark a confident AI response KEEP, CHECK, or CHANGE and rewrite one weak claim.",
+            "outcome": "Students separate useful language from reliable evidence."
+          },
+          {
+            "timing": "42–50 min",
+            "label": "Draft",
+            "studentAction": "Write and stress-test one table commitment using a real scenario.",
+            "outcome": "The class gathers observable commitments rather than broad slogans."
+          },
+          {
+            "timing": "50–58 min",
+            "label": "Agree",
+            "studentAction": "Complete a personal learning, technology, and AI agreement.",
+            "outcome": "Each student names a support, a commitment, a stop-and-ask moment, and a teacher question."
+          },
+          {
+            "timing": "58–60 min",
+            "label": "Sign",
+            "studentAction": "Check, sign, and place the named page in the rotation collection tray.",
+            "outcome": "The receiving teacher gets a practical starting point for a follow-up conversation."
+          }
+        ],
+        "visual": {
+          "src": "/images/grade-6-ai-technology-decision-lab-v1.webp",
+          "alt": "Grade 6 students working in table groups with paper decision cards while one teacher-controlled screen supports the discussion.",
+          "caption": "One shared decision lab: talk first, make a call, test the reasoning, and revise."
+        },
+        "primaryResource": {
+          "label": "Download the student agreement",
+          "href": "/printables/grade-6-learning-technology-ai-agreement.pdf",
+          "format": "PDF · one page per student",
+          "description": "My Grade 6 Learning, Technology & AI Agreement—the individual handoff completed during minutes 50–60."
+        },
+        "thinkingMoves": [
+          {
+            "id": "ask-better-questions",
+            "label": "Ask better questions",
+            "prompt": "What question would reveal the process or evidence?"
+          },
+          {
+            "id": "verify",
+            "label": "Verify",
+            "prompt": "Which claim matters enough to trace to a current, named source?"
+          },
+          {
+            "id": "challenge-assumptions",
+            "label": "Challenge assumptions",
+            "prompt": "What are we assuming from style, confidence, or convenience?"
+          },
+          {
+            "id": "weigh-trade-offs",
+            "label": "Weigh trade-offs",
+            "prompt": "What does this choice strengthen, and what responsibility does it create?"
+          },
+          {
+            "id": "improve",
+            "label": "Improve",
+            "prompt": "How can we revise the prompt, response, or commitment so it works in a real situation?"
+          },
+          {
+            "id": "reflect",
+            "label": "Reflect",
+            "prompt": "What choice will help me learn and make my process honest and visible?"
+          }
+        ],
+        "subjectSnapshot": [
+          {
+            "subject": "Career Education & ADST",
+            "now": "Learning, Technology & AI Agreement Lab",
+            "why": "Make specific choices about privacy, accuracy, ownership, help-seeking, and how tools support learning."
+          },
+          {
+            "subject": "English Language Arts",
+            "now": "Ordinary-Object Story and Friday Learning Story",
+            "why": "Use visible details, audience, voice, retelling, and reflection to become known without requiring private disclosure."
+          },
+          {
+            "subject": "Mathematics",
+            "now": "Magnitude Gallery",
+            "why": "Represent and compare very large and very small quantities while explaining estimation strategies."
+          },
+          {
+            "subject": "Social Studies",
+            "now": "Learning with place and preparing for the Fleetwood Evidence Case File",
+            "why": "Notice how place, evidence, maps, and perspective shape the stories communities tell."
+          },
+          {
+            "subject": "PHE & Community",
+            "now": "Movement, collaboration, routines, and belonging",
+            "why": "Practise participating safely, sharing airtime, disagreeing with reasons, and asking for useful support."
+          }
+        ]
+      },
+      "student": {
+        "label": "STUDENT PATH",
+        "title": "Make the Call: Technology & AI in Grade 6",
+        "why": "You will use technology, search, and sometimes AI during Grade 6. This lab helps you know what to check, what to keep as your own thinking, what information to protect, and when to ask for help.",
+        "summary": "Work with a partner and table to investigate realistic classroom choices. You will make evidence-based calls, improve a prompt and an AI response, help write a class commitment, and finish with an agreement in your own words.",
+        "duration": "60 minutes",
+        "grouping": "Partner talk and tables of 3–4 for the investigations; your personal agreement is individual because it describes your commitments, supports, and question.",
+        "routeTitle": "Your 60-minute decision lab",
+        "bring": [
+          "A pencil or another way to record your ideas",
+          "Your reasons, questions, and willingness to change your mind",
+          "No passwords, account names, photos, schedules, or private family information"
+        ],
+        "firstMove": "Think of one time technology helped you imagine, practise, organize, check, communicate, create, access support, or collaborate. Tell a partner what it helped you do.",
+        "quickReference": {
+          "firstMove": "Tell a partner about one time technology helped you learn. Name what it helped you do.",
+          "handIn": "Put your named agreement in the rotation tray. It is practice, not a grade.",
+          "missed": "Ask for the short scenario and agreement. Use the four-question check if you get stuck."
+        },
+        "firstMoveNote": "Name the learning job, not just the app or device. Then predict one choice that could make the result less useful or trustworthy.",
+        "steps": [
+          "Detect: vote HUMAN, AI, or CANNOT TELL and explain what your clue can prove.",
+          "Sort: place classroom situations in HELPS LEARNING, CHECK IT, or STOP + ASK.",
+          "Prompt: turn ‘do it for us’ into a prompt that asks questions and waits for student decisions.",
+          "Repair: mark a confident AI response KEEP, CHECK, or CHANGE and rewrite one problem.",
+          "Draft: help your table write one commitment that tells people what to do in a real moment.",
+          "Agree: choose two class commitments and write one commitment of your own.",
+          "Personalize: name one support that helps you learn, one stop-and-ask moment, and one teacher question.",
+          "Sign and submit: check that the agreement sounds like you and contains no private account information."
+        ],
+        "choices": [
+          "Use speaking, writing, pointing, table cards, dictation to an adult, or labelled drawings to show your reasoning.",
+          "Disagree with a table call when you can give a reason tied to learning, privacy, accuracy, ownership, or fairness.",
+          "Describe a school-learning support that is useful to your teacher; private medical, diagnostic, or family details are not required."
+        ],
+        "product": "One table commitment plus your signed, one-page My Grade 6 Learning, Technology & AI Agreement.",
+        "finish": "You can explain one decision your thinking group made, show how a prompt or response was improved, and submit an agreement with a specific commitment, a stop-and-ask moment, a learning support, and a teacher question.",
+        "handInOrSave": "Place the named agreement in the labelled rotation tray. It goes privately to your receiving Grade 6 teacher as the start of a conversation; it is not graded.",
+        "ifAbsentOrStuck": "If absent, ask for the short scenario-and-agreement route. If stuck, choose one situation and use four questions: What is the learning purpose? Is private information involved? What needs checking? Who makes the final decision?",
+        "spacesNote": "The named agreement is not posted to SpacesEDU. Later in September, you may choose stronger evidence for a Learning Story about how your thinking changed."
+      },
+      "family": {
+        "label": "FAMILY WINDOW",
+        "title": "The first Grade 6 technology decisions",
+        "summary": "During the opening rotations, students spend one 60-minute lesson investigating realistic choices about search, devices, and AI. The focus is practical: privacy, checking claims, keeping student thinking visible, explaining help received, and knowing when to stop and ask an adult.",
+        "whyThisMatters": "Students need more than a slogan such as ‘use AI responsibly.’ They practise making and defending a decision in situations they may actually encounter, including a confident claim with no source, a request for private information, and a tool that offers to complete the student's work.",
+        "whatStudentsDo": "Students first work in pairs and tables to examine three authorship samples, sort six scenarios, repair a shortcut prompt, audit four claims in an AI response, and write one testable table commitment. In the final ten minutes, each student completes and signs an individual learning, technology, and AI agreement.",
+        "quickReference": {
+          "atSchool": "In pairs and table groups, students sort six realistic situations, improve an AI prompt and response, then write their own one-page agreement.",
+          "home": "Nothing to prepare or finish at home.",
+          "assessment": "The teacher observes reasoning and revision. The agreement is practice—not a grade or placement decision.",
+          "spaces": "The agreement stays with the teacher. Selected learning and feedback may appear in SpacesEDU later."
+        },
+        "product": "A table contributes one proposed class commitment. Each student submits a one-page agreement naming a useful learning purpose, two class commitments, one personal commitment, a stop-and-ask situation, a learning support, and a question for the receiving teacher.",
+        "assessment": "This is low-stakes formative evidence. The teacher listens for clear reasons, willingness to verify, respect for privacy and authentic voices, honest explanation of tool help, and the student's ability to keep final decisions visible. The agreement is not graded and does not affect class placement.",
+        "agreementNote": "This is a student-to-teacher learning agreement, not a legal contract or family consent form. It does not give permission to create accounts or use unapproved tools, and it does not replace Surrey Schools policies or teacher directions. Commitments may be discussed and revised as the class learns.",
+        "groupAndIndividualEvidence": "Table talk shows how students compare evidence, share airtime, and revise a decision. The individual page preserves each student's own commitment, support, and question. Named completed agreements stay private with the teacher.",
+        "milestones": [
+          {
+            "date": "Sept. 8–11",
+            "label": "Grade 6 rotations · Technology & AI Decision Lab and agreement handoff",
+            "shortLabel": "Technology & AI rotations"
+          },
+          {
+            "date": "Sept. 14–18",
+            "label": "First formed-class week · five ways for students to become known",
+            "shortLabel": "First week with your class"
+          },
+          {
+            "date": "Sept. 29",
+            "label": "Learning-with-place classroom sharing",
+            "shortLabel": "Learning-with-place sharing"
+          }
+        ],
+        "homework": "No special supplies or at-home completion are expected. The decision lab and agreement are completed at school with teacher guidance.",
+        "supportAtHome": [
+          "Ask your child to explain one HELPS LEARNING, CHECK IT, or STOP + ASK decision and the reason for it.",
+          "Ask what evidence would be stronger than guessing authorship from polished or rough writing.",
+          "Please let the agreement remain in the student's own words; a family conversation is welcome, but no rewriting is needed.",
+          "Share important learning, health, belonging, or safety information directly with the school when it would help the classroom plan."
+        ],
+        "conversationPrompts": [
+          "Which scenario was hardest to decide, and what changed your mind?",
+          "How did your group change a prompt so students still did the important thinking?",
+          "What will you stop and ask an adult about this year?"
+        ],
+        "spacesNote": "The named agreement stays with the teacher and is not posted to SpacesEDU. Later September portfolio evidence may include a student-selected Learning Story, not private operational or account information."
+      }
+    },
+    {
+      "id": "first-formed-class-week",
+      "effectiveFrom": "2026-09-14",
+      "effectiveTo": "2026-09-18",
+      "state": "up-next",
+      "shared": {
+        "eyebrow": "SEPTEMBER · FIRST FORMED-CLASS WEEK",
+        "title": "Five ways to become known",
+        "bigQuestion": "What can we learn about ourselves, one another, and this place without asking anyone to share a private story?",
+        "summary": "Across five connected days, students tell a low-risk object story, show how they reason with number size, name useful learning conditions, gather exact observations from the school grounds, and choose one specific example for a Friday Learning Story.",
+        "learningArc": [
+          {
+            "timing": "Mon. Sept. 14",
+            "label": "Story",
+            "studentAction": "Choose an ordinary object, point to five visible clues, tell a three-beat story, and improve it after one listener question.",
+            "outcome": "The class begins with voice, listening, visible evidence, and a safe fictional route."
+          },
+          {
+            "timing": "Tues. Sept. 15",
+            "label": "Number",
+            "studentAction": "Place very large and very small quantities on accurate scales and explain one surprising position.",
+            "outcome": "The teacher sees strategies and misconceptions without reducing students to a score."
+          },
+          {
+            "timing": "Wed. Sept. 16",
+            "label": "Learning",
+            "studentAction": "Test which conditions help in real classroom situations and write one useful request or strategy.",
+            "outcome": "Students describe changeable supports and actions rather than fixed learning labels."
+          },
+          {
+            "timing": "Thurs. Sept. 17",
+            "label": "Place",
+            "studentAction": "Collect exact sound, movement, colour, light, and texture evidence outside or from an equivalent observation station.",
+            "outcome": "Observation stays separate from inference, and the class gathers material for a place response."
+          },
+          {
+            "timing": "Fri. Sept. 18",
+            "label": "Synthesize",
+            "studentAction": "Choose one specific example, name what it shows, set one realistic goal, and revise for a teacher or family audience.",
+            "outcome": "One meaningful Learning Story replaces several small uploads."
+          }
+        ],
+        "visual": {
+          "src": "/images/visual-review/public-week-collaboration-hero-v1.webp",
+          "alt": "Grade 6 students sharing an object story, comparing number evidence, making notes, and observing the school grounds in pairs and small groups.",
+          "caption": "Five connected ways to notice how students think, contribute, communicate, and learn."
+        },
+        "primaryResource": null,
+        "thinkingMoves": [
+          {
+            "id": "notice",
+            "label": "Notice exactly",
+            "prompt": "What detail can you point to before you explain it?"
+          },
+          {
+            "id": "listen",
+            "label": "Listen for meaning",
+            "prompt": "What did your partner actually say, show, or choose?"
+          },
+          {
+            "id": "explain",
+            "label": "Explain a strategy",
+            "prompt": "What did you try, and why did it make sense?"
+          },
+          {
+            "id": "revise",
+            "label": "Revise from feedback",
+            "prompt": "What one change makes the idea clearer or more accurate?"
+          },
+          {
+            "id": "reflect",
+            "label": "Choose useful evidence",
+            "prompt": "Which specific example says something important about your learning?"
+          }
+        ],
+        "subjectSnapshot": [
+          {
+            "subject": "English Language Arts",
+            "now": "Object stories, active listening, place notes, and the Friday Learning Story",
+            "why": "Build voice, sequence, precise detail, audience awareness, and revision."
+          },
+          {
+            "subject": "Mathematics",
+            "now": "Magnitude Gallery",
+            "why": "Reveal how students estimate, represent, compare, and explain number size."
+          },
+          {
+            "subject": "Career Education",
+            "now": "Learning conditions and a first realistic goal",
+            "why": "Name useful supports and actions without fixed labels or private disclosure."
+          },
+          {
+            "subject": "Social Studies",
+            "now": "Learning with place and beginning local decision-making",
+            "why": "Separate observation, map evidence, perspective, and authority."
+          },
+          {
+            "subject": "PHE & Community",
+            "now": "Movement, routines, contribution, and belonging",
+            "why": "Practise safe participation, shared airtime, help-seeking, and re-entry."
+          }
+        ]
+      },
+      "student": {
+        "label": "STUDENT PATH",
+        "title": "Our first week together",
+        "why": "Your teacher needs more than one kind of evidence to understand how you think, communicate, contribute, and learn.",
+        "summary": "Tell, estimate, notice, discuss, move, create, and reflect across five connected days. You can use fictional examples and school-learning information; private details are never required.",
+        "duration": "Five class blocks",
+        "grouping": "Partners and table groups most days; one individual Friday Learning Story",
+        "routeTitle": "Five ways to show your learning",
+        "bring": [
+          "Pencil or another way to record",
+          "Curiosity and reasons",
+          "No private story is required"
+        ],
+        "firstMove": "Choose one ordinary object. Point to five details you can truly see before you invent a story.",
+        "quickReference": {
+          "firstMove": "Choose an object and point to five visible clues before you invent.",
+          "handIn": "Keep Monday–Thursday work in class. On Friday, post one Learning Story when your teacher asks.",
+          "missed": "Ask for the day's image, question, and one example. Recover the important thinking—not every missed minute."
+        },
+        "firstMoveNote": "Stay with what you can point to first. Your story may be fictional, but its visible clues should be honest.",
+        "steps": [
+          "Tell: build a short object story from visible clues.",
+          "Estimate: place and explain very large and very small numbers.",
+          "Name: identify a learning condition or action that helps in a real situation.",
+          "Notice: collect exact evidence from the school grounds or an equivalent observation station.",
+          "Reflect: choose one specific example and set one realistic goal."
+        ],
+        "choices": [
+          "Show thinking by speaking, writing, drawing, pointing, moving, building, or using a teacher-supported communication route.",
+          "Use a fictional or school-learning example. A private personal story is never required.",
+          "Work with a partner or table when talk improves the thinking; use the quiet observation route when you need it."
+        ],
+        "product": "One Friday Learning Story with a specific example, a useful learning condition, one realistic goal, a first step, and a check date.",
+        "finish": "You can point to a specific example, explain what it shows about your learning or contribution, and name one next step that is small enough to try.",
+        "handInOrSave": "Keep practice work in class. Add only the Friday Learning Story to SpacesEDU when your teacher asks.",
+        "ifAbsentOrStuck": "Ask for today's image or question and one partner explanation. Choose one example you can genuinely explain.",
+        "spacesNote": "One Friday Learning Story brings the week together. Monday–Thursday practice does not need separate posts."
+      },
+      "family": {
+        "label": "FAMILY WINDOW",
+        "title": "The first formed-class week",
+        "summary": "Students are introduced through several kinds of classroom evidence: oral story and listening, number reasoning, learning conditions, exact place observations, collaboration, and reflection. No student is required to share a private or painful story.",
+        "whyThisMatters": "One task cannot show the whole learner. The week gives the teacher multiple low-stakes ways to notice strengths, strategies, participation, supports, and questions before students choose one example for a Friday Learning Story.",
+        "whatStudentsDo": "Monday begins with ordinary-object storytelling. Tuesday uses a visual number investigation. Wednesday names changeable learning conditions and supports. Thursday gathers place observations. Friday students synthesize one meaningful example and a realistic first goal.",
+        "quickReference": {
+          "atSchool": "Students tell, estimate, discuss, observe, create, and revise across five connected days.",
+          "home": "Nothing to finish or prepare at home. A short conversation about one specific example is welcome.",
+          "assessment": "The teacher observes strategies, listening, contribution, and revision. Friday's Learning Story is an early portfolio snapshot, not a final judgment.",
+          "spaces": "One Friday Learning Story is posted; the week's practice remains in class."
+        },
+        "product": "One student-selected Friday Learning Story with evidence of a strength or contribution, useful learning conditions, and one realistic goal.",
+        "assessment": "Early formative evidence only. The teacher looks for specific examples, explanation, listening, strategy, revision, and a feasible next step.",
+        "agreementNote": "Students may use fictional, observation-only, written, spoken, visual, or recorded routes. Private family, medical, diagnostic, or painful information is not required.",
+        "groupAndIndividualEvidence": "Pairs and groups create several opportunities to hear student thinking. The final Learning Story is individual so each learner chooses the evidence and goal that genuinely fit.",
+        "milestones": [
+          {
+            "date": "Sept. 14–18",
+            "label": "First formed-class week · five ways to become known",
+            "shortLabel": "First week with your class"
+          },
+          {
+            "date": "Sept. 18",
+            "label": "One September Learning Story posted to SpacesEDU",
+            "shortLabel": "First Learning Story"
+          },
+          {
+            "date": "Sept. 21",
+            "label": "Local decision-making, place, and election source work begins",
+            "shortLabel": "Local inquiry begins"
+          }
+        ],
+        "homework": "No special supplies or routine homework are expected.",
+        "supportAtHome": [
+          "Ask which activity gave the clearest picture of how your child thinks or contributes.",
+          "Ask what specific example they chose for the Friday Learning Story and why it matters.",
+          "Please keep the reflection and goal in the student's own words."
+        ],
+        "conversationPrompts": [
+          "Which moment this week showed something important about how you learn or contribute?",
+          "What did a partner notice or ask that helped you revise?",
+          "What is one small next step you want to try?"
+        ],
+        "spacesNote": "One Learning Story is the planned September portfolio entry from this week; the smaller activities are not separate uploads."
+      }
+    },
+    {
+      "id": "surrey-place-and-election",
+      "effectiveFrom": "2026-09-21",
+      "effectiveTo": "2026-09-30",
+      "state": "up-next",
+      "shared": {
+        "eyebrow": "SEPTEMBER · SURREY, PLACE & PUBLIC DECISIONS",
+        "title": "Who decides—and what does this place teach us?",
+        "bigQuestion": "How can maps, sources, local voices, and public decisions change what we understand about Surrey?",
+        "summary": "Students use the existing place, map, evidence, perspective, and government lessons as a live Surrey case. They distinguish observation from inference, learn from attributed local-Nation and district sources, sort who controls which decisions, and begin checking election claims after the official candidate list is available.",
+        "learningArc": [
+          {
+            "timing": "Sept. 21–22",
+            "label": "Who decides?",
+            "studentAction": "Sort school, district, city, provincial, and federal decisions; explain the exact authority involved.",
+            "outcome": "Students distinguish influence, administration, voting, oversight, and final authority."
+          },
+          {
+            "timing": "Sept. 23–24",
+            "label": "Learn with place",
+            "studentAction": "Gather local observations and compare what different maps and attributed sources make visible or leave out.",
+            "outcome": "Place learning remains specific to source, Nation, speaker, purpose, and protocol."
+          },
+          {
+            "timing": "Sept. 25",
+            "label": "Check a campaign claim",
+            "studentAction": "Label fact, opinion, claim, or promise; trace one checkable part to an official or independent source.",
+            "outcome": "A campaign statement becomes evidence to investigate, not a position students are told to support."
+          },
+          {
+            "timing": "Sept. 28–29",
+            "label": "Make meaning",
+            "studentAction": "Build a concise place-and-decision display with exact source credit, one careful claim, one missing perspective, and one next question.",
+            "outcome": "The display makes local learning visible without turning a generic craft into reconciliation."
+          },
+          {
+            "timing": "Sept. 30",
+            "label": "Carry it forward",
+            "studentAction": "Choose one election, place, or power question worth following in the October Newsroom.",
+            "outcome": "Strong questions continue; no extra SpacesEDU post is required."
+          }
+        ],
+        "visual": {
+          "src": "/images/visual-review/newsroom-source-desk-v1.webp",
+          "alt": "A source desk with a Surrey map, dated article, photograph, notes, and question cards ready for students to compare.",
+          "caption": "Start with the source: look, locate, credit, compare, and keep one uncertainty visible."
+        },
+        "primaryResource": null,
+        "thinkingMoves": [
+          {
+            "id": "locate",
+            "label": "Locate",
+            "prompt": "Which place, decision, level of government, and date are involved?"
+          },
+          {
+            "id": "credit",
+            "label": "Credit",
+            "prompt": "Who made or shared this source, and whose knowledge or interest does it represent?"
+          },
+          {
+            "id": "separate",
+            "label": "Separate",
+            "prompt": "What is observed, stated, inferred, promised, or still unknown?"
+          },
+          {
+            "id": "compare",
+            "label": "Compare",
+            "prompt": "Which second source, map, or perspective changes the first picture?"
+          },
+          {
+            "id": "question",
+            "label": "Question",
+            "prompt": "Whose perspective is missing, and what would be a respectful next source?"
+          }
+        ],
+        "subjectSnapshot": [
+          {
+            "subject": "Social Studies",
+            "now": "Surrey election, maps, public authority, evidence, and perspective",
+            "why": "Use a live local case to understand who decides, how people persuade, and how claims are checked."
+          },
+          {
+            "subject": "English Language Arts",
+            "now": "Source reading, fact/claim/opinion/promise, discussion, and concise explanation",
+            "why": "Read current and historical sources closely and communicate what the evidence supports."
+          },
+          {
+            "subject": "Indigenous Learning",
+            "now": "Attributed local sources, place, language, history, and source responsibilities",
+            "why": "Learn from specific Nation, speaker, district, FNESC, or First Nations-led sources without generic claims."
+          },
+          {
+            "subject": "Arts Education",
+            "now": "Information display and place response",
+            "why": "Use visual choices to make evidence and uncertainty understandable, not merely decorative."
+          },
+          {
+            "subject": "Career Education & Community",
+            "now": "Participation before voting age",
+            "why": "Ask questions, verify, discuss, write, create, and contribute responsibly to community decisions."
+          }
+        ]
+      },
+      "student": {
+        "label": "STUDENT PATH",
+        "title": "Surrey: place, power, and an election",
+        "why": "The city, school district, province, and Canada make different decisions. Sources help you work out who has the power, what a claim really says, and what is still missing.",
+        "summary": "Look at maps, images, short texts, public information, and campaign statements. Discuss and investigate without being told which candidate or opinion is better.",
+        "duration": "Sept. 21–30",
+        "grouping": "Whole class, pairs, and teams of 3–4",
+        "routeTitle": "Look, locate, check, compare, explain",
+        "bring": [
+          "Pencil or another way to record",
+          "A source clue and a reason",
+          "Questions that remain open"
+        ],
+        "firstMove": "Point to one school, park, road, transit stop, recreation place, or neighbourhood feature on a Surrey map. Which public body might be able to change it—and what can it not decide alone?",
+        "quickReference": {
+          "firstMove": "Choose one Surrey place. Name the exact decision and who might have authority.",
+          "handIn": "Keep your source notes and group display in class. No separate SpacesEDU post is planned.",
+          "missed": "Ask for the source, date, class question, and one clue. Add your own careful claim or question."
+        },
+        "firstMoveNote": "Name the exact decision, not only a job title. Keep one uncertainty visible until a dated source helps you resolve it.",
+        "steps": [
+          "Locate: find the place, date, and decision.",
+          "Sort: match the decision to school, district, city, province, or Canada.",
+          "Credit: name who made or shared each source.",
+          "Check: label fact, opinion, claim, or promise and trace one checkable part.",
+          "Compare: add another map, source, or perspective.",
+          "Explain: state what the evidence supports and what remains uncertain."
+        ],
+        "choices": [
+          "Investigate through a map, image, short text, audio, or a teacher-read excerpt from the same credited source.",
+          "Compare a claim or missing perspective without endorsing or opposing a candidate.",
+          "Contribute by pointing, sorting, speaking, writing, or drawing; your teacher can provide a shared-screen or paper route."
+        ],
+        "product": "A concise group display with exact source credit, one careful claim, one missing perspective, and one question worth following.",
+        "finish": "You can identify who has authority for a decision, use a dated source as evidence, name a missing perspective without inventing it, and keep one uncertainty visible.",
+        "handInOrSave": "Keep the display and source trail in class. Your teacher will say if one later reflection belongs in an existing portfolio pathway.",
+        "ifAbsentOrStuck": "Begin with one visible clue and the source credit. Ask: Who made this? When? What exact decision or claim is involved?",
+        "spacesNote": "Discussion, notebooks, and the class display are enough. No new SpacesEDU post is planned."
+      },
+      "family": {
+        "label": "FAMILY WINDOW",
+        "title": "Learning from Surrey's live election and local sources",
+        "summary": "Students use the October 17 Surrey municipal and school-board election as one current case inside existing learning about maps, government, power, evidence, perspective, and place. The learning is politically neutral and does not ask students or families to declare support for a candidate.",
+        "whyThisMatters": "Local decisions affect schools, parks, recreation, roads, transit, housing, services, taxes, and public spaces. Students learn which institution can act, how campaign claims can be checked, and how people can participate even before they are old enough to vote.",
+        "whatStudentsDo": "Students sort real decision scenarios, examine maps and attributed local sources, distinguish fact/opinion/claim/promise, check one campaign statement against an original source, and build a concise place-and-decision display.",
+        "quickReference": {
+          "atSchool": "Students compare sources, sort who decides what, check claims, discuss trade-offs, and create a small evidence display.",
+          "home": "No campaign research or political discussion is required at home. Families may discuss one local decision that matters to young people.",
+          "assessment": "The teacher assesses use of evidence, jurisdiction, perspective, questions, and revision—not a student's political opinion.",
+          "spaces": "Most work stays in discussion, notebooks, and a classroom display; no extra post is planned."
+        },
+        "product": "One group display with source credit, a careful claim, a missing perspective, and an open question.",
+        "assessment": "Formative assessment focuses on evidence, authority, source care, reasoning, uncertainty, and respectful discussion. Candidate preference is never assessed.",
+        "agreementNote": "The class will use official election, city, school-district, and credible Canadian sources. Candidate statements are treated as claims to examine, not endorsements.",
+        "groupAndIndividualEvidence": "Teams compare and explain sources. The teacher also listens for each student's ability to point to evidence, distinguish authority from influence, and revise a claim.",
+        "milestones": [
+          {
+            "date": "Sept. 11",
+            "label": "Surrey election nominations close; official candidate information becomes the class source",
+            "shortLabel": "Official candidate information"
+          },
+          {
+            "date": "Sept. 21–29",
+            "label": "Local place, decision-making, source, and election investigations",
+            "shortLabel": "Surrey source investigations"
+          },
+          {
+            "date": "Sept. 29",
+            "label": "Place-and-decision classroom sharing",
+            "shortLabel": "Classroom sharing"
+          },
+          {
+            "date": "Oct. 17",
+            "label": "Surrey municipal and school-board election",
+            "shortLabel": "Surrey election day"
+          }
+        ],
+        "homework": "No special supplies, candidate research, or routine homework are expected.",
+        "supportAtHome": [
+          "Ask which Surrey decision the class sorted and who actually has authority.",
+          "Ask what made one source more useful or limited than another.",
+          "Discuss how a young person can ask questions, verify information, write, speak, create, volunteer, or attend public events without voting."
+        ],
+        "conversationPrompts": [
+          "Which Surrey decision affects young people most, and who has the authority to act?",
+          "What is the difference between a campaign promise and evidence that it can happen?",
+          "Whose perspective was missing from one source the class examined?"
+        ],
+        "spacesNote": "Most work remains in class. The teacher may later select one student-authored reflection only if it adds meaningful evidence to an existing portfolio pathway."
+      }
+    },
+    {
+      "id": "surrey-election-compare-and-prepare",
+      "effectiveFrom": "2026-10-01",
+      "effectiveTo": "2026-10-16",
+      "state": "up-next",
+      "shared": {
+        "eyebrow": "OCTOBER · COMPARE, CHECK, PREPARE",
+        "title": "Before the vote: claims, responsibilities, and choices",
+        "bigQuestion": "How can we compare election choices without confusing a persuasive promise with evidence that it can happen?",
+        "summary": "Students continue the existing Surrey election case through Trace the Claim, the Newsroom, and Civic Decision Brief. They compare directly sourced statements about the same issue, check what mayor, council, and trustees can actually decide, weigh trade-offs, and prepare for the existing Student Vote process without adding another unit or portfolio post.",
+        "learningArc": [
+          {
+            "timing": "Oct. 1–2",
+            "label": "Match power",
+            "studentAction": "Match candidate statements to the office's real responsibilities and flag anything that needs council, the Board of Education, the province, funding, or time.",
+            "outcome": "Students distinguish leadership and influence from decisions one winner can make alone."
+          },
+          {
+            "timing": "Oct. 5–7",
+            "label": "Trace a claim",
+            "studentAction": "Use Trace the Claim and a dated source trail to label fact, opinion, claim, or promise and verify one checkable part.",
+            "outcome": "Students report supported, contradicted, or still uncertain instead of reacting to confidence or style."
+          },
+          {
+            "timing": "Oct. 8–9",
+            "label": "Compare fairly",
+            "studentAction": "Place directly sourced statements about one issue on a common comparison board: proposal, evidence, authority, trade-off, missing perspective, and question.",
+            "outcome": "Candidates are compared by the same inquiry criteria without a teacher ranking or endorsement."
+          },
+          {
+            "timing": "Oct. 13–15",
+            "label": "Hear and question",
+            "studentAction": "Use the existing Civic Decision Brief hearing to present evidence, ask neutral follow-up questions, and revise one conclusion.",
+            "outcome": "Public reasoning stays separate from anyone's private ballot choice."
+          },
+          {
+            "timing": "By Oct. 16",
+            "label": "Student Vote",
+            "studentAction": "Learn the ballot routine, serve in election-worker roles, and vote privately through the existing Student Vote structure when the class is registered.",
+            "outcome": "Students practise an election process after learning the offices, evidence, and responsibilities."
+          }
+        ],
+        "visual": {
+          "src": "/images/visual-review/civic-decision-room-v1.webp",
+          "alt": "Grade 6 students using common evidence cards in a classroom civic hearing while classmates listen and prepare questions.",
+          "caption": "Use the same evidence questions for every candidate: What is proposed? Who has authority? What supports it? What is the trade-off?"
+        },
+        "primaryResource": null,
+        "thinkingMoves": [
+          {
+            "id": "verify",
+            "label": "Verify",
+            "prompt": "Which part can be traced to an original, dated source?"
+          },
+          {
+            "id": "challenge-assumptions",
+            "label": "Challenge assumptions",
+            "prompt": "Are we assuming one person can decide what requires a council, board, budget, approval, or time?"
+          },
+          {
+            "id": "shift-perspective",
+            "label": "Shift perspective",
+            "prompt": "Who is affected, who is speaking, and whose view is still missing?"
+          },
+          {
+            "id": "weigh-trade-offs",
+            "label": "Weigh trade-offs",
+            "prompt": "Who may benefit, what may it cost, and what could be given up?"
+          },
+          {
+            "id": "reflect",
+            "label": "Reflect",
+            "prompt": "Which evidence changed or complicated our thinking?"
+          }
+        ],
+        "subjectSnapshot": [
+          {
+            "subject": "Social Studies",
+            "now": "Surrey offices, candidate evidence, trade-offs, civic hearing, and Student Vote",
+            "why": "Use a live local election to investigate representation, authority, participation, and accountability."
+          },
+          {
+            "subject": "English Language Arts",
+            "now": "Campaign language, close reading, questions, and evidence-based explanation",
+            "why": "Separate fact, opinion, claim, promise, and persuasion while reading for source and purpose."
+          },
+          {
+            "subject": "Mathematics",
+            "now": "Numbers in campaign claims and public spending choices",
+            "why": "Read scale, totals, rates, and comparisons carefully before using a number as evidence."
+          },
+          {
+            "subject": "Media Literacy",
+            "now": "Source trails, cropped context, campaign persuasion, and verification",
+            "why": "Check the original record and keep uncertainty visible."
+          },
+          {
+            "subject": "Career Education & Community",
+            "now": "Collaboration, questioning, election roles, and participation before voting age",
+            "why": "Practise respectful public reasoning and private individual choice."
+          }
+        ]
+      },
+      "student": {
+        "label": "STUDENT PATH",
+        "title": "Check the promise before the vote",
+        "why": "Candidates use facts, opinions, claims, and promises to persuade voters. You can check the source, the office's real power, and the trade-offs before making up your own mind.",
+        "summary": "Work with a partner and team to trace one claim, compare statements with the same questions, take part in a civic hearing, and prepare for a private Student Vote ballot.",
+        "duration": "Oct. 1–16",
+        "grouping": "Pairs and teams for investigation; whole class for the hearing; a private individual ballot",
+        "routeTitle": "Read, trace, compare, question, decide",
+        "bring": [
+          "One source detail you can point to",
+          "A question that does not assume the answer",
+          "Respect for other people's private choices"
+        ],
+        "firstMove": "Read one short campaign statement. Underline the exact promise. Circle what could be checked. Put a question mark beside anything the office may not control alone.",
+        "quickReference": {
+          "firstMove": "Underline the promise, circle the checkable part, and question the office's authority.",
+          "handIn": "Keep the pair claim trail and team comparison board in class. Your ballot choice stays private.",
+          "missed": "Open one dated statement and its original source. Add the office, one checkable claim, and one honest uncertainty."
+        },
+        "firstMoveNote": "A strong promise can still require a council or board vote, money, another level of government, public input, or time.",
+        "steps": [
+          "Identify: Who said it, when, and which office are they seeking?",
+          "Label: Is it a fact, opinion, claim, or promise?",
+          "Trace: Open the original source for the strongest checkable part.",
+          "Match: Can this office decide it alone, act with others, influence it, or not control it?",
+          "Compare: Use the same headings for every candidate statement.",
+          "Question: Ask about evidence, cost, trade-offs, missing perspectives, or what happens next.",
+          "Decide privately: Use the Student Vote ballot only after you understand the offices and evidence."
+        ],
+        "choices": [
+          "Use a teacher-read excerpt, projected source, short text, audio, or paper source card with the same credit and context.",
+          "Contribute by pointing, sorting, speaking, writing, drawing a decision path, or asking a question.",
+          "Change your mind, remain uncertain, or keep your ballot choice private; your political preference is not assessed."
+        ],
+        "product": "One pair claim trail, one team comparison board, and a short reflection on the evidence or process—not on which name you chose.",
+        "finish": "You can check a campaign statement, explain what the office can and cannot do alone, compare choices fairly, and protect ballot privacy.",
+        "handInOrSave": "Keep investigation notes and the comparison board in class. Follow the class Student Vote routine; never put your ballot choice in SpacesEDU.",
+        "ifAbsentOrStuck": "Start with one statement and four questions: Who said it? What is promised? What evidence checks it? Who has the power to act?",
+        "spacesNote": "No extra SpacesEDU post is planned. Your ballot choice remains private."
+      },
+      "family": {
+        "label": "FAMILY WINDOW",
+        "title": "Checking claims before Surrey's October 17 election",
+        "summary": "Students compare candidate statements for Surrey mayor, council, and school trustee through existing civics and media-literacy lessons. The class uses neutral questions and directly sourced material; it does not recommend a candidate or ask families to share how they vote.",
+        "whyThisMatters": "A promise may sound clear while still requiring a council or Board of Education vote, a budget, provincial action, public input, or time. Students learn to check both the evidence and the limits of an elected role.",
+        "whatStudentsDo": "Pairs trace one campaign claim to its source, teams use the same comparison headings for candidates, and the class holds an evidence-based civic hearing. If registered, the class then follows CIVIX Student Vote procedures for a private mock ballot.",
+        "quickReference": {
+          "atSchool": "Students check claims, compare responsibilities and trade-offs, ask neutral questions, and practise a private Student Vote process.",
+          "home": "No candidate research, political disclosure, or election homework is required.",
+          "assessment": "The teacher assesses source use, jurisdiction, reasoning, questions, and revision—not political preference.",
+          "spaces": "Investigation and ballot work stay in class; no extra post is planned."
+        },
+        "product": "A pair source trail, a team comparison board, and a process reflection. Individual ballot choices are not collected as learning evidence.",
+        "assessment": "Formative assessment focuses on careful source use, fair comparison, authority, trade-offs, uncertainty, and respectful participation—not political preference.",
+        "agreementNote": "The Student Vote is a non-partisan classroom learning process. A student's choice is private and is not a prediction of, or instruction about, family voting.",
+        "groupAndIndividualEvidence": "Pairs and teams make reasoning visible. Any individual reflection concerns evidence and process; the name selected on a ballot remains private.",
+        "milestones": [
+          {
+            "date": "Oct. 1–9",
+            "label": "Candidate responsibilities, source checking, and fair comparison",
+            "shortLabel": "Check and compare"
+          },
+          {
+            "date": "Oct. 13–15",
+            "label": "Civic hearing and neutral follow-up questions",
+            "shortLabel": "Civic hearing"
+          },
+          {
+            "date": "By Oct. 16",
+            "label": "Student Vote classroom process, if the class is registered",
+            "shortLabel": "Student Vote"
+          },
+          {
+            "date": "Oct. 17",
+            "label": "Surrey municipal and school-board election day",
+            "shortLabel": "Surrey election day"
+          }
+        ],
+        "homework": "No routine homework or family political discussion is expected.",
+        "supportAtHome": [
+          "Ask what part of a campaign statement was checkable and which source helped.",
+          "Ask whether the promise could be completed by one winner or required other people, money, approvals, or time.",
+          "Reassure your child that different views can be discussed respectfully and ballot choices remain private."
+        ],
+        "conversationPrompts": [
+          "What is one question that should be asked about every campaign promise?",
+          "What can a school trustee decide only with the rest of the Board?",
+          "Which piece of evidence changed or complicated your thinking?"
+        ],
+        "spacesNote": "No additional portfolio post is planned, and individual Student Vote choices are never posted."
+      }
+    },
+    {
+      "id": "surrey-election-results-and-next-steps",
+      "effectiveFrom": "2026-10-17",
+      "effectiveTo": "2026-10-23",
+      "state": "up-next",
+      "shared": {
+        "eyebrow": "OCTOBER · RESULTS AND WHAT HAPPENS NEXT",
+        "title": "Election day to next steps: what happens now?",
+        "bigQuestion": "What do election results tell us—and what still has to happen before a promise becomes a public decision?",
+        "summary": "Students use the Newsroom to read official Surrey results and CIVIX Student Vote results when each is released. They compare patterns carefully, follow one promise through the people, votes, budgets, approvals, and time it may require, and identify ways people can continue to influence public decisions after election day.",
+        "learningArc": [
+          {
+            "timing": "Oct. 17",
+            "label": "Election day",
+            "studentAction": "Notice which Surrey offices are being elected and wait for official, dated results rather than reposting early claims or guesses.",
+            "outcome": "Students understand that result status and source matter."
+          },
+          {
+            "timing": "Oct. 19",
+            "label": "Read the results",
+            "studentAction": "Open the official Surrey results and record office, names, totals or shares, result status, source, and update time.",
+            "outcome": "The class builds an accurate result record for mayor, council, and school trustees."
+          },
+          {
+            "timing": "Oct. 20",
+            "label": "Compare carefully",
+            "studentAction": "Compare official and Student Vote results when both are available; describe a pattern without guessing why it happened.",
+            "outcome": "Students separate numerical patterns from unsupported explanations about voters."
+          },
+          {
+            "timing": "Oct. 21–22",
+            "label": "Follow a promise",
+            "studentAction": "Trace one promise through the council or board decision, staff work, budget, other approvals, public input, and time it may require.",
+            "outcome": "Winning an election is distinguished from having unlimited or immediate power."
+          },
+          {
+            "timing": "Oct. 23",
+            "label": "Keep participating",
+            "studentAction": "Choose one respectful next action a young person could take: follow a meeting, ask a question, write, verify, speak, create, volunteer, or revisit the evidence.",
+            "outcome": "Democratic participation continues between elections."
+          }
+        ],
+        "visual": {
+          "src": "/images/visual-review/newsroom-source-desk-v1.webp",
+          "alt": "A newsroom source desk with a map, dated text, results chart, pencil, and magnifying glass ready for students to compare.",
+          "caption": "Record the source and result status first. Then describe the pattern, test explanations, and follow one promise into the real decision process."
+        },
+        "primaryResource": null,
+        "thinkingMoves": [
+          {
+            "id": "verify",
+            "label": "Verify",
+            "prompt": "Is this an official result, when was it updated, and is the count final?"
+          },
+          {
+            "id": "challenge-assumptions",
+            "label": "Challenge assumptions",
+            "prompt": "Does the result show why people voted, or are we guessing?"
+          },
+          {
+            "id": "investigate",
+            "label": "Investigate",
+            "prompt": "Which decision path would this promise have to follow next?"
+          },
+          {
+            "id": "shift-perspective",
+            "label": "Shift perspective",
+            "prompt": "Whose priorities are visible in our sources, and whose are still missing?"
+          },
+          {
+            "id": "reflect",
+            "label": "Reflect",
+            "prompt": "What can people still do after the ballots are counted?"
+          }
+        ],
+        "subjectSnapshot": [
+          {
+            "subject": "Social Studies",
+            "now": "Election results, collective authority, accountability, and continuing participation",
+            "why": "Understand what representation changes and what democratic institutions still require."
+          },
+          {
+            "subject": "Mathematics",
+            "now": "Vote totals, shares, comparison, and cautious interpretation",
+            "why": "Describe patterns accurately without treating a number as proof of motive or cause."
+          },
+          {
+            "subject": "English Language Arts",
+            "now": "Dated source reading, qualified claims, questions, and concise reflection",
+            "why": "Communicate what the results support, what they do not show, and what should be followed next."
+          },
+          {
+            "subject": "Media Literacy",
+            "now": "Result status, update time, headline claims, and original sources",
+            "why": "Avoid spreading early, partial, decontextualized, or unsupported interpretations."
+          },
+          {
+            "subject": "Career Education & Community",
+            "now": "Follow-through, public process, and youth participation",
+            "why": "Recognize ways to contribute before voting age and between elections."
+          }
+        ]
+      },
+      "student": {
+        "label": "STUDENT PATH",
+        "title": "Results are the beginning, not the end",
+        "why": "Election results tell us who was chosen. They do not prove why everyone voted, and they do not give one winner unlimited power.",
+        "summary": "Read official Surrey results, compare them with Student Vote results when available, follow one promise through the real decision path, and choose a way young people can keep participating.",
+        "duration": "Oct. 17–23",
+        "grouping": "Whole class, pairs, and teams; one short personal next-step reflection",
+        "routeTitle": "Verify, describe, compare, trace, continue",
+        "bring": [
+          "The source name and update time",
+          "One pattern the numbers actually show",
+          "One question about what happens next"
+        ],
+        "firstMove": "Find the result source, its update time, and its status. Write one sentence that begins, ‘This result shows…’ and one that begins, ‘This result does not show…’",
+        "quickReference": {
+          "firstMove": "Record source, update time, and status. Say what the result shows and does not show.",
+          "handIn": "Keep the result note and promise pathway in class. No extra SpacesEDU post is planned.",
+          "missed": "Ask for the official result source and one promise. Add one accurate pattern and one next step the promise would require."
+        },
+        "firstMoveNote": "Wait for official results. A total or percentage shows a pattern; it does not automatically explain people's reasons.",
+        "steps": [
+          "Verify: use the official Surrey result and record when it was updated.",
+          "Describe: state one result pattern without guessing why people voted.",
+          "Compare: add Student Vote results when released and name one similarity or difference.",
+          "Trace: follow one promise through the people, collective vote, money, approvals, public input, and time it needs.",
+          "Question: identify what should be checked at a future council or Board meeting.",
+          "Continue: choose one respectful way a young person can follow or influence the issue."
+        ],
+        "choices": [
+          "Read a projected chart, paper result table, teacher-read numbers, audio description, or the original result page.",
+          "Show a comparison by speaking, writing, pointing, arranging cards, or drawing the promise pathway.",
+          "Keep your ballot choice private and discuss results without guessing how classmates or families voted."
+        ],
+        "product": "One accurate result note, one team promise pathway, and one question or next action worth carrying into a future Newsroom check.",
+        "finish": "You can say what the results show and do not show, explain why winners still share power, and name a way participation continues.",
+        "handInOrSave": "Keep the result note and pathway in class. Save the follow-up question for a future Newsroom check; do not post ballot choices.",
+        "ifAbsentOrStuck": "Use one official result and one promise. Ask: What happened? What does the number not explain? Who must act next?",
+        "spacesNote": "No extra SpacesEDU post is planned. Results discussion and ballot choices stay out of the portfolio."
+      },
+      "family": {
+        "label": "FAMILY WINDOW",
+        "title": "After Surrey votes: results, limits, and next steps",
+        "summary": "Students read official Surrey election results and CIVIX Student Vote results when they become available. They practise describing numerical patterns carefully, then investigate what an elected mayor, councillor, or trustee must do with other people before a promise becomes a decision.",
+        "whyThisMatters": "Winning an election grants a public role, not unlimited power. Council and the Board of Education make collective decisions, and many proposals also require staff work, budgets, approvals, public input, and time.",
+        "whatStudentsDo": "Students verify the result source and status, compare official and Student Vote patterns without guessing at voters' motives, follow one earlier promise through a decision pathway, and identify ways participation continues after election day.",
+        "quickReference": {
+          "atSchool": "Students read results, compare patterns, trace one promise into the real public process, and ask what should be followed next.",
+          "home": "No election homework or disclosure of family voting is expected.",
+          "assessment": "The teacher assesses source reading, numerical interpretation, understanding of shared power, and thoughtful questions—not election preference.",
+          "spaces": "This is formative classroom learning; no extra portfolio post is planned."
+        },
+        "product": "A result note, a team promise pathway, and one question or participation step for a later Newsroom check.",
+        "assessment": "Formative assessment looks for accurate source details, careful interpretation, understanding of collective authority, and a realistic next question or action.",
+        "agreementNote": "Class discussion does not ask students to reveal their Student Vote choice or families to reveal a real ballot. Similarities and differences in results are examined without judging voters.",
+        "groupAndIndividualEvidence": "Pairs and teams make source and decision reasoning visible. A short individual next step may show personal agency without recording a political preference.",
+        "milestones": [
+          {
+            "date": "Oct. 17",
+            "label": "Surrey municipal and school-board election day",
+            "shortLabel": "Election day"
+          },
+          {
+            "date": "When released",
+            "label": "Official Surrey results and CIVIX Student Vote results become class sources",
+            "shortLabel": "Results released"
+          },
+          {
+            "date": "Oct. 19–22",
+            "label": "Results comparison and promise pathway investigation",
+            "shortLabel": "What happens next?"
+          },
+          {
+            "date": "Oct. 23",
+            "label": "Participation and future Newsroom question",
+            "shortLabel": "Keep participating"
+          }
+        ],
+        "homework": "No routine homework is assigned for this reflection.",
+        "supportAtHome": [
+          "Ask what one result showed and what it could not explain.",
+          "Ask which people, votes, budgets, approvals, or time one promise would need next.",
+          "Discuss one respectful way a young person can ask questions or follow a community decision between elections."
+        ],
+        "conversationPrompts": [
+          "What surprised you in the results, and what evidence would help explain it?",
+          "Why can a winner not simply do everything promised?",
+          "What public decision would you like the class to check again later?"
+        ],
+        "spacesNote": "No additional portfolio post is planned, and no ballot choice is collected or shared."
+      }
+    }
+  ],
+  "checksum": "sha256:e665e5322f24191bd01349e71010a539658d847ef4e69bcef12c4565c9e41cd0"
+}

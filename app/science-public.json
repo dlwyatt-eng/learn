@@ -1,0 +1,1627 @@
+[
+  {
+    "id": "body-systems",
+    "number": "01",
+    "title": "Body Systems",
+    "subtitle": "Signals, balance, reproduction, and systems working together",
+    "icon": "◉",
+    "color": "#a64f69",
+    "soft": "#f7e4e9",
+    "question": "How does your body notice change, send messages, and keep itself in balance?",
+    "bigIdea": "Multicellular organisms rely on internal systems to survive, reproduce, and interact with their environment.",
+    "content": [
+      "Nervous system",
+      "Hormonal system",
+      "Excretory system",
+      "Reproductive system"
+    ],
+    "assessment": "Solve a new body case by tracing evidence through two or more systems, then teach the explanation with a labelled model.",
+    "lessons": [
+      {
+        "id": "science-launch",
+        "title": "The evidence challenge",
+        "question": "Can one amazing flight prove a design is best?",
+        "duration": "2 × 45–55 min",
+        "journeyType": "Launch",
+        "kind": "Explore",
+        "learning": "We are learning how a fair comparison and repeated results turn an educated guess into a scientific conclusion.",
+        "success": [
+          "I can make an educated hypothesis with a reason.",
+          "I can spot what makes a comparison unfair.",
+          "I can use a pattern across repeated trials to revise a claim."
+        ],
+        "vocabulary": [
+          "hypothesis",
+          "evidence",
+          "variable"
+        ],
+        "inquiry": "Compare three paper-airplane designs in a fair digital flight test. Run three rounds, use the averages and consistency, and decide which claim the evidence actually supports.",
+        "reflection": "What makes an educated guess different from a random guess?",
+        "exit": "Write one focused comparison question and identify what you would change, measure, and keep the same.",
+        "evidence": "A reasoned prediction, three fair-test corrections, an evidence-based conclusion, and a focused comparison question",
+        "projectContribution": "The fair-test and evidence pattern students will reuse when planning their final inquiry.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Predict",
+            "title": "Which plane will really fly farthest?",
+            "prompt": "Choose a design and give a reason based on what you notice—not on a random guess.",
+            "time": "15 min",
+            "learningMode": "Visual hook · prediction · discussion",
+            "studentTask": "A prediction with one design feature used as a reason"
+          },
+          {
+            "label": "Make it fair",
+            "title": "Can we compare these flights fairly?",
+            "prompt": "Repair the digital setup, then write the class rules for a fair physical comparison.",
+            "time": "20 min",
+            "learningMode": "Interactive diagnosis · physical setup",
+            "studentTask": "A five-rule fair-test agreement"
+          },
+          {
+            "label": "Gather evidence",
+            "title": "One spectacular flight is not the whole story",
+            "prompt": "Run the physical test and the three digital rounds. Compare the longest flight, average, and consistency.",
+            "time": "35–45 min",
+            "learningMode": "Hands-on test · measurement · class data",
+            "studentTask": "Nine measurements, averages, and one noticed pattern"
+          },
+          {
+            "label": "Conclude",
+            "title": "Make the evidence do the talking",
+            "prompt": "Choose the supported claim, critique one limitation, then focus a comparison question of your own.",
+            "time": "25 min",
+            "learningMode": "Evidence analysis · question workshop",
+            "studentTask": "A claim–evidence–limitation conclusion and one focused question"
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "signal-case",
+        "title": "Reaction-time investigation",
+        "question": "How does your body turn a change into an action so quickly?",
+        "duration": "2 × 55–65 min",
+        "journeyType": "Field lab",
+        "kind": "Investigate",
+        "learning": "We are using reaction-time evidence to explain how receptors, nerves, the brain, and muscles work together.",
+        "success": [
+          "I can collect and compare reaction-time results.",
+          "I can trace stimulus → receptor → message → response.",
+          "I can explain why reaction time changes from trial to trial."
+        ],
+        "vocabulary": [
+          "stimulus",
+          "receptor",
+          "nervous system",
+          "response",
+          "variable"
+        ],
+        "inquiry": "Collect repeated ruler-drop evidence, compare one safe condition, identify limitations, and build a physical pathway from stimulus to response.",
+        "reflection": "Why were your three reaction times not exactly the same?",
+        "exit": "Explain one reaction using stimulus → receptor → nerve message → brain/spinal cord → motor message → muscle response.",
+        "evidence": "Three reaction-time results, an accurate signal pathway, and one evidence-based explanation",
+        "projectContribution": "A complete example of measuring variation and explaining a body-system pathway; saving it to SpacesEDU is optional.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Hook",
+            "title": "How fast can your body respond?",
+            "prompt": "Use three digital trials to notice variation and generate questions—not to crown the fastest student.",
+            "time": "15–20 min",
+            "learningMode": "Digital hook · notice/wonder",
+            "studentTask": "Three anonymous results and two possible reasons for variation"
+          },
+          {
+            "label": "Investigate",
+            "title": "Design a fair ruler-drop comparison",
+            "prompt": "Collect at least five trials in each condition. Change one safe factor, keep the method consistent, and look for a pattern.",
+            "time": "40–50 min",
+            "learningMode": "Partner investigation · measurement",
+            "studentTask": "A fair plan, repeated data, average or median, and one limitation"
+          },
+          {
+            "label": "Model",
+            "title": "Build the full signal pathway",
+            "prompt": "Use six physical cards and the source to trace what happens from the falling ruler to the fingers closing.",
+            "time": "35–40 min",
+            "learningMode": "Human model · video · labelled diagram",
+            "studentTask": "A six-part causal pathway with arrows and a model limitation"
+          },
+          {
+            "label": "Explain",
+            "title": "What does the evidence actually support?",
+            "prompt": "Compare conditions, explain variation, and connect one measured response to the nervous-system pathway.",
+            "time": "25–30 min",
+            "learningMode": "Data conference · CER response",
+            "studentTask": "A claim–evidence–reasoning paragraph or recorded explanation"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 1,
+            "type": "Website",
+            "label": "Reaction Time Ruler",
+            "url": "https://www.scienceworld.ca/resource/reaction-time-ruler/",
+            "source": "Science World",
+            "task": "Identify the signal pathway and one design choice that makes partner trials more consistent.",
+            "gradeFit": "Core Grade 6",
+            "support": "Use the procedure and explanation after students predict. Clarify that the activity measures a response, not a simple reflex."
+          },
+          {
+            "scene": 2,
+            "type": "Video",
+            "label": "How the Brain and Nervous System Work",
+            "url": "https://kidshealth.org/en/kids/bodymovies.html",
+            "source": "Nemours KidsHealth",
+            "task": "Add one missing detail to the class pathway and explain what the model still simplifies.",
+            "gradeFit": "Core Grade 6",
+            "support": "Open the nervous-system movie only. Pause after the sensory-message and movement sections."
+          }
+        ]
+      },
+      {
+        "id": "balance-case",
+        "title": "Case file: too hot, too thirsty",
+        "question": "How does your body keep the inside steady when the outside changes?",
+        "duration": "2 × 55–65 min",
+        "journeyType": "Case file",
+        "kind": "Investigate",
+        "learning": "We are learning how nervous, hormonal, and excretory systems work together to maintain balance.",
+        "success": [
+          "I can explain homeostasis as active adjustment.",
+          "I can describe what kidneys regulate.",
+          "I can interpret a simple changing-data graph."
+        ],
+        "vocabulary": [
+          "homeostasis",
+          "kidney",
+          "excretion",
+          "feedback"
+        ],
+        "inquiry": "Interpret a fictional hot-practice data set, test model predictions, trace what kidneys keep or remove, and build a feedback loop.",
+        "reflection": "Why does keeping balance require conditions to change?",
+        "exit": "Use four arrows to explain one hot-day response.",
+        "evidence": "A data interpretation and feedback-loop explanation",
+        "projectContribution": "A reusable systems explanation showing change → signal → coordinated responses → movement toward balance.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Case",
+            "title": "A hot practice",
+            "prompt": "Read the timeline and graph before revealing the explanation. Which body response changes first, and what evidence supports your claim?",
+            "time": "30–35 min",
+            "learningMode": "Story case · graph reading · prediction",
+            "studentTask": "Three evidence notes and one supported claim about the first response"
+          },
+          {
+            "label": "Model",
+            "title": "Change one condition",
+            "prompt": "Change heat or water—not both. Predict which responses will change, test the model, and record where it surprises you.",
+            "time": "30–35 min",
+            "learningMode": "Interactive model · paired reasoning",
+            "studentTask": "A three-condition comparison table and one model limitation"
+          },
+          {
+            "label": "Kidneys",
+            "title": "Keep, return, or remove?",
+            "prompt": "Use the source and decision cases to explain how kidneys help regulate blood water and remove wastes.",
+            "time": "35–45 min",
+            "learningMode": "Source reading · route model · decision cases",
+            "studentTask": "A labelled urinary route and three kidney decisions justified with evidence"
+          },
+          {
+            "label": "Explain",
+            "title": "Build the feedback loop",
+            "prompt": "Arrange change → signal → response → effect → movement toward range, then apply the pattern to a new safe case.",
+            "time": "25–30 min",
+            "learningMode": "Card model · case transfer · explanation",
+            "studentTask": "A five-arrow feedback loop and a short explanation of systems working together"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 2,
+            "type": "Article",
+            "label": "Your Kidneys and How They Work",
+            "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
+            "source": "U.S. National Institute of Diabetes and Digestive and Kidney Diseases",
+            "task": "Find evidence for two things kidneys return to the body and two things they help remove or regulate.",
+            "gradeFit": "Supported stretch",
+            "support": "Read only the opening diagram and the sections on why kidneys matter and how urine is made. Supply the four key verbs: filter, return, balance, remove."
+          },
+          {
+            "scene": 2,
+            "type": "Video",
+            "label": "How the Urinary System Works",
+            "url": "https://kidshealth.org/en/kids/bodymovies.html",
+            "source": "Nemours KidsHealth",
+            "task": "Sketch the route and label which part filters, carries, stores, and releases.",
+            "gradeFit": "Core Grade 6",
+            "support": "Open the urinary-system movie. Pause to add kidneys, ureters, bladder, and urethra to the route."
+          }
+        ]
+      },
+      {
+        "id": "systems-jigsaw",
+        "title": "Four systems, one body",
+        "question": "How can different body systems do different jobs and still act as one connected system?",
+        "duration": "2 × 55–65 min",
+        "journeyType": "Inquiry studio",
+        "kind": "Explain",
+        "learning": "We are becoming expert in one body system, then using peer teaching to explain how systems exchange matter or information.",
+        "success": [
+          "I can name the main job and important structures of one system.",
+          "I can trace what moves through the system.",
+          "I can explain one connection to another system and one limit of a model."
+        ],
+        "vocabulary": [
+          "system",
+          "structure",
+          "function",
+          "signal",
+          "regulation"
+        ],
+        "inquiry": "Extract evidence from an approved source, build a route model, teach mixed groups, and solve cross-system cases.",
+        "reflection": "What became clearer when another expert connected their system to yours?",
+        "exit": "Explain one connection using: when ___ changes, the ___ system sends/moves ___, so the ___ system can ___.",
+        "evidence": "An expert route model, a three-minute peer lesson, a four-system comparison, and one cross-system explanation",
+        "projectContribution": "A direct rehearsal of the later expert-team structure: learn deeply, teach clearly, answer questions, and revise after feedback.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Become expert",
+            "title": "Build one system route",
+            "prompt": "Use your assigned source to find the job, structures, what moves, one connection, and one model limit.",
+            "time": "40–50 min",
+            "learningMode": "Expert reading/video · route model",
+            "studentTask": "Five sourced notes and one route model"
+          },
+          {
+            "label": "Prepare teaching",
+            "title": "Make classmates do the thinking",
+            "prompt": "Plan a three-minute lesson with one prediction, one visual route, and one check question.",
+            "time": "25–30 min",
+            "learningMode": "Collaborative lesson design · rehearsal",
+            "studentTask": "A three-minute interactive expert lesson"
+          },
+          {
+            "label": "Teach",
+            "title": "Mixed groups build the whole picture",
+            "prompt": "Teach your system, learn the other three, and record one connection after every mini-lesson.",
+            "time": "35–45 min",
+            "learningMode": "Peer teaching · listening notes",
+            "studentTask": "A four-system comparison with three cross-system connections"
+          },
+          {
+            "label": "Transfer",
+            "title": "Which systems explain the case?",
+            "prompt": "Solve unfamiliar body cases. Select the systems, trace what changes or moves, and defend why one system alone is insufficient.",
+            "time": "25–30 min",
+            "learningMode": "Case challenge · explanation",
+            "studentTask": "One multi-system causal explanation and one revision after feedback"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 0,
+            "type": "Video",
+            "label": "How the Body Works movie collection",
+            "url": "https://kidshealth.org/en/kids/bodymovies.html",
+            "source": "Nemours KidsHealth · medically reviewed",
+            "task": "Collect evidence for the system's job, important structures, what moves, and one connection to another system.",
+            "gradeFit": "Core Grade 6",
+            "support": "Assign only the brain/nervous, endocrine, or urinary movie that matches each team. Reproductive experts use the teacher-provided district-approved source."
+          },
+          {
+            "scene": 0,
+            "type": "Article",
+            "label": "Your Endocrine System",
+            "url": "https://kidshealth.org/en/kids/endocrine.html",
+            "source": "Nemours KidsHealth · medically reviewed",
+            "task": "Explain why hormones are messages and identify one way the nervous and hormonal systems connect.",
+            "gradeFit": "Supported stretch",
+            "support": "Hormonal experts read the opening and one assigned gland section; do not require memorizing all glands."
+          }
+        ]
+      },
+      {
+        "id": "life-systems-studio",
+        "title": "Reproduction and development studio",
+        "question": "What evidence do we need to explain reproduction, puberty, and development accurately and respectfully?",
+        "duration": "2 × 55–65 min",
+        "journeyType": "Inquiry studio",
+        "kind": "Apply",
+        "learning": "We are using accurate biological language and evidence to explain the roles of reproductive structures, cells, hormones, fertilization, and development while recognizing human variation.",
+        "success": [
+          "I can use evidence to identify a structure, cell, or process rather than relying on position or stereotypes.",
+          "I can place major events in a simplified sequence and identify what the model leaves out.",
+          "I can explain biological function without making assumptions about identity, family role, or every person's development."
+        ],
+        "vocabulary": [
+          "reproduction",
+          "gamete",
+          "ovary",
+          "testis",
+          "fertilization",
+          "embryo",
+          "puberty"
+        ],
+        "inquiry": "Interpret six shuffled evidence cases, build a simplified reproduction-and-development sequence, evaluate puberty claims, and identify model limits.",
+        "reflection": "Which statement became more accurate when we changed its wording or added a model limit?",
+        "exit": "Use one source-supported fact to explain a structure, cell, process, or variation accurately; students may submit privately.",
+        "evidence": "Six evidence-based identifications, an accurate simplified sequence, a source-supported puberty claim, and one explicit model limit",
+        "projectContribution": "Accurate foundational knowledge that a later expert team may use; no student must choose this as an inquiry topic or post personal learning publicly.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Learn",
+            "title": "Build the foundation before solving",
+            "prompt": "Use approved diagrams and precise terms to learn the structures, cells, messages, and basic process. Add anonymous questions without personal disclosure.",
+            "time": "35–45 min",
+            "learningMode": "Diagram lesson · vocabulary sketch · anonymous questions",
+            "studentTask": "A labelled reference page students may keep private"
+          },
+          {
+            "label": "Investigate",
+            "title": "Solve the evidence cases",
+            "prompt": "The cases and choices are shuffled. Identify the structure, cell, or process and justify it with the strongest clue.",
+            "time": "30–35 min",
+            "learningMode": "Evidence cases · partner reasoning",
+            "studentTask": "Six identifications with clue-based justifications"
+          },
+          {
+            "label": "Compare",
+            "title": "Puberty is a pattern with variation",
+            "prompt": "Use two sources to distinguish common patterns from fixed rules, then repair claims that overgeneralize.",
+            "time": "30–40 min",
+            "learningMode": "Source comparison · claim revision",
+            "studentTask": "Two variation notes and one accurately revised claim"
+          },
+          {
+            "label": "Model",
+            "title": "Sequence the process—and name the limits",
+            "prompt": "Arrange a simplified path from reproductive cells to early development, then attach warnings about what the model leaves out.",
+            "time": "30–35 min",
+            "learningMode": "Card sequence · model critique · private exit",
+            "studentTask": "A correct sequence, two model limits, and one private or public exit response"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 2,
+            "type": "Article",
+            "label": "Physical Development, Ages 11 to 14",
+            "url": "https://www.healthlinkbc.ca/healthwise/physical-development-ages-11-14-years",
+            "source": "HealthLink BC",
+            "task": "Find two examples showing that puberty timing, order, or body changes vary, then rewrite one overgeneralized claim.",
+            "gradeFit": "Core Grade 6",
+            "support": "Select short excerpts showing range and variation. Avoid presenting two fixed puberty pathways as descriptions of every student's identity or experience."
+          },
+          {
+            "scene": 2,
+            "type": "Article",
+            "label": "Your Endocrine System",
+            "url": "https://kidshealth.org/en/kids/endocrine.html",
+            "source": "Nemours KidsHealth · medically reviewed",
+            "task": "Explain how hormones act as messages without memorizing a list of every gland or hormone.",
+            "gradeFit": "Supported stretch",
+            "support": "Read the opening explanation of hormones and the teacher-selected puberty section only."
+          }
+        ]
+      },
+      {
+        "id": "body-case-conference",
+        "title": "Body systems case conference",
+        "question": "Can we explain a new body situation without reducing it to one organ or one system?",
+        "duration": "60–70 min",
+        "journeyType": "Case file",
+        "kind": "Assess",
+        "learning": "We are combining evidence from nervous, hormonal, excretory, and reproductive systems to build and defend a multi-system explanation.",
+        "success": [
+          "I select systems because the case evidence requires them.",
+          "I trace what changes, moves, or is regulated with accurate arrows.",
+          "I identify a limit or missing piece instead of pretending the model explains everything.",
+          "Our teaching helps classmates reason, not just listen."
+        ],
+        "vocabulary": [
+          "system",
+          "evidence",
+          "regulation",
+          "model",
+          "limitation"
+        ],
+        "inquiry": "Select relevant evidence, build a causal systems model, defend it to a peer panel, and revise one weak connection.",
+        "reflection": "Which arrow in our model carries the most explanatory work, and how did feedback improve it?",
+        "exit": "Explain one case in five arrows and name one thing the model cannot conclude.",
+        "evidence": "A sourced multi-system model, a two-minute defence, a peer question, and one visible revision",
+        "projectContribution": "A compact rehearsal for later expert-team inquiry and Minecraft teaching: research enough to explain, build a purposeful model, teach, answer questions, revise, and reflect.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Diagnose",
+            "title": "Which evidence matters?",
+            "prompt": "Open a fictional case, separate observations from assumptions, and select the systems the evidence actually requires.",
+            "time": "15 min",
+            "learningMode": "Case reading · evidence triage",
+            "studentTask": "A case claim, four evidence notes, and at least two justified systems"
+          },
+          {
+            "label": "Build",
+            "title": "Trace the causal system",
+            "prompt": "Build arrows from the changing condition through signals, structures, responses, and effects. Add one missing-information marker.",
+            "time": "25–30 min",
+            "learningMode": "Systems modelling · teacher conference",
+            "studentTask": "A five-to-eight-arrow causal model with one limitation"
+          },
+          {
+            "label": "Defend",
+            "title": "Two-minute case conference",
+            "prompt": "Teach the model, answer one challenge question, and record the part classmates found unclear.",
+            "time": "15–20 min",
+            "learningMode": "Peer teaching · scientific questioning",
+            "studentTask": "A two-minute defence and one evidence-focused question"
+          },
+          {
+            "label": "Revise",
+            "title": "Make one high-value improvement",
+            "prompt": "Repair the weakest arrow, add missing evidence, or clarify a model limit. Save only if it will genuinely help later inquiry work.",
+            "time": "10 min",
+            "learningMode": "Feedback · revision · reflection",
+            "studentTask": "One visible revision and an individual reflection sentence"
+          }
+        ],
+        "resources": []
+      }
+    ]
+  },
+  {
+    "id": "mixtures",
+    "number": "02",
+    "title": "Everyday Mixtures",
+    "subtitle": "Mystery mixture to local water systems",
+    "icon": "◌",
+    "color": "#b76d2e",
+    "soft": "#f8eadc",
+    "question": "How can a material's properties help us separate a complicated mixture?",
+    "bigIdea": "Everyday materials are often mixtures.",
+    "content": [
+      "Heterogeneous mixtures",
+      "Component properties",
+      "Separation methods",
+      "Local First Peoples knowledge"
+    ],
+    "assessment": "Use material properties to plan, carry out, explain, and evaluate a separation process in a hands-on challenge and a local water-treatment case.",
+    "lessons": [
+      {
+        "id": "mixture-mystery",
+        "title": "The mystery mixture",
+        "question": "How can we identify what is mixed together without guessing?",
+        "duration": "2 × 55–65 min",
+        "journeyType": "Launch",
+        "kind": "Explore",
+        "learning": "We are distinguishing observations from inferences and using material properties as evidence.",
+        "success": [
+          "I record precise observations before naming materials.",
+          "I use a test result to support or reject an inference.",
+          "I distinguish a heterogeneous mixture from a solution."
+        ],
+        "vocabulary": [
+          "mixture",
+          "component",
+          "property",
+          "heterogeneous",
+          "solution",
+          "solubility"
+        ],
+        "inquiry": "Observe the sealed mixture, develop competing inferences, rotate through property tests, and revise the class explanation after viewing and discussing outside examples.",
+        "reflection": "Which test changed your thinking most, and why was it stronger than appearance alone?",
+        "exit": "Make one claim about a component and support it with a specific test result.",
+        "evidence": "A dated notebook page containing observations, two revised inferences, station evidence, and an evidence-based claim",
+        "projectContribution": "A reusable inquiry routine: notice carefully, test competing ideas, revise the explanation, and name what the evidence cannot show.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Launch",
+            "title": "Build the evidence board",
+            "prompt": "Observe the real jar silently, then separate what the class can see from what it is only inferring.",
+            "time": "20–25 min",
+            "learningMode": "Real object · notebook · class talk",
+            "studentTask": "Sketch the jar, record six observations, and add two possible inferences with question marks."
+          },
+          {
+            "label": "Test",
+            "title": "Which properties give useful evidence?",
+            "prompt": "Rotate through short tests for magnetism, floating, particle size, and solubility. Use results to revise—not merely confirm—your first ideas.",
+            "time": "35–40 min",
+            "learningMode": "Hands-on stations · partner reasoning",
+            "studentTask": "Complete four property tests and revise at least two inferences in your notebook."
+          },
+          {
+            "label": "Learn",
+            "title": "Mixture, solution, or something else?",
+            "prompt": "Use two short videos and the station evidence to strengthen the class model, then test it against unfamiliar examples.",
+            "time": "35–45 min",
+            "learningMode": "Video · partner concept sort · evidence revision",
+            "studentTask": "Annotate the class definition and defend two classifications using observable or testable properties."
+          },
+          {
+            "label": "Synthesize",
+            "title": "What do we know—and what is still hidden?",
+            "prompt": "Return to the original jar. Build a supported component list and identify what cannot be confirmed without separating it.",
+            "time": "25–30 min",
+            "learningMode": "Evidence board · gallery walk · exit claim",
+            "studentTask": "Write one claim-evidence-reasoning paragraph and one unanswered question."
+          }
+        ],
+        "resources": [
+          {
+            "scene": 0,
+            "type": "Video",
+            "label": "The Great Picnic Mix Up",
+            "url": "https://youtu.be/jA0PzblYPUM",
+            "source": "Crash Course Kids · 4 min",
+            "task": "Before watching, classify two examples from the jar. During the video, collect one idea that improves the class definition of a mixture or solution, then test that definition against an unfamiliar example.",
+            "gradeFit": "Core Grade 6",
+            "support": "Use the short, accessible explanation as a shared starting point. Keep the thinking at Grade 6 by pausing before examples are classified and requiring students to justify each decision with evidence."
+          },
+          {
+            "scene": 2,
+            "type": "Video",
+            "label": "Aqueous solutions",
+            "url": "https://www.khanacademy.org/science/grade-6-science-snc-aligned/x19bc096754f0b9af%3Amixtures/x19bc096754f0b9af%3Atypes-of-mixtures/v/aqueous-solutions",
+            "source": "Khan Academy · Grade 6 Science",
+            "task": "Use the particle explanation to answer: If salt is invisible in water, what evidence shows that it is still present?",
+            "gradeFit": "Supported stretch",
+            "support": "Use only solute, solvent, and particles remaining present. Treat electrolytes as an optional curiosity, not required learning."
+          }
+        ]
+      },
+      {
+        "id": "mixture-toolkit",
+        "title": "Separation toolkit lab",
+        "question": "Why does each separation method work—and when does it fail?",
+        "duration": "2 × 55–65 min",
+        "journeyType": "Field lab",
+        "kind": "Investigate",
+        "learning": "We are learning that a method works because of a difference in properties, not because it belongs in a memorized sequence.",
+        "success": [
+          "I connect a method to the property it uses.",
+          "I can show what passes through or remains.",
+          "I can explain a case in which the method would fail."
+        ],
+        "vocabulary": [
+          "sieving",
+          "filtration",
+          "magnetism",
+          "decanting",
+          "evaporation",
+          "chromatography"
+        ],
+        "inquiry": "Test sieving, magnetism, skimming or decanting, filtration, chromatography, and evaporation; then choose methods for new real-world cases.",
+        "reflection": "What property mattered more than the name of the material?",
+        "exit": "Choose a method for a new mixture and name one reason it might not fully work.",
+        "evidence": "An expert-team demonstration, a six-method comparison chart, and two justified application decisions",
+        "projectContribution": "Experience becoming expert on one idea and teaching classmates—an early rehearsal for the later expert-team inquiry.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Question",
+            "title": "What must be different for separation to work?",
+            "prompt": "Compare six mixture problems and predict which property difference could be useful in each.",
+            "time": "20–25 min",
+            "learningMode": "Card sort · prediction · class model",
+            "studentTask": "Sort six mixture cases by the property difference that might make separation possible."
+          },
+          {
+            "label": "Investigate",
+            "title": "Become the expert on one method",
+            "prompt": "Test your assigned method on two suitable mixtures and one difficult case. Find its power and its limit.",
+            "time": "35–45 min",
+            "learningMode": "Hands-on expert groups · PhET option",
+            "studentTask": "Gather evidence from three tests and prepare a three-minute teaching demonstration."
+          },
+          {
+            "label": "Teach",
+            "title": "Build the class separation toolkit",
+            "prompt": "Teach your method, watch the other demonstrations, and record what each method separates, leaves behind, and cannot do.",
+            "time": "45–55 min",
+            "learningMode": "Peer teaching · demonstrations · note making",
+            "studentTask": "Complete a six-method comparison chart and ask two groups about a limitation."
+          },
+          {
+            "label": "Apply",
+            "title": "Choose a method for a new problem",
+            "prompt": "Solve unfamiliar cases such as muddy water, recycling fragments, salt water, and mixed dry foods. Some need more than one step.",
+            "time": "25–35 min",
+            "learningMode": "Scenario challenge · debate · notebook explanation",
+            "studentTask": "Defend two sequences and explain why a tempting alternative would fail."
+          }
+        ],
+        "resources": [
+          {
+            "scene": 1,
+            "type": "Interactive",
+            "label": "Sugar and Salt Solutions",
+            "url": "https://phet.colorado.edu/en/simulation/sugar-and-salt-solutions",
+            "source": "PhET · University of Colorado Boulder",
+            "task": "Use evaporation to test the claim that a dissolved substance has disappeared. Record what the model shows and one limitation of the model.",
+            "gradeFit": "Supported stretch",
+            "support": "Stay on the Macro view first. Use evaporation and concentration; do not assess ions, conductivity, or molarity unless the class asks to extend."
+          }
+        ]
+      },
+      {
+        "id": "separation-rescue",
+        "title": "Mixture Rescue Challenge",
+        "question": "How much of the mixture can your team recover cleanly?",
+        "duration": "2 × 60–70 min",
+        "journeyType": "Field lab",
+        "kind": "Investigate",
+        "learning": "We are designing and evaluating a multi-step separation process from evidence.",
+        "success": [
+          "Our sequence is justified by component properties.",
+          "We revise the plan when evidence shows a problem.",
+          "We evaluate purity, recovery, efficiency, safety, and limitations."
+        ],
+        "vocabulary": [
+          "sieving",
+          "filtration",
+          "magnetism",
+          "evaporation",
+          "purity",
+          "recovery"
+        ],
+        "inquiry": "Plan, carry out, critique, and improve a separation sequence using a shared material kit and clear success criteria.",
+        "reflection": "Which revision produced the biggest improvement, and what evidence supports that?",
+        "exit": "Explain the strongest and weakest part of the team process using property, method, result, and limitation.",
+        "evidence": "A justified sequence, safe hands-on process, midpoint revision, recovery result, and an evaluation using at least two criteria",
+        "projectContribution": "A complete cycle of planning, testing, feedback, revision, and evaluation that expert teams can reuse later.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Plan",
+            "title": "Design the first separation sequence",
+            "prompt": "Inspect the tools and sealed sample. Build a sequence that names the property used at every step and predicts what remains mixed.",
+            "time": "20–25 min",
+            "learningMode": "Team planning · teacher conference",
+            "studentTask": "Create a movable sequence with a because-statement and predicted result for every step."
+          },
+          {
+            "label": "Test",
+            "title": "Run the rescue—and stop halfway",
+            "prompt": "Carry out the plan carefully. At the midpoint, compare one result with another team and revise one weak step.",
+            "time": "45–55 min",
+            "learningMode": "Hands-on challenge · peer critique · revision",
+            "studentTask": "Collect fractions, photograph one problem, receive peer feedback, and revise one step."
+          },
+          {
+            "label": "Evaluate",
+            "title": "How successful was the process?",
+            "prompt": "Inspect the final fractions. Score recovery and purity separately, then identify where material was lost or remained mixed.",
+            "time": "25–30 min",
+            "learningMode": "Evidence inspection · criteria scoring · class comparison",
+            "studentTask": "Evaluate the process for purity, recovery, efficiency, and safety using specific evidence."
+          },
+          {
+            "label": "Explain",
+            "title": "Defend one decision and critique another",
+            "prompt": "Use scientific language to explain the strongest decision, the weakest decision, and what the team would change next.",
+            "time": "25–35 min",
+            "learningMode": "Gallery walk · oral defence · notebook reflection",
+            "studentTask": "Write one claim-evidence-reasoning paragraph and respond to a classmate's question."
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "water-treatment-case",
+        "title": "Where does our water become safe?",
+        "question": "How do local water systems combine separation methods—and what can a classroom model not prove?",
+        "duration": "2 × 55–65 min",
+        "journeyType": "Case file",
+        "kind": "Apply",
+        "learning": "We are applying mixture science to a real local system while distinguishing physical separation from disinfection and testing.",
+        "success": [
+          "I can order major treatment and supply steps.",
+          "I explain what filtration can and cannot remove.",
+          "I identify at least two limits of a classroom filter model."
+        ],
+        "vocabulary": [
+          "watershed",
+          "sediment",
+          "filtration",
+          "disinfection",
+          "turbidity",
+          "potable"
+        ],
+        "inquiry": "Trace the local system, extract evidence from a video and map, build a treatment train, test a particle filter, and communicate its limits.",
+        "reflection": "Why is 'looks clean' a weak conclusion about drinking water?",
+        "exit": "Name one process that removes particles, one process with a different job, and one test still needed.",
+        "evidence": "A sourced system diagram, annotated treatment train, filter-model observations, and a public explanation with an explicit safety warning",
+        "projectContribution": "A local solutionary-science example connecting physical science, infrastructure, public health, stewardship, and communication.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Trace",
+            "title": "Follow one drop to our school",
+            "prompt": "Use a local video and system map to trace source, treatment, storage, and delivery. Record evidence rather than copying every detail.",
+            "time": "35–45 min",
+            "learningMode": "Local video · map reading · partner case file",
+            "studentTask": "Build a sourced route diagram with four stages, three jobs, and one uncertainty."
+          },
+          {
+            "label": "Sequence",
+            "title": "Build a treatment train",
+            "prompt": "Order process cards so each stage solves a particular water problem. More than one treatment train may be defensible.",
+            "time": "30–40 min",
+            "learningMode": "Systems puzzle · evidence discussion",
+            "studentTask": "Defend the order of a treatment train and explain why filtration alone is insufficient."
+          },
+          {
+            "label": "Model",
+            "title": "What can a classroom filter actually show?",
+            "prompt": "Build and test a particle filter. Compare appearance or turbidity before and after, then state what the test cannot establish.",
+            "time": "45–55 min",
+            "learningMode": "Hands-on model · observation · redesign",
+            "studentTask": "Test one filter design, revise one layer, and compare evidence while keeping the safety warning visible."
+          },
+          {
+            "label": "Communicate",
+            "title": "Correct the dangerous claim",
+            "prompt": "Respond to: 'It looks clear, so it is safe to drink.' Create a public explanation that is accurate, concise, and sourced.",
+            "time": "30–40 min",
+            "learningMode": "Media literacy · choice product · peer review",
+            "studentTask": "Create and peer-check a public explanation naming filtration, disinfection or testing, and two model limits."
+          }
+        ],
+        "resources": [
+          {
+            "scene": 0,
+            "type": "Website",
+            "label": "Water resources and filtration-plant field trip",
+            "url": "https://metrovancouver.org/school-programs/water",
+            "source": "Metro Vancouver · produced for Grades 5–12",
+            "task": "Use the official video and map to trace source, treatment, storage, and delivery. Record four system parts, each job, and one question the source does not answer.",
+            "gradeFit": "Core Grade 6",
+            "support": "Show selected chapters rather than the whole resource at once. Pause for route predictions and process-job notes."
+          },
+          {
+            "scene": 1,
+            "type": "Article",
+            "label": "Where does my water come from?",
+            "url": "https://metrovancouver.org/school-programs/Documents/k-12-inquiry-spark-water-where.pdf",
+            "source": "Metro Vancouver · K–12 inquiry spark",
+            "task": "Infer the likely route from watershed to school, marking map evidence and uncertainty separately.",
+            "gradeFit": "Core Grade 6",
+            "support": "Use the map and inquiry questions, not every extension. Model the difference between map evidence and an inference about the school's route."
+          }
+        ]
+      },
+      {
+        "id": "place-mixtures-studio",
+        "title": "Learning from place and source",
+        "question": "What changes when knowledge is connected to a specific people and place?",
+        "duration": "1–2 × 60 min",
+        "journeyType": "Inquiry studio",
+        "kind": "Apply",
+        "learning": "We are learning from a specific source in context and making a careful science connection without treating all First Peoples as one culture.",
+        "success": [
+          "I name who the knowledge comes from and the place it belongs to.",
+          "I record only what the source supports.",
+          "I can make a science connection without claiming the two knowledge systems are identical."
+        ],
+        "vocabulary": [
+          "place-based",
+          "protocol",
+          "knowledge holder",
+          "responsibility"
+        ],
+        "inquiry": "Read, watch, listen to, or learn directly from one teacher-selected source, then distinguish source-supported learning from a separate science connection.",
+        "reflection": "What would be lost if this knowledge were reduced to a generic separation-method label?",
+        "exit": "Name the source, one learning it supports, and one thing we should not assume.",
+        "evidence": "A correctly attributed source note, specific evidence, a careful science connection, and a clearly stated limit",
+        "projectContribution": "One notice and one wonder may be saved to SpacesEDU if useful; this is not a required final-topic choice.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Prepare",
+            "title": "Start with the source—not a generic claim",
+            "prompt": "Identify who created or shared the source, the Nation or community, the place, and any guidance about sharing.",
+            "time": "15–25 min",
+            "learningMode": "Context map · source introduction",
+            "studentTask": "Record exact attribution, place, purpose, and any protocol or sharing guidance."
+          },
+          {
+            "label": "Learn",
+            "title": "Stay with the source",
+            "prompt": "Read, watch, listen, or learn directly. Collect evidence about method, purpose, relationships, and responsibility.",
+            "time": "35–50 min",
+            "learningMode": "Close viewing/reading/listening · paired evidence notes",
+            "studentTask": "Collect three source-supported details and mark the exact moment, phrase, image, or section that supports each."
+          },
+          {
+            "label": "Connect",
+            "title": "Place two ways of knowing beside each other",
+            "prompt": "Separate what the source teaches, a science idea that may connect, and what neither perspective should be made to claim.",
+            "time": "25–35 min",
+            "learningMode": "Discussion circle · two-perspective organizer",
+            "studentTask": "Write one sourced learning, one science connection, and one limit or responsibility."
+          },
+          {
+            "label": "Respond",
+            "title": "Return the learning respectfully",
+            "prompt": "Choose a brief response that shows accurate listening: a source note, thank-you question, concept sketch, or optional SpacesEDU notice and wonder.",
+            "time": "20–30 min",
+            "learningMode": "Choice response · reflection · optional portfolio",
+            "studentTask": "Create a concise response with exact attribution and one question that does not ask the source to represent all peoples."
+          }
+        ],
+        "resources": []
+      }
+    ]
+  },
+  {
+    "id": "forces-motion",
+    "number": "03",
+    "title": "Forces & Motion",
+    "subtitle": "From everyday motion to safer impacts",
+    "icon": "→",
+    "color": "#25766c",
+    "soft": "#deeeea",
+    "question": "How can Newton's laws help us reduce harm when motion changes suddenly?",
+    "bigIdea": "Newton's three laws of motion describe the relationship between force and motion.",
+    "content": [
+      "Newton's three laws",
+      "Balanced and unbalanced forces",
+      "Daily physical activity",
+      "Gravity"
+    ],
+    "assessment": "Design, test, and explain a delivery pod that protects a raw egg, using Newton's laws, measured evidence, and visible revision.",
+    "lessons": [
+      {
+        "id": "force-sprint",
+        "title": "Forces readiness check",
+        "question": "Which force ideas are ready to use—and which need a quick review?",
+        "duration": "1 × 45 min",
+        "journeyType": "Readiness check",
+        "kind": "Explore",
+        "learning": "We are checking familiar force ideas so the class can spend time investigating rather than repeating secure knowledge.",
+        "success": [
+          "I distinguish motion direction from force direction.",
+          "I draw a labelled force arrow on the object receiving the force.",
+          "I use evidence to decide whether forces are balanced."
+        ],
+        "vocabulary": [
+          "force",
+          "force arrow",
+          "balanced",
+          "unbalanced",
+          "net force"
+        ],
+        "inquiry": "Complete six diagnostic scenarios, repair one explanation, and create a new force-arrow example for a classmate.",
+        "reflection": "Which idea changed after the evidence appeared?",
+        "exit": "Draw one object, one labelled force arrow, and one sentence explaining whether its motion must change.",
+        "evidence": "Six diagnostic responses, one repaired explanation, and one original force-arrow example",
+        "projectContribution": "Practice only: force diagrams students will reuse in later investigations and design explanations.",
+        "evidenceLevel": "Practice",
+        "evidenceSubjects": [
+          "Science"
+        ],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Check",
+            "title": "What do we already know?",
+            "prompt": "Vote before the explanation appears. Keep your first idea visible so you can notice revision.",
+            "time": "15–20 min",
+            "learningMode": "Visual diagnosis · silent vote",
+            "studentTask": "Six independent first responses"
+          },
+          {
+            "label": "Review",
+            "title": "Use only the clinics we need",
+            "prompt": "Join the clinic that matches the evidence, then repair one missed explanation.",
+            "time": "15 min",
+            "learningMode": "Targeted clinic · peer explanation",
+            "studentTask": "One corrected explanation and one labelled model"
+          },
+          {
+            "label": "Decide",
+            "title": "Ready to investigate?",
+            "prompt": "Use the class evidence to choose the next move, then create one question that would reveal a force pattern.",
+            "time": "10 min",
+            "learningMode": "Metacognition · question design",
+            "studentTask": "An exit model and investigation question"
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "force-patterns-lab",
+        "title": "Newton's laws in motion",
+        "question": "What patterns appear when force, mass, friction, and interactions change?",
+        "duration": "2 × 60 min",
+        "journeyType": "Field lab",
+        "kind": "Investigate",
+        "learning": "We are building Newton's laws from observed patterns before attaching names or formulas.",
+        "success": [
+          "I use repeated evidence to describe a force-and-motion pattern.",
+          "I distinguish balanced from unbalanced forces.",
+          "I explain action–reaction forces as interactions on two different objects.",
+          "I name what a classroom model leaves out."
+        ],
+        "vocabulary": [
+          "inertia",
+          "net force",
+          "mass",
+          "friction",
+          "action–reaction pair"
+        ],
+        "inquiry": "Rotate through inertia, mass/acceleration, friction, and interaction stations; compare data; then defend which law best explains a new case.",
+        "reflection": "Which station made one of Newton's laws feel less like a rule to memorize and more like a pattern?",
+        "exit": "Choose one unfamiliar motion and explain it with a force diagram, a Newton pattern, and a model limitation.",
+        "evidence": "Four station records, one simple graph, one law-to-case defence, and one model limitation",
+        "projectContribution": "A reusable evidence pattern for explaining why a later design changes motion or impact.",
+        "evidenceLevel": "Checkpoint",
+        "evidenceSubjects": [
+          "Science",
+          "Mathematics"
+        ],
+        "spacesPrompt": "Optional checkpoint: post one station graph or photo and explain the force pattern it reveals, including one limitation.",
+        "scenes": [
+          {
+            "label": "Predict",
+            "title": "Four events—three hidden patterns",
+            "prompt": "Watch the quick cases. Group them by what stays the same, what changes, and which objects interact.",
+            "time": "25–30 min",
+            "learningMode": "Demonstration · prediction · NASA video",
+            "studentTask": "A before-and-after grouping with one reason"
+          },
+          {
+            "label": "Investigate",
+            "title": "Rotate through the force stations",
+            "prompt": "At each station, change one condition, repeat the test, and record a pattern—not just a result.",
+            "time": "55–65 min",
+            "learningMode": "Hands-on stations · measurement",
+            "studentTask": "Four station records and one graph"
+          },
+          {
+            "label": "Test",
+            "title": "Can a digital model reproduce the pattern?",
+            "prompt": "Use three PhET challenges to test your station claims. Record where the model agrees and what it simplifies.",
+            "time": "35–40 min",
+            "learningMode": "PhET challenge · model comparison",
+            "studentTask": "Three model cases and one limitation"
+          },
+          {
+            "label": "Teach",
+            "title": "Make one law useful",
+            "prompt": "Teach a new case using an object, force arrows, evidence, and one Newton pattern. Your classmates should do some thinking.",
+            "time": "25–30 min",
+            "learningMode": "Expert teaching · peer check",
+            "studentTask": "A two-minute interactive explanation"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 0,
+            "type": "Video",
+            "label": "STEMonstrations: Newton's Second Law",
+            "url": "https://plus.nasa.gov/video/stemonstrations-newtons-2nd-law-of-motion/",
+            "source": "NASA+ · 2:28 · TV-G",
+            "task": "Record the pattern shown when the same kind of push acts on objects with different mass.",
+            "gradeFit": "Core Grade 6",
+            "support": "Pause before each astronaut demonstration and have students predict which object will change motion more."
+          },
+          {
+            "scene": 2,
+            "type": "Interactive",
+            "label": "Forces and Motion: Basics",
+            "url": "https://phet.colorado.edu/en/simulations/forces-and-motion-basics",
+            "source": "PhET · University of Colorado Boulder",
+            "task": "Create one balanced case, one unbalanced case, and one same-force/different-mass case; screenshot or sketch each.",
+            "gradeFit": "Core Grade 6",
+            "support": "Use only Net Force, Motion, and Friction. Work through the three assigned challenges rather than free play first."
+          }
+        ]
+      },
+      {
+        "id": "crash-lab",
+        "title": "Crash Lab",
+        "question": "How does padding change the force during a sudden stop?",
+        "duration": "2 × 60 min",
+        "journeyType": "Digital investigation",
+        "kind": "Investigate",
+        "learning": "We are using repeated evidence to explain why a longer, less sudden stop can reduce peak force without making force disappear.",
+        "success": [
+          "I make a hypothesis with a scientific reason.",
+          "I change one variable and run repeated trials.",
+          "I graph and compare stopping-time and peak-force evidence.",
+          "I identify a model limitation."
+        ],
+        "vocabulary": [
+          "stopping time",
+          "peak force",
+          "variable",
+          "average",
+          "evidence"
+        ],
+        "inquiry": "Compare no padding, thin foam, and thick foam while mass and speed stay fixed; use repeated results to decide which explanation is best supported.",
+        "reflection": "What does the model show clearly, and what real-world safety factors does it leave out?",
+        "exit": "Use a measured result to explain how foam changed stopping time and peak force.",
+        "evidence": "A hypothesis, nine-trial table, comparison graph, CER conclusion, and model limitation",
+        "projectContribution": "A complete fair-test and data-analysis rehearsal for the Delivery Pod explanation.",
+        "evidenceLevel": "Checkpoint",
+        "evidenceSubjects": [
+          "Science",
+          "Mathematics"
+        ],
+        "spacesPrompt": "Checkpoint option: post the comparison graph and a claim–evidence–reasoning explanation of how padding changed the stop.",
+        "scenes": [
+          {
+            "label": "Notice",
+            "title": "A passenger does not stop by magic",
+            "prompt": "Predict belt versus no belt, replay the stop, and identify the interaction that changes the passenger's motion.",
+            "time": "25–30 min",
+            "learningMode": "Phenomenon · source reading · force diagram",
+            "studentTask": "A prediction, observation, and labelled force diagram"
+          },
+          {
+            "label": "Investigate",
+            "title": "One changed variable, nine simulated trials",
+            "prompt": "Lock mass and speed. Change only padding and collect three model outputs for every condition.",
+            "time": "40–45 min",
+            "learningMode": "Digital model · repeated dataset",
+            "studentTask": "A nine-trial model-data table and calculated averages"
+          },
+          {
+            "label": "Explain",
+            "title": "Graph how the stop changes",
+            "prompt": "Compare stopping time and peak force together. Explain the mechanism rather than only naming the safest bar.",
+            "time": "35–40 min",
+            "learningMode": "Graphing · animation analysis · partner talk",
+            "studentTask": "A two-variable comparison graph and mechanism notes"
+          },
+          {
+            "label": "Conclude",
+            "title": "Make the data do the talking",
+            "prompt": "Write or record a claim, cite repeated evidence, explain why it fits, and name one model limit.",
+            "time": "25–30 min",
+            "learningMode": "CER response · conference · optional SpacesEDU",
+            "studentTask": "A checkpoint-ready CER explanation"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 0,
+            "type": "Website",
+            "label": "Newton's laws of motion",
+            "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+            "source": "NASA Glenn Research Center",
+            "task": "Connect inertia to the passenger or package continuing forward during a sudden stop.",
+            "gradeFit": "Supported stretch",
+            "support": "Use the first-law diagram and plain-language summary only; skip equations and aerospace calculations."
+          }
+        ]
+      },
+      {
+        "id": "movement-forces",
+        "title": "Forces in human movement",
+        "question": "How do forces help a body start, stop, jump, land, and change direction?",
+        "duration": "1–2 × 60 min",
+        "journeyType": "Case file",
+        "kind": "Apply",
+        "learning": "We are applying force patterns to movement without grading athletic ability or asking anyone to perform beyond their comfort.",
+        "success": [
+          "I identify the object and interaction for each force arrow.",
+          "I explain how the ground can push on a person.",
+          "I compare a stable and unstable landing using evidence.",
+          "I communicate one movement cue accurately and respectfully."
+        ],
+        "vocabulary": [
+          "gravity",
+          "friction",
+          "support force",
+          "stability",
+          "interaction"
+        ],
+        "inquiry": "Analyse a jump, landing, wheelchair push, ball kick, or quick direction change frame by frame; identify interactions and revise one coaching claim.",
+        "reflection": "How can a movement cue be scientifically useful without pretending every body moves in exactly the same way?",
+        "exit": "Use two force arrows and one Newton pattern to explain one moment of movement.",
+        "evidence": "An annotated movement sequence, two interaction pairs, and one revised science-based coaching explanation",
+        "projectContribution": "A cross-curricular application showing how the same force patterns operate in sport, dance, play, and mobility.",
+        "evidenceLevel": "Practice",
+        "evidenceSubjects": [
+          "Science",
+          "Physical & Health Education",
+          "English Language Arts"
+        ],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Observe",
+            "title": "Freeze the instant when motion changes",
+            "prompt": "Compare two slow-motion cases. Describe what changes before naming the force.",
+            "time": "20–25 min",
+            "learningMode": "Slow-motion observation · notice/wonder",
+            "studentTask": "Three frame-by-frame observations"
+          },
+          {
+            "label": "Map",
+            "title": "Which object pushes which?",
+            "prompt": "Add force arrows to the person or object, then pair every interaction with the force on the other object.",
+            "time": "30–35 min",
+            "learningMode": "Force-frame annotation · Crash Course Kids clip",
+            "studentTask": "Two annotated frames and two interaction pairs"
+          },
+          {
+            "label": "Test",
+            "title": "Change one movement condition safely",
+            "prompt": "Compare an object, seated, standing, or video case. Change one condition and collect evidence about stability, friction, or stopping.",
+            "time": "30–40 min",
+            "learningMode": "Choice investigation · observation",
+            "studentTask": "A safe comparison and one evidence note"
+          },
+          {
+            "label": "Communicate",
+            "title": "Turn a slogan into an explanation",
+            "prompt": "Repair a vague coaching claim so it names the interaction, evidence, and limits.",
+            "time": "20–25 min",
+            "learningMode": "Media literacy · choice response",
+            "studentTask": "A revised coaching explanation for a Grade 6 audience"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 1,
+            "type": "Video",
+            "label": "Defining Gravity",
+            "url": "https://www.youtube.com/watch?v=ljRlB6TuMOU",
+            "source": "Crash Course Kids · 3:12",
+            "task": "Add gravity to the force frame and explain why it still acts while an object is moving upward.",
+            "gradeFit": "Core Grade 6",
+            "support": "Pause before the falling examples. Ask students to draw gravity on the moving person or object rather than merely repeat the definition."
+          }
+        ]
+      },
+      {
+        "id": "safer-impact-studio",
+        "title": "Delivery Pod STEM Challenge",
+        "question": "How high can your pod fall and still protect its egg—and how will you prove why?",
+        "duration": "2 × 60 min",
+        "journeyType": "Design studio",
+        "kind": "Assess",
+        "learning": "We are applying force and impact evidence through a fair design cycle, visible revision, and clear communication.",
+        "success": [
+          "Our design follows the common constraints.",
+          "We use Crash Lab evidence to justify a feature.",
+          "We measure tests and make one visible revision.",
+          "Each person can explain the science and a limitation."
+        ],
+        "vocabulary": [
+          "constraint",
+          "prototype",
+          "criterion",
+          "revision",
+          "trade-off"
+        ],
+        "inquiry": "Design one pod, complete a controlled practice drop, inspect evidence, revise one feature, and enter the height ladder or equivalent measured test.",
+        "reflection": "Which result changed your team's thinking, and what would you test next?",
+        "exit": "Explain one feature using force, stopping time or motion evidence—and name what the test cannot prove.",
+        "evidence": "Team prototype and results, one visible revision, and an individual evidence-based explanation",
+        "projectContribution": "A complete portfolio highlight and a possible Forces topic for later expert-team inquiry.",
+        "evidenceLevel": "Portfolio Highlight",
+        "evidenceSubjects": [
+          "Science",
+          "ADST",
+          "Mathematics",
+          "English Language Arts"
+        ],
+        "spacesPrompt": "Portfolio highlight: post the team design photo or Minecraft model, results table, and an individual explanation of one design decision, evidence, revision, and next step.",
+        "scenes": [
+          {
+            "label": "Frame",
+            "title": "A fair challenge, not a mystery craft",
+            "prompt": "Inspect the criteria, constraints, common kit, and evidence from Crash Lab. Choose the mechanism your first design will use.",
+            "time": "15 min",
+            "learningMode": "Design brief · evidence transfer",
+            "studentTask": "A labelled sketch with one mechanism claim"
+          },
+          {
+            "label": "Build",
+            "title": "Build the claim into the pod",
+            "prompt": "Construct one design. Every material must have a job connected to the sketch.",
+            "time": "35–40 min",
+            "learningMode": "Collaborative construction · teacher conference",
+            "studentTask": "A constraint-compliant prototype"
+          },
+          {
+            "label": "Test",
+            "title": "One practice drop, one visible revision",
+            "prompt": "Measure the practice height, observe what happened, and change one feature for a stated reason.",
+            "time": "25–30 min",
+            "learningMode": "Measured test · observation · revision",
+            "studentTask": "Practice result and documented revision"
+          },
+          {
+            "label": "Challenge",
+            "title": "Climb the height ladder safely",
+            "prompt": "Enter the measured challenge or equivalent test. Record every result, including useful failures.",
+            "time": "30–40 min",
+            "learningMode": "Height ladder · class data",
+            "studentTask": "Final measured result and class comparison"
+          },
+          {
+            "label": "Explain",
+            "title": "Prove more than survival",
+            "prompt": "Use the design, data, and revision to explain what likely helped, what remains uncertain, and what you would test next.",
+            "time": "25–30 min",
+            "learningMode": "Individual explanation · peer feedback · SpacesEDU",
+            "studentTask": "Portfolio-ready individual explanation"
+          }
+        ],
+        "resources": []
+      }
+    ]
+  },
+  {
+    "id": "earth-space",
+    "number": "04",
+    "title": "Earth & Space",
+    "subtitle": "A truthful cosmic tour",
+    "icon": "✦",
+    "color": "#4f65a2",
+    "soft": "#e6e9f5",
+    "question": "How can we show our place in the universe without fooling people about scale and motion?",
+    "bigIdea": "The solar system is part of the Milky Way, which is one of billions of galaxies.",
+    "content": [
+      "Scale and structure of the universe",
+      "Age of the universe",
+      "Solar-system position",
+      "Motion in our galaxy"
+    ],
+    "assessment": "Create an evidence-based cosmic tour that communicates scale, structure, motion, and model limits.",
+    "lessons": [
+      {
+        "id": "cosmic-zoom",
+        "title": "You are here",
+        "question": "Where exactly are we in the universe—and how can a model show it honestly?",
+        "duration": "2 × 60 min",
+        "journeyType": "Launch",
+        "kind": "Explore",
+        "learning": "We are building Earth's nested cosmic address and using more than one model because no single model can show size, distance, structure, and time accurately at once.",
+        "success": [
+          "I can order Earth, solar system, Milky Way, and observable universe.",
+          "I can use a scale to place several planets at defensible distances.",
+          "I can explain what a model shows well and what it distorts.",
+          "I can use light-travel time to explain why looking far away also means looking into the past."
+        ],
+        "vocabulary": [
+          "solar system",
+          "galaxy",
+          "universe",
+          "scale",
+          "light-year"
+        ],
+        "inquiry": "Build and revise three complementary models: a nested cosmic address, a distance-only solar-system walk, and a 13.8-metre timeline of the universe.",
+        "reflection": "Why do scientists need several different models for the same universe?",
+        "exit": "Write Earth's cosmic address and one precise warning for each model: what is accurate, what is enlarged, and what is left out.",
+        "evidence": "A revised cosmic address, measured distance model, cosmic timeline annotation, and two accurate model-limit statements",
+        "projectContribution": "Students practise turning an enormous idea into a truthful model; they may save a space question without choosing their final expert-team topic.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Address",
+            "title": "Put our cosmic address in order",
+            "prompt": "Arrange the five places from smallest to largest. Keep your first answer visible so NASA evidence can make you revise it.",
+            "time": "25–30 min",
+            "learningMode": "Card sort · supported reading · revision",
+            "studentTask": "A before-and-after cosmic address with one quoted or paraphrased piece of NASA evidence"
+          },
+          {
+            "label": "Locate",
+            "title": "Our solar system is not at the centre",
+            "prompt": "Use a trusted map and description to locate the solar system in the Milky Way, then explain why most galaxy diagrams cannot be photographs from outside our galaxy.",
+            "time": "25–30 min",
+            "learningMode": "Source reading · image reasoning · discussion",
+            "studentTask": "A labelled Milky Way sketch and one inference about how the model was constructed"
+          },
+          {
+            "label": "Measure",
+            "title": "Walk a distance-only solar system",
+            "prompt": "Place each planet at a measured distance from the Sun. Then catch the trick: are the planet markers also the correct size?",
+            "time": "55–65 min",
+            "learningMode": "Measurement · movement · model audit",
+            "studentTask": "Planet placements, one checked distance calculation, and a visible model-limit warning"
+          },
+          {
+            "label": "Time",
+            "title": "Turn 13.8 billion years into 13.8 metres",
+            "prompt": "Place cosmic events on a timeline. Then use light-travel time to explain why distant space is also ancient evidence.",
+            "time": "50–60 min",
+            "learningMode": "Timeline model · partner reading · explanation",
+            "studentTask": "A timeline annotation and a two-sentence explanation linking distance, light, and the past"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 0,
+            "type": "Article",
+            "label": "What Is a Galaxy?",
+            "url": "https://spaceplace.nasa.gov/galaxy/",
+            "source": "NASA Space Place",
+            "task": "Find two sentences that prove a solar system is smaller than a galaxy, then revise the group card sort.",
+            "gradeFit": "Core Grade 6",
+            "support": "Read the short answer and the diagram captions; the full page is optional."
+          },
+          {
+            "scene": 1,
+            "type": "Website",
+            "label": "Solar System Facts",
+            "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+            "source": "NASA Science",
+            "task": "Confirm where our solar system sits in the Milky Way and record one fact that changes your mental picture.",
+            "gradeFit": "Supported stretch",
+            "support": "Use the introduction and Our Place in the Milky Way section; do not assign the entire page."
+          },
+          {
+            "scene": 2,
+            "type": "Interactive",
+            "label": "Eyes on the Solar System",
+            "url": "https://eyes.nasa.gov/apps/solar-system/",
+            "source": "NASA/JPL",
+            "task": "Compare the compressed screen view with the 45 m walk. Identify one distance or size the screen must distort.",
+            "gradeFit": "Supported stretch",
+            "support": "Demonstrate navigation first and work in pairs; the goal is model critique, not visiting every object."
+          },
+          {
+            "scene": 3,
+            "type": "Article",
+            "label": "What Is a Light-Year?",
+            "url": "https://spaceplace.nasa.gov/light-year/",
+            "source": "NASA Space Place",
+            "task": "Explain why a telescope can show both far-away space and the past.",
+            "gradeFit": "Core Grade 6",
+            "support": "Read through the Looking Back in Time section and stop before the more advanced examples if needed."
+          },
+          {
+            "scene": 3,
+            "type": "Article",
+            "label": "What Is the Big Bang?",
+            "url": "https://spaceplace.nasa.gov/big-bang/",
+            "source": "NASA Space Place",
+            "task": "Place the age of the universe on the timeline and identify one piece of evidence described in the article.",
+            "gradeFit": "Core Grade 6",
+            "support": "Use it as a supported partner reading; distinguish expansion from an explosion at one location."
+          }
+        ]
+      },
+      {
+        "id": "space-motion-lab",
+        "title": "Patterns in motion",
+        "question": "How can the same motion look different from Earth and from space?",
+        "duration": "3 × 60 min",
+        "journeyType": "Field lab",
+        "kind": "Investigate",
+        "learning": "We are using rotation, revolution, orbit, gravity, and viewpoint to explain repeating patterns without confusing observation with explanation.",
+        "success": [
+          "I can distinguish an observation from an explanation.",
+          "I can model how rotation causes day and night.",
+          "I can compare planetary day and year data and identify an anomaly.",
+          "I can explain how viewpoint changes apparent motion and name a model limit."
+        ],
+        "vocabulary": [
+          "rotation",
+          "revolution",
+          "orbit",
+          "viewpoint",
+          "apparent motion"
+        ],
+        "inquiry": "Collect or examine sky-pattern evidence, build a physical Sun–Earth model, compare planetary data, and use a digital model to test which explanation fits all observations.",
+        "reflection": "Which idea became clearer only after you changed viewpoint or changed models?",
+        "exit": "Explain day and night, distinguish a day from a year, and name one thing the model exaggerates or leaves out.",
+        "evidence": "An observation/explanation sort, physical-model diagram, planetary-data comparison, and viewpoint-based explanation",
+        "projectContribution": "Students practise using several forms of evidence and may save a motion question without committing to a final inquiry topic.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Observe",
+            "title": "The sky seems to turn—but what does that prove?",
+            "prompt": "Study a time-lapse or shadow sequence. Record only visible changes first, then list at least two possible explanations.",
+            "time": "35–45 min",
+            "learningMode": "Visual evidence · classification · discussion",
+            "studentTask": "Two-column observation/explanation notes and one question the evidence cannot answer alone"
+          },
+          {
+            "label": "Model",
+            "title": "Carry Surrey from day into night",
+            "prompt": "Use a fixed light and rotating Earth. Track Surrey through sunrise, noon, sunset, and midnight, then draw the view from space and the view from the ground.",
+            "time": "55–65 min",
+            "learningMode": "Human model · lamp investigation · dual-view diagram",
+            "studentTask": "A four-position day/night diagram and a cause-and-effect explanation"
+          },
+          {
+            "label": "Compare",
+            "title": "Every planet has a day and a year—but not like ours",
+            "prompt": "Graph planetary rotation and revolution data. Find a pattern, an outlier, and one question the data raises.",
+            "time": "55–65 min",
+            "learningMode": "Data jigsaw · graphing · anomaly hunt",
+            "studentTask": "Two graphs or tables, one supported pattern, one anomaly, and one new question"
+          },
+          {
+            "label": "Viewpoint",
+            "title": "Change where you stand; change what appears to move",
+            "prompt": "Compare the same system from Earth and from space. Choose the explanation that fits both views and identify a limit of every model used.",
+            "time": "45–55 min",
+            "learningMode": "Digital model · claim-evidence-reasoning · reflection",
+            "studentTask": "A corrected explanation of apparent motion using rotation, viewpoint, and one named model limit"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 1,
+            "type": "Website",
+            "label": "Move like the Earth and the Moon",
+            "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/move-like-the-earth-and-the-moon.asp",
+            "source": "Canadian Space Agency",
+            "task": "Use the Earth–Sun movement steps to check your group's physical model, then identify one way your model is not to scale.",
+            "gradeFit": "Core Grade 6",
+            "support": "Use the rotation and Earth-revolution sections; Moon phases and eclipses are optional extensions, not core tasks."
+          },
+          {
+            "scene": 2,
+            "type": "Article",
+            "label": "How Long Is One Day on Other Planets?",
+            "url": "https://spaceplace.nasa.gov/days/",
+            "source": "NASA Space Place",
+            "task": "Graph the six comparable planets, then explain why Mercury and Venus need a different graph scale.",
+            "gradeFit": "Core Grade 6",
+            "support": "The page models moving from paragraph to table to graph, making it suitable for a Science–Math connection."
+          },
+          {
+            "scene": 3,
+            "type": "Interactive",
+            "label": "Eyes on the Solar System",
+            "url": "https://eyes.nasa.gov/apps/solar-system/",
+            "source": "NASA/JPL",
+            "task": "Change viewpoint and compare what appears to move. Capture one observation and one explanation without treating the animation as perfectly to scale.",
+            "gradeFit": "Supported stretch",
+            "support": "Demonstrate controls first; pairs investigate one assigned viewpoint rather than exploring without a purpose."
+          }
+        ]
+      },
+      {
+        "id": "cosmic-exhibit-studio",
+        "title": "Cosmic exhibit studio",
+        "question": "Can you teach one cosmic idea clearly without making the model lie?",
+        "duration": "3 × 60 min",
+        "journeyType": "Inquiry studio",
+        "kind": "Assess",
+        "learning": "We are communicating one cosmic idea with accurate structure, evidence, citations, and an honest statement of model limits.",
+        "success": [
+          "Our exhibit teaches one focused idea.",
+          "Every important claim is supported by a trusted source.",
+          "Our visual accurately shows structure or motion and labels deliberate distortions.",
+          "Peer feedback leads to a visible revision."
+        ],
+        "vocabulary": [
+          "model",
+          "indirect evidence",
+          "limitation",
+          "citation"
+        ],
+        "inquiry": "Choose one bounded cosmic story, research it with two trusted sources, build a physical, digital, or Minecraft museum stop, peer-audit it, revise, and teach it in two minutes.",
+        "reflection": "Which revision most improved truthfulness or understanding—and what evidence caused that revision?",
+        "exit": "Point to one deliberate distortion, explain why it was necessary, and name the source that keeps the exhibit accurate.",
+        "evidence": "Focused question, source notes, draft exhibit, peer audit, visible revision, two-minute teaching, and individual reflection",
+        "projectContribution": "A rehearsal for expert-team teaching and one optional Earth & Space topic to keep in the SpacesEDU Topic Bank; it does not lock students into a final topic.",
+        "evidenceLevel": null,
+        "evidenceSubjects": [],
+        "spacesPrompt": null,
+        "scenes": [
+          {
+            "label": "Audit",
+            "title": "Find the five beautiful mistakes",
+            "prompt": "Inspect the display before opening the answers. Classify each problem as structure, scale, motion, evidence, or a missing warning.",
+            "time": "45–55 min",
+            "learningMode": "Visual audit · evidence check · discussion",
+            "studentTask": "A five-part audit with corrections and the source needed to verify each one"
+          },
+          {
+            "label": "Focus",
+            "title": "Choose one story worth teaching",
+            "prompt": "Turn a broad space topic into one learning goal your audience can understand in two minutes, then locate two approved sources that serve different purposes.",
+            "time": "50–60 min",
+            "learningMode": "Question narrowing · source jigsaw · conference",
+            "studentTask": "One-sentence learning goal, two source notes, and a plan naming the visual evidence"
+          },
+          {
+            "label": "Build",
+            "title": "Build the explanation before the decoration",
+            "prompt": "Create the core model, citation, and 'This model distorts…' warning. Ask another team to test whether the explanation works before polishing it.",
+            "time": "70–90 min",
+            "learningMode": "Team creation · mid-build check · peer test",
+            "studentTask": "A teachable draft containing one accurate model, two citations, and one specific model warning"
+          },
+          {
+            "label": "Teach",
+            "title": "Peer-audit, revise, and open the museum",
+            "prompt": "Use the checklist on another exhibit, make one visible revision, and teach your museum stop in two minutes. Save a possible topic only if it still interests you.",
+            "time": "60–70 min",
+            "learningMode": "Peer critique · revision · museum walk · reflection",
+            "studentTask": "Completed peer audit, revised exhibit, two-minute teaching, and optional Space topic-bank entry"
+          }
+        ],
+        "resources": [
+          {
+            "scene": 0,
+            "type": "Website",
+            "label": "Solar System Facts",
+            "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+            "source": "NASA Science",
+            "task": "Use the page to verify or reject two claims in the flawed exhibit. Record the heading where the evidence appears.",
+            "gradeFit": "Supported stretch",
+            "support": "Assign different claims to different teams; students do not need to read the whole page."
+          },
+          {
+            "scene": 1,
+            "type": "Website",
+            "label": "Universe",
+            "url": "https://spaceplace.nasa.gov/menu/space/",
+            "source": "NASA Space Place",
+            "task": "Choose one article that can support a focused exhibit question, then write the exact idea it will help you teach.",
+            "gradeFit": "Core Grade 6",
+            "support": "Use the menu as a curated starting point, not as permission to browse randomly."
+          },
+          {
+            "scene": 1,
+            "type": "Website",
+            "label": "Educational videos",
+            "url": "https://www.asc-csa.gc.ca/eng/youth-educators/educational-videos.asp",
+            "source": "Canadian Space Agency",
+            "task": "Filter for Grades 4–6 and select one short clip only if it adds evidence or a useful visual your other source lacks.",
+            "gradeFit": "Core Grade 6",
+            "support": "Teacher previews the chosen clip; students must name its purpose before watching."
+          },
+          {
+            "scene": 2,
+            "type": "Website",
+            "label": "NASA Image and Video Library",
+            "url": "https://images.nasa.gov/",
+            "source": "NASA",
+            "task": "Choose one accurately captioned image and record its title, credit, and what it can—and cannot—prove.",
+            "gradeFit": "Supported stretch",
+            "support": "Search using the approved topic phrase; require the original caption and credit rather than copying an unlabelled image."
+          }
+        ]
+      }
+    ]
+  }
+]
