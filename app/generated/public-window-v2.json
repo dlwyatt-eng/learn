@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-student-language-2026-09-05-v3",
+  "contentVersion": "2026-opening-rehearsal-2026-09-05-v4",
   "sourceUpdatedAt": "2026-08-31T18:00:00Z",
   "window": {
     "id": "september-opening",
@@ -126,13 +126,13 @@
       "firstMove": "Look at the page your teacher chose. Pick one part and add a word or picture. A made-up example is welcome.",
       "firstMoveNote": "You may skip any question without giving a reason. Ask for a made-up example, a word list, an adult to write your words, or a shorter amount of work agreed with your teacher. That shorter work does not become catch-up work.",
       "grouping": "Start together; work on your own page, with an optional partner or teacher check",
-      "handInOrSave": "Put your name on the back and hand in the whole page face-down in your group's folder. Teachers pass it privately to your new classroom teacher. It is not graded or used to decide which class you join.",
+      "handInOrSave": "Leave the front name line blank. Write your name, date and group on the back. Add PAUSED if you want a check-in. Put your page face-down in your group’s folder. Teachers pass it privately to your new classroom teacher. It is not graded or used to decide which class you join.",
       "ifAbsentOrStuck": "Ask your teacher where to begin. You can ask for an example, a word list, an adult to write your words, or a shorter amount of work. You may use a fictional character, make up an example, or skip any question without a reason. Agreed shorter work does not need to be caught up later.",
       "label": "FOR STUDENTS",
       "product": "One whole Discovery page, with each part looked at and answered or skipped, plus drawing or decoration across the page to show your thinking. A shorter amount of work agreed with your teacher also counts as finished.",
       "quickReference": {
         "firstMove": "Pick one part of today's page. Add a word or picture, or choose to skip it. You never need to explain a skip.",
-        "handIn": "Put your name on the back and hand in the whole page face-down in your group's folder. The original stays private with teachers. It is not graded or used to choose your class.",
+        "handIn": "Leave the front name line blank. Write your name, date and group on the back. Add PAUSED if you want a check-in. Put your page face-down in your group’s folder. The original stays private with teachers. It is not graded or used to choose your class.",
         "missed": "Ask your teacher which page to use and where to begin. Each page is a separate activity; you do not need to do earlier pages first."
       },
       "routeTitle": "One page for this class visit",
@@ -143,7 +143,7 @@
         "Add detail and decorate: build on ideas you are comfortable using. Draw or add symbols, borders, patterns, space, or colour across the whole page to help show your thinking.",
         "Check: look at the finish check yourself, or choose to check with a partner or teacher.",
         "Make a change: improve one part if it helps. Keep private anything you do not want to share.",
-        "Hand in: put your name on the back and place the whole page face-down in your group's folder."
+        "Hand in: Leave the front name line blank. Write your name, date and group on the back. Add PAUSED if you want a check-in. Put your page face-down in your group’s folder."
       ],
       "summary": "Complete and decorate the whole page your teacher chooses for this visit. Look at each part and choose words, symbols, pictures, an adult writing your words, or a simple model. You may use a fictional character or made-up example, leave a part blank, or write 'skip' or 'private' without explaining why. Ask your teacher to agree on a shorter amount of work if you need it; there is no catch-up for that choice. Drawing and decoration help show your thinking, but neatness and art skills are not graded. You do not have to do all five pages.",
       "title": "Grade 6 Discovery Rotations",
@@ -1468,13 +1468,13 @@
         "firstMove": "Look at the page your teacher chose. Pick one part and add a word or picture. A made-up example is welcome.",
         "firstMoveNote": "You may skip any question without giving a reason. Ask for a made-up example, a word list, an adult to write your words, or a shorter amount of work agreed with your teacher. That shorter work does not become catch-up work.",
         "grouping": "Start together; work on your own page, with an optional partner or teacher check",
-        "handInOrSave": "Put your name on the back and hand in the whole page face-down in your group's folder. Teachers pass it privately to your new classroom teacher. It is not graded or used to decide which class you join.",
+        "handInOrSave": "Leave the front name line blank. Write your name, date and group on the back. Add PAUSED if you want a check-in. Put your page face-down in your group’s folder. Teachers pass it privately to your new classroom teacher. It is not graded or used to decide which class you join.",
         "ifAbsentOrStuck": "Ask your teacher where to begin. You can ask for an example, a word list, an adult to write your words, or a shorter amount of work. You may use a fictional character, make up an example, or skip any question without a reason. Agreed shorter work does not need to be caught up later.",
         "label": "FOR STUDENTS",
         "product": "One whole Discovery page, with each part looked at and answered or skipped, plus drawing or decoration across the page to show your thinking. A shorter amount of work agreed with your teacher also counts as finished.",
         "quickReference": {
           "firstMove": "Pick one part of today's page. Add a word or picture, or choose to skip it. You never need to explain a skip.",
-          "handIn": "Put your name on the back and hand in the whole page face-down in your group's folder. The original stays private with teachers. It is not graded or used to choose your class.",
+          "handIn": "Leave the front name line blank. Write your name, date and group on the back. Add PAUSED if you want a check-in. Put your page face-down in your group’s folder. The original stays private with teachers. It is not graded or used to choose your class.",
           "missed": "Ask your teacher which page to use and where to begin. Each page is a separate activity; you do not need to do earlier pages first."
         },
         "routeTitle": "One page for this class visit",
@@ -1485,7 +1485,7 @@
           "Add detail and decorate: build on ideas you are comfortable using. Draw or add symbols, borders, patterns, space, or colour across the whole page to help show your thinking.",
           "Check: look at the finish check yourself, or choose to check with a partner or teacher.",
           "Make a change: improve one part if it helps. Keep private anything you do not want to share.",
-          "Hand in: put your name on the back and place the whole page face-down in your group's folder."
+          "Hand in: Leave the front name line blank. Write your name, date and group on the back. Add PAUSED if you want a check-in. Put your page face-down in your group’s folder."
         ],
         "summary": "Complete and decorate the whole page your teacher chooses for this visit. Look at each part and choose words, symbols, pictures, an adult writing your words, or a simple model. You may use a fictional character or made-up example, leave a part blank, or write 'skip' or 'private' without explaining why. Ask your teacher to agree on a shorter amount of work if you need it; there is no catch-up for that choice. Drawing and decoration help show your thinking, but neatness and art skills are not graded. You do not have to do all five pages.",
         "title": "Grade 6 Discovery Rotations",
@@ -2311,5 +2311,5 @@
       }
     }
   ],
-  "checksum": "sha256:a44a09a2d630f511bef86596e8f6a9a073beff5bcd99d2d17d545d6c80cb10ea"
+  "checksum": "sha256:72f0e5e0e6d054fa278310b78632a073abba6099d47fd3d638a53014e2592f5c"
 }
