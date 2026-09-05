@@ -268,7 +268,7 @@ function LearningPage() {
       <p><strong>{windowStateLabel()}:</strong> {current.shared.title}</p>
     </section>
 
-    <figure className="learning-mosaic"><Image unoptimized src="/images/public-student-learning-mosaic-v1.webp" alt="Illustrated panorama of Grade 6 students reading, analyzing a map, investigating science materials, making art, moving, discussing, and using a shared projector" width={1792} height={1008} sizes="(max-width: 1180px) 100vw, 1180px" /><figcaption>ILLUSTRATION · READING, DISCUSSION, DATA, MAKING, MOVEMENT, ART, AND SHARED-SCREEN INQUIRY</figcaption></figure>
+    <figure className="learning-mosaic"><Image unoptimized src="/images/public-student-learning-mosaic-v1.webp" alt="Fictional classroom panorama of Grade 6 students observing an object and photograph, discussing ideas, building a model, moving, and reading together" width={1792} height={1008} sizes="(max-width: 1180px) 100vw, 1180px" /><figcaption>ILLUSTRATION · OBSERVATION, DISCUSSION, MODEL-MAKING, MOVEMENT, AND READING</figcaption></figure>
 
     <section className="subject-now-grid" aria-labelledby="subject-now-title">
       <header><small>RIGHT NOW</small><h2 id="subject-now-title">Learning by subject</h2></header>
