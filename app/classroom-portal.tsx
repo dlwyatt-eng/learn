@@ -1,5 +1,6 @@
 "use client";
 
+import { ExplorationRevisits } from "./virtual-explorations";
 import { useEffect, useState, type MouseEvent } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -281,6 +282,8 @@ function LearningPage() {
       <header><small>RIGHT NOW</small><h2 id="subject-now-title">Learning by subject</h2></header>
       <div>{current.shared.subjectSnapshot.map(item => <article key={item.subject}><small>{item.subject}</small><h3>{item.now}</h3></article>)}</div>
     </section>
+
+    <ExplorationRevisits />
 
     <section className="year-at-a-glance" aria-labelledby="year-title">
       <header><small>YEAR AT A GLANCE</small><h2 id="year-title">A look at each of the ten months</h2><p>Plans stay flexible when students need more time or a strong question deserves attention.</p></header>

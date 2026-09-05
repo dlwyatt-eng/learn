@@ -1,0 +1,378 @@
+{
+  "version": 1,
+  "reviewDate": "2026-09-05",
+  "trips": [
+    {
+      "id": "surrey-city-hall",
+      "title": "Who makes the decisions?",
+      "place": "Surrey, Canada",
+      "strand": "world",
+      "duration": "8–10 min with discussion",
+      "provider": "City of Surrey",
+      "sourceUrl": "https://www.surrey.ca/city-government/city-hall/city-hall-tours",
+      "launchUrl": "https://www.youtube.com/watch?v=yd8Ls6mLTW0",
+      "mediaLabel": "Recorded civic tour",
+      "goal": "We are learning how people can have a say in local decisions.",
+      "invitation": "Step inside the place where Surrey makes decisions.",
+      "route": "Watch selected parts of the tour together. Pause when a room or service gives you a clue about who does what. Keep one question for your civic case wall.",
+      "stops": [
+        {
+          "title": "A place to decide",
+          "notice": "Look for the council meeting space or a description of council’s work.",
+          "question": "What decision might be made here?"
+        },
+        {
+          "title": "People doing the work",
+          "notice": "Notice a city service or department mentioned in the tour.",
+          "question": "Who turns a council decision into something people can use?"
+        },
+        {
+          "title": "A voice that is missing",
+          "notice": "Think of someone affected by your class’s chosen issue.",
+          "question": "What would you need to ask them before deciding?"
+        }
+      ],
+      "task": "Add one decision-maker and one unanswered question to your civic case wall.",
+      "entry": "Choose a shared-space issue: a park, crossing or recreation centre. Say who might be affected.",
+      "extension": "Compare the City’s explanation with a community source. What does each help you understand?",
+      "check": "Can you explain the difference between making a decision and carrying it out?",
+      "fallback": {
+        "title": "Who makes the decisions? · text and table-top route",
+        "facts": [
+          "Surrey’s council makes local decisions; city staff carry out the work of city departments.",
+          "People affected by a decision may have different needs and different opportunities to be heard.",
+          "A City-produced tour explains the institution’s work. It cannot speak for every resident."
+        ],
+        "action": "Imagine the class is choosing where to put a new reading corner. Name who decides, who sets it up, and whose needs must be heard. Transfer those three roles to your civic issue."
+      },
+      "youtubeId": "yd8Ls6mLTW0"
+    },
+    {
+      "id": "amazon-researchers",
+      "title": "Meet rainforest researchers",
+      "place": "Peru and Brazil",
+      "strand": "world",
+      "duration": "10–12 min using one segment",
+      "provider": "National Geographic",
+      "sourceUrl": "https://blog.education.nationalgeographic.org/2022/04/12/this-earth-day-join-us-on-a-virtual-field-trip-to-the-amazon/",
+      "launchUrl": "https://www.youtube.com/watch?v=LzAN4mHl5Pc",
+      "mediaLabel": "Recorded field visits and interviews",
+      "goal": "We are learning how people respond to an issue and how evidence helps us judge that response.",
+      "invitation": "What would you ask a scientist working in a forest?",
+      "route": "Optional viewing: choose the coastal mangrove segment with Angelo Bernardino. Then read our separate case card in the three stops. The card describes a later study; it is not a transcript of the tour.",
+      "stops": [
+        {
+          "title": "Listen before deciding",
+          "notice": "Later source, July 2022: Margaret Awuor Owuor and Angelo Bernardino studied how people in Curuça, Brazil used and valued mangrove forests. Their team interviewed about 200 people over 10 days.",
+          "question": "Who responded, and what did they do?"
+        },
+        {
+          "title": "Connect people and place",
+          "notice": "The article describes community connections with fishing and crab collecting. These interviews document local uses and perspectives.",
+          "question": "Why might a conservation decision need this kind of evidence?"
+        },
+        {
+          "title": "Keep the claim fair",
+          "notice": "The researchers were still analysing their results when the article was published. It does not report the success of a later conservation policy.",
+          "question": "What can you say from this source—and what would require more evidence?"
+        }
+      ],
+      "task": "Make one response record: name the people, explain their action, add a source detail and state a limit. Then return to the other response investigations.",
+      "entry": "Use four headings: Who / Did what / Source detail / Still unknown. Explain your ideas aloud to a partner first.",
+      "extension": "Compare this research response with another response to your class issue. What different evidence would you need to judge each?",
+      "check": "Did you distinguish an action that happened from a successful outcome that has not been shown?",
+      "fallback": {
+        "title": "Meet rainforest researchers · text and table-top route",
+        "facts": [
+          "Later source, July 2022: Margaret Awuor Owuor and Angelo Bernardino studied how people in Curuça, Brazil used and valued mangrove forests. Their team interviewed about 200 people over 10 days.",
+          "The article describes community connections with fishing and crab collecting. These interviews document local uses and perspectives.",
+          "The researchers were still analysing their results when the article was published. It does not report the success of a later conservation policy."
+        ],
+        "action": "Make one response record: name the people, explain their action, add a source detail and state a limit. Then return to the other response investigations."
+      },
+      "youtubeId": "LzAN4mHl5Pc",
+      "supportingSources": [
+        {
+          "title": "Mangrove research case · National Geographic",
+          "url": "https://education.nationalgeographic.org/resource/explorer-margaret-awuor-owuor/"
+        }
+      ]
+    },
+    {
+      "id": "casa-batllo",
+      "title": "A building that borrows from nature",
+      "place": "Barcelona, Spain",
+      "strand": "world",
+      "duration": "8–10 min with sketching",
+      "provider": "Casa Batlló",
+      "sourceUrl": "https://www.casabatllo.es/en/360-video/",
+      "launchUrl": "https://www.youtube.com/watch?v=fJ-fejHFiPI",
+      "mediaLabel": "Produced 360° architectural experience",
+      "goal": "We are learning how shapes, light and colour can change a space.",
+      "invitation": "Could a room feel like being inside a shell?",
+      "route": "Meet architect Antoni Gaudí and the craftspeople who shaped Casa Batlló in Barcelona. Use the official illustrated interior guide for three features below. In the 360° video, look for them if visible; its imaginative effects belong to the modern production.",
+      "stops": [
+        {
+          "title": "Lobby · a curve",
+          "notice": "The interior guide shows a curved wooden stair handrail that resembles an animal’s spine.",
+          "question": "How could a handrail be both useful and expressive?"
+        },
+        {
+          "title": "Attic · repeated arches",
+          "notice": "The guide shows a row of arches that suggests ribs.",
+          "question": "How does repetition affect where your eyes travel?"
+        },
+        {
+          "title": "Lightwell · colour and light",
+          "notice": "Tiles are darker blue above and paler below. Lower windows are larger to admit light.",
+          "question": "How does this design combine appearance and practical use?"
+        }
+      ],
+      "task": "Sketch a reading corner or entrance using one nature-inspired shape. Label what the feature helps people do.",
+      "entry": "Start with the outline of a leaf or shell. Turn one part into a seat, shade or doorway.",
+      "extension": "Suggest a way to test whether your design is comfortable and useful.",
+      "check": "Can you explain both an artistic choice and its possible effect on an audience?",
+      "fallback": {
+        "title": "A building that borrows from nature · text and table-top route",
+        "facts": [
+          "Antoni Gaudí redesigned an existing Barcelona house with craftspeople working in wood, glass, iron, ceramics and stone.",
+          "The lobby has a curved wooden handrail; the attic repeats arch shapes.",
+          "The lightwell uses darker tiles above and paler tiles below; lower windows are larger to admit light.",
+          "These are architectural features. The modern video’s imaginative effects are not Gaudí’s building materials."
+        ],
+        "action": "Observe a leaf, or draw a simple curved line. Use the shape in an original reading-corner sketch. Label a purpose, then ask a partner what they would test."
+      },
+      "youtubeId": "fJ-fejHFiPI",
+      "supportingSources": [
+        {
+          "title": "Creator and interior features · Casa Batlló",
+          "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/inside/"
+        }
+      ]
+    },
+    {
+      "id": "turtle-camera",
+      "title": "Swim along with a sea turtle",
+      "place": "Great Barrier Reef, Australia",
+      "strand": "animal",
+      "duration": "6–8 min with word gathering",
+      "provider": "WWF-Australia",
+      "sourceUrl": "https://www.youtube.com/watch?v=2I6hDqCrI9o",
+      "launchUrl": "https://www.youtube.com/watch?v=2I6hDqCrI9o",
+      "mediaLabel": "Real turtle-mounted camera footage",
+      "goal": "We are learning to use precise observations in our writing.",
+      "invitation": "What changes when the camera travels with a turtle?",
+      "route": "Watch a short section. Pause on one clear frame, then another after the camera has moved. Gather exact words before imagining a story.",
+      "stops": [
+        {
+          "title": "Describe one frame",
+          "notice": "Name a visible colour, shape, texture or movement.",
+          "question": "Which word is most precise?"
+        },
+        {
+          "title": "Change the viewpoint",
+          "notice": "Compare what becomes visible after the camera moves.",
+          "question": "What can you see now that you could not see before?"
+        },
+        {
+          "title": "Separate seeing from guessing",
+          "notice": "Choose one observation and one imagined idea.",
+          "question": "Which could a classmate check in the footage?"
+        }
+      ],
+      "task": "Gather five precise words and use two in a short poem. Mark an invented thought as imagination.",
+      "entry": "Say two observations to a partner, or sketch one frame and label it.",
+      "extension": "Rewrite one line from a different camera position. Explain what changed.",
+      "check": "Can you point to evidence for an observation and identify an imaginative detail?",
+      "fallback": {
+        "title": "Swim along with a sea turtle · text and table-top route",
+        "facts": [
+          "This WWF footage comes from a camera carried by a turtle. It follows the camera’s position.",
+          "The camera does not show exactly what the turtle’s eyes see or what it thinks.",
+          "A poem can include imagination, but we should not present an invented animal thought as a scientific finding."
+        ],
+        "action": "Place a pencil case on a desk. Observe it from above and from seated desk height. Collect five precise words. Write two lines; label any imagined voice as fiction."
+      },
+      "youtubeId": "2I6hDqCrI9o"
+    },
+    {
+      "id": "kidney-journey",
+      "title": "Travel inside a kidney",
+      "place": "Inside the human body",
+      "strand": "body",
+      "duration": "8–10 min including a model",
+      "provider": "TED-Ed · Emma Bryce",
+      "sourceUrl": "https://ed.ted.com/lessons/how-do-your-kidneys-work-emma-bryce",
+      "launchUrl": "https://www.youtube.com/watch?v=FN3MFhYPWWo",
+      "mediaLabel": "Scientific animation",
+      "goal": "We are learning how kidneys remove waste while keeping what the body needs.",
+      "invitation": "How does your body avoid throwing away useful materials?",
+      "route": "Watch the short video from 0:00 to 3:55, then discuss the three stops below. Replay relevant moments as needed.",
+      "stops": [
+        {
+          "title": "Blood arrives",
+          "notice": "Look for the route bringing blood into the kidney.",
+          "question": "Why does blood need to pass through the kidneys?"
+        },
+        {
+          "title": "Keep and remove",
+          "notice": "Notice that filtering is followed by keeping or returning useful materials.",
+          "question": "Why would removing everything be a problem?"
+        },
+        {
+          "title": "Two different routes",
+          "notice": "Follow blood returning to the body and urine travelling towards the bladder.",
+          "question": "What does each route carry?"
+        }
+      ],
+      "task": "Draw two outgoing arrows from a kidney: blood back to the body, and urine towards the bladder. Explain one difference.",
+      "entry": "Use these labels: blood, kidney, urine, bladder. Trace the routes with a finger and explain aloud.",
+      "extension": "Connect the kidney’s job to the lesson’s hot-day case. Explain why the body needs to adjust how much water it keeps.",
+      "check": "Are blood and urine shown on different outgoing routes?",
+      "fallback": {
+        "title": "Travel inside a kidney · text and table-top route",
+        "facts": [
+          "Blood brings dissolved wastes and other substances to the kidneys.",
+          "Kidneys filter blood and return needed materials, including much of the water, to the blood.",
+          "Urine carries wastes and extra water along the ureters to the bladder. Blood returns through blood vessels."
+        ],
+        "action": "Sketch a kidney between an incoming blood arrow and two outgoing routes. Label the outgoing routes “blood to body” and “urine to bladder.” Explain why the useful materials cannot all be discarded."
+      },
+      "youtubeId": "FN3MFhYPWWo"
+    },
+    {
+      "id": "iss-home",
+      "title": "Make a home in orbit",
+      "place": "International Space Station",
+      "strand": "space",
+      "duration": "10–12 min using selected rooms",
+      "provider": "NASA Johnson",
+      "sourceUrl": "https://www.nasa.gov/international-space-station/suni-iss-tour/",
+      "launchUrl": "https://www.youtube.com/watch?v=tBVUTFPate0",
+      "mediaLabel": "Archival astronaut footage · 2012",
+      "goal": "We are learning how a design can solve a problem in an extreme environment.",
+      "invitation": "How would you sleep or wash if you kept floating?",
+      "route": "Look inside the sleeping and hygiene areas with astronaut Suni Williams. Suggested clips: 0:36–2:25 and 3:05–4:40. Discuss the three stops, then choose one useful design feature.",
+      "stops": [
+        {
+          "title": "Somewhere to sleep",
+          "notice": "Find a feature that keeps a sleeping person in place.",
+          "question": "What problem does that feature solve?"
+        },
+        {
+          "title": "An everyday job",
+          "notice": "Notice one way washing or storing objects differs from home.",
+          "question": "Why might an everyday object need a different design?"
+        },
+        {
+          "title": "Choose an explanation",
+          "notice": "Choose one feature to explain in your own exhibit.",
+          "question": "What can the video show, and what needs a second source?"
+        }
+      ],
+      "task": "Sketch a useful feature for a room in space. Label the problem, the feature and one question you would test.",
+      "entry": "Choose a sleeping-bag anchor, handhold or storage strap. Explain what it keeps in place.",
+      "extension": "Compare your feature with a useful design on Earth. Which problem changes in orbit?",
+      "check": "Does your explanation connect a design feature to a specific problem?",
+      "fallback": {
+        "title": "Make a home in orbit · text and table-top route",
+        "facts": [
+          "In orbit, the space station and its occupants are falling around Earth together. Gravity has not disappeared.",
+          "A secured sleeping bag can stop a sleeping astronaut from drifting around the room.",
+          "Handholds and storage restraints help people move and keep objects in place."
+        ],
+        "action": "Draw a small room. Add a secured sleeping bag, a handhold and a storage strap. Label the problem each solves, then choose one feature for your exhibit."
+      },
+      "youtubeId": "tBVUTFPate0"
+    },
+    {
+      "id": "mars-rover",
+      "title": "Stand on Mars with a rover",
+      "place": "Jezero Crater, Mars",
+      "strand": "space",
+      "duration": "8–10 min with evidence talk",
+      "provider": "NASA Jet Propulsion Laboratory",
+      "sourceUrl": "https://science.nasa.gov/resource/perseverances-360-degree-view-from-airey-hill/",
+      "launchUrl": "https://www.youtube.com/watch?v=CIaHiGbFybQ",
+      "mediaLabel": "Guided panorama · enhanced-colour rover images",
+      "goal": "We are learning what a robot’s camera can tell us about another world.",
+      "invitation": "Where would you ask a rover to investigate next?",
+      "route": "Watch the short video from 0:00 to 3:01, then discuss the three stops below. Replay relevant moments as needed.",
+      "stops": [
+        {
+          "title": "Find the camera’s position",
+          "notice": "Look for part of the rover and the surrounding ground.",
+          "question": "What can this camera position reveal or hide?"
+        },
+        {
+          "title": "Compare rock features",
+          "notice": "Look for two rock surfaces or layers that differ.",
+          "question": "What can you describe without guessing how they formed?"
+        },
+        {
+          "title": "Ask the next question",
+          "notice": "Listen to the scientist’s explanation of the ancient environment.",
+          "question": "What other evidence would help test that explanation?"
+        }
+      ],
+      "task": "Choose one feature. Say “I can see…” and “To find out more, I would need…”. Use it to narrow your exhibit question.",
+      "entry": "Choose shape, texture or layers. Sketch one contrast and ask a question.",
+      "extension": "Compare natural-colour and enhanced-colour images on NASA’s source page. Why might a scientist use both?",
+      "check": "Did you distinguish an observation from an explanation that needs more evidence?",
+      "fallback": {
+        "title": "Stand on Mars with a rover · text and table-top route",
+        "facts": [
+          "A rover panorama combines camera images to show a wide view of the landscape.",
+          "NASA uses enhanced colour in this view to make differences easier to see. It is not exactly how the scene would appear to human eyes there.",
+          "Rock shapes and layers give scientists clues; a picture alone does not prove that life existed."
+        ],
+        "action": "Draw two imaginary rock layers: a smooth lower layer and a pebbly upper layer. Label this “our model, not a Mars photograph.” Name an observation, propose two explanations and say what evidence would help choose between them."
+      },
+      "youtubeId": "CIaHiGbFybQ"
+    },
+    {
+      "id": "lehua-islet",
+      "title": "Meet the people protecting an island",
+      "place": "Lehua Islet, Hawaiʻi",
+      "strand": "world",
+      "duration": "10–12 min using three stops",
+      "provider": "Hawaiʻi DLNR Forestry & Wildlife",
+      "sourceUrl": "https://dlnr.hawaii.gov/dofaw/education/virtual/",
+      "launchUrl": "https://kuula.co/share/collection/7D6Lp?autorotate=0.14&fs=1&info=0&initload=0&logo=1&sd=1&thumbs=1&vr=1",
+      "mediaLabel": "Interactive 360° photographs and interviews",
+      "goal": "We are learning how different people and skills contribute to one project.",
+      "invitation": "Who helps protect a place that most classrooms cannot visit?",
+      "route": "Open the original tour in a new tab. Use its thumbnail strip to select Stops 5, 8 and 12. Drag gently to look around and open the information points. Return here between stops.",
+      "stops": [
+        {
+          "title": "Listen for birds · tour Stop 5",
+          "notice": "Look for the sound-recording tool described at the western side of the island.",
+          "question": "What skill would someone need to turn recordings into useful evidence?"
+        },
+        {
+          "title": "Watch without standing there · tour Stop 8",
+          "notice": "Find the wildlife-camera information at Naupaka, the eastern tip.",
+          "question": "What can a camera record while people are elsewhere?"
+        },
+        {
+          "title": "Meet the team · tour Stop 12",
+          "notice": "Open the career information inside the weatherport.",
+          "question": "Name one role and a contribution described by the person doing it."
+        }
+      ],
+      "task": "Add one role, one tool and one skill to your career map. Mark one learning-pathway question that the source does not answer.",
+      "entry": "Choose sound recorder or camera. Say what a person would do with the information it collects.",
+      "extension": "Use tour Stop 6 to investigate how another part of the project connects with monitoring.",
+      "check": "Is the contribution supported by the source? Did you avoid guessing a person’s qualifications?",
+      "fallback": {
+        "title": "Meet the people protecting an island · text and table-top route",
+        "facts": [
+          "The Kauaʻi Endangered Seabird Recovery Project works with partners to protect seabirds and their habitat on Lehua.",
+          "The provider’s guide describes sound monitoring at Stop 5 and wildlife cameras at Stop 8.",
+          "Technology collects evidence; people still need to interpret it and decide what to do."
+        ],
+        "action": "Choose a sound recorder or camera for observing a fictional school garden. Sketch the tool, name one skill needed to use its evidence, and add another person whose work connects. Label the garden plan as your proposal."
+      }
+    }
+  ]
+}
