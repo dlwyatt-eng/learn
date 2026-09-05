@@ -178,19 +178,25 @@ function StudentPage() {
     </section>
 
     <section className="student-purpose-grid" aria-label="Purpose and finish check">
-      <article><small>WHY THIS MATTERS</small><h2>Know the purpose.</h2><p>{current.student.why}</p></article>
+      <article><small>WHY THIS MATTERS</small><h2>Why are we doing this?</h2><p>{current.student.why}</p></article>
       <article><small>FINISH CHECK</small><h2>Before you stop.</h2><p>{current.student.finish}</p></article>
     </section>
 
+    <aside className="student-choice-note" aria-labelledby="student-choice-title">
+      <h2 id="student-choice-title">Need another way?</h2>
+      <p>{current.student.choices[1]}</p>
+      <details><summary>More ways to do the work</summary><ul>{current.student.choices.filter((_, index) => index !== 1).map(choice => <li key={choice}>{choice}</li>)}</ul></details>
+    </aside>
+
     <details className="student-visual-path" aria-labelledby="student-path-title">
-      <summary><small>LEARNING ROUTE</small><strong id="student-path-title">See all {studentPathSteps.length} moves</strong></summary>
+      <summary><small>STEPS</small><strong id="student-path-title">See all {studentPathSteps.length} steps</strong></summary>
       <ol>{studentPathSteps.map(step => <li key={step.number}><b>{step.number}</b><div><strong>{step.label}</strong><span>{step.detail}</span></div></li>)}</ol>
     </details>
 
     {isDiscoveryWindow && <section className="discovery-organizer-map" aria-labelledby="discovery-organizer-title">
-      <header><small>YOUR TEACHER CHOOSES ONE</small><h2 id="discovery-organizer-title">Five standalone ways to begin</h2><p>You are not expected to complete every page. Each organizer has a complete 45-, 60-, or 75-minute route.</p></header>
+      <header><small>YOUR TEACHER CHOOSES ONE</small><h2 id="discovery-organizer-title">Five pages, five ways to begin</h2><p>Work on the whole page your teacher chooses for this visit, including drawing and decoration to show your ideas. You do not have to do all five pages. Each visit lasts 45, 60, or 75 minutes.</p></header>
       <ol>{current.shared.learningArc.map((organizer, index) => <li key={organizer.label}><b>{index + 1}</b><div><strong>{organizer.label}</strong><span>{organizer.studentAction}</span><small>{organizer.timing}</small></div></li>)}</ol>
-      <footer><strong>Privacy is a valid choice.</strong><span>Use a fictional route, blank/skip, a scribe, symbols, pictures, words, or the accommodation your teacher provides.</span></footer>
+      <footer><strong>You choose what stays private.</strong><span>Use words, pictures, symbols, a fictional character, or a made-up example. You may skip any question without giving a reason. Ask an adult to write your words or agree on shorter work with your teacher; it does not become catch-up work.</span></footer>
     </section>}
 
     {isLegacyAiOpeningWindow && <section className="technology-decision-map" aria-labelledby="decision-map-title">
@@ -204,12 +210,13 @@ function StudentPage() {
     </section>}
 
     <section className="student-next-grid">
-      <article><small>FINISH / SAVE</small><h2>Keep the part that matters.</h2><p>{current.student.quickReference.handIn}</p></article>
-      <article><small>MISSED IT?</small><h2>Recover the important part.</h2><p>{current.student.quickReference.missed}</p></article>
+      <article><small>HAND IN / SAVE</small><h2>Where your work goes.</h2><p>{current.student.quickReference.handIn}</p></article>
+      <article><small>MISSED IT?</small><h2>Ask where to begin.</h2><p>{current.student.quickReference.missed}</p></article>
     </section>
 
+    <p className="student-save-boundary">{current.student.spacesNote}</p>
     <section className="student-launch-row single" aria-label="Student launch point">
-      <a href={spacesUrl} target="_blank" rel="noreferrer"><span>↗</span><div><small>WHEN YOUR TEACHER ASKS</small><strong>Open SpacesEDU Canada</strong></div></a>
+      <a href={spacesUrl} target="_blank" rel="noreferrer"><span>↗</span><div><small>FOR WORK YOU CHOOSE TO SHARE · NOT PRIVATE PAGES</small><strong>Open SpacesEDU Canada</strong></div></a>
     </section>
   </main>;
 }
@@ -230,12 +237,12 @@ function FamilyPage() {
       <article><small>AT SCHOOL</small><h2>What students will do</h2><p>{current.family.quickReference.atSchool}</p></article>
       <article><small>AT HOME</small><h2>Nothing due</h2><p>{current.family.quickReference.home}</p></article>
       <article><small>ASSESSMENT</small><h2>{assessmentStatus()}</h2><p>{current.family.quickReference.assessment}</p></article>
-      <article className="family-product"><small>WHAT STUDENTS MAKE OR SHOW</small><h2>The learning product</h2><p>{current.family.product}</p></article>
+      <article className="family-product"><small>WHAT STUDENTS MAKE OR SHOW</small><h2>What students make</h2><p>{current.family.product}</p></article>
     </section>
 
     {isDiscoveryWindow ? <section className="discovery-family-summary" aria-labelledby="discovery-family-title">
-      <figure data-fit="contain"><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill sizes="(max-width: 900px) 100vw, 42vw" /><figcaption>ONE OF FIVE STANDALONE DISCOVERY ORGANIZERS</figcaption></figure>
-      <div><small>THE SHORT VERSION</small><h2 id="discovery-family-title">One page → safe choices → private handoff</h2><p>{current.family.quickReference.atSchool}</p><ol>{current.shared.learningArc.map((organizer, index) => <li key={organizer.label}><b>{index + 1}</b><span>{organizer.label}</span></li>)}</ol><div className="family-answer-chips"><span>Not homework</span><span>Not graded</span><span>No private story required</span><span>One page per group visit</span></div><ResourceDownload compact /></div>
+      <figure data-fit="contain"><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill sizes="(max-width: 900px) 100vw, 42vw" /><figcaption>ONE OF FIVE DISCOVERY PAGES</figcaption></figure>
+      <div><small>THE SHORT VERSION</small><h2 id="discovery-family-title">One whole page, handed in privately</h2><p>{current.family.quickReference.atSchool}</p><ol>{current.shared.learningArc.map((organizer, index) => <li key={organizer.label}><b>{index + 1}</b><span>{organizer.label}</span></li>)}</ol><div className="family-answer-chips"><span>Not homework</span><span>Not graded</span><span>No private story required</span><span>One page per group visit</span></div><ResourceDownload compact /></div>
     </section> : isLegacyAiOpeningWindow ? <section className="family-visual-summary" aria-labelledby="family-flow-title">
       <figure><Image unoptimized src="/images/public-family-artifact-conversation-v1.webp" alt="Illustrated family looking together at a student's paper learning agreement and discussing one question" width={1792} height={1008} sizes="(max-width: 900px) 100vw, 42vw" /><figcaption>ILLUSTRATION · THE PAGE STARTS A CONVERSATION</figcaption></figure>
       <div><small>THE SHORT VERSION</small><h2 id="family-flow-title">Talk → write → follow up</h2><ol><li><b>1</b><span>Pairs and tables reason through realistic choices.</span></li><li><b>2</b><span>Each student writes an agreement in their own words.</span></li><li><b>3</b><span>The teacher uses it for a private follow-up conversation.</span></li></ol><div className="family-answer-chips"><span>No account needed</span><span>No supplies</span><span>Not homework</span><span>Not graded</span></div><ResourceDownload compact /></div>
@@ -243,13 +250,13 @@ function FamilyPage() {
 
     {(isDiscoveryWindow || isLegacyAiOpeningWindow) && <section className="family-question-card"><div><small>ASK AT HOME</small><blockquote>“{current.family.conversationPrompts[0]}”</blockquote></div><p><strong>Privacy and support:</strong> {current.family.agreementNote}</p></section>}
 
-    <section className="family-artifact-conversation" aria-label="Family conversation about learning evidence">
-      <figure><Image unoptimized src="/images/public-family-artifact-conversation-v1.webp" alt="Illustrated family looking at a student's chosen learning artifact and asking a supportive question" width={1792} height={1008} /></figure>
-      <div><small>WHEN A STUDENT CHOOSES WORK TO SHARE</small><h2>Notice the thinking before the polish.</h2><p>Ask what the student tried, what changed, and which detail best shows the learning. Private classroom work stays private unless the student and teacher choose a safe artifact for sharing.</p></div>
+    <section className="family-artifact-conversation" aria-label="Family conversation about learning">
+      <figure><Image unoptimized src="/images/public-family-artifact-conversation-v1.webp" alt="Illustrated family looking at work a student has chosen to share and asking a supportive question" width={1792} height={1008} /></figure>
+      <div><small>WHEN A STUDENT CHOOSES WORK TO SHARE</small><h2>Ask about ideas, not neatness.</h2><p>If your child wants to share, ask what they tried, changed, or learned. Private original pages stay private. Only a safe part the student chooses may be copied separately for sharing, after the teacher asks permission again. Do not upload private Discovery pages to SpacesEDU. The How I Learn Best page is never copied for display.</p></div>
     </section>
 
     <section className="family-utilities">
-      <div><small>SPACES EDU</small><h2>Selected evidence, feedback, and reflection</h2><p>{current.family.quickReference.spaces}</p><a href={spacesUrl} target="_blank" rel="noreferrer">Open SpacesEDU Canada ↗</a></div>
+      <div><small>SPACES EDU</small><h2>Chosen work, feedback, and reflection</h2><p>{current.family.quickReference.spaces}</p><a href={spacesUrl} target="_blank" rel="noreferrer">Open SpacesEDU Canada ↗</a></div>
       <nav aria-label="Family contact and official links">
         <a href={emailUrl}><strong>Email Mr. Wyatt</strong><span>{emailAddress}</span></a>
         <a href={schoolUrl} target="_blank" rel="noreferrer"><strong>Walnut Road Elementary</strong><span>Official school site ↗</span></a>
@@ -276,7 +283,7 @@ function LearningPage() {
     </section>
 
     <section className="year-at-a-glance" aria-labelledby="year-title">
-      <header><small>YEAR AT A GLANCE</small><h2 id="year-title">Ten monthly focuses</h2><p>Plans stay flexible when students need more time or a strong question deserves attention.</p></header>
+      <header><small>YEAR AT A GLANCE</small><h2 id="year-title">A look at each of the ten months</h2><p>Plans stay flexible when students need more time or a strong question deserves attention.</p></header>
       <div>{publicWindowManifest.yearMonths.map((item, index) => <article key={item.month}><b>{String(index + 1).padStart(2, "0")}</b><div><small>{item.month}</small><h3>{item.focus}</h3><span>{item.phase}</span></div></article>)}</div>
     </section>
 
@@ -287,17 +294,17 @@ function LearningPage() {
 function PortfolioPage() {
   return <main className="content-page portfolio-page compact-content-page">
     <section className="portfolio-action-hero">
-      <div><p className="eyebrow">PROJECTS &amp; SPACES EDU</p><h1>Choose. Explain. Reflect.</h1><p>SpacesEDU is where students share selected evidence, feedback, and reflection—not every piece of class work.</p></div>
+      <div><p className="eyebrow">PROJECTS &amp; SPACES EDU</p><h1>Choose. Explain. Reflect.</h1><p>SpacesEDU is where students can share chosen examples of learning, read feedback, and think about next steps. Private classroom pages and Discovery originals are not uploaded.</p></div>
       <a href={spacesUrl} target="_blank" rel="noreferrer"><small>OFFICIAL CANADIAN SITE</small><strong>Open SpacesEDU Canada ↗</strong></a>
     </section>
 
     <section className="portfolio-steps" aria-label="How to make a useful post">
       <article><b>1</b><h2>Choose</h2><p>Select work that shows important learning or progress.</p></article>
-      <article><b>2</b><h2>Explain</h2><p>Name a decision, challenge, contribution, or revision.</p></article>
+      <article><b>2</b><h2>Explain</h2><p>Describe something you tried, a problem you worked on, how you helped, or a change you made.</p></article>
       <article><b>3</b><h2>Reflect</h2><p>Say what changed and what you will try next.</p></article>
     </section>
 
-    <section className="portfolio-current"><div><small>CURRENT WINDOW</small><h2>{current.student.title}</h2></div><p>{current.student.spacesNote}</p></section>
+    <section className="portfolio-current"><div><small>CURRENT LEARNING</small><h2>{current.student.title}</h2></div><p>{current.student.spacesNote}</p></section>
 
     <details className="compact-disclosure">
       <summary>See major projects across the year</summary>
@@ -356,15 +363,15 @@ function windowStateLabel() {
 
 function homeActionLabel() {
   const state = currentWindowState();
-  if (state === "up-next") return "UP NEXT · TRY THE FIRST MOVE";
-  if (state === "finished") return "RECENT LEARNING · REVIEW THE FIRST MOVE";
+  if (state === "up-next") return "UP NEXT · HOW WE WILL START";
+  if (state === "finished") return "RECENT LEARNING · HOW WE STARTED";
   return "STUDENTS START HERE";
 }
 
 function studentActionLabel() {
   const state = currentWindowState();
-  if (state === "up-next") return "TRY THE FIRST MOVE";
-  if (state === "finished") return "THE FIRST MOVE WAS";
+  if (state === "up-next") return "HOW WE WILL START";
+  if (state === "finished") return "HOW WE STARTED";
   return "DO THIS FIRST";
 }
 
@@ -399,7 +406,7 @@ function homeworkStatus() {
 }
 
 function assessmentStatus() {
-  return /not graded/i.test(current.family.assessment) ? "Practice · not graded" : "Formative assessment";
+  return /not graded/i.test(current.family.assessment) ? "Practice · not graded" : "Feedback to help learning";
 }
 
 function publicGuideItem(item: string) {

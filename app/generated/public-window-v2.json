@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-opening-discovery-rotations-v2",
+  "contentVersion": "2026-student-language-2026-09-05-v3",
   "sourceUpdatedAt": "2026-08-31T18:00:00Z",
   "window": {
     "id": "september-opening",
@@ -8,172 +8,167 @@
     "effectiveTo": "2026-09-13",
     "state": "up-next",
     "shared": {
+      "bigQuestion": "What can we learn about ourselves and make better in Grade 6 while respecting everyone's choices and privacy?",
       "eyebrow": "SEPTEMBER · OPENING OUR LEARNING COMMUNITY",
-      "title": "Grade 6 Discovery Rotations",
-      "bigQuestion": "What can we learn about ourselves and a stronger Grade 6 community while protecting each person's choices and privacy?",
-      "summary": "The opening schedule may change by group, day, and block length. For each visit, the teacher chooses one complete paper-first organizer: Identity Constellation, How I Learn Best, Ideal Learning Space, Build a Better Grade 6, or Grade 6 Quest Map. On that selected page, students visit every labelled region, deepen safe choices, add accessible visual meaning-making across the whole organizer, decide what remains private, and submit named originals face-down for private transfer. Blank/skip needs no explanation, and accommodation may reduce substantive output without creating catch-up work. No student must complete all five, visit in sequence, use AI, or post this work to SpacesEDU.",
       "learningArc": [
         {
-          "timing": "45 / 60 / 75 min",
           "label": "Identity Constellation",
-          "studentAction": "Represent chosen people, places, interests, languages, strengths, or experiences with words, symbols, pictures, and connections.",
-          "outcome": "Students make identity and privacy choices without required personal disclosure."
+          "outcome": "Practise showing what matters to you while choosing what to keep private.",
+          "studentAction": "Use words, symbols, pictures, and lines to show people, places, interests, languages, or strengths you choose. You can use a fictional character.",
+          "timing": "45 / 60 / 75 min"
         },
         {
-          "timing": "45 / 60 / 75 min",
           "label": "How I Learn Best",
-          "studentAction": "Name useful learning conditions, one way to recover when stuck, a strength, and a support to try.",
-          "outcome": "The receiving teacher gains practical learner information without fixed learning-style labels."
+          "outcome": "Help your teacher plan useful support. What works for you can change with the task.",
+          "studentAction": "Show what helps you learn, such as a quiet seat or a worked example. Add a strength, something to try when you are stuck, and help you could ask for.",
+          "timing": "45 / 60 / 75 min"
         },
         {
-          "timing": "45 / 60 / 75 min",
           "label": "Ideal Learning Space",
-          "studentAction": "Design and label a space for focus, collaboration, access, movement, and reset.",
-          "outcome": "Students reason about inclusive design, constraints, and trade-offs."
+          "outcome": "Consider different needs and explain choices when space, time, or supplies are limited.",
+          "studentAction": "Draw and label a space with places to focus, work together, move, and take a break. Think about how everyone could use it.",
+          "timing": "45 / 60 / 75 min"
         },
         {
-          "timing": "45 / 60 / 75 min",
           "label": "Build a Better Grade 6",
-          "studentAction": "Propose a small improvement, name who it helps, test a trade-off, and identify the right decision-maker.",
-          "outcome": "Student voice is connected to evidence, democratic process, feasibility, and accountability."
+          "outcome": "Use reasons to improve an idea, listen to other views, and find out who can make the decision.",
+          "studentAction": "Suggest a small change, such as a fair way to share supplies. Show who it would help, a possible drawback, and who could approve it.",
+          "timing": "45 / 60 / 75 min"
         },
         {
-          "timing": "45 / 60 / 75 min",
           "label": "Grade 6 Quest Map",
-          "studentAction": "Map a meaningful goal to a challenge, strengths, help sources, and a first step.",
-          "outcome": "Students practise hopeful, realistic planning and help-seeking without turning goals into contracts."
+          "outcome": "Practise making a realistic plan and asking for help. A goal can change; it is not a promise.",
+          "studentAction": "Choose a goal for yourself or a fictional character. Map a challenge, useful strengths, people who could help, and one small first step.",
+          "timing": "45 / 60 / 75 min"
         }
       ],
-      "visual": {
-        "src": "/images/first-week/identity-constellation.webp",
-        "alt": "Preview of the My Identity Constellation page from the Grade 6 Discovery Booklet, with six identity regions and open space for words, symbols, pictures, accessible visual details, or a no-explanation blank or skip choice.",
-        "caption": "One of five standalone Discovery organizers; the teacher chooses the page and duration for each arriving group."
-      },
       "primaryResource": {
-        "label": "Download the Grade 6 Discovery Booklet",
+        "description": "Includes Identity Constellation, My Brain's User Manual (How I Learn Best), Ideal Learning Space, Build a Better Grade 6, and Grade 6 Quest Map. You do not have to complete all five.",
+        "format": "PDF · five pages, each a separate activity",
         "href": "/printables/Grade_6_Discovery_Booklet.pdf",
-        "format": "PDF · five standalone organizer pages",
-        "description": "The verified booklet containing Identity Constellation, My Brain's User Manual, Ideal Learning Space, Build a Better Grade 6, and Grade 6 Quest Map."
+        "label": "Download the Grade 6 Discovery Booklet"
       },
+      "subjectSnapshot": [
+        {
+          "now": "Discovery pages, goals, and ideas for our classroom",
+          "subject": "Career Education & ADST",
+          "why": "Notice strengths, ask for help, plan a first step, and suggest a useful change. Choose what to keep private."
+        },
+        {
+          "now": "Ordinary-Object Story and Friday Learning Story",
+          "subject": "English Language Arts",
+          "why": "Use details, tell and retell a story, listen, and reflect. Stories may be made up; private details are not required."
+        },
+        {
+          "now": "Magnitude Gallery: very large and very small numbers",
+          "subject": "Mathematics",
+          "why": "Show and compare quantities, make estimates, and explain how you worked them out."
+        },
+        {
+          "now": "Learning about this place and getting ready for the Fleetwood Evidence Case File",
+          "subject": "Social Studies",
+          "why": "Explore how maps, evidence, and different viewpoints help us understand a community."
+        },
+        {
+          "now": "Movement, working together, routines, and belonging",
+          "subject": "PHE & Community",
+          "why": "Join in safely, make room for others to speak, disagree respectfully, and ask for help."
+        }
+      ],
+      "summary": "For each group visit, your teacher chooses one page: Identity Constellation, How I Learn Best, Ideal Learning Space, Build a Better Grade 6, or Grade 6 Quest Map. Work on the whole chosen page: look at each part, add ideas you are comfortable using, and draw or decorate across the page to help show your thinking. You may skip any question without giving a reason or use a fictional character or made-up example. Ask an adult for help or agree on a shorter amount of work; there is no catch-up for that choice. Hand in your page face-down so it stays private. Groups may visit in different orders for 45, 60, or 75 minutes. You do not have to do all five pages, use AI, or upload these pages to SpacesEDU.",
       "thinkingMoves": [
         {
           "id": "reflect",
           "label": "Reflect",
-          "prompt": "What feels useful to share, and what should stay private?"
+          "prompt": "What idea would you like to use? What would you rather keep private? You do not have to explain your choice."
         },
         {
           "id": "challenge-assumptions",
-          "label": "Challenge assumptions",
-          "prompt": "Are we treating a preference, goal, design, or majority choice as the only right answer?"
+          "label": "Question an assumption",
+          "prompt": "Are we assuming one choice works for everyone? What might work for someone else?"
         },
         {
           "id": "weigh-trade-offs",
           "label": "Weigh trade-offs",
-          "prompt": "Who is helped, who could be excluded, and what constraint or authority matters?"
+          "prompt": "Who would this help? Who might find it harder? What limits, such as space or cost, should we consider?"
         },
         {
           "id": "improve",
           "label": "Improve",
-          "prompt": "What small revision would make this representation, design, proposal, or plan more useful?"
+          "prompt": "What small change would make your drawing, idea, or plan clearer or more useful?"
         },
         {
           "id": "perspective",
-          "label": "Consider perspective",
-          "prompt": "Whose experience or need is missing, and how can we ask without demanding disclosure?"
+          "label": "Consider another view",
+          "prompt": "Whose needs have we not thought about? How could we ask respectfully without asking for private details?"
         }
       ],
-      "subjectSnapshot": [
-        {
-          "subject": "Career Education & ADST",
-          "now": "Discovery organizers, goal mapping, and community design",
-          "why": "Notice strengths and supports, map a next step, test an improvement, and protect student agency."
-        },
-        {
-          "subject": "English Language Arts",
-          "now": "Ordinary-Object Story and Friday Learning Story",
-          "why": "Use visible details, audience, voice, retelling, and reflection to become known without requiring private disclosure."
-        },
-        {
-          "subject": "Mathematics",
-          "now": "Magnitude Gallery",
-          "why": "Represent and compare very large and very small quantities while explaining estimation strategies."
-        },
-        {
-          "subject": "Social Studies",
-          "now": "Learning with place and preparing for the Fleetwood Evidence Case File",
-          "why": "Notice how place, evidence, maps, and perspective shape the stories communities tell."
-        },
-        {
-          "subject": "PHE & Community",
-          "now": "Movement, collaboration, routines, and belonging",
-          "why": "Practise participating safely, sharing airtime, disagreeing with reasons, and asking for useful support."
-        }
-      ]
+      "title": "Grade 6 Discovery Rotations",
+      "visual": {
+        "alt": "My Identity Constellation page from the Grade 6 Discovery Booklet, with six labelled parts and room for words, symbols, pictures, and decoration. Any part may be left blank.",
+        "caption": "One of five Discovery pages. Your teacher chooses one page and the time for each group visit.",
+        "src": "/images/first-week/identity-constellation.webp"
+      }
     },
     "student": {
-      "label": "STUDENT PATH",
-      "title": "Grade 6 Discovery Rotations",
-      "why": "Each organizer gives you a different way to show what matters to you, what helps learning, what could improve Grade 6, or what path you want to begin. You decide what is safe to share.",
-      "summary": "Your group will complete and decorate one whole, standalone Discovery organizer. Visit every labelled region on today's page using words, symbols, pictures, dictation, a model, a fictional alternative, blank/skip, or a privacy marker. A skip needs no explanation, accommodation can change how much you produce, and artistic polish is not graded. You do not need to complete every page or share private information.",
-      "duration": "One complete 45-, 60-, or 75-minute session",
-      "grouping": "Whole-class opening, individual creation, and an optional partner or teacher check",
-      "routeTitle": "One organizer · one complete session",
       "bring": [
-        "A pencil or another way to create",
-        "Your choices, ideas, and willingness to revise",
-        "No private story, diagnosis, family detail, or public sharing is required"
-      ],
-      "firstMove": "Listen for today's organizer question, then make a quick response choice in every labelled region before returning to deepen safe ideas and add visual meaning across the page.",
-      "quickReference": {
-        "firstMove": "Quick-pass every labelled region with a safe response, fictional alternative, blank/skip, or privacy marker; no reason is needed for a skip.",
-        "handIn": "Label the back and put the named original face-down in the rotation folder. It is practice, not a grade.",
-        "missed": "Ask which organizer your group completed. Every page is standalone, so no earlier session is required."
-      },
-      "firstMoveNote": "You may mark blank/skip without explaining why, use a fictional route, or ask for a scribe, word bank, or reduced-output accommodation. Those choices still complete the region and do not create catch-up work.",
-      "steps": [
-        "Choose: hear the question, privacy boundary, and several ways to respond.",
-        "First pass: make a response choice in every labelled region, including blank/skip when useful.",
-        "Deepen + decorate: develop safe choices and use drawing, symbols, borders, spacing, patterns, or colour to carry meaning across the whole page.",
-        "Check: use the success clues with yourself, a partner, or the teacher.",
-        "Revise: improve one part and decide what remains private.",
-        "Label and submit: place the named original face-down in the correct folder."
+        "A pencil or another way to write, draw, or build",
+        "Ideas you are comfortable using",
+        "No private story, health detail, family detail, or public sharing is required"
       ],
       "choices": [
-        "Use words, symbols, pictures, labelled drawings, dictation to an adult, speech-to-text on an approved shared device, or a simple model.",
-        "Use a fictional or school-safe example, replace a prompt, choose quiet work, or leave a private area blank.",
-        "Choose whether one safe idea may be copied later; the named original stays private unless a teacher asks again."
+        "Write, draw, label pictures, use symbols, make a simple model, or ask an adult to write your words. Your teacher can help you use speech-to-text on an approved shared device.",
+        "Use a fictional character or made-up school example, ask for a different question, work quietly, or skip any question without giving a reason.",
+        "You do not have to share. Your original page stays private. Later, a teacher may ask again whether a safe part you choose can be copied onto a separate page for sharing. The How I Learn Best page is never copied for display."
       ],
-      "product": "One complete, decorated Discovery organizer with every labelled region visited through a response choice, a student-chosen level of disclosure, and one visible revision or next step when useful.",
-      "finish": "Every labelled region has a response choice—including blank/skip when useful—visual cues help the whole page make sense, and you can explain one safe idea or revision plus what remains private. Artistry is not assessed.",
-      "handInOrSave": "Label the back and submit the named original face-down. It travels privately to your receiving teacher and is not graded or used for placement.",
-      "ifAbsentOrStuck": "Every organizer starts fresh. Ask for the whole-page shortened route, a model, word bank, scribe, fictional example, blank/skip, or a reduced-output accommodation that does not create catch-up work.",
-      "spacesNote": "Discovery organizers are not posted to SpacesEDU. Later, you may choose a safe idea as part of a separate Learning Story."
+      "duration": "One 45-, 60-, or 75-minute class visit",
+      "finish": "Have you looked at each part and chosen what to add or skip? Have you used drawing, symbols, or decoration across the page to help show your ideas? Check whether one change would help. Skips and agreed shorter work count; art skills are not graded. You do not need to explain a private choice or share your page.",
+      "firstMove": "Look at the page your teacher chose. Pick one part and add a word or picture. A made-up example is welcome.",
+      "firstMoveNote": "You may skip any question without giving a reason. Ask for a made-up example, a word list, an adult to write your words, or a shorter amount of work agreed with your teacher. That shorter work does not become catch-up work.",
+      "grouping": "Start together; work on your own page, with an optional partner or teacher check",
+      "handInOrSave": "Put your name on the back and hand in the whole page face-down in your group's folder. Teachers pass it privately to your new classroom teacher. It is not graded or used to decide which class you join.",
+      "ifAbsentOrStuck": "Ask your teacher where to begin. You can ask for an example, a word list, an adult to write your words, or a shorter amount of work. You may use a fictional character, make up an example, or skip any question without a reason. Agreed shorter work does not need to be caught up later.",
+      "label": "FOR STUDENTS",
+      "product": "One whole Discovery page, with each part looked at and answered or skipped, plus drawing or decoration across the page to show your thinking. A shorter amount of work agreed with your teacher also counts as finished.",
+      "quickReference": {
+        "firstMove": "Pick one part of today's page. Add a word or picture, or choose to skip it. You never need to explain a skip.",
+        "handIn": "Put your name on the back and hand in the whole page face-down in your group's folder. The original stays private with teachers. It is not graded or used to choose your class.",
+        "missed": "Ask your teacher which page to use and where to begin. Each page is a separate activity; you do not need to do earlier pages first."
+      },
+      "routeTitle": "One page for this class visit",
+      "spacesNote": "Do not upload Discovery pages to SpacesEDU. The original stays private. Later, you may choose a safe idea for a separate Learning Story, after your teacher asks your permission again.",
+      "steps": [
+        "Start: listen to the question, what stays private, and the ways you can show your ideas.",
+        "Look at each part: add an idea or choose to skip. A blank, 'skip', or 'private' counts without a reason.",
+        "Add detail and decorate: build on ideas you are comfortable using. Draw or add symbols, borders, patterns, space, or colour across the whole page to help show your thinking.",
+        "Check: look at the finish check yourself, or choose to check with a partner or teacher.",
+        "Make a change: improve one part if it helps. Keep private anything you do not want to share.",
+        "Hand in: put your name on the back and place the whole page face-down in your group's folder."
+      ],
+      "summary": "Complete and decorate the whole page your teacher chooses for this visit. Look at each part and choose words, symbols, pictures, an adult writing your words, or a simple model. You may use a fictional character or made-up example, leave a part blank, or write 'skip' or 'private' without explaining why. Ask your teacher to agree on a shorter amount of work if you need it; there is no catch-up for that choice. Drawing and decoration help show your thinking, but neatness and art skills are not graded. You do not have to do all five pages.",
+      "title": "Grade 6 Discovery Rotations",
+      "why": "These pages help you explore what matters to you, what helps you learn, and what could make Grade 6 better. Your teacher can use your ideas to plan support. You choose what to share and what to keep private."
     },
     "family": {
-      "label": "FAMILY WINDOW",
-      "title": "Grade 6 Discovery Rotations",
-      "summary": "During the opening rotations, each group completes one of five standalone paper organizers. Sessions explore identity, learning conditions, inclusive spaces, ideas for a better Grade 6, or a meaningful goal. The visit order and length may differ by group, and students are not expected to complete every organizer.",
-      "whyThisMatters": "Several low-stakes routes help teachers notice student voice, strengths, reasoning, access needs, hopes, and community ideas without asking children to reveal private information or perform for a public display.",
-      "whatStudentsDo": "Students visit every labelled region on one selected organizer using words, symbols, pictures, dictation, design, a fictional alternative, blank/skip, or another accessible route; add visual meaning across the whole page; use a simple success check; revise when useful; choose what stays private; and submit the named original face-down for private teacher transfer.",
-      "quickReference": {
-        "atSchool": "Each group completes one standalone Discovery organizer with an opening question, creation time, a check, revision, and private handoff.",
-        "home": "Nothing to prepare or finish at home.",
-        "assessment": "The teacher observes agency, representation, reasoning, and revision. The organizer is practice—not a grade, diagnosis, or placement decision.",
-        "spaces": "Named originals stay with the teacher and are not posted. A student may later choose a safe idea for a separate Learning Story."
-      },
-      "product": "One complete, decorated Discovery organizer selected for the group and available block; no-explanation blank/skip and accommodation routes remain valid completion choices.",
-      "assessment": "This is low-stakes formative evidence. Teachers notice agency, reasoning, representation, access choices, and revision. The page is not graded, ranked, diagnosed, or used for class placement.",
-      "agreementNote": "Students choose what to disclose. Diagnoses, family details, difficult experiences, public sharing, and personal goals are never required. Blank/skip needs no explanation, a fictional route can be thoughtful, accommodation may reduce substantive output without catch-up, and artistic polish is not assessed.",
-      "groupAndIndividualEvidence": "Whole-class questions and optional partner checks support community thinking. Named originals travel privately to receiving teachers; only a separate student-approved copy or excerpt may be considered for display.",
+      "agreementNote": "Students choose what to share. Private health or family details, difficult experiences, personal goals, and public sharing are never required. They may skip any question without explaining why, use a fictional character or made-up example, or ask an adult for help. A shorter amount of work agreed with the teacher does not become catch-up work. Art skills and neatness are not graded.",
+      "assessment": "This is practice to help teachers plan support. They notice students' ideas, reasons, ways of showing their thinking, and useful changes. Pages are not graded, ranked, used for diagnosis, or used to decide class placement.",
+      "conversationPrompts": [
+        "Which Discovery page did your group use? Is there an idea you would like to tell me about?",
+        "Did you add or change anything that helped show your idea?",
+        "What is one idea from the page you would feel comfortable talking about?"
+      ],
+      "groupAndIndividualEvidence": "Class questions and optional partner checks help students think together. Original pages stay private and are passed to each student's new classroom teacher. Sharing is optional: only a safe part the student chooses may be copied separately, after the teacher asks permission again. The original is not displayed. The How I Learn Best page is never copied for display.",
+      "homework": "No special supplies or at-home completion are expected. The organizer is completed at school with teacher guidance.",
+      "label": "FOR FAMILIES",
       "milestones": [
         {
           "date": "Sept. 8 onward",
-          "label": "Grade 6 Discovery rotations · schedule and visit order remain flexible",
+          "label": "Grade 6 Discovery group visits · dates and order may change",
           "shortLabel": "Discovery rotations"
         },
         {
           "date": "Sept. 14–18",
-          "label": "First formed-class week · five ways for students to become known",
+          "label": "First week with the new class · five days of getting to know how we learn",
           "shortLabel": "First week with your class"
         },
         {
@@ -182,19 +177,24 @@
           "shortLabel": "Learning-with-place sharing"
         }
       ],
-      "homework": "No special supplies or at-home completion are expected. The organizer is completed at school with teacher guidance.",
+      "product": "One whole Discovery page with drawing or decoration to help show ideas. Students may skip any question without giving a reason, and a shorter amount of work agreed with the teacher counts as finished without catch-up.",
+      "quickReference": {
+        "assessment": "Teachers notice ideas, reasons, choices, and changes to help plan support. The page is not graded, used to diagnose a student, or used to decide class placement.",
+        "atSchool": "Each group works on one whole Discovery page. Students look at each part, answer or skip, add detail, draw or decorate, check their work, and hand it in privately.",
+        "home": "Nothing to prepare or finish at home.",
+        "spaces": "Original Discovery pages stay private with teachers and are not uploaded. A separate safe part may be copied for sharing only if the student chooses it and gives permission again. The How I Learn Best page is never copied for display."
+      },
+      "spacesNote": "Original Discovery pages stay private with teachers and are not uploaded to SpacesEDU. Later, a student may choose a safe idea for a separate Learning Story. The teacher asks permission again before a chosen part is copied or shared; the original page stays private. The How I Learn Best page is never copied for display.",
+      "summary": "During the opening group visits, the teacher chooses one of five paper Discovery pages. Each is a separate activity about identity, what helps learning, spaces everyone can use, ideas for Grade 6, or a goal. Groups may visit in different orders and for different lengths of time. Students are not expected to complete all five pages.",
       "supportAtHome": [
-        "Ask which organizer the group used and one design, strategy, strength, idea, or next step the student chose to discuss.",
-        "Ask what the student changed after the self, partner, or teacher check.",
-        "Please let the page remain in the student's own words and honour anything they chose to keep private.",
-        "Share important learning, health, belonging, or safety information directly with the school when it would help the classroom plan."
+        "Invite your child to tell you which Discovery page the group used and one idea they would like to discuss. It is okay if they do not want to share.",
+        "If they want to talk, ask what they added or changed and how it helped their idea.",
+        "Let the page stay in your child's own words, and respect anything they want to keep private.",
+        "Contact the school privately with learning, health, belonging, or safety information that could help the teacher support your child."
       ],
-      "conversationPrompts": [
-        "Which organizer did your group use, and why might a teacher choose it?",
-        "What did you revise or make clearer?",
-        "What is one safe idea from the page you would like to talk about?"
-      ],
-      "spacesNote": "Named Discovery originals stay with the teacher and are not posted to SpacesEDU. Later September portfolio evidence may include a separate student-selected Learning Story, not private learner information."
+      "title": "Grade 6 Discovery Rotations",
+      "whatStudentsDo": "Students work on the whole chosen page: they look at each part, decide what to answer or skip, add ideas, and draw or decorate across the page to help show their thinking. They can use words, pictures, symbols, a model, an adult writing their words, or made-up examples. They check their page, make a useful change if needed, and hand it in face-down so teachers can pass it on privately.",
+      "whyThisMatters": "The pages help teachers get to know students' strengths, ideas, hopes, and useful supports. Students can show their thinking without sharing private information or making work for a public display."
     }
   },
   "newsroom": {
@@ -1350,172 +1350,167 @@
       "effectiveTo": "2026-09-13",
       "state": "up-next",
       "shared": {
+        "bigQuestion": "What can we learn about ourselves and make better in Grade 6 while respecting everyone's choices and privacy?",
         "eyebrow": "SEPTEMBER · OPENING OUR LEARNING COMMUNITY",
-        "title": "Grade 6 Discovery Rotations",
-        "bigQuestion": "What can we learn about ourselves and a stronger Grade 6 community while protecting each person's choices and privacy?",
-        "summary": "The opening schedule may change by group, day, and block length. For each visit, the teacher chooses one complete paper-first organizer: Identity Constellation, How I Learn Best, Ideal Learning Space, Build a Better Grade 6, or Grade 6 Quest Map. On that selected page, students visit every labelled region, deepen safe choices, add accessible visual meaning-making across the whole organizer, decide what remains private, and submit named originals face-down for private transfer. Blank/skip needs no explanation, and accommodation may reduce substantive output without creating catch-up work. No student must complete all five, visit in sequence, use AI, or post this work to SpacesEDU.",
         "learningArc": [
           {
-            "timing": "45 / 60 / 75 min",
             "label": "Identity Constellation",
-            "studentAction": "Represent chosen people, places, interests, languages, strengths, or experiences with words, symbols, pictures, and connections.",
-            "outcome": "Students make identity and privacy choices without required personal disclosure."
+            "outcome": "Practise showing what matters to you while choosing what to keep private.",
+            "studentAction": "Use words, symbols, pictures, and lines to show people, places, interests, languages, or strengths you choose. You can use a fictional character.",
+            "timing": "45 / 60 / 75 min"
           },
           {
-            "timing": "45 / 60 / 75 min",
             "label": "How I Learn Best",
-            "studentAction": "Name useful learning conditions, one way to recover when stuck, a strength, and a support to try.",
-            "outcome": "The receiving teacher gains practical learner information without fixed learning-style labels."
+            "outcome": "Help your teacher plan useful support. What works for you can change with the task.",
+            "studentAction": "Show what helps you learn, such as a quiet seat or a worked example. Add a strength, something to try when you are stuck, and help you could ask for.",
+            "timing": "45 / 60 / 75 min"
           },
           {
-            "timing": "45 / 60 / 75 min",
             "label": "Ideal Learning Space",
-            "studentAction": "Design and label a space for focus, collaboration, access, movement, and reset.",
-            "outcome": "Students reason about inclusive design, constraints, and trade-offs."
+            "outcome": "Consider different needs and explain choices when space, time, or supplies are limited.",
+            "studentAction": "Draw and label a space with places to focus, work together, move, and take a break. Think about how everyone could use it.",
+            "timing": "45 / 60 / 75 min"
           },
           {
-            "timing": "45 / 60 / 75 min",
             "label": "Build a Better Grade 6",
-            "studentAction": "Propose a small improvement, name who it helps, test a trade-off, and identify the right decision-maker.",
-            "outcome": "Student voice is connected to evidence, democratic process, feasibility, and accountability."
+            "outcome": "Use reasons to improve an idea, listen to other views, and find out who can make the decision.",
+            "studentAction": "Suggest a small change, such as a fair way to share supplies. Show who it would help, a possible drawback, and who could approve it.",
+            "timing": "45 / 60 / 75 min"
           },
           {
-            "timing": "45 / 60 / 75 min",
             "label": "Grade 6 Quest Map",
-            "studentAction": "Map a meaningful goal to a challenge, strengths, help sources, and a first step.",
-            "outcome": "Students practise hopeful, realistic planning and help-seeking without turning goals into contracts."
+            "outcome": "Practise making a realistic plan and asking for help. A goal can change; it is not a promise.",
+            "studentAction": "Choose a goal for yourself or a fictional character. Map a challenge, useful strengths, people who could help, and one small first step.",
+            "timing": "45 / 60 / 75 min"
           }
         ],
-        "visual": {
-          "src": "/images/first-week/identity-constellation.webp",
-          "alt": "Preview of the My Identity Constellation page from the Grade 6 Discovery Booklet, with six identity regions and open space for words, symbols, pictures, accessible visual details, or a no-explanation blank or skip choice.",
-          "caption": "One of five standalone Discovery organizers; the teacher chooses the page and duration for each arriving group."
-        },
         "primaryResource": {
-          "label": "Download the Grade 6 Discovery Booklet",
+          "description": "Includes Identity Constellation, My Brain's User Manual (How I Learn Best), Ideal Learning Space, Build a Better Grade 6, and Grade 6 Quest Map. You do not have to complete all five.",
+          "format": "PDF · five pages, each a separate activity",
           "href": "/printables/Grade_6_Discovery_Booklet.pdf",
-          "format": "PDF · five standalone organizer pages",
-          "description": "The verified booklet containing Identity Constellation, My Brain's User Manual, Ideal Learning Space, Build a Better Grade 6, and Grade 6 Quest Map."
+          "label": "Download the Grade 6 Discovery Booklet"
         },
+        "subjectSnapshot": [
+          {
+            "now": "Discovery pages, goals, and ideas for our classroom",
+            "subject": "Career Education & ADST",
+            "why": "Notice strengths, ask for help, plan a first step, and suggest a useful change. Choose what to keep private."
+          },
+          {
+            "now": "Ordinary-Object Story and Friday Learning Story",
+            "subject": "English Language Arts",
+            "why": "Use details, tell and retell a story, listen, and reflect. Stories may be made up; private details are not required."
+          },
+          {
+            "now": "Magnitude Gallery: very large and very small numbers",
+            "subject": "Mathematics",
+            "why": "Show and compare quantities, make estimates, and explain how you worked them out."
+          },
+          {
+            "now": "Learning about this place and getting ready for the Fleetwood Evidence Case File",
+            "subject": "Social Studies",
+            "why": "Explore how maps, evidence, and different viewpoints help us understand a community."
+          },
+          {
+            "now": "Movement, working together, routines, and belonging",
+            "subject": "PHE & Community",
+            "why": "Join in safely, make room for others to speak, disagree respectfully, and ask for help."
+          }
+        ],
+        "summary": "For each group visit, your teacher chooses one page: Identity Constellation, How I Learn Best, Ideal Learning Space, Build a Better Grade 6, or Grade 6 Quest Map. Work on the whole chosen page: look at each part, add ideas you are comfortable using, and draw or decorate across the page to help show your thinking. You may skip any question without giving a reason or use a fictional character or made-up example. Ask an adult for help or agree on a shorter amount of work; there is no catch-up for that choice. Hand in your page face-down so it stays private. Groups may visit in different orders for 45, 60, or 75 minutes. You do not have to do all five pages, use AI, or upload these pages to SpacesEDU.",
         "thinkingMoves": [
           {
             "id": "reflect",
             "label": "Reflect",
-            "prompt": "What feels useful to share, and what should stay private?"
+            "prompt": "What idea would you like to use? What would you rather keep private? You do not have to explain your choice."
           },
           {
             "id": "challenge-assumptions",
-            "label": "Challenge assumptions",
-            "prompt": "Are we treating a preference, goal, design, or majority choice as the only right answer?"
+            "label": "Question an assumption",
+            "prompt": "Are we assuming one choice works for everyone? What might work for someone else?"
           },
           {
             "id": "weigh-trade-offs",
             "label": "Weigh trade-offs",
-            "prompt": "Who is helped, who could be excluded, and what constraint or authority matters?"
+            "prompt": "Who would this help? Who might find it harder? What limits, such as space or cost, should we consider?"
           },
           {
             "id": "improve",
             "label": "Improve",
-            "prompt": "What small revision would make this representation, design, proposal, or plan more useful?"
+            "prompt": "What small change would make your drawing, idea, or plan clearer or more useful?"
           },
           {
             "id": "perspective",
-            "label": "Consider perspective",
-            "prompt": "Whose experience or need is missing, and how can we ask without demanding disclosure?"
+            "label": "Consider another view",
+            "prompt": "Whose needs have we not thought about? How could we ask respectfully without asking for private details?"
           }
         ],
-        "subjectSnapshot": [
-          {
-            "subject": "Career Education & ADST",
-            "now": "Discovery organizers, goal mapping, and community design",
-            "why": "Notice strengths and supports, map a next step, test an improvement, and protect student agency."
-          },
-          {
-            "subject": "English Language Arts",
-            "now": "Ordinary-Object Story and Friday Learning Story",
-            "why": "Use visible details, audience, voice, retelling, and reflection to become known without requiring private disclosure."
-          },
-          {
-            "subject": "Mathematics",
-            "now": "Magnitude Gallery",
-            "why": "Represent and compare very large and very small quantities while explaining estimation strategies."
-          },
-          {
-            "subject": "Social Studies",
-            "now": "Learning with place and preparing for the Fleetwood Evidence Case File",
-            "why": "Notice how place, evidence, maps, and perspective shape the stories communities tell."
-          },
-          {
-            "subject": "PHE & Community",
-            "now": "Movement, collaboration, routines, and belonging",
-            "why": "Practise participating safely, sharing airtime, disagreeing with reasons, and asking for useful support."
-          }
-        ]
+        "title": "Grade 6 Discovery Rotations",
+        "visual": {
+          "alt": "My Identity Constellation page from the Grade 6 Discovery Booklet, with six labelled parts and room for words, symbols, pictures, and decoration. Any part may be left blank.",
+          "caption": "One of five Discovery pages. Your teacher chooses one page and the time for each group visit.",
+          "src": "/images/first-week/identity-constellation.webp"
+        }
       },
       "student": {
-        "label": "STUDENT PATH",
-        "title": "Grade 6 Discovery Rotations",
-        "why": "Each organizer gives you a different way to show what matters to you, what helps learning, what could improve Grade 6, or what path you want to begin. You decide what is safe to share.",
-        "summary": "Your group will complete and decorate one whole, standalone Discovery organizer. Visit every labelled region on today's page using words, symbols, pictures, dictation, a model, a fictional alternative, blank/skip, or a privacy marker. A skip needs no explanation, accommodation can change how much you produce, and artistic polish is not graded. You do not need to complete every page or share private information.",
-        "duration": "One complete 45-, 60-, or 75-minute session",
-        "grouping": "Whole-class opening, individual creation, and an optional partner or teacher check",
-        "routeTitle": "One organizer · one complete session",
         "bring": [
-          "A pencil or another way to create",
-          "Your choices, ideas, and willingness to revise",
-          "No private story, diagnosis, family detail, or public sharing is required"
-        ],
-        "firstMove": "Listen for today's organizer question, then make a quick response choice in every labelled region before returning to deepen safe ideas and add visual meaning across the page.",
-        "quickReference": {
-          "firstMove": "Quick-pass every labelled region with a safe response, fictional alternative, blank/skip, or privacy marker; no reason is needed for a skip.",
-          "handIn": "Label the back and put the named original face-down in the rotation folder. It is practice, not a grade.",
-          "missed": "Ask which organizer your group completed. Every page is standalone, so no earlier session is required."
-        },
-        "firstMoveNote": "You may mark blank/skip without explaining why, use a fictional route, or ask for a scribe, word bank, or reduced-output accommodation. Those choices still complete the region and do not create catch-up work.",
-        "steps": [
-          "Choose: hear the question, privacy boundary, and several ways to respond.",
-          "First pass: make a response choice in every labelled region, including blank/skip when useful.",
-          "Deepen + decorate: develop safe choices and use drawing, symbols, borders, spacing, patterns, or colour to carry meaning across the whole page.",
-          "Check: use the success clues with yourself, a partner, or the teacher.",
-          "Revise: improve one part and decide what remains private.",
-          "Label and submit: place the named original face-down in the correct folder."
+          "A pencil or another way to write, draw, or build",
+          "Ideas you are comfortable using",
+          "No private story, health detail, family detail, or public sharing is required"
         ],
         "choices": [
-          "Use words, symbols, pictures, labelled drawings, dictation to an adult, speech-to-text on an approved shared device, or a simple model.",
-          "Use a fictional or school-safe example, replace a prompt, choose quiet work, or leave a private area blank.",
-          "Choose whether one safe idea may be copied later; the named original stays private unless a teacher asks again."
+          "Write, draw, label pictures, use symbols, make a simple model, or ask an adult to write your words. Your teacher can help you use speech-to-text on an approved shared device.",
+          "Use a fictional character or made-up school example, ask for a different question, work quietly, or skip any question without giving a reason.",
+          "You do not have to share. Your original page stays private. Later, a teacher may ask again whether a safe part you choose can be copied onto a separate page for sharing. The How I Learn Best page is never copied for display."
         ],
-        "product": "One complete, decorated Discovery organizer with every labelled region visited through a response choice, a student-chosen level of disclosure, and one visible revision or next step when useful.",
-        "finish": "Every labelled region has a response choice—including blank/skip when useful—visual cues help the whole page make sense, and you can explain one safe idea or revision plus what remains private. Artistry is not assessed.",
-        "handInOrSave": "Label the back and submit the named original face-down. It travels privately to your receiving teacher and is not graded or used for placement.",
-        "ifAbsentOrStuck": "Every organizer starts fresh. Ask for the whole-page shortened route, a model, word bank, scribe, fictional example, blank/skip, or a reduced-output accommodation that does not create catch-up work.",
-        "spacesNote": "Discovery organizers are not posted to SpacesEDU. Later, you may choose a safe idea as part of a separate Learning Story."
+        "duration": "One 45-, 60-, or 75-minute class visit",
+        "finish": "Have you looked at each part and chosen what to add or skip? Have you used drawing, symbols, or decoration across the page to help show your ideas? Check whether one change would help. Skips and agreed shorter work count; art skills are not graded. You do not need to explain a private choice or share your page.",
+        "firstMove": "Look at the page your teacher chose. Pick one part and add a word or picture. A made-up example is welcome.",
+        "firstMoveNote": "You may skip any question without giving a reason. Ask for a made-up example, a word list, an adult to write your words, or a shorter amount of work agreed with your teacher. That shorter work does not become catch-up work.",
+        "grouping": "Start together; work on your own page, with an optional partner or teacher check",
+        "handInOrSave": "Put your name on the back and hand in the whole page face-down in your group's folder. Teachers pass it privately to your new classroom teacher. It is not graded or used to decide which class you join.",
+        "ifAbsentOrStuck": "Ask your teacher where to begin. You can ask for an example, a word list, an adult to write your words, or a shorter amount of work. You may use a fictional character, make up an example, or skip any question without a reason. Agreed shorter work does not need to be caught up later.",
+        "label": "FOR STUDENTS",
+        "product": "One whole Discovery page, with each part looked at and answered or skipped, plus drawing or decoration across the page to show your thinking. A shorter amount of work agreed with your teacher also counts as finished.",
+        "quickReference": {
+          "firstMove": "Pick one part of today's page. Add a word or picture, or choose to skip it. You never need to explain a skip.",
+          "handIn": "Put your name on the back and hand in the whole page face-down in your group's folder. The original stays private with teachers. It is not graded or used to choose your class.",
+          "missed": "Ask your teacher which page to use and where to begin. Each page is a separate activity; you do not need to do earlier pages first."
+        },
+        "routeTitle": "One page for this class visit",
+        "spacesNote": "Do not upload Discovery pages to SpacesEDU. The original stays private. Later, you may choose a safe idea for a separate Learning Story, after your teacher asks your permission again.",
+        "steps": [
+          "Start: listen to the question, what stays private, and the ways you can show your ideas.",
+          "Look at each part: add an idea or choose to skip. A blank, 'skip', or 'private' counts without a reason.",
+          "Add detail and decorate: build on ideas you are comfortable using. Draw or add symbols, borders, patterns, space, or colour across the whole page to help show your thinking.",
+          "Check: look at the finish check yourself, or choose to check with a partner or teacher.",
+          "Make a change: improve one part if it helps. Keep private anything you do not want to share.",
+          "Hand in: put your name on the back and place the whole page face-down in your group's folder."
+        ],
+        "summary": "Complete and decorate the whole page your teacher chooses for this visit. Look at each part and choose words, symbols, pictures, an adult writing your words, or a simple model. You may use a fictional character or made-up example, leave a part blank, or write 'skip' or 'private' without explaining why. Ask your teacher to agree on a shorter amount of work if you need it; there is no catch-up for that choice. Drawing and decoration help show your thinking, but neatness and art skills are not graded. You do not have to do all five pages.",
+        "title": "Grade 6 Discovery Rotations",
+        "why": "These pages help you explore what matters to you, what helps you learn, and what could make Grade 6 better. Your teacher can use your ideas to plan support. You choose what to share and what to keep private."
       },
       "family": {
-        "label": "FAMILY WINDOW",
-        "title": "Grade 6 Discovery Rotations",
-        "summary": "During the opening rotations, each group completes one of five standalone paper organizers. Sessions explore identity, learning conditions, inclusive spaces, ideas for a better Grade 6, or a meaningful goal. The visit order and length may differ by group, and students are not expected to complete every organizer.",
-        "whyThisMatters": "Several low-stakes routes help teachers notice student voice, strengths, reasoning, access needs, hopes, and community ideas without asking children to reveal private information or perform for a public display.",
-        "whatStudentsDo": "Students visit every labelled region on one selected organizer using words, symbols, pictures, dictation, design, a fictional alternative, blank/skip, or another accessible route; add visual meaning across the whole page; use a simple success check; revise when useful; choose what stays private; and submit the named original face-down for private teacher transfer.",
-        "quickReference": {
-          "atSchool": "Each group completes one standalone Discovery organizer with an opening question, creation time, a check, revision, and private handoff.",
-          "home": "Nothing to prepare or finish at home.",
-          "assessment": "The teacher observes agency, representation, reasoning, and revision. The organizer is practice—not a grade, diagnosis, or placement decision.",
-          "spaces": "Named originals stay with the teacher and are not posted. A student may later choose a safe idea for a separate Learning Story."
-        },
-        "product": "One complete, decorated Discovery organizer selected for the group and available block; no-explanation blank/skip and accommodation routes remain valid completion choices.",
-        "assessment": "This is low-stakes formative evidence. Teachers notice agency, reasoning, representation, access choices, and revision. The page is not graded, ranked, diagnosed, or used for class placement.",
-        "agreementNote": "Students choose what to disclose. Diagnoses, family details, difficult experiences, public sharing, and personal goals are never required. Blank/skip needs no explanation, a fictional route can be thoughtful, accommodation may reduce substantive output without catch-up, and artistic polish is not assessed.",
-        "groupAndIndividualEvidence": "Whole-class questions and optional partner checks support community thinking. Named originals travel privately to receiving teachers; only a separate student-approved copy or excerpt may be considered for display.",
+        "agreementNote": "Students choose what to share. Private health or family details, difficult experiences, personal goals, and public sharing are never required. They may skip any question without explaining why, use a fictional character or made-up example, or ask an adult for help. A shorter amount of work agreed with the teacher does not become catch-up work. Art skills and neatness are not graded.",
+        "assessment": "This is practice to help teachers plan support. They notice students' ideas, reasons, ways of showing their thinking, and useful changes. Pages are not graded, ranked, used for diagnosis, or used to decide class placement.",
+        "conversationPrompts": [
+          "Which Discovery page did your group use? Is there an idea you would like to tell me about?",
+          "Did you add or change anything that helped show your idea?",
+          "What is one idea from the page you would feel comfortable talking about?"
+        ],
+        "groupAndIndividualEvidence": "Class questions and optional partner checks help students think together. Original pages stay private and are passed to each student's new classroom teacher. Sharing is optional: only a safe part the student chooses may be copied separately, after the teacher asks permission again. The original is not displayed. The How I Learn Best page is never copied for display.",
+        "homework": "No special supplies or at-home completion are expected. The organizer is completed at school with teacher guidance.",
+        "label": "FOR FAMILIES",
         "milestones": [
           {
             "date": "Sept. 8 onward",
-            "label": "Grade 6 Discovery rotations · schedule and visit order remain flexible",
+            "label": "Grade 6 Discovery group visits · dates and order may change",
             "shortLabel": "Discovery rotations"
           },
           {
             "date": "Sept. 14–18",
-            "label": "First formed-class week · five ways for students to become known",
+            "label": "First week with the new class · five days of getting to know how we learn",
             "shortLabel": "First week with your class"
           },
           {
@@ -1524,19 +1519,24 @@
             "shortLabel": "Learning-with-place sharing"
           }
         ],
-        "homework": "No special supplies or at-home completion are expected. The organizer is completed at school with teacher guidance.",
+        "product": "One whole Discovery page with drawing or decoration to help show ideas. Students may skip any question without giving a reason, and a shorter amount of work agreed with the teacher counts as finished without catch-up.",
+        "quickReference": {
+          "assessment": "Teachers notice ideas, reasons, choices, and changes to help plan support. The page is not graded, used to diagnose a student, or used to decide class placement.",
+          "atSchool": "Each group works on one whole Discovery page. Students look at each part, answer or skip, add detail, draw or decorate, check their work, and hand it in privately.",
+          "home": "Nothing to prepare or finish at home.",
+          "spaces": "Original Discovery pages stay private with teachers and are not uploaded. A separate safe part may be copied for sharing only if the student chooses it and gives permission again. The How I Learn Best page is never copied for display."
+        },
+        "spacesNote": "Original Discovery pages stay private with teachers and are not uploaded to SpacesEDU. Later, a student may choose a safe idea for a separate Learning Story. The teacher asks permission again before a chosen part is copied or shared; the original page stays private. The How I Learn Best page is never copied for display.",
+        "summary": "During the opening group visits, the teacher chooses one of five paper Discovery pages. Each is a separate activity about identity, what helps learning, spaces everyone can use, ideas for Grade 6, or a goal. Groups may visit in different orders and for different lengths of time. Students are not expected to complete all five pages.",
         "supportAtHome": [
-          "Ask which organizer the group used and one design, strategy, strength, idea, or next step the student chose to discuss.",
-          "Ask what the student changed after the self, partner, or teacher check.",
-          "Please let the page remain in the student's own words and honour anything they chose to keep private.",
-          "Share important learning, health, belonging, or safety information directly with the school when it would help the classroom plan."
+          "Invite your child to tell you which Discovery page the group used and one idea they would like to discuss. It is okay if they do not want to share.",
+          "If they want to talk, ask what they added or changed and how it helped their idea.",
+          "Let the page stay in your child's own words, and respect anything they want to keep private.",
+          "Contact the school privately with learning, health, belonging, or safety information that could help the teacher support your child."
         ],
-        "conversationPrompts": [
-          "Which organizer did your group use, and why might a teacher choose it?",
-          "What did you revise or make clearer?",
-          "What is one safe idea from the page you would like to talk about?"
-        ],
-        "spacesNote": "Named Discovery originals stay with the teacher and are not posted to SpacesEDU. Later September portfolio evidence may include a separate student-selected Learning Story, not private learner information."
+        "title": "Grade 6 Discovery Rotations",
+        "whatStudentsDo": "Students work on the whole chosen page: they look at each part, decide what to answer or skip, add ideas, and draw or decorate across the page to help show their thinking. They can use words, pictures, symbols, a model, an adult writing their words, or made-up examples. They check their page, make a useful change if needed, and hand it in face-down so teachers can pass it on privately.",
+        "whyThisMatters": "The pages help teachers get to know students' strengths, ideas, hopes, and useful supports. Students can show their thinking without sharing private information or making work for a public display."
       }
     },
     {
@@ -1545,166 +1545,161 @@
       "effectiveTo": "2026-09-18",
       "state": "published",
       "shared": {
-        "eyebrow": "SEPTEMBER · FIRST FORMED-CLASS WEEK",
-        "title": "Five ways to become known",
         "bigQuestion": "What can we learn about ourselves, one another, and this place without asking anyone to share a private story?",
-        "summary": "Across five connected days, students tell a low-risk object story, show how they reason with number size, name useful learning conditions, gather exact observations from the school grounds, and choose one specific example for a Friday Learning Story. If opening rotations are still finishing for some groups, use the standalone organizer route without treating it as missed prerequisite work.",
+        "eyebrow": "SEPTEMBER · OUR FIRST WEEK AS A CLASS",
         "learningArc": [
           {
-            "timing": "Mon. Sept. 14",
             "label": "Story",
-            "studentAction": "Choose an ordinary object, point to five visible clues, tell a three-beat story, and improve it after one listener question.",
-            "outcome": "The class begins with voice, listening, visible evidence, and a safe fictional route."
+            "outcome": "Practise telling a story, listening, and using details. Your story can be made up.",
+            "studentAction": "Choose an ordinary object. Point to five details you can see, tell a story with a beginning, middle, and end, and make one change after a listener's question.",
+            "timing": "Mon. Sept. 14"
           },
           {
-            "timing": "Tues. Sept. 15",
             "label": "Number",
-            "studentAction": "Place very large and very small quantities on accurate scales and explain one surprising position.",
-            "outcome": "The teacher sees strategies and misconceptions without reducing students to a score."
+            "outcome": "Show how you estimate and compare numbers so your teacher can plan what to teach next.",
+            "studentAction": "Place very large and very small quantities on number scales. Explain one position that surprises you.",
+            "timing": "Tues. Sept. 15"
           },
           {
-            "timing": "Wed. Sept. 16",
             "label": "Learning",
-            "studentAction": "Test which conditions help in real classroom situations and write one useful request or strategy.",
-            "outcome": "Students describe changeable supports and actions rather than fixed learning labels."
+            "outcome": "Find things that help with a task. What works can change; you do not need a learning-style label.",
+            "studentAction": "Try supports in classroom situations, such as a worked example or a quiet place. Choose one useful request or strategy.",
+            "timing": "Wed. Sept. 16"
           },
           {
-            "timing": "Thurs. Sept. 17",
             "label": "Place",
-            "studentAction": "Collect exact sound, movement, colour, light, and texture evidence outside or from an equivalent observation station.",
-            "outcome": "Observation stays separate from inference, and the class gathers material for a place response."
+            "outcome": "Keep what you notice separate from what you think it means. Use those details in later work about this place.",
+            "studentAction": "Record sounds, movement, colours, light, and textures outside, or from a seated or indoor place where you can observe.",
+            "timing": "Thurs. Sept. 17"
           },
           {
-            "timing": "Fri. Sept. 18",
-            "label": "Synthesize",
-            "studentAction": "Choose one specific example, name what it shows, set one realistic goal, and revise for a teacher or family audience.",
-            "outcome": "One meaningful Learning Story replaces several small uploads."
+            "label": "Bring it together",
+            "outcome": "Bring the week together in one Learning Story. Sharing is optional; private practice pages are not uploaded.",
+            "studentAction": "Choose one example of your learning, say what it shows, and add a small school goal, first step, and check-in date. Make it clear for a teacher or family reader.",
+            "timing": "Fri. Sept. 18"
           }
         ],
-        "visual": {
-          "src": "/images/visual-review/public-week-collaboration-hero-v1.webp",
-          "alt": "Fictional Grade 6 classroom scene with students working in pairs and small groups using paper cards, discussion, and a shared class display.",
-          "caption": "FICTIONAL COLLABORATION SCENE · The week itself includes object stories, number reasoning, learning conditions, place observation, and a Friday Learning Story."
-        },
         "primaryResource": null,
+        "subjectSnapshot": [
+          {
+            "now": "Object stories, listening, place notes, and the Friday Learning Story",
+            "subject": "English Language Arts",
+            "why": "Use clear details, tell events in order, think about your reader or listener, and improve your work."
+          },
+          {
+            "now": "Magnitude Gallery: very large and very small numbers",
+            "subject": "Mathematics",
+            "why": "Estimate, show, and compare quantities, then explain how you worked them out."
+          },
+          {
+            "now": "What helps us learn and one small goal",
+            "subject": "Career Education",
+            "why": "Find useful support and actions to try. You do not need a fixed label or private details."
+          },
+          {
+            "now": "Learning about this place and who makes local decisions",
+            "subject": "Social Studies",
+            "why": "Tell apart what you observe, what a map shows, different viewpoints, and who can make a decision."
+          },
+          {
+            "now": "Movement, routines, helping, and belonging",
+            "subject": "PHE & Community",
+            "why": "Join in safely, take turns speaking, ask for help, and find a way back in after a break or absence."
+          }
+        ],
+        "summary": "Across five days with the new class, tell a story about an ordinary object, explore very large and very small numbers, try things that help you learn, look closely at the school grounds, and choose one example for a Friday Learning Story. You can use made-up examples and skip any question without a reason. If your group is still doing a Discovery visit, your teacher can choose one page; you have not missed a required earlier step.",
         "thinkingMoves": [
           {
             "id": "notice",
-            "label": "Notice exactly",
-            "prompt": "What detail can you point to before you explain it?"
+            "label": "Look closely",
+            "prompt": "What detail can you point to before you explain what it might mean?"
           },
           {
             "id": "listen",
-            "label": "Listen for meaning",
-            "prompt": "What did your partner actually say, show, or choose?"
+            "label": "Listen carefully",
+            "prompt": "What did your partner say, show, or choose?"
           },
           {
             "id": "explain",
-            "label": "Explain a strategy",
+            "label": "Explain how",
             "prompt": "What did you try, and why did it make sense?"
           },
           {
             "id": "revise",
-            "label": "Revise from feedback",
-            "prompt": "What one change makes the idea clearer or more accurate?"
+            "label": "Use feedback",
+            "prompt": "What one change would make your idea clearer or more accurate?"
           },
           {
             "id": "reflect",
-            "label": "Choose useful evidence",
-            "prompt": "Which specific example says something important about your learning?"
+            "label": "Choose an example",
+            "prompt": "Which example shows something important about your learning?"
           }
         ],
-        "subjectSnapshot": [
-          {
-            "subject": "English Language Arts",
-            "now": "Object stories, active listening, place notes, and the Friday Learning Story",
-            "why": "Build voice, sequence, precise detail, audience awareness, and revision."
-          },
-          {
-            "subject": "Mathematics",
-            "now": "Magnitude Gallery",
-            "why": "Reveal how students estimate, represent, compare, and explain number size."
-          },
-          {
-            "subject": "Career Education",
-            "now": "Learning conditions and a first realistic goal",
-            "why": "Name useful supports and actions without fixed labels or private disclosure."
-          },
-          {
-            "subject": "Social Studies",
-            "now": "Learning with place and beginning local decision-making",
-            "why": "Separate observation, map evidence, perspective, and authority."
-          },
-          {
-            "subject": "PHE & Community",
-            "now": "Movement, routines, contribution, and belonging",
-            "why": "Practise safe participation, shared airtime, help-seeking, and re-entry."
-          }
-        ]
+        "title": "Five ways to get to know each other",
+        "visual": {
+          "alt": "Fictional Grade 6 classroom scene with students working in pairs and small groups using paper cards, discussion, and a shared class display.",
+          "caption": "Five days to get to know how we think, help, communicate, and learn.",
+          "src": "/images/visual-review/public-week-collaboration-hero-v1.webp"
+        }
       },
       "student": {
-        "label": "STUDENT PATH",
-        "title": "Our first week together",
-        "why": "Your teacher needs more than one kind of evidence to understand how you think, communicate, contribute, and learn.",
-        "summary": "Tell, estimate, notice, discuss, move, create, and reflect across five connected days. You can use fictional examples and school-learning information; private details are never required.",
-        "duration": "Five class blocks",
-        "grouping": "Partners and table groups most days; one individual Friday Learning Story",
-        "routeTitle": "Five ways to show your learning",
         "bring": [
-          "Pencil or another way to record",
-          "Curiosity and reasons",
+          "A pencil or another way to record your ideas",
+          "Questions and ideas to try",
           "No private story is required"
         ],
-        "firstMove": "Choose one ordinary object. Point to five details you can truly see before you invent a story.",
-        "firstMoveNote": "Stay with what you can point to first. Your story may be fictional, but its visible clues should be honest.",
-        "quickReference": {
-          "firstMove": "Choose an object and point to five visible clues before you invent.",
-          "handIn": "Keep Monday–Thursday work in class. On Friday, post one Learning Story when your teacher asks.",
-          "missed": "Ask for the day's image, question, and one example. Recover the important thinking—not every missed minute."
-        },
-        "steps": [
-          "Tell: build a short object story from visible clues.",
-          "Estimate: place and explain very large and very small numbers.",
-          "Name: identify a learning condition or action that helps in a real situation.",
-          "Notice: collect exact evidence from the school grounds or an equivalent observation station.",
-          "Reflect: choose one specific example and set one realistic goal."
-        ],
         "choices": [
-          "Show thinking by speaking, writing, drawing, pointing, moving, building, or using a teacher-supported communication route.",
-          "Use a fictional or school-learning example. A private personal story is never required.",
-          "Work with a partner or table when talk improves the thinking; use the quiet observation route when you need it."
+          "Show your thinking by speaking, writing, drawing, pointing, moving, or building. An adult can help you find another way or write your words.",
+          "Use a fictional character or made-up school example. You may skip any question without giving a reason. You do not have to tell a private story or share your work.",
+          "Work with a partner or table when it helps. Ask for a quiet place to observe or a shorter amount of work agreed with your teacher; that choice does not create catch-up work."
         ],
-        "product": "One Friday Learning Story with a specific example, a useful learning condition, one realistic goal, a first step, and a check date.",
-        "finish": "You can point to a specific example, explain what it shows about your learning or contribution, and name one next step that is small enough to try.",
-        "handInOrSave": "Keep practice work in class. Add only the Friday Learning Story to SpacesEDU when your teacher asks.",
-        "ifAbsentOrStuck": "Ask for today's image or question and one partner explanation. Choose one example you can genuinely explain.",
-        "spacesNote": "One Friday Learning Story brings the week together. Monday–Thursday practice does not need separate posts."
+        "duration": "Five class blocks",
+        "finish": "Can you point to an example and say what it shows about your learning or how you helped? Choose a small next step you could try. Skipped questions and shorter work agreed with your teacher count; you do not have to explain a private choice or share your work.",
+        "firstMove": "Choose one ordinary object. Point to five details you can see, then use those clues to invent a story.",
+        "firstMoveNote": "Begin with details you can point to, such as a colour, shape, or mark. You can make up the story and its characters.",
+        "grouping": "Partners and table groups most days; your own Learning Story on Friday",
+        "handInOrSave": "Keep practice work in class. If you choose to share your Friday Learning Story, check it with your teacher before posting to SpacesEDU. Private learning pages and Discovery originals are not uploaded.",
+        "ifAbsentOrStuck": "Ask for today's picture or question and an example. You can ask an adult to write your words or agree with your teacher on a shorter amount of work, with no catch-up. Made-up examples and skipped questions are okay; no reason is needed.",
+        "label": "FOR STUDENTS",
+        "product": "One Friday Learning Story: an example of your learning, something that helps you learn, one small school goal, a first step, and a check-in date. You may use made-up examples, skip a question, or agree on shorter work with your teacher.",
+        "quickReference": {
+          "firstMove": "Choose an object and point to five details you can see. Then invent a story.",
+          "handIn": "Keep Monday–Thursday work in class. Make one Learning Story on Friday. If you choose to share it, check with your teacher before posting. Do not upload private practice pages.",
+          "missed": "Ask your teacher for today's picture or question, one example, and the most useful part to try. Agree on a shorter amount of work if needed; it does not become catch-up work."
+        },
+        "routeTitle": "Five days to show how you learn",
+        "spacesNote": "One Friday Learning Story brings the week together. Sharing is optional. Do not upload private practice pages or Discovery originals. A safe part you choose may be copied into a separate story only after your teacher asks permission again. The How I Learn Best page is never copied for display.",
+        "steps": [
+          "Tell: use details you can see to invent a short story about an object.",
+          "Estimate: place very large and very small numbers on a scale and explain your choices.",
+          "Try: test something that could help with a class task, such as a worked example or a quieter seat.",
+          "Notice: record exact details from the school grounds or a seated or indoor observation spot.",
+          "Reflect: choose one example of your learning, a small school goal, a first step, and a check-in date."
+        ],
+        "summary": "Across five days, tell stories, estimate, notice details, discuss, move, create, and think about your learning. You can use fictional characters or made-up school examples. You may skip any question without a reason; private details are never required.",
+        "title": "Our first week together",
+        "why": "Your teacher gets to know you in more than one way. This week you can show how you think, tell stories, solve problems, help others, and learn."
       },
       "family": {
-        "label": "FAMILY WINDOW",
-        "title": "The first formed-class week",
-        "summary": "Students are introduced through several kinds of classroom evidence: oral story and listening, number reasoning, learning conditions, exact place observations, collaboration, and reflection. No student is required to share a private or painful story.",
-        "whyThisMatters": "One task cannot show the whole learner. The week gives the teacher multiple low-stakes ways to notice strengths, strategies, participation, supports, and questions before students choose one example for a Friday Learning Story.",
-        "whatStudentsDo": "Monday begins with ordinary-object storytelling. Tuesday uses a visual number investigation. Wednesday names changeable learning conditions and supports. Thursday gathers place observations. Friday students synthesize one meaningful example and a realistic first goal.",
-        "quickReference": {
-          "atSchool": "Students tell, estimate, discuss, observe, create, and revise across five connected days.",
-          "home": "Nothing to finish or prepare at home. A short conversation about one specific example is welcome.",
-          "assessment": "The teacher observes strategies, listening, contribution, and revision. Friday's Learning Story is an early portfolio snapshot, not a final judgment.",
-          "spaces": "One Friday Learning Story is posted; the week's practice remains in class."
-        },
-        "product": "One student-selected Friday Learning Story with evidence of a strength or contribution, useful learning conditions, and one realistic goal.",
-        "assessment": "Early formative evidence only. The teacher looks for specific examples, explanation, listening, strategy, revision, and a feasible next step.",
-        "agreementNote": "Students may use fictional, observation-only, written, spoken, visual, or recorded routes. Private family, medical, diagnostic, or painful information is not required.",
-        "groupAndIndividualEvidence": "Pairs and groups create several opportunities to hear student thinking. The final Learning Story is individual so each learner chooses the evidence and goal that genuinely fit.",
+        "agreementNote": "Students may use made-up examples, describe only what they observe, or show ideas by writing, speaking, drawing, or recording. They may skip any question without a reason, ask an adult for help, or agree on shorter work with no catch-up. Private family or health details, difficult experiences, and sharing are never required.",
+        "assessment": "This is practice to help the teacher plan support, not graded work or a class-placement decision. The teacher notices clear examples, explanations, listening, strategies, useful changes, and a next step the student can try.",
+        "conversationPrompts": [
+          "Is there a moment from this week you would like to tell me about?",
+          "Did a partner's question or idea help you change something?",
+          "What small next step would you like to try?"
+        ],
+        "groupAndIndividualEvidence": "Partners and groups give students chances to explain and hear ideas. Each student makes their own Learning Story and chooses what to keep private. Original private pages are not displayed or uploaded. A safe part may be copied separately only if the student chooses it and gives permission again. The How I Learn Best page is never copied for display.",
+        "homework": "No special supplies or routine homework are expected.",
+        "label": "FOR FAMILIES",
         "milestones": [
           {
             "date": "Sept. 14–18",
-            "label": "First formed-class week · five ways to become known",
+            "label": "First week with the new class · five days of getting to know how we learn",
             "shortLabel": "First week with your class"
           },
           {
             "date": "Sept. 18",
-            "label": "One September Learning Story posted to SpacesEDU",
+            "label": "Friday Learning Story · optional sharing on SpacesEDU",
             "shortLabel": "First Learning Story"
           },
           {
@@ -1713,18 +1708,23 @@
             "shortLabel": "Local inquiry begins"
           }
         ],
-        "homework": "No special supplies or routine homework are expected.",
+        "product": "One Friday Learning Story with an example the student chooses, something that helps learning, a small school goal, a first step, and a check-in date. Made-up examples, skipped questions, and shorter work agreed with the teacher are welcome.",
+        "quickReference": {
+          "assessment": "The teacher notices strategies, listening, helping, and useful changes to plan support. These opening activities are not graded or used to decide class placement.",
+          "atSchool": "Students tell stories, estimate, discuss, observe, create, and improve their work across five connected days.",
+          "home": "Nothing to finish or prepare at home. A short conversation about an example your child wants to discuss is welcome.",
+          "spaces": "Students make one Friday Learning Story and may choose whether to share it. Private practice pages stay in class and are not uploaded."
+        },
+        "spacesNote": "One Friday Learning Story is planned for this week, with optional sharing on SpacesEDU. The smaller activities and private pages are not separate uploads. If a student wants to use a safe part of private work, the teacher asks permission again before it is copied into a separate story. The How I Learn Best page is never copied for display.",
+        "summary": "Students get to know their new class through storytelling and listening, number problems, trying learning supports, observing the school grounds, working together, and reflecting. Made-up examples are welcome. Students may skip any question without giving a reason and never have to share a private or painful story.",
         "supportAtHome": [
-          "Ask which activity gave the clearest picture of how your child thinks or contributes.",
-          "Ask what specific example they chose for the Friday Learning Story and why it matters.",
-          "Please keep the reflection and goal in the student's own words."
+          "Ask which activity helped your child show how they think or help others.",
+          "Invite your child to discuss an example from the Friday Learning Story if they would like to share.",
+          "Keep the story and goal in your child's own words, and respect anything they choose to keep private."
         ],
-        "conversationPrompts": [
-          "Which moment this week showed something important about how you learn or contribute?",
-          "What did a partner notice or ask that helped you revise?",
-          "What is one small next step you want to try?"
-        ],
-        "spacesNote": "One Learning Story is the planned September portfolio entry from this week; the smaller activities are not separate uploads."
+        "title": "Our first week as a class",
+        "whatStudentsDo": "On Monday, students tell a story about an ordinary object. On Tuesday, they explore very large and very small numbers. On Wednesday, they try things that help with learning. On Thursday, they record details of the school grounds. On Friday, they bring one example together with a small school goal and a first step.",
+        "whyThisMatters": "One task cannot show everything a student can do. This week gives the teacher several ways to notice strengths, strategies, useful supports, and questions. Students then choose one example for a Friday Learning Story."
       }
     },
     {
@@ -2311,5 +2311,5 @@
       }
     }
   ],
-  "checksum": "sha256:7206b630d88f8f778a389a46ea326f1a627cc5ef94629da5c4db4286fe9e5c0b"
+  "checksum": "sha256:a44a09a2d630f511bef86596e8f6a9a073beff5bcd99d2d17d545d6c80cb10ea"
 }
