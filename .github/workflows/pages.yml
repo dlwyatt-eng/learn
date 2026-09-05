@@ -26,9 +26,12 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
-      - run: npx vite build --config vite.pages.config.ts
-      - run: node pages/postbuild.mjs
+      - name: Install dependencies
+        run: npm ci
+      - name: Run tests and build the Pages artifact
+        run: npm test
+      - name: Check the working tree patch
+        run: git diff --check
       - uses: actions/configure-pages@v5
         with:
           enablement: true

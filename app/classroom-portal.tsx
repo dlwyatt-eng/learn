@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState, type MouseEvent } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import publicWindowManifest from "./generated/public-window-v2.json";
@@ -20,6 +21,9 @@ const today = vancouverDateKey();
 const current = selectPublicWindow(publicWindows, today)
   ?? (monthlyPublicWindowForDate(publicWindowManifest.yearMonths, publicWindowManifest.window, today) as PublicWindow | null)
   ?? (publicWindowManifest.window as PublicWindow);
+const isDiscoveryWindow = /discovery/i.test(current.shared.title)
+  || /Grade_6_Discovery_Booklet\.pdf$/i.test(current.shared.primaryResource?.href ?? "");
+const isLegacyAiOpeningWindow = current.id === "september-opening" && /technology|\bAI\b/i.test(current.shared.title);
 const familyMilestones = current.id === "surrey-place-and-election"
   ? [...current.family.milestones.slice(0, 2), ...current.family.milestones.filter(item => item.date === "Oct. 17")].slice(0, 3)
   : current.family.milestones.slice(0, 3);
@@ -41,7 +45,7 @@ const compactPathCopy: Record<string, string> = {
 const studentPathSteps = current.student.steps.slice(0, 6).map((step, index) => {
   const [label, ...rest] = step.split(":");
   const literalDetail = rest.join(":").trim();
-  return { number: index + 1, label, detail: current.id === "september-opening" ? compactPathCopy[label] ?? literalDetail : literalDetail };
+  return { number: index + 1, label, detail: isLegacyAiOpeningWindow ? compactPathCopy[label] ?? literalDetail : literalDetail };
 });
 
 const navigation: { route: PortalRoute; href: string; label: string }[] = [
@@ -52,10 +56,33 @@ const navigation: { route: PortalRoute; href: string; label: string }[] = [
   { route: "learning", href: "/learning", label: "Learning" },
 ];
 
+const largeTextStorageKey = "wyatt-large-text-v1";
+
+function skipToMain(event: MouseEvent<HTMLAnchorElement>) {
+  event.preventDefault();
+  const main = document.getElementById("public-main");
+  if (!main) return;
+  main.focus({ preventScroll: true });
+  main.scrollIntoView({ block: "start", behavior: "auto" });
+}
+
 export default function ClassroomPortal({ route }: { route: PortalRoute }) {
+  const [largeText, setLargeText] = useState(false);
+  const [largeTextReady, setLargeTextReady] = useState(false);
+
+  useEffect(() => {
+    try { setLargeText(window.localStorage.getItem(largeTextStorageKey) === "true"); } catch {}
+    setLargeTextReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (!largeTextReady) return;
+    try { window.localStorage.setItem(largeTextStorageKey, String(largeText)); } catch {}
+  }, [largeText, largeTextReady]);
+
   return (
-    <div className="portal-shell classroom-window portal-v2">
-      <a className="public-skip-link" href="#public-main">Skip to main content</a>
+    <div className={`portal-shell classroom-window portal-v2${largeText ? " large-text-mode" : ""}`}>
+      <a className="public-skip-link" href="#public-main" onClick={skipToMain}>Skip to main content</a>
       <header className="site-header portal-header">
         <Link className="site-brand" href="/">
           <span>W</span>
@@ -64,7 +91,10 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
         <nav id="public-navigation" aria-label="Main navigation">
           {navigation.map(item => <Link key={item.route} href={item.href} className={route === item.route ? "active" : ""} aria-current={route === item.route ? "page" : undefined}>{item.label}</Link>)}
         </nav>
-        <a className="header-spaces-link" href={spacesUrl} target="_blank" rel="noreferrer">SpacesEDU ↗</a>
+        <div className="portal-header-actions">
+          <button type="button" className="portal-large-text" aria-label={largeText ? "Use standard text" : "Use large text"} aria-pressed={largeText} onClick={() => setLargeText(value => !value)}><span aria-hidden="true">Aa</span><strong>{largeText ? "Standard text" : "Large text"}</strong></button>
+          <a className="header-spaces-link" href={spacesUrl} target="_blank" rel="noreferrer">SpacesEDU ↗</a>
+        </div>
       </header>
 
       <div id="public-main" tabIndex={-1}>
@@ -94,7 +124,7 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
 function HomePage() {
   return <main className="public-home">
     <section className="current-hero">
-      <figure><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill priority sizes="(max-width: 1050px) 100vw, 55vw" /><figcaption>{current.shared.visual.caption}</figcaption></figure>
+      <figure data-fit={isDiscoveryWindow ? "contain" : "cover"}><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill priority sizes="(max-width: 1050px) 100vw, 55vw" /><figcaption>{current.shared.visual.caption}</figcaption></figure>
       <div className="current-hero-copy">
         <p className="eyebrow">{windowStateLabel()} · {formatWindowDates()}</p>
         <h1>{current.student.title}</h1>
@@ -131,7 +161,7 @@ function HomePage() {
 function StudentPage() {
   return <main className="content-page audience-page student-page">
     <section className="student-task-hero">
-      <figure><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill priority sizes="(max-width: 1050px) 100vw, 53vw" /><figcaption>{current.shared.visual.caption}</figcaption></figure>
+      <figure data-fit={isDiscoveryWindow ? "contain" : "cover"}><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill priority sizes="(max-width: 1050px) 100vw, 53vw" /><figcaption>{current.shared.visual.caption}</figcaption></figure>
       <div>
         <p className="eyebrow">{windowStateLabel()} · FOR STUDENTS</p>
         <h1>{current.student.title}</h1>
@@ -144,7 +174,12 @@ function StudentPage() {
       <article><small>TIME</small><strong>{current.student.duration}</strong></article>
       <article><small>WORK WITH</small><strong>{compactGrouping()}</strong></article>
       <article><small>BRING</small><strong>{compactBring()}</strong></article>
-      <article><small>FINISH</small><strong>{current.student.product}</strong></article>
+      <article><small>MAKE / SHOW</small><strong>{current.student.product}</strong></article>
+    </section>
+
+    <section className="student-purpose-grid" aria-label="Purpose and finish check">
+      <article><small>WHY THIS MATTERS</small><h2>Know the purpose.</h2><p>{current.student.why}</p></article>
+      <article><small>FINISH CHECK</small><h2>Before you stop.</h2><p>{current.student.finish}</p></article>
     </section>
 
     <details className="student-visual-path" aria-labelledby="student-path-title">
@@ -152,7 +187,13 @@ function StudentPage() {
       <ol>{studentPathSteps.map(step => <li key={step.number}><b>{step.number}</b><div><strong>{step.label}</strong><span>{step.detail}</span></div></li>)}</ol>
     </details>
 
-    {current.id === "september-opening" && <section className="technology-decision-map" aria-labelledby="decision-map-title">
+    {isDiscoveryWindow && <section className="discovery-organizer-map" aria-labelledby="discovery-organizer-title">
+      <header><small>YOUR TEACHER CHOOSES ONE</small><h2 id="discovery-organizer-title">Five standalone ways to begin</h2><p>You are not expected to complete every page. Each organizer has a complete 45-, 60-, or 75-minute route.</p></header>
+      <ol>{current.shared.learningArc.map((organizer, index) => <li key={organizer.label}><b>{index + 1}</b><div><strong>{organizer.label}</strong><span>{organizer.studentAction}</span><small>{organizer.timing}</small></div></li>)}</ol>
+      <footer><strong>Privacy is a valid choice.</strong><span>Use a fictional route, blank/skip, a scribe, symbols, pictures, words, or the accommodation your teacher provides.</span></footer>
+    </section>}
+
+    {isLegacyAiOpeningWindow && <section className="technology-decision-map" aria-labelledby="decision-map-title">
       <header><small>FAST DECISION MAP</small><h2 id="decision-map-title">What kind of moment is this?</h2></header>
       <div>
         <article className="helps"><strong>HELPS LEARNING</strong><p>Practise · organize · question · create · communicate</p></article>
@@ -189,14 +230,23 @@ function FamilyPage() {
       <article><small>AT SCHOOL</small><h2>What students will do</h2><p>{current.family.quickReference.atSchool}</p></article>
       <article><small>AT HOME</small><h2>Nothing due</h2><p>{current.family.quickReference.home}</p></article>
       <article><small>ASSESSMENT</small><h2>{assessmentStatus()}</h2><p>{current.family.quickReference.assessment}</p></article>
+      <article className="family-product"><small>WHAT STUDENTS MAKE OR SHOW</small><h2>The learning product</h2><p>{current.family.product}</p></article>
     </section>
 
-    {current.id === "september-opening" ? <section className="family-visual-summary" aria-labelledby="family-flow-title">
+    {isDiscoveryWindow ? <section className="discovery-family-summary" aria-labelledby="discovery-family-title">
+      <figure data-fit="contain"><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill sizes="(max-width: 900px) 100vw, 42vw" /><figcaption>ONE OF FIVE STANDALONE DISCOVERY ORGANIZERS</figcaption></figure>
+      <div><small>THE SHORT VERSION</small><h2 id="discovery-family-title">One page → safe choices → private handoff</h2><p>{current.family.quickReference.atSchool}</p><ol>{current.shared.learningArc.map((organizer, index) => <li key={organizer.label}><b>{index + 1}</b><span>{organizer.label}</span></li>)}</ol><div className="family-answer-chips"><span>Not homework</span><span>Not graded</span><span>No private story required</span><span>One page per group visit</span></div><ResourceDownload compact /></div>
+    </section> : isLegacyAiOpeningWindow ? <section className="family-visual-summary" aria-labelledby="family-flow-title">
       <figure><Image unoptimized src="/images/public-family-artifact-conversation-v1.webp" alt="Illustrated family looking together at a student's paper learning agreement and discussing one question" width={1792} height={1008} sizes="(max-width: 900px) 100vw, 42vw" /><figcaption>ILLUSTRATION · THE PAGE STARTS A CONVERSATION</figcaption></figure>
       <div><small>THE SHORT VERSION</small><h2 id="family-flow-title">Talk → write → follow up</h2><ol><li><b>1</b><span>Pairs and tables reason through realistic choices.</span></li><li><b>2</b><span>Each student writes an agreement in their own words.</span></li><li><b>3</b><span>The teacher uses it for a private follow-up conversation.</span></li></ol><div className="family-answer-chips"><span>No account needed</span><span>No supplies</span><span>Not homework</span><span>Not graded</span></div><ResourceDownload compact /></div>
     </section> : <section className="family-question-card"><div><small>WHY THIS MATTERS</small><blockquote>{current.family.whyThisMatters}</blockquote></div><p><strong>Ask at home:</strong> “{current.family.conversationPrompts[0]}”</p></section>}
 
-    {current.id === "september-opening" && <section className="family-question-card"><div><small>ASK AT HOME</small><blockquote>“{current.family.conversationPrompts[0]}”</blockquote></div><p><strong>Agreement note:</strong> {current.family.agreementNote}</p></section>}
+    {(isDiscoveryWindow || isLegacyAiOpeningWindow) && <section className="family-question-card"><div><small>ASK AT HOME</small><blockquote>“{current.family.conversationPrompts[0]}”</blockquote></div><p><strong>Privacy and support:</strong> {current.family.agreementNote}</p></section>}
+
+    <section className="family-artifact-conversation" aria-label="Family conversation about learning evidence">
+      <figure><Image unoptimized src="/images/public-family-artifact-conversation-v1.webp" alt="Illustrated family looking at a student's chosen learning artifact and asking a supportive question" width={1792} height={1008} /></figure>
+      <div><small>WHEN A STUDENT CHOOSES WORK TO SHARE</small><h2>Notice the thinking before the polish.</h2><p>Ask what the student tried, what changed, and which detail best shows the learning. Private classroom work stays private unless the student and teacher choose a safe artifact for sharing.</p></div>
+    </section>
 
     <section className="family-utilities">
       <div><small>SPACES EDU</small><h2>Selected evidence, feedback, and reflection</h2><p>{current.family.quickReference.spaces}</p><a href={spacesUrl} target="_blank" rel="noreferrer">Open SpacesEDU Canada ↗</a></div>

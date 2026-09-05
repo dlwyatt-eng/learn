@@ -1,115 +1,92 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-fall-live-election-v1",
-  "sourceUpdatedAt": "2026-08-23T18:00:00Z",
+  "contentVersion": "2026-opening-discovery-rotations-v2",
+  "sourceUpdatedAt": "2026-08-31T18:00:00Z",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
-    "effectiveTo": "2026-09-11",
+    "effectiveTo": "2026-09-13",
     "state": "up-next",
     "shared": {
       "eyebrow": "SEPTEMBER · OPENING OUR LEARNING COMMUNITY",
-      "title": "Make the Call: Technology & AI in Grade 6",
-      "bigQuestion": "When does technology strengthen our learning—and what choices keep the thinking, safety, and responsibility with us?",
-      "summary": "During the Grade 6 rotations, students work through fast, concrete technology and AI decisions. In pairs and table groups they test whether authorship can be guessed from style, sort six classroom situations, repair a shortcut prompt, challenge a confident AI response, and propose a usable class commitment. Each student then writes and signs a one-page learning, technology, and AI agreement for the teacher who will receive them.",
+      "title": "Grade 6 Discovery Rotations",
+      "bigQuestion": "What can we learn about ourselves and a stronger Grade 6 community while protecting each person's choices and privacy?",
+      "summary": "The opening schedule may change by group, day, and block length. For each visit, the teacher chooses one complete paper-first organizer: Identity Constellation, How I Learn Best, Ideal Learning Space, Build a Better Grade 6, or Grade 6 Quest Map. On that selected page, students visit every labelled region, deepen safe choices, add accessible visual meaning-making across the whole organizer, decide what remains private, and submit named originals face-down for private transfer. Blank/skip needs no explanation, and accommodation may reduce substantive output without creating catch-up work. No student must complete all five, visit in sequence, use AI, or post this work to SpacesEDU.",
       "learningArc": [
         {
-          "timing": "0–5 min",
-          "label": "Launch",
-          "studentAction": "Name one learning job a tool can help with and one choice that could weaken trust.",
-          "outcome": "Technology is discussed through learning purposes and responsible decisions, not app popularity."
+          "timing": "45 / 60 / 75 min",
+          "label": "Identity Constellation",
+          "studentAction": "Represent chosen people, places, interests, languages, strengths, or experiences with words, symbols, pictures, and connections.",
+          "outcome": "Students make identity and privacy choices without required personal disclosure."
         },
         {
-          "timing": "5–13 min",
-          "label": "Detect",
-          "studentAction": "Vote HUMAN, AI, or CANNOT TELL for three samples, then point to evidence and its limits.",
-          "outcome": "Students replace style-based guesses with questions about process, sources, drafts, and explanation."
+          "timing": "45 / 60 / 75 min",
+          "label": "How I Learn Best",
+          "studentAction": "Name useful learning conditions, one way to recover when stuck, a strength, and a support to try.",
+          "outcome": "The receiving teacher gains practical learner information without fixed learning-style labels."
         },
         {
-          "timing": "13–23 min",
-          "label": "Sort",
-          "studentAction": "Place classroom situations in HELPS LEARNING, CHECK IT, or STOP + ASK and defend the call.",
-          "outcome": "Students reason with privacy, accuracy, ownership, attribution, and learning purpose."
+          "timing": "45 / 60 / 75 min",
+          "label": "Ideal Learning Space",
+          "studentAction": "Design and label a space for focus, collaboration, access, movement, and reset.",
+          "outcome": "Students reason about inclusive design, constraints, and trade-offs."
         },
         {
-          "timing": "23–32 min",
-          "label": "Prompt",
-          "studentAction": "Repair a prompt so AI questions and coaches instead of completing the work.",
-          "outcome": "The learner's decisions, evidence, and final explanation remain visible."
+          "timing": "45 / 60 / 75 min",
+          "label": "Build a Better Grade 6",
+          "studentAction": "Propose a small improvement, name who it helps, test a trade-off, and identify the right decision-maker.",
+          "outcome": "Student voice is connected to evidence, democratic process, feasibility, and accountability."
         },
         {
-          "timing": "32–42 min",
-          "label": "Repair",
-          "studentAction": "Mark a confident AI response KEEP, CHECK, or CHANGE and rewrite one weak claim.",
-          "outcome": "Students separate useful language from reliable evidence."
-        },
-        {
-          "timing": "42–50 min",
-          "label": "Draft",
-          "studentAction": "Write and stress-test one table commitment using a real scenario.",
-          "outcome": "The class gathers observable commitments rather than broad slogans."
-        },
-        {
-          "timing": "50–58 min",
-          "label": "Agree",
-          "studentAction": "Complete a personal learning, technology, and AI agreement.",
-          "outcome": "Each student names a support, a commitment, a stop-and-ask moment, and a teacher question."
-        },
-        {
-          "timing": "58–60 min",
-          "label": "Sign",
-          "studentAction": "Check, sign, and place the named page in the rotation collection tray.",
-          "outcome": "The receiving teacher gets a practical starting point for a follow-up conversation."
+          "timing": "45 / 60 / 75 min",
+          "label": "Grade 6 Quest Map",
+          "studentAction": "Map a meaningful goal to a challenge, strengths, help sources, and a first step.",
+          "outcome": "Students practise hopeful, realistic planning and help-seeking without turning goals into contracts."
         }
       ],
       "visual": {
-        "src": "/images/grade-6-ai-technology-decision-lab-v1.webp",
-        "alt": "Grade 6 students working in table groups with paper decision cards while one teacher-controlled screen supports the discussion.",
-        "caption": "One shared decision lab: talk first, make a call, test the reasoning, and revise."
+        "src": "/images/first-week/identity-constellation.webp",
+        "alt": "Preview of the My Identity Constellation page from the Grade 6 Discovery Booklet, with six identity regions and open space for words, symbols, pictures, accessible visual details, or a no-explanation blank or skip choice.",
+        "caption": "One of five standalone Discovery organizers; the teacher chooses the page and duration for each arriving group."
       },
       "primaryResource": {
-        "label": "Download the student agreement",
-        "href": "/printables/grade-6-learning-technology-ai-agreement.pdf",
-        "format": "PDF · one page per student",
-        "description": "My Grade 6 Learning, Technology & AI Agreement—the individual handoff completed during minutes 50–60."
+        "label": "Download the Grade 6 Discovery Booklet",
+        "href": "/printables/Grade_6_Discovery_Booklet.pdf",
+        "format": "PDF · five standalone organizer pages",
+        "description": "The verified booklet containing Identity Constellation, My Brain's User Manual, Ideal Learning Space, Build a Better Grade 6, and Grade 6 Quest Map."
       },
       "thinkingMoves": [
         {
-          "id": "ask-better-questions",
-          "label": "Ask better questions",
-          "prompt": "What question would reveal the process or evidence?"
-        },
-        {
-          "id": "verify",
-          "label": "Verify",
-          "prompt": "Which claim matters enough to trace to a current, named source?"
+          "id": "reflect",
+          "label": "Reflect",
+          "prompt": "What feels useful to share, and what should stay private?"
         },
         {
           "id": "challenge-assumptions",
           "label": "Challenge assumptions",
-          "prompt": "What are we assuming from style, confidence, or convenience?"
+          "prompt": "Are we treating a preference, goal, design, or majority choice as the only right answer?"
         },
         {
           "id": "weigh-trade-offs",
           "label": "Weigh trade-offs",
-          "prompt": "What does this choice strengthen, and what responsibility does it create?"
+          "prompt": "Who is helped, who could be excluded, and what constraint or authority matters?"
         },
         {
           "id": "improve",
           "label": "Improve",
-          "prompt": "How can we revise the prompt, response, or commitment so it works in a real situation?"
+          "prompt": "What small revision would make this representation, design, proposal, or plan more useful?"
         },
         {
-          "id": "reflect",
-          "label": "Reflect",
-          "prompt": "What choice will help me learn and make my process honest and visible?"
+          "id": "perspective",
+          "label": "Consider perspective",
+          "prompt": "Whose experience or need is missing, and how can we ask without demanding disclosure?"
         }
       ],
       "subjectSnapshot": [
         {
           "subject": "Career Education & ADST",
-          "now": "Learning, Technology & AI Agreement Lab",
-          "why": "Make specific choices about privacy, accuracy, ownership, help-seeking, and how tools support learning."
+          "now": "Discovery organizers, goal mapping, and community design",
+          "why": "Notice strengths and supports, map a next step, test an improvement, and protect student agency."
         },
         {
           "subject": "English Language Arts",
@@ -135,66 +112,64 @@
     },
     "student": {
       "label": "STUDENT PATH",
-      "title": "Make the Call: Technology & AI in Grade 6",
-      "why": "You will use technology, search, and sometimes AI during Grade 6. This lab helps you know what to check, what to keep as your own thinking, what information to protect, and when to ask for help.",
-      "summary": "Work with a partner and table to investigate realistic classroom choices. You will make evidence-based calls, improve a prompt and an AI response, help write a class commitment, and finish with an agreement in your own words.",
-      "duration": "60 minutes",
-      "grouping": "Partner talk and tables of 3–4 for the investigations; your personal agreement is individual because it describes your commitments, supports, and question.",
-      "routeTitle": "Your 60-minute decision lab",
+      "title": "Grade 6 Discovery Rotations",
+      "why": "Each organizer gives you a different way to show what matters to you, what helps learning, what could improve Grade 6, or what path you want to begin. You decide what is safe to share.",
+      "summary": "Your group will complete and decorate one whole, standalone Discovery organizer. Visit every labelled region on today's page using words, symbols, pictures, dictation, a model, a fictional alternative, blank/skip, or a privacy marker. A skip needs no explanation, accommodation can change how much you produce, and artistic polish is not graded. You do not need to complete every page or share private information.",
+      "duration": "One complete 45-, 60-, or 75-minute session",
+      "grouping": "Whole-class opening, individual creation, and an optional partner or teacher check",
+      "routeTitle": "One organizer · one complete session",
       "bring": [
-        "A pencil or another way to record your ideas",
-        "Your reasons, questions, and willingness to change your mind",
-        "No passwords, account names, photos, schedules, or private family information"
+        "A pencil or another way to create",
+        "Your choices, ideas, and willingness to revise",
+        "No private story, diagnosis, family detail, or public sharing is required"
       ],
-      "firstMove": "Think of one time technology helped you imagine, practise, organize, check, communicate, create, access support, or collaborate. Tell a partner what it helped you do.",
+      "firstMove": "Listen for today's organizer question, then make a quick response choice in every labelled region before returning to deepen safe ideas and add visual meaning across the page.",
       "quickReference": {
-        "firstMove": "Tell a partner about one time technology helped you learn. Name what it helped you do.",
-        "handIn": "Put your named agreement in the rotation tray. It is practice, not a grade.",
-        "missed": "Ask for the short scenario and agreement. Use the four-question check if you get stuck."
+        "firstMove": "Quick-pass every labelled region with a safe response, fictional alternative, blank/skip, or privacy marker; no reason is needed for a skip.",
+        "handIn": "Label the back and put the named original face-down in the rotation folder. It is practice, not a grade.",
+        "missed": "Ask which organizer your group completed. Every page is standalone, so no earlier session is required."
       },
-      "firstMoveNote": "Name the learning job, not just the app or device. Then predict one choice that could make the result less useful or trustworthy.",
+      "firstMoveNote": "You may mark blank/skip without explaining why, use a fictional route, or ask for a scribe, word bank, or reduced-output accommodation. Those choices still complete the region and do not create catch-up work.",
       "steps": [
-        "Detect: vote HUMAN, AI, or CANNOT TELL and explain what your clue can prove.",
-        "Sort: place classroom situations in HELPS LEARNING, CHECK IT, or STOP + ASK.",
-        "Prompt: turn ‘do it for us’ into a prompt that asks questions and waits for student decisions.",
-        "Repair: mark a confident AI response KEEP, CHECK, or CHANGE and rewrite one problem.",
-        "Draft: help your table write one commitment that tells people what to do in a real moment.",
-        "Agree: choose two class commitments and write one commitment of your own.",
-        "Personalize: name one support that helps you learn, one stop-and-ask moment, and one teacher question.",
-        "Sign and submit: check that the agreement sounds like you and contains no private account information."
+        "Choose: hear the question, privacy boundary, and several ways to respond.",
+        "First pass: make a response choice in every labelled region, including blank/skip when useful.",
+        "Deepen + decorate: develop safe choices and use drawing, symbols, borders, spacing, patterns, or colour to carry meaning across the whole page.",
+        "Check: use the success clues with yourself, a partner, or the teacher.",
+        "Revise: improve one part and decide what remains private.",
+        "Label and submit: place the named original face-down in the correct folder."
       ],
       "choices": [
-        "Use speaking, writing, pointing, table cards, dictation to an adult, or labelled drawings to show your reasoning.",
-        "Disagree with a table call when you can give a reason tied to learning, privacy, accuracy, ownership, or fairness.",
-        "Describe a school-learning support that is useful to your teacher; private medical, diagnostic, or family details are not required."
+        "Use words, symbols, pictures, labelled drawings, dictation to an adult, speech-to-text on an approved shared device, or a simple model.",
+        "Use a fictional or school-safe example, replace a prompt, choose quiet work, or leave a private area blank.",
+        "Choose whether one safe idea may be copied later; the named original stays private unless a teacher asks again."
       ],
-      "product": "One table commitment plus your signed, one-page My Grade 6 Learning, Technology & AI Agreement.",
-      "finish": "You can explain one decision your thinking group made, show how a prompt or response was improved, and submit an agreement with a specific commitment, a stop-and-ask moment, a learning support, and a teacher question.",
-      "handInOrSave": "Place the named agreement in the labelled rotation tray. It goes privately to your receiving Grade 6 teacher as the start of a conversation; it is not graded.",
-      "ifAbsentOrStuck": "If absent, ask for the short scenario-and-agreement route. If stuck, choose one situation and use four questions: What is the learning purpose? Is private information involved? What needs checking? Who makes the final decision?",
-      "spacesNote": "The named agreement is not posted to SpacesEDU. Later in September, you may choose stronger evidence for a Learning Story about how your thinking changed."
+      "product": "One complete, decorated Discovery organizer with every labelled region visited through a response choice, a student-chosen level of disclosure, and one visible revision or next step when useful.",
+      "finish": "Every labelled region has a response choice—including blank/skip when useful—visual cues help the whole page make sense, and you can explain one safe idea or revision plus what remains private. Artistry is not assessed.",
+      "handInOrSave": "Label the back and submit the named original face-down. It travels privately to your receiving teacher and is not graded or used for placement.",
+      "ifAbsentOrStuck": "Every organizer starts fresh. Ask for the whole-page shortened route, a model, word bank, scribe, fictional example, blank/skip, or a reduced-output accommodation that does not create catch-up work.",
+      "spacesNote": "Discovery organizers are not posted to SpacesEDU. Later, you may choose a safe idea as part of a separate Learning Story."
     },
     "family": {
       "label": "FAMILY WINDOW",
-      "title": "The first Grade 6 technology decisions",
-      "summary": "During the opening rotations, students spend one 60-minute lesson investigating realistic choices about search, devices, and AI. The focus is practical: privacy, checking claims, keeping student thinking visible, explaining help received, and knowing when to stop and ask an adult.",
-      "whyThisMatters": "Students need more than a slogan such as ‘use AI responsibly.’ They practise making and defending a decision in situations they may actually encounter, including a confident claim with no source, a request for private information, and a tool that offers to complete the student's work.",
-      "whatStudentsDo": "Students first work in pairs and tables to examine three authorship samples, sort six scenarios, repair a shortcut prompt, audit four claims in an AI response, and write one testable table commitment. In the final ten minutes, each student completes and signs an individual learning, technology, and AI agreement.",
+      "title": "Grade 6 Discovery Rotations",
+      "summary": "During the opening rotations, each group completes one of five standalone paper organizers. Sessions explore identity, learning conditions, inclusive spaces, ideas for a better Grade 6, or a meaningful goal. The visit order and length may differ by group, and students are not expected to complete every organizer.",
+      "whyThisMatters": "Several low-stakes routes help teachers notice student voice, strengths, reasoning, access needs, hopes, and community ideas without asking children to reveal private information or perform for a public display.",
+      "whatStudentsDo": "Students visit every labelled region on one selected organizer using words, symbols, pictures, dictation, design, a fictional alternative, blank/skip, or another accessible route; add visual meaning across the whole page; use a simple success check; revise when useful; choose what stays private; and submit the named original face-down for private teacher transfer.",
       "quickReference": {
-        "atSchool": "In pairs and table groups, students sort six realistic situations, improve an AI prompt and response, then write their own one-page agreement.",
+        "atSchool": "Each group completes one standalone Discovery organizer with an opening question, creation time, a check, revision, and private handoff.",
         "home": "Nothing to prepare or finish at home.",
-        "assessment": "The teacher observes reasoning and revision. The agreement is practice—not a grade or placement decision.",
-        "spaces": "The agreement stays with the teacher. Selected learning and feedback may appear in SpacesEDU later."
+        "assessment": "The teacher observes agency, representation, reasoning, and revision. The organizer is practice—not a grade, diagnosis, or placement decision.",
+        "spaces": "Named originals stay with the teacher and are not posted. A student may later choose a safe idea for a separate Learning Story."
       },
-      "product": "A table contributes one proposed class commitment. Each student submits a one-page agreement naming a useful learning purpose, two class commitments, one personal commitment, a stop-and-ask situation, a learning support, and a question for the receiving teacher.",
-      "assessment": "This is low-stakes formative evidence. The teacher listens for clear reasons, willingness to verify, respect for privacy and authentic voices, honest explanation of tool help, and the student's ability to keep final decisions visible. The agreement is not graded and does not affect class placement.",
-      "agreementNote": "This is a student-to-teacher learning agreement, not a legal contract or family consent form. It does not give permission to create accounts or use unapproved tools, and it does not replace Surrey Schools policies or teacher directions. Commitments may be discussed and revised as the class learns.",
-      "groupAndIndividualEvidence": "Table talk shows how students compare evidence, share airtime, and revise a decision. The individual page preserves each student's own commitment, support, and question. Named completed agreements stay private with the teacher.",
+      "product": "One complete, decorated Discovery organizer selected for the group and available block; no-explanation blank/skip and accommodation routes remain valid completion choices.",
+      "assessment": "This is low-stakes formative evidence. Teachers notice agency, reasoning, representation, access choices, and revision. The page is not graded, ranked, diagnosed, or used for class placement.",
+      "agreementNote": "Students choose what to disclose. Diagnoses, family details, difficult experiences, public sharing, and personal goals are never required. Blank/skip needs no explanation, a fictional route can be thoughtful, accommodation may reduce substantive output without catch-up, and artistic polish is not assessed.",
+      "groupAndIndividualEvidence": "Whole-class questions and optional partner checks support community thinking. Named originals travel privately to receiving teachers; only a separate student-approved copy or excerpt may be considered for display.",
       "milestones": [
         {
-          "date": "Sept. 8–11",
-          "label": "Grade 6 rotations · Technology & AI Decision Lab and agreement handoff",
-          "shortLabel": "Technology & AI rotations"
+          "date": "Sept. 8 onward",
+          "label": "Grade 6 Discovery rotations · schedule and visit order remain flexible",
+          "shortLabel": "Discovery rotations"
         },
         {
           "date": "Sept. 14–18",
@@ -207,19 +182,19 @@
           "shortLabel": "Learning-with-place sharing"
         }
       ],
-      "homework": "No special supplies or at-home completion are expected. The decision lab and agreement are completed at school with teacher guidance.",
+      "homework": "No special supplies or at-home completion are expected. The organizer is completed at school with teacher guidance.",
       "supportAtHome": [
-        "Ask your child to explain one HELPS LEARNING, CHECK IT, or STOP + ASK decision and the reason for it.",
-        "Ask what evidence would be stronger than guessing authorship from polished or rough writing.",
-        "Please let the agreement remain in the student's own words; a family conversation is welcome, but no rewriting is needed.",
+        "Ask which organizer the group used and one design, strategy, strength, idea, or next step the student chose to discuss.",
+        "Ask what the student changed after the self, partner, or teacher check.",
+        "Please let the page remain in the student's own words and honour anything they chose to keep private.",
         "Share important learning, health, belonging, or safety information directly with the school when it would help the classroom plan."
       ],
       "conversationPrompts": [
-        "Which scenario was hardest to decide, and what changed your mind?",
-        "How did your group change a prompt so students still did the important thinking?",
-        "What will you stop and ask an adult about this year?"
+        "Which organizer did your group use, and why might a teacher choose it?",
+        "What did you revise or make clearer?",
+        "What is one safe idea from the page you would like to talk about?"
       ],
-      "spacesNote": "The named agreement stays with the teacher and is not posted to SpacesEDU. Later September portfolio evidence may include a student-selected Learning Story, not private operational or account information."
+      "spacesNote": "Named Discovery originals stay with the teacher and are not posted to SpacesEDU. Later September portfolio evidence may include a separate student-selected Learning Story, not private learner information."
     }
   },
   "newsroom": {
@@ -921,40 +896,6 @@
         ]
       },
       {
-        "id": "ai-transparency-power-canada",
-        "scope": "CANADA",
-        "title": "Who should know when AI is involved?",
-        "question": "What should people be told about an AI system or AI-made content so they can question, challenge, and make an informed decision?",
-        "whyItMatters": "Canada is holding a real public consultation on AI transparency. Students can investigate a live governance question without being told that either unrestricted technology or maximum control is automatically best.",
-        "familyPrompt": "What should a company or government have to tell you before AI influences an important decision about you?",
-        "sources": [
-          {
-            "title": "Have your say on advancing AI transparency in Canada",
-            "organization": "Innovation, Science and Economic Development Canada",
-            "url": "https://ised-isde.canada.ca/site/ised/en/have-your-say-advancing-ai-transparency-canada",
-            "kind": "policy",
-            "sourcePrompt": "Find what information the government is considering requiring, who would use it, and what problem transparency is meant to solve. Keep the Sept. 23 consultation deadline attached."
-          }
-        ]
-      },
-      {
-        "id": "ai-energy-physical-system",
-        "scope": "CANADA + WORLD",
-        "title": "What does an AI answer physically require?",
-        "question": "When might using AI be worth the electricity, cooling, equipment, minerals, networks, and replacement hardware it requires?",
-        "whyItMatters": "Students connect apparently weightless digital activity to physical systems while also investigating ways AI could improve energy, climate research, monitoring, transportation, and waste reduction.",
-        "familyPrompt": "Which uses of AI seem worth real resources, and what would you want measured before deciding?",
-        "sources": [
-          {
-            "title": "Recommendation on the Ethics of Artificial Intelligence",
-            "organization": "UNESCO",
-            "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
-            "kind": "policy",
-            "sourcePrompt": "Find why environmental and ecosystem well-being belongs in AI decisions alongside human rights, fairness, and oversight."
-          }
-        ]
-      },
-      {
         "id": "forced-displacement-education",
         "scope": "WORLD",
         "title": "What happens to learning when people are forced to move?",
@@ -1406,111 +1347,88 @@
     {
       "id": "september-opening",
       "effectiveFrom": "2026-09-08",
-      "effectiveTo": "2026-09-11",
+      "effectiveTo": "2026-09-13",
       "state": "up-next",
       "shared": {
         "eyebrow": "SEPTEMBER · OPENING OUR LEARNING COMMUNITY",
-        "title": "Make the Call: Technology & AI in Grade 6",
-        "bigQuestion": "When does technology strengthen our learning—and what choices keep the thinking, safety, and responsibility with us?",
-        "summary": "During the Grade 6 rotations, students work through fast, concrete technology and AI decisions. In pairs and table groups they test whether authorship can be guessed from style, sort six classroom situations, repair a shortcut prompt, challenge a confident AI response, and propose a usable class commitment. Each student then writes and signs a one-page learning, technology, and AI agreement for the teacher who will receive them.",
+        "title": "Grade 6 Discovery Rotations",
+        "bigQuestion": "What can we learn about ourselves and a stronger Grade 6 community while protecting each person's choices and privacy?",
+        "summary": "The opening schedule may change by group, day, and block length. For each visit, the teacher chooses one complete paper-first organizer: Identity Constellation, How I Learn Best, Ideal Learning Space, Build a Better Grade 6, or Grade 6 Quest Map. On that selected page, students visit every labelled region, deepen safe choices, add accessible visual meaning-making across the whole organizer, decide what remains private, and submit named originals face-down for private transfer. Blank/skip needs no explanation, and accommodation may reduce substantive output without creating catch-up work. No student must complete all five, visit in sequence, use AI, or post this work to SpacesEDU.",
         "learningArc": [
           {
-            "timing": "0–5 min",
-            "label": "Launch",
-            "studentAction": "Name one learning job a tool can help with and one choice that could weaken trust.",
-            "outcome": "Technology is discussed through learning purposes and responsible decisions, not app popularity."
+            "timing": "45 / 60 / 75 min",
+            "label": "Identity Constellation",
+            "studentAction": "Represent chosen people, places, interests, languages, strengths, or experiences with words, symbols, pictures, and connections.",
+            "outcome": "Students make identity and privacy choices without required personal disclosure."
           },
           {
-            "timing": "5–13 min",
-            "label": "Detect",
-            "studentAction": "Vote HUMAN, AI, or CANNOT TELL for three samples, then point to evidence and its limits.",
-            "outcome": "Students replace style-based guesses with questions about process, sources, drafts, and explanation."
+            "timing": "45 / 60 / 75 min",
+            "label": "How I Learn Best",
+            "studentAction": "Name useful learning conditions, one way to recover when stuck, a strength, and a support to try.",
+            "outcome": "The receiving teacher gains practical learner information without fixed learning-style labels."
           },
           {
-            "timing": "13–23 min",
-            "label": "Sort",
-            "studentAction": "Place classroom situations in HELPS LEARNING, CHECK IT, or STOP + ASK and defend the call.",
-            "outcome": "Students reason with privacy, accuracy, ownership, attribution, and learning purpose."
+            "timing": "45 / 60 / 75 min",
+            "label": "Ideal Learning Space",
+            "studentAction": "Design and label a space for focus, collaboration, access, movement, and reset.",
+            "outcome": "Students reason about inclusive design, constraints, and trade-offs."
           },
           {
-            "timing": "23–32 min",
-            "label": "Prompt",
-            "studentAction": "Repair a prompt so AI questions and coaches instead of completing the work.",
-            "outcome": "The learner's decisions, evidence, and final explanation remain visible."
+            "timing": "45 / 60 / 75 min",
+            "label": "Build a Better Grade 6",
+            "studentAction": "Propose a small improvement, name who it helps, test a trade-off, and identify the right decision-maker.",
+            "outcome": "Student voice is connected to evidence, democratic process, feasibility, and accountability."
           },
           {
-            "timing": "32–42 min",
-            "label": "Repair",
-            "studentAction": "Mark a confident AI response KEEP, CHECK, or CHANGE and rewrite one weak claim.",
-            "outcome": "Students separate useful language from reliable evidence."
-          },
-          {
-            "timing": "42–50 min",
-            "label": "Draft",
-            "studentAction": "Write and stress-test one table commitment using a real scenario.",
-            "outcome": "The class gathers observable commitments rather than broad slogans."
-          },
-          {
-            "timing": "50–58 min",
-            "label": "Agree",
-            "studentAction": "Complete a personal learning, technology, and AI agreement.",
-            "outcome": "Each student names a support, a commitment, a stop-and-ask moment, and a teacher question."
-          },
-          {
-            "timing": "58–60 min",
-            "label": "Sign",
-            "studentAction": "Check, sign, and place the named page in the rotation collection tray.",
-            "outcome": "The receiving teacher gets a practical starting point for a follow-up conversation."
+            "timing": "45 / 60 / 75 min",
+            "label": "Grade 6 Quest Map",
+            "studentAction": "Map a meaningful goal to a challenge, strengths, help sources, and a first step.",
+            "outcome": "Students practise hopeful, realistic planning and help-seeking without turning goals into contracts."
           }
         ],
         "visual": {
-          "src": "/images/grade-6-ai-technology-decision-lab-v1.webp",
-          "alt": "Grade 6 students working in table groups with paper decision cards while one teacher-controlled screen supports the discussion.",
-          "caption": "One shared decision lab: talk first, make a call, test the reasoning, and revise."
+          "src": "/images/first-week/identity-constellation.webp",
+          "alt": "Preview of the My Identity Constellation page from the Grade 6 Discovery Booklet, with six identity regions and open space for words, symbols, pictures, accessible visual details, or a no-explanation blank or skip choice.",
+          "caption": "One of five standalone Discovery organizers; the teacher chooses the page and duration for each arriving group."
         },
         "primaryResource": {
-          "label": "Download the student agreement",
-          "href": "/printables/grade-6-learning-technology-ai-agreement.pdf",
-          "format": "PDF · one page per student",
-          "description": "My Grade 6 Learning, Technology & AI Agreement—the individual handoff completed during minutes 50–60."
+          "label": "Download the Grade 6 Discovery Booklet",
+          "href": "/printables/Grade_6_Discovery_Booklet.pdf",
+          "format": "PDF · five standalone organizer pages",
+          "description": "The verified booklet containing Identity Constellation, My Brain's User Manual, Ideal Learning Space, Build a Better Grade 6, and Grade 6 Quest Map."
         },
         "thinkingMoves": [
           {
-            "id": "ask-better-questions",
-            "label": "Ask better questions",
-            "prompt": "What question would reveal the process or evidence?"
-          },
-          {
-            "id": "verify",
-            "label": "Verify",
-            "prompt": "Which claim matters enough to trace to a current, named source?"
+            "id": "reflect",
+            "label": "Reflect",
+            "prompt": "What feels useful to share, and what should stay private?"
           },
           {
             "id": "challenge-assumptions",
             "label": "Challenge assumptions",
-            "prompt": "What are we assuming from style, confidence, or convenience?"
+            "prompt": "Are we treating a preference, goal, design, or majority choice as the only right answer?"
           },
           {
             "id": "weigh-trade-offs",
             "label": "Weigh trade-offs",
-            "prompt": "What does this choice strengthen, and what responsibility does it create?"
+            "prompt": "Who is helped, who could be excluded, and what constraint or authority matters?"
           },
           {
             "id": "improve",
             "label": "Improve",
-            "prompt": "How can we revise the prompt, response, or commitment so it works in a real situation?"
+            "prompt": "What small revision would make this representation, design, proposal, or plan more useful?"
           },
           {
-            "id": "reflect",
-            "label": "Reflect",
-            "prompt": "What choice will help me learn and make my process honest and visible?"
+            "id": "perspective",
+            "label": "Consider perspective",
+            "prompt": "Whose experience or need is missing, and how can we ask without demanding disclosure?"
           }
         ],
         "subjectSnapshot": [
           {
             "subject": "Career Education & ADST",
-            "now": "Learning, Technology & AI Agreement Lab",
-            "why": "Make specific choices about privacy, accuracy, ownership, help-seeking, and how tools support learning."
+            "now": "Discovery organizers, goal mapping, and community design",
+            "why": "Notice strengths and supports, map a next step, test an improvement, and protect student agency."
           },
           {
             "subject": "English Language Arts",
@@ -1536,66 +1454,64 @@
       },
       "student": {
         "label": "STUDENT PATH",
-        "title": "Make the Call: Technology & AI in Grade 6",
-        "why": "You will use technology, search, and sometimes AI during Grade 6. This lab helps you know what to check, what to keep as your own thinking, what information to protect, and when to ask for help.",
-        "summary": "Work with a partner and table to investigate realistic classroom choices. You will make evidence-based calls, improve a prompt and an AI response, help write a class commitment, and finish with an agreement in your own words.",
-        "duration": "60 minutes",
-        "grouping": "Partner talk and tables of 3–4 for the investigations; your personal agreement is individual because it describes your commitments, supports, and question.",
-        "routeTitle": "Your 60-minute decision lab",
+        "title": "Grade 6 Discovery Rotations",
+        "why": "Each organizer gives you a different way to show what matters to you, what helps learning, what could improve Grade 6, or what path you want to begin. You decide what is safe to share.",
+        "summary": "Your group will complete and decorate one whole, standalone Discovery organizer. Visit every labelled region on today's page using words, symbols, pictures, dictation, a model, a fictional alternative, blank/skip, or a privacy marker. A skip needs no explanation, accommodation can change how much you produce, and artistic polish is not graded. You do not need to complete every page or share private information.",
+        "duration": "One complete 45-, 60-, or 75-minute session",
+        "grouping": "Whole-class opening, individual creation, and an optional partner or teacher check",
+        "routeTitle": "One organizer · one complete session",
         "bring": [
-          "A pencil or another way to record your ideas",
-          "Your reasons, questions, and willingness to change your mind",
-          "No passwords, account names, photos, schedules, or private family information"
+          "A pencil or another way to create",
+          "Your choices, ideas, and willingness to revise",
+          "No private story, diagnosis, family detail, or public sharing is required"
         ],
-        "firstMove": "Think of one time technology helped you imagine, practise, organize, check, communicate, create, access support, or collaborate. Tell a partner what it helped you do.",
+        "firstMove": "Listen for today's organizer question, then make a quick response choice in every labelled region before returning to deepen safe ideas and add visual meaning across the page.",
         "quickReference": {
-          "firstMove": "Tell a partner about one time technology helped you learn. Name what it helped you do.",
-          "handIn": "Put your named agreement in the rotation tray. It is practice, not a grade.",
-          "missed": "Ask for the short scenario and agreement. Use the four-question check if you get stuck."
+          "firstMove": "Quick-pass every labelled region with a safe response, fictional alternative, blank/skip, or privacy marker; no reason is needed for a skip.",
+          "handIn": "Label the back and put the named original face-down in the rotation folder. It is practice, not a grade.",
+          "missed": "Ask which organizer your group completed. Every page is standalone, so no earlier session is required."
         },
-        "firstMoveNote": "Name the learning job, not just the app or device. Then predict one choice that could make the result less useful or trustworthy.",
+        "firstMoveNote": "You may mark blank/skip without explaining why, use a fictional route, or ask for a scribe, word bank, or reduced-output accommodation. Those choices still complete the region and do not create catch-up work.",
         "steps": [
-          "Detect: vote HUMAN, AI, or CANNOT TELL and explain what your clue can prove.",
-          "Sort: place classroom situations in HELPS LEARNING, CHECK IT, or STOP + ASK.",
-          "Prompt: turn ‘do it for us’ into a prompt that asks questions and waits for student decisions.",
-          "Repair: mark a confident AI response KEEP, CHECK, or CHANGE and rewrite one problem.",
-          "Draft: help your table write one commitment that tells people what to do in a real moment.",
-          "Agree: choose two class commitments and write one commitment of your own.",
-          "Personalize: name one support that helps you learn, one stop-and-ask moment, and one teacher question.",
-          "Sign and submit: check that the agreement sounds like you and contains no private account information."
+          "Choose: hear the question, privacy boundary, and several ways to respond.",
+          "First pass: make a response choice in every labelled region, including blank/skip when useful.",
+          "Deepen + decorate: develop safe choices and use drawing, symbols, borders, spacing, patterns, or colour to carry meaning across the whole page.",
+          "Check: use the success clues with yourself, a partner, or the teacher.",
+          "Revise: improve one part and decide what remains private.",
+          "Label and submit: place the named original face-down in the correct folder."
         ],
         "choices": [
-          "Use speaking, writing, pointing, table cards, dictation to an adult, or labelled drawings to show your reasoning.",
-          "Disagree with a table call when you can give a reason tied to learning, privacy, accuracy, ownership, or fairness.",
-          "Describe a school-learning support that is useful to your teacher; private medical, diagnostic, or family details are not required."
+          "Use words, symbols, pictures, labelled drawings, dictation to an adult, speech-to-text on an approved shared device, or a simple model.",
+          "Use a fictional or school-safe example, replace a prompt, choose quiet work, or leave a private area blank.",
+          "Choose whether one safe idea may be copied later; the named original stays private unless a teacher asks again."
         ],
-        "product": "One table commitment plus your signed, one-page My Grade 6 Learning, Technology & AI Agreement.",
-        "finish": "You can explain one decision your thinking group made, show how a prompt or response was improved, and submit an agreement with a specific commitment, a stop-and-ask moment, a learning support, and a teacher question.",
-        "handInOrSave": "Place the named agreement in the labelled rotation tray. It goes privately to your receiving Grade 6 teacher as the start of a conversation; it is not graded.",
-        "ifAbsentOrStuck": "If absent, ask for the short scenario-and-agreement route. If stuck, choose one situation and use four questions: What is the learning purpose? Is private information involved? What needs checking? Who makes the final decision?",
-        "spacesNote": "The named agreement is not posted to SpacesEDU. Later in September, you may choose stronger evidence for a Learning Story about how your thinking changed."
+        "product": "One complete, decorated Discovery organizer with every labelled region visited through a response choice, a student-chosen level of disclosure, and one visible revision or next step when useful.",
+        "finish": "Every labelled region has a response choice—including blank/skip when useful—visual cues help the whole page make sense, and you can explain one safe idea or revision plus what remains private. Artistry is not assessed.",
+        "handInOrSave": "Label the back and submit the named original face-down. It travels privately to your receiving teacher and is not graded or used for placement.",
+        "ifAbsentOrStuck": "Every organizer starts fresh. Ask for the whole-page shortened route, a model, word bank, scribe, fictional example, blank/skip, or a reduced-output accommodation that does not create catch-up work.",
+        "spacesNote": "Discovery organizers are not posted to SpacesEDU. Later, you may choose a safe idea as part of a separate Learning Story."
       },
       "family": {
         "label": "FAMILY WINDOW",
-        "title": "The first Grade 6 technology decisions",
-        "summary": "During the opening rotations, students spend one 60-minute lesson investigating realistic choices about search, devices, and AI. The focus is practical: privacy, checking claims, keeping student thinking visible, explaining help received, and knowing when to stop and ask an adult.",
-        "whyThisMatters": "Students need more than a slogan such as ‘use AI responsibly.’ They practise making and defending a decision in situations they may actually encounter, including a confident claim with no source, a request for private information, and a tool that offers to complete the student's work.",
-        "whatStudentsDo": "Students first work in pairs and tables to examine three authorship samples, sort six scenarios, repair a shortcut prompt, audit four claims in an AI response, and write one testable table commitment. In the final ten minutes, each student completes and signs an individual learning, technology, and AI agreement.",
+        "title": "Grade 6 Discovery Rotations",
+        "summary": "During the opening rotations, each group completes one of five standalone paper organizers. Sessions explore identity, learning conditions, inclusive spaces, ideas for a better Grade 6, or a meaningful goal. The visit order and length may differ by group, and students are not expected to complete every organizer.",
+        "whyThisMatters": "Several low-stakes routes help teachers notice student voice, strengths, reasoning, access needs, hopes, and community ideas without asking children to reveal private information or perform for a public display.",
+        "whatStudentsDo": "Students visit every labelled region on one selected organizer using words, symbols, pictures, dictation, design, a fictional alternative, blank/skip, or another accessible route; add visual meaning across the whole page; use a simple success check; revise when useful; choose what stays private; and submit the named original face-down for private teacher transfer.",
         "quickReference": {
-          "atSchool": "In pairs and table groups, students sort six realistic situations, improve an AI prompt and response, then write their own one-page agreement.",
+          "atSchool": "Each group completes one standalone Discovery organizer with an opening question, creation time, a check, revision, and private handoff.",
           "home": "Nothing to prepare or finish at home.",
-          "assessment": "The teacher observes reasoning and revision. The agreement is practice—not a grade or placement decision.",
-          "spaces": "The agreement stays with the teacher. Selected learning and feedback may appear in SpacesEDU later."
+          "assessment": "The teacher observes agency, representation, reasoning, and revision. The organizer is practice—not a grade, diagnosis, or placement decision.",
+          "spaces": "Named originals stay with the teacher and are not posted. A student may later choose a safe idea for a separate Learning Story."
         },
-        "product": "A table contributes one proposed class commitment. Each student submits a one-page agreement naming a useful learning purpose, two class commitments, one personal commitment, a stop-and-ask situation, a learning support, and a question for the receiving teacher.",
-        "assessment": "This is low-stakes formative evidence. The teacher listens for clear reasons, willingness to verify, respect for privacy and authentic voices, honest explanation of tool help, and the student's ability to keep final decisions visible. The agreement is not graded and does not affect class placement.",
-        "agreementNote": "This is a student-to-teacher learning agreement, not a legal contract or family consent form. It does not give permission to create accounts or use unapproved tools, and it does not replace Surrey Schools policies or teacher directions. Commitments may be discussed and revised as the class learns.",
-        "groupAndIndividualEvidence": "Table talk shows how students compare evidence, share airtime, and revise a decision. The individual page preserves each student's own commitment, support, and question. Named completed agreements stay private with the teacher.",
+        "product": "One complete, decorated Discovery organizer selected for the group and available block; no-explanation blank/skip and accommodation routes remain valid completion choices.",
+        "assessment": "This is low-stakes formative evidence. Teachers notice agency, reasoning, representation, access choices, and revision. The page is not graded, ranked, diagnosed, or used for class placement.",
+        "agreementNote": "Students choose what to disclose. Diagnoses, family details, difficult experiences, public sharing, and personal goals are never required. Blank/skip needs no explanation, a fictional route can be thoughtful, accommodation may reduce substantive output without catch-up, and artistic polish is not assessed.",
+        "groupAndIndividualEvidence": "Whole-class questions and optional partner checks support community thinking. Named originals travel privately to receiving teachers; only a separate student-approved copy or excerpt may be considered for display.",
         "milestones": [
           {
-            "date": "Sept. 8–11",
-            "label": "Grade 6 rotations · Technology & AI Decision Lab and agreement handoff",
-            "shortLabel": "Technology & AI rotations"
+            "date": "Sept. 8 onward",
+            "label": "Grade 6 Discovery rotations · schedule and visit order remain flexible",
+            "shortLabel": "Discovery rotations"
           },
           {
             "date": "Sept. 14–18",
@@ -1608,31 +1524,31 @@
             "shortLabel": "Learning-with-place sharing"
           }
         ],
-        "homework": "No special supplies or at-home completion are expected. The decision lab and agreement are completed at school with teacher guidance.",
+        "homework": "No special supplies or at-home completion are expected. The organizer is completed at school with teacher guidance.",
         "supportAtHome": [
-          "Ask your child to explain one HELPS LEARNING, CHECK IT, or STOP + ASK decision and the reason for it.",
-          "Ask what evidence would be stronger than guessing authorship from polished or rough writing.",
-          "Please let the agreement remain in the student's own words; a family conversation is welcome, but no rewriting is needed.",
+          "Ask which organizer the group used and one design, strategy, strength, idea, or next step the student chose to discuss.",
+          "Ask what the student changed after the self, partner, or teacher check.",
+          "Please let the page remain in the student's own words and honour anything they chose to keep private.",
           "Share important learning, health, belonging, or safety information directly with the school when it would help the classroom plan."
         ],
         "conversationPrompts": [
-          "Which scenario was hardest to decide, and what changed your mind?",
-          "How did your group change a prompt so students still did the important thinking?",
-          "What will you stop and ask an adult about this year?"
+          "Which organizer did your group use, and why might a teacher choose it?",
+          "What did you revise or make clearer?",
+          "What is one safe idea from the page you would like to talk about?"
         ],
-        "spacesNote": "The named agreement stays with the teacher and is not posted to SpacesEDU. Later September portfolio evidence may include a student-selected Learning Story, not private operational or account information."
+        "spacesNote": "Named Discovery originals stay with the teacher and are not posted to SpacesEDU. Later September portfolio evidence may include a separate student-selected Learning Story, not private learner information."
       }
     },
     {
       "id": "first-formed-class-week",
       "effectiveFrom": "2026-09-14",
       "effectiveTo": "2026-09-18",
-      "state": "up-next",
+      "state": "published",
       "shared": {
         "eyebrow": "SEPTEMBER · FIRST FORMED-CLASS WEEK",
         "title": "Five ways to become known",
         "bigQuestion": "What can we learn about ourselves, one another, and this place without asking anyone to share a private story?",
-        "summary": "Across five connected days, students tell a low-risk object story, show how they reason with number size, name useful learning conditions, gather exact observations from the school grounds, and choose one specific example for a Friday Learning Story.",
+        "summary": "Across five connected days, students tell a low-risk object story, show how they reason with number size, name useful learning conditions, gather exact observations from the school grounds, and choose one specific example for a Friday Learning Story. If opening rotations are still finishing for some groups, use the standalone organizer route without treating it as missed prerequisite work.",
         "learningArc": [
           {
             "timing": "Mon. Sept. 14",
@@ -1667,8 +1583,8 @@
         ],
         "visual": {
           "src": "/images/visual-review/public-week-collaboration-hero-v1.webp",
-          "alt": "Grade 6 students sharing an object story, comparing number evidence, making notes, and observing the school grounds in pairs and small groups.",
-          "caption": "Five connected ways to notice how students think, contribute, communicate, and learn."
+          "alt": "Fictional Grade 6 classroom scene with students working in pairs and small groups using paper cards, discussion, and a shared class display.",
+          "caption": "FICTIONAL COLLABORATION SCENE · The week itself includes object stories, number reasoning, learning conditions, place observation, and a Friday Learning Story."
         },
         "primaryResource": null,
         "thinkingMoves": [
@@ -1740,12 +1656,12 @@
           "No private story is required"
         ],
         "firstMove": "Choose one ordinary object. Point to five details you can truly see before you invent a story.",
+        "firstMoveNote": "Stay with what you can point to first. Your story may be fictional, but its visible clues should be honest.",
         "quickReference": {
           "firstMove": "Choose an object and point to five visible clues before you invent.",
           "handIn": "Keep Monday–Thursday work in class. On Friday, post one Learning Story when your teacher asks.",
           "missed": "Ask for the day's image, question, and one example. Recover the important thinking—not every missed minute."
         },
-        "firstMoveNote": "Stay with what you can point to first. Your story may be fictional, but its visible clues should be honest.",
         "steps": [
           "Tell: build a short object story from visible clues.",
           "Estimate: place and explain very large and very small numbers.",
@@ -1815,7 +1731,7 @@
       "id": "surrey-place-and-election",
       "effectiveFrom": "2026-09-21",
       "effectiveTo": "2026-09-30",
-      "state": "up-next",
+      "state": "published",
       "shared": {
         "eyebrow": "SEPTEMBER · SURREY, PLACE & PUBLIC DECISIONS",
         "title": "Who decides—and what does this place teach us?",
@@ -1855,8 +1771,8 @@
         ],
         "visual": {
           "src": "/images/visual-review/newsroom-source-desk-v1.webp",
-          "alt": "A source desk with a Surrey map, dated article, photograph, notes, and question cards ready for students to compare.",
-          "caption": "Start with the source: look, locate, credit, compare, and keep one uncertainty visible."
+          "alt": "Fictional source-analysis desk with an unlabeled map, photograph, bar chart, text page, blank note card, pencil, and magnifying glass.",
+          "caption": "NEWSROOM ORIENTATION ILLUSTRATION · This is not Surrey evidence. Open the named, dated source before making a local claim."
         },
         "primaryResource": null,
         "thinkingMoves": [
@@ -1928,12 +1844,12 @@
           "Questions that remain open"
         ],
         "firstMove": "Point to one school, park, road, transit stop, recreation place, or neighbourhood feature on a Surrey map. Which public body might be able to change it—and what can it not decide alone?",
+        "firstMoveNote": "Name the exact decision, not only a job title. Keep one uncertainty visible until a dated source helps you resolve it.",
         "quickReference": {
           "firstMove": "Choose one Surrey place. Name the exact decision and who might have authority.",
           "handIn": "Keep your source notes and group display in class. No separate SpacesEDU post is planned.",
           "missed": "Ask for the source, date, class question, and one clue. Add your own careful claim or question."
         },
-        "firstMoveNote": "Name the exact decision, not only a job title. Keep one uncertainty visible until a dated source helps you resolve it.",
         "steps": [
           "Locate: find the place, date, and decision.",
           "Sort: match the decision to school, district, city, province, or Canada.",
@@ -2009,7 +1925,7 @@
       "id": "surrey-election-compare-and-prepare",
       "effectiveFrom": "2026-10-01",
       "effectiveTo": "2026-10-16",
-      "state": "up-next",
+      "state": "published",
       "shared": {
         "eyebrow": "OCTOBER · COMPARE, CHECK, PREPARE",
         "title": "Before the vote: claims, responsibilities, and choices",
@@ -2122,12 +2038,12 @@
           "Respect for other people's private choices"
         ],
         "firstMove": "Read one short campaign statement. Underline the exact promise. Circle what could be checked. Put a question mark beside anything the office may not control alone.",
+        "firstMoveNote": "A strong promise can still require a council or board vote, money, another level of government, public input, or time.",
         "quickReference": {
           "firstMove": "Underline the promise, circle the checkable part, and question the office's authority.",
           "handIn": "Keep the pair claim trail and team comparison board in class. Your ballot choice stays private.",
           "missed": "Open one dated statement and its original source. Add the office, one checkable claim, and one honest uncertainty."
         },
-        "firstMoveNote": "A strong promise can still require a council or board vote, money, another level of government, public input, or time.",
         "steps": [
           "Identify: Who said it, when, and which office are they seeking?",
           "Label: Is it a fact, opinion, claim, or promise?",
@@ -2204,7 +2120,7 @@
       "id": "surrey-election-results-and-next-steps",
       "effectiveFrom": "2026-10-17",
       "effectiveTo": "2026-10-23",
-      "state": "up-next",
+      "state": "published",
       "shared": {
         "eyebrow": "OCTOBER · RESULTS AND WHAT HAPPENS NEXT",
         "title": "Election day to next steps: what happens now?",
@@ -2244,8 +2160,8 @@
         ],
         "visual": {
           "src": "/images/visual-review/newsroom-source-desk-v1.webp",
-          "alt": "A newsroom source desk with a map, dated text, results chart, pencil, and magnifying glass ready for students to compare.",
-          "caption": "Record the source and result status first. Then describe the pattern, test explanations, and follow one promise into the real decision process."
+          "alt": "Fictional source-analysis desk with an unlabeled map, photograph, bar chart, text page, blank note card, pencil, and magnifying glass.",
+          "caption": "NEWSROOM ORIENTATION ILLUSTRATION · This is not a results source. Record the official source, status, and update time before describing a pattern."
         },
         "primaryResource": null,
         "thinkingMoves": [
@@ -2317,12 +2233,12 @@
           "One question about what happens next"
         ],
         "firstMove": "Find the result source, its update time, and its status. Write one sentence that begins, ‘This result shows…’ and one that begins, ‘This result does not show…’",
+        "firstMoveNote": "Wait for official results. A total or percentage shows a pattern; it does not automatically explain people's reasons.",
         "quickReference": {
           "firstMove": "Record source, update time, and status. Say what the result shows and does not show.",
           "handIn": "Keep the result note and promise pathway in class. No extra SpacesEDU post is planned.",
           "missed": "Ask for the official result source and one promise. Add one accurate pattern and one next step the promise would require."
         },
-        "firstMoveNote": "Wait for official results. A total or percentage shows a pattern; it does not automatically explain people's reasons.",
         "steps": [
           "Verify: use the official Surrey result and record when it was updated.",
           "Describe: state one result pattern without guessing why people voted.",
@@ -2395,5 +2311,5 @@
       }
     }
   ],
-  "checksum": "sha256:e665e5322f24191bd01349e71010a539658d847ef4e69bcef12c4565c9e41cd0"
+  "checksum": "sha256:7206b630d88f8f778a389a46ea326f1a627cc5ef94629da5c4db4286fe9e5c0b"
 }
