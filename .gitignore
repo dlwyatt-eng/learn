@@ -42,3 +42,8 @@ next-env.d.ts
 /.sites-runtime/
 /outputs/
 /work/
+
+# Generated from the pinned Earth, Stuff & Fairness source
+/tmp/earth-source/
+/public/earth-stuff-fairness/
+/earth-review/

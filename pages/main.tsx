@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import ReactDOM from "react-dom/client";
 import ClassroomPortal from "../app/classroom-portal";
+import EarthFamilyEntry from "../app/earth-family-entry";
 import "../app/globals.css";
 import "../app/classroom-portal-v2.css";
 import "../app/newsroom-public.css";
@@ -66,6 +67,7 @@ function App() {
   return <>
     <div className="route-announcement" role="status" aria-live="polite" aria-atomic="true">{announcement}</div>
     <ClassroomPortal route={route} />
+    {(route === "students" || route === "families" || route === "learning") && <EarthFamilyEntry />}
   </>;
 }
 
