@@ -1,5 +1,6 @@
 "use client";
 
+import TruthFamilyPage, { TruthLearningLink } from "./truth-family-page";
 import { ExplorationRevisits } from "./virtual-explorations";
 import { useEffect, useState, type MouseEvent } from "react";
 import Link from "next/link";
@@ -9,7 +10,7 @@ import { monthlyPublicWindowForDate } from "./monthly-public-window.mjs";
 import NewsroomPublic, { selectNewsroomFeature, SurreyElectionStrip, type PublicNewsroom } from "./newsroom-public";
 import { publicWindowState, selectPublicWindow, vancouverDateKey } from "./public-window-selection.mjs";
 
-export type PortalRoute = "home" | "students" | "families" | "newsroom" | "learning" | "portfolio" | "guide";
+export type PortalRoute = "home" | "students" | "families" | "newsroom" | "learning" | "portfolio" | "guide" | "truth-and-reconciliation";
 
 type PublicWindow = Omit<typeof publicWindowManifest.window, "shared"> & {
   shared: Omit<typeof publicWindowManifest.window.shared, "primaryResource"> & {
@@ -106,6 +107,7 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
         {route === "learning" && <LearningPage />}
         {route === "portfolio" && <PortfolioPage />}
         {route === "guide" && <GuidePage />}
+        {route === "truth-and-reconciliation" && <TruthFamilyPage />}
       </div>
 
       <footer className="site-footer compact-footer">
@@ -171,6 +173,7 @@ function StudentPage() {
       </div>
     </section>
 
+    <TruthLearningLink />
     <section className="student-task-facts" aria-label="Lesson quick facts">
       <article><small>TIME</small><strong>{current.student.duration}</strong></article>
       <article><small>WORK WITH</small><strong>{compactGrouping()}</strong></article>
@@ -233,6 +236,7 @@ function FamilyPage() {
       <ResourceDownload />
     </section>
 
+    <TruthLearningLink />
     <section className="family-priority-grid">
       <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.shortLabel ?? item.label}</span></li>)}</ol></article>
       <article><small>AT SCHOOL</small><h2>What students will do</h2><p>{current.family.quickReference.atSchool}</p></article>
@@ -278,6 +282,7 @@ function LearningPage() {
 
     <figure className="learning-mosaic"><Image unoptimized src="/images/public-student-learning-mosaic-v1.webp" alt="Fictional classroom panorama of Grade 6 students observing an object and photograph, discussing ideas, building a model, moving, and reading together" width={1792} height={1008} sizes="(max-width: 1180px) 100vw, 1180px" /><figcaption>ILLUSTRATION · OBSERVATION, DISCUSSION, MODEL-MAKING, MOVEMENT, AND READING</figcaption></figure>
 
+    <TruthLearningLink />
     <section className="subject-now-grid" aria-labelledby="subject-now-title">
       <header><small>RIGHT NOW</small><h2 id="subject-now-title">Learning by subject</h2></header>
       <div>{current.shared.subjectSnapshot.map(item => <article key={item.subject}><small>{item.subject}</small><h3>{item.now}</h3></article>)}</div>

@@ -6,9 +6,10 @@ import "../app/globals.css";
 import "../app/classroom-portal-v2.css";
 import "../app/newsroom-public.css";
 
-type Route = "home" | "students" | "families" | "learning" | "portfolio" | "newsroom" | "guide";
-const routes = new Set<Route>(["home", "students", "families", "learning", "portfolio", "newsroom", "guide"]);
+type Route = "home" | "students" | "families" | "learning" | "portfolio" | "newsroom" | "guide" | "truth-and-reconciliation";
+const routes = new Set<Route>(["home", "students", "families", "learning", "portfolio", "newsroom", "guide", "truth-and-reconciliation"]);
 const routeLabels: Record<Route, string> = {
+  "truth-and-reconciliation": "Truth & Reconciliation",
   home: "Now",
   students: "Students",
   families: "Families",

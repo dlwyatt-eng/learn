@@ -1,0 +1,91 @@
+{
+  "version": "2026-09-13",
+  "title": "Truth, evidence & living Nations",
+  "dates": {
+    "learning": "September 14–24, 2026",
+    "display": "September 29, 2026",
+    "national": "September 30, 2026",
+    "checkBack": "October 8, 2026"
+  },
+  "sources": [
+    {
+      "id": "phyllis",
+      "title": "Phyllis Webstad’s Story",
+      "creator": "Phyllis Webstad · Orange Shirt Society",
+      "kind": "First-person account: a person describes her own experience",
+      "context": "Phyllis Webstad describes attending St. Joseph Mission residential school in 1973–1974, aged six. Her grandmother bought her an orange shirt for school. Staff took it away and did not return it. This is her account of one experience, not every Survivor’s story.",
+      "quote": "I didn’t understand why they wouldn’t give it back to me, it was mine!",
+      "location": "The opening account, second paragraph, final sentence.",
+      "href": "https://orangeshirtday.org/about/phyllis-story/",
+      "question": "What happened to Phyllis’s shirt? What did the adults fail to respect?",
+      "limit": "This account tells us what Phyllis experienced. It does not describe every school or every child.",
+      "date": "Experience: 1973–1974. Webpage publication date not stated; checked September 13, 2026."
+    },
+    {
+      "id": "history",
+      "title": "Residential School History",
+      "creator": "National Centre for Truth and Reconciliation (NCTR)",
+      "kind": "Historical explanation drawing on the work of the Truth and Reconciliation Commission",
+      "context": "Canada’s government funded residential schools, many operated by churches, to separate Indigenous children from their families and cultures. First Nations, Inuit and Métis children were affected. Children were punished for speaking their languages. Many children died. Survivors and families have worked to have the truth heard.",
+      "quote": "The explicit intent was to separate these children from their families and cultures.",
+      "location": "The History of Residential Schools, second paragraph, third sentence.",
+      "href": "https://nctr.ca/education/residential-school-history/",
+      "question": "Was separating children from their families an accident or part of the policy? Which words tell you?",
+      "limit": "This is an explanation of the wider system, not an original school record or a description of every individual experience.",
+      "date": "Webpage publication date not stated; checked September 13, 2026."
+    },
+    {
+      "id": "katzie",
+      "title": "Katzie First Nation · land and living place names",
+      "creator": "Katzie First Nation",
+      "kind": "A Nation shares knowledge of its own territory and community",
+      "context": "Katzie describes continuing connections to land and waterways around Pitt Lake and Pitt River. Its territory includes places now called Surrey and neighbouring municipalities. Katzie is working to keep its place names spoken by present and future generations.",
+      "quote": "These names live on and Katzie are working to ensure that the names continue to be spoken by present and future generations.",
+      "location": "Homepage, About Us passage about territory and place names.",
+      "href": "https://katzie.ca/",
+      "question": "What is Katzie working to continue today? Why should our class name the Nation that shared this knowledge?",
+      "limit": "Katzie speaks about Katzie. This source does not speak for Semiahmoo, Kwantlen, or all Indigenous peoples.",
+      "date": "Webpage publication date not stated; checked September 13, 2026."
+    }
+  ],
+  "links": [
+    {
+      "label": "Phyllis Webstad · Orange Shirt Society",
+      "href": "https://orangeshirtday.org/about/phyllis-story/"
+    },
+    {
+      "label": "NCTR · Residential School History",
+      "href": "https://nctr.ca/education/residential-school-history/"
+    },
+    {
+      "label": "Katzie First Nation · Who We Are",
+      "href": "https://katzie.ca/who-we-are/"
+    },
+    {
+      "label": "Semiahmoo First Nation · Our community",
+      "href": "https://www.semiahmoofirstnation.ca/"
+    },
+    {
+      "label": "Kwantlen First Nation · Kwantlen Strong",
+      "href": "https://kwantlenfn.ca/kwantlen-strong/"
+    },
+    {
+      "label": "NCTR · ReconciliACTION Plans",
+      "href": "https://nctr.ca/education/reconciliaction-plans/"
+    }
+  ],
+  "care": [
+    "Name the person or Nation and the source title.",
+    "Separate the source’s words from your own explanation.",
+    "Use only what has been publicly shared for learning. Public access is not permission to copy images, stories, songs, or designs into a new project.",
+    "Keep an unanswered question open. It does not erase what the evidence already establishes."
+  ],
+  "model": {
+    "source": "Katzie First Nation, katzie.ca",
+    "detail": "Katzie is working to keep its place names spoken by future generations.",
+    "meaning": "Language and place knowledge continue today.",
+    "question": "Which publicly shared local place name could we learn about next?",
+    "care": "Credit Katzie; use our own explanation and link to the source. Do not copy cultural designs.",
+    "action": "With our teacher, check the source credits on our September 29 display. On October 8, revisit one Nation-authored source and add one new learning."
+  }
+}
