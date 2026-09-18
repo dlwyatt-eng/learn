@@ -134,6 +134,12 @@ function WelcomeUpdate() {
     <p className="welcome-next"><strong>Looking ahead:</strong> {welcome.later}</p>
   </section>;
 }
+function SchoolDates() {
+  const upcoming = publicWindowManifest.schoolEvents.filter(item => item.date ? item.date >= today : item.month >= today.slice(0, 7));
+  if (!upcoming.length) return null;
+  return <section className="school-dates" aria-labelledby="school-dates-title"><header><small>MARK YOUR CALENDAR · 2026</small><h2 id="school-dates-title">School dates</h2><p>Times are local to Surrey.</p></header><ol>{upcoming.map(item => <li key={item.id}><div>{item.date ? <time dateTime={item.date}>{item.dateLabel}</time> : <span>{item.dateLabel}</span>}</div><div><strong>{item.title}</strong>{item.detail && <p>{item.detail}</p>}</div></li>)}</ol></section>;
+}
+
 function FamilyReminders() {
   return <section className="family-reminders" aria-labelledby="family-reminders-title"><header><small>FOR HOME</small><h2 id="family-reminders-title">A few things to know</h2></header><div>{welcome.reminders.map(item=><article key={item.title}><h3>{item.title}</h3><p>{item.text}</p></article>)}</div></section>;
 }
@@ -166,6 +172,7 @@ function HomePage() {
 
     <WelcomeUpdate />
     <FamilyReminders />
+    <SchoolDates />
     <SpacesStatus />
 
     <section className="home-glance" aria-label="At a glance">
@@ -263,6 +270,7 @@ function FamilyPage() {
     </section>
 
     <FamilyReminders />
+    <SchoolDates />
     <SpacesStatus />
     <WelcomeUpdate />
     <section className="family-priority-grid">
@@ -290,7 +298,7 @@ function FamilyPage() {
     </section>
 
     <section className="family-utilities">
-      <div><small>STAY IN TOUCH</small><h2>Planners and school email</h2><p>Use the planner for take-home reminders and email Mr. Wyatt with questions or to arrange a conversation. Confirmed school dates will be added as they become available.</p><p>{spacesPending ? welcome.spaces.message : current.family.quickReference.spaces}</p></div>
+      <div><small>STAY IN TOUCH</small><h2>Planners and school email</h2><p>Use the planner for take-home reminders and email Mr. Wyatt with questions or to arrange a conversation. School dates are listed above; check the planner for additional class reminders.</p><p>{spacesPending ? welcome.spaces.message : current.family.quickReference.spaces}</p></div>
       <nav aria-label="Family contact and official links">
         <a href={emailUrl}><strong>Email Mr. Wyatt</strong><span>{emailAddress}</span></a>
         <a href={schoolUrl} target="_blank" rel="noreferrer"><strong>Walnut Road Elementary</strong><span>Official school site ↗</span></a>

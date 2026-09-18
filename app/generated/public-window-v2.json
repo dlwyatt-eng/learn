@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-first-week-family-update-2026-09-18",
-  "sourceUpdatedAt": "2026-09-18T04:45:53Z",
+  "contentVersion": "2026-family-school-dates-2026-09-18",
+  "sourceUpdatedAt": "2026-09-18T04:57:46.578775Z",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1344,7 +1344,7 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 17, 2026",
+    "updatedOn": "September 18, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
@@ -1364,8 +1364,8 @@
         "text": "Planners are planned to go home on Friday. Please pay $6 for the planner through School Cash Online. Contact Mr. Wyatt privately if you have a question about the fee."
       },
       {
-        "title": "Dates and Open House",
-        "text": "Confirmed Open House details and other upcoming school reminders will be shared once the school calendar and weekly memo are available."
+        "title": "Open House · October 1",
+        "text": "Join us Thursday, October 1, from 5:30–6:30 pm. More school dates are listed below."
       }
     ],
     "spaces": {
@@ -1375,6 +1375,88 @@
       "purpose": "Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
     }
   },
+  "schoolEvents": [
+    {
+      "id": "photo-day",
+      "date": "2026-09-22",
+      "month": "2026-09",
+      "dateLabel": "Tue, September 22",
+      "title": "Photo Day",
+      "detail": ""
+    },
+    {
+      "id": "non-instructional",
+      "date": "2026-09-25",
+      "month": "2026-09",
+      "dateLabel": "Fri, September 25",
+      "title": "Non-instructional day",
+      "detail": "No classes for students."
+    },
+    {
+      "id": "truth-reconciliation",
+      "date": "2026-09-30",
+      "month": "2026-09",
+      "dateLabel": "Wed, September 30",
+      "title": "National Day for Truth and Reconciliation",
+      "detail": "School closed."
+    },
+    {
+      "id": "open-house",
+      "date": "2026-10-01",
+      "month": "2026-10",
+      "dateLabel": "Thu, October 1",
+      "title": "Open House",
+      "detail": "5:30–6:30 pm"
+    },
+    {
+      "id": "hot-lunch",
+      "date": "2026-10-02",
+      "month": "2026-10",
+      "dateLabel": "Fri, October 2",
+      "title": "Hot lunch",
+      "detail": ""
+    },
+    {
+      "id": "early-dismissal",
+      "date": "2026-10-08",
+      "month": "2026-10",
+      "dateLabel": "Thu, October 8",
+      "title": "Early dismissal",
+      "detail": "1:35 pm"
+    },
+    {
+      "id": "terry-fox",
+      "date": "2026-10-09",
+      "month": "2026-10",
+      "dateLabel": "Fri, October 9",
+      "title": "Terry Fox Run",
+      "detail": "1–2 pm"
+    },
+    {
+      "id": "thanksgiving",
+      "date": "2026-10-12",
+      "month": "2026-10",
+      "dateLabel": "Mon, October 12",
+      "title": "Thanksgiving",
+      "detail": "School closed."
+    },
+    {
+      "id": "interim-reports",
+      "date": "2026-10-16",
+      "month": "2026-10",
+      "dateLabel": "By Friday, October 16",
+      "title": "Interim reports",
+      "detail": "Sent home by this date."
+    },
+    {
+      "id": "food-drive",
+      "date": null,
+      "month": "2026-10",
+      "dateLabel": "Last week of October",
+      "title": "We Scare Hunger food drive",
+      "detail": "Exact collection dates to follow."
+    }
+  ],
   "windows": [
     {
       "id": "september-opening",
@@ -1735,9 +1817,9 @@
             "shortLabel": "Friday plans · planners & forms"
           },
           {
-            "date": "Coming soon",
-            "label": "Confirmed Open House and school reminders will follow",
-            "shortLabel": "Open House details to follow"
+            "date": "Oct. 1",
+            "label": "Open House · 5:30–6:30 pm",
+            "shortLabel": "Open House · 5:30–6:30 pm"
           }
         ],
         "product": "Discovery work, classroom contributions, and selected work being prepared for Open House. There is no required Friday Learning Story or online submission.",
@@ -2343,5 +2425,5 @@
       }
     }
   ],
-  "checksum": "sha256:576f2f3175e0eb642864913e0a3031c394f753b2dcca55cd976a1d5f663e3abf"
+  "checksum": "sha256:5d71d2ba8cb58368f15eca683ecf63e5ae15156d21684a05de81789ec7438661"
 }

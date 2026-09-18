@@ -42,3 +42,16 @@ test('the first-week recap remains current through the weekend without replacing
   assert.match(firstWeek.student.spacesNote,/No SpacesEDU upload is due/);
   assert.match(firstWeek.family.product,/no required Friday Learning Story/);
 });
+
+test('confirmed school dates render on home and families, preserve times, and expire without guessing the food-drive date',()=>{
+  for(const route of ['home','families']) {
+    const html=render(route);
+    for(const text of ['Tue, September 22','Photo Day','Fri, September 25','Wed, September 30','5:30–6:30 pm','Hot lunch','1:35 pm','1–2 pm','Thanksgiving','By Friday, October 16','Last week of October']) assert.ok(html.includes(text),route+': '+text);
+    const october=render(route,'2026-10-03');
+    assert.doesNotMatch(october,/>Photo Day</);
+    assert.match(october,/Early dismissal/);
+    assert.match(october,/We Scare Hunger food drive/);
+    assert.doesNotMatch(render(route,'2026-11-01'),/>School dates</);
+  }
+  assert.equal(manifest.schoolEvents.find(item=>item.id==='food-drive').date,null);
+});
