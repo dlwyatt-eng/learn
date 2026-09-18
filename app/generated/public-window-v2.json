@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-family-links-hot-lunch-unconfirmed-2026-09-18",
-  "sourceUpdatedAt": "2026-09-18T05:45:14.068080Z",
+  "contentVersion": "2026-family-payment-availability-2026-09-18",
+  "sourceUpdatedAt": "2026-09-18T05:55:05.601881Z",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1362,7 +1362,7 @@
       },
       {
         "title": "Planner",
-        "text": "Planners are planned to go home on Friday. Please pay $6 for the planner through School Cash Online. Contact Mr. Wyatt privately if you have a question about the fee.",
+        "text": "Planners are planned to go home on Friday. The $6 planner payment is expected to appear on School Cash Online on Friday, September 18. Please wait until the item is available before paying. Contact Mr. Wyatt privately if you have a question about the fee.",
         "link": {
           "label": "Open School Cash Online",
           "url": "https://surreyschools.schoolcashonline.com/"
@@ -1384,7 +1384,7 @@
       {
         "title": "School Cash Online",
         "url": "https://surreyschools.schoolcashonline.com/",
-        "description": "Pay the $6 planner fee when the item is available, and view other school fees."
+        "description": "The $6 planner item is expected Friday, September 18. Please check again then and pay once it appears."
       },
       {
         "title": "Walnut Road school news",
@@ -1411,7 +1411,8 @@
         "url": "https://surreyschoolsone.ca/teachers/csl/parent-resources/",
         "description": "Surrey Schools resources to help families understand learning updates and assessment."
       }
-    ]
+    ],
+    "hotLunchNotice": "Hot-lunch registration is currently unavailable, and ordering details are pending. Please wait for a school or PAC notice before trying to order. October 2 remains unconfirmed."
   },
   "schoolEvents": [
     {
@@ -1452,7 +1453,7 @@
       "month": "2026-10",
       "dateLabel": "Fri, October 2",
       "title": "Hot lunch · awaiting confirmation",
-      "detail": "October 2 is not confirmed. Please wait for a school or PAC notice about the date and ordering."
+      "detail": "October 2 is not confirmed. Registration is currently unavailable; please wait for a school or PAC notice about the date and ordering."
     },
     {
       "id": "early-dismissal",
@@ -1863,7 +1864,7 @@
         "product": "Discovery work, classroom contributions, and selected work being prepared for Open House. There is no required Friday Learning Story or online submission.",
         "quickReference": {
           "atSchool": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules. Friday’s activities are a flexible plan, with unfinished work carried forward as needed.",
-          "home": "Check the planner when it comes home, return the signed device-use form, and pay the $6 planner fee through School Cash Online. No curriculum work or online upload is due from this first-week update.",
+          "home": "Check the planner when it comes home and return the signed device-use form. The $6 planner payment is expected on School Cash Online on Friday, September 18; please pay once the item appears. No curriculum work or online upload is due from this first-week update.",
           "assessment": "These opening activities are not graded. Conversation, work and observation help Mr. Wyatt plan teaching and support.",
           "spaces": "Students are still being added to our class in the system. There is nothing to upload or set up at home yet. Mr. Wyatt will share access instructions when the class is ready. Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
         },
@@ -2463,5 +2464,5 @@
       }
     }
   ],
-  "checksum": "sha256:ac8706b47d1a9174d2eb6519013c1236bf55ce689f2a8b4a372bab670250499b"
+  "checksum": "sha256:c5206b932cad3cdf92738faebb4f4bd0a37cddc83993b407ebe7c63f2a3cfab1"
 }

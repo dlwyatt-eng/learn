@@ -147,7 +147,7 @@ function FamilyLinks() {
   return <section className="family-links" aria-labelledby="family-links-title">
     <header><h2 id="family-links-title">Useful family links</h2><p>Payments, school updates, and support for home.</p></header>
     <div>{welcome.familyLinks.map(item => <a key={item.url} href={item.url} target="_blank" rel="noreferrer"><h3>{item.title} ↗</h3><p>{item.description}</p></a>)}</div>
-    <p className="family-links-note">Hot lunch has a separate registration link on the school website. A missing School Cash Online item does not confirm whether hot lunch will run; please wait for a school or PAC notice.</p>
+    <p className="family-links-note">{welcome.hotLunchNotice}</p>
   </section>;
 }
 function SpacesStatus({showLink=true}:{showLink?:boolean}) {
