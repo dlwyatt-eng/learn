@@ -29,12 +29,15 @@ const isLegacyAiOpeningWindow = current.id === "september-opening" && /technolog
 const familyMilestones = current.id === "surrey-place-and-election"
   ? [...current.family.milestones.slice(0, 2), ...current.family.milestones.filter(item => item.date === "Oct. 17")].slice(0, 3)
   : current.family.milestones.slice(0, 3);
+const welcome = publicWindowManifest.classroomWelcome;
+const spacesPending = welcome.spaces.status === "pending";
 const spacesUrl = publicWindowManifest.safeLinks.spacesEduCanada;
 const schoolUrl = publicWindowManifest.safeLinks.school;
 const schoolCalendarUrl = publicWindowManifest.safeLinks.surreyCalendar;
 const emailUrl = publicWindowManifest.safeLinks.email;
 const emailAddress = emailUrl.replace(/^mailto:/, "").split("?")[0];
 const portfolioSummary = publicWindowManifest.portfolioSummary;
+const guideSections = publicWindowManifest.guideSections.map(section => spacesPending && section.title === "SpacesEDU" ? {...section, lead: welcome.spaces.title, items: [welcome.spaces.message, welcome.spaces.purpose]} : section);
 const newsroom = (publicWindowManifest as unknown as { newsroom?: PublicNewsroom }).newsroom;
 const compactPathCopy: Record<string, string> = {
   Detect: "Can you tell who made it? Point to a clue and say what it proves.",
@@ -88,14 +91,14 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
       <header className="site-header portal-header">
         <Link className="site-brand" href="/">
           <span>W</span>
-          <div><strong>Mr. Wyatt&apos;s Grade 6</strong><small>WALNUT ROAD ELEMENTARY</small></div>
+          <div><strong>Mr. Wyatt&apos;s Grade 6</strong><small>DIVISION 8 · ROOM 112 · ANNEX</small></div>
         </Link>
         <nav id="public-navigation" aria-label="Main navigation">
           {navigation.map(item => <Link key={item.route} href={item.href} className={route === item.route ? "active" : ""} aria-current={route === item.route ? "page" : undefined}>{item.label}</Link>)}
         </nav>
         <div className="portal-header-actions">
           <button type="button" className="portal-large-text" aria-label={largeText ? "Use standard text" : "Use large text"} aria-pressed={largeText} onClick={() => setLargeText(value => !value)}><span aria-hidden="true">Aa</span><strong>{largeText ? "Standard text" : "Large text"}</strong></button>
-          <a className="header-spaces-link" href={spacesUrl} target="_blank" rel="noreferrer">SpacesEDU ↗</a>
+          {spacesPending ? <Link className="header-spaces-link" href="/portfolio">SpacesEDU setup</Link> : <a className="header-spaces-link" href={spacesUrl} target="_blank" rel="noreferrer">SpacesEDU ↗</a>}
         </div>
       </header>
 
@@ -111,11 +114,11 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
       </div>
 
       <footer className="site-footer compact-footer">
-        <div><strong>Mr. Wyatt&apos;s Grade 6</strong><span>Student &amp; Family Site · 2026–27</span></div>
+        <div><strong>Mr. Wyatt&apos;s Grade 6</strong><span>Walnut Road Elementary · Division 8 · 2026–27</span></div>
         <nav aria-label="Footer links">
           <a href={emailUrl}>Email</a>
           <a href={schoolUrl} target="_blank" rel="noreferrer">School site ↗</a>
-          <a href={spacesUrl} target="_blank" rel="noreferrer">SpacesEDU Canada ↗</a>
+          {spacesPending ? <Link href="/portfolio">SpacesEDU setup</Link> : <a href={spacesUrl} target="_blank" rel="noreferrer">SpacesEDU Canada ↗</a>}
           <Link href="/guide">Classroom help</Link>
         </nav>
         <p>No student names, work, grades, or private classroom information appear here.</p>
@@ -124,24 +127,46 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
   );
 }
 
+function WelcomeUpdate() {
+  return <section className="welcome-update" aria-labelledby="welcome-update-title">
+    <header><small>CLASS UPDATE · {welcome.updatedOn}</small><h2 id="welcome-update-title">Getting settled, together</h2></header>
+    <div className="welcome-update-grid"><article><h3>{welcome.recapTitle}</h3><p>{welcome.recap}</p></article><article><h3>{welcome.nextTitle}</h3><p>{welcome.next}</p></article></div>
+    <p className="welcome-next"><strong>Looking ahead:</strong> {welcome.later}</p>
+  </section>;
+}
+function FamilyReminders() {
+  return <section className="family-reminders" aria-labelledby="family-reminders-title"><header><small>FOR HOME</small><h2 id="family-reminders-title">A few things to know</h2></header><div>{welcome.reminders.map(item=><article key={item.title}><h3>{item.title}</h3><p>{item.text}</p></article>)}</div></section>;
+}
+function SpacesStatus({showLink=true}:{showLink?:boolean}) {
+  if (!spacesPending) return null;
+  return <aside className="spaces-setup" aria-labelledby="spaces-setup-title"><div><small>SPACES EDU · SETUP UPDATE</small><h2 id="spaces-setup-title">{welcome.spaces.title}</h2><p>{welcome.spaces.message}</p></div>{showLink && <Link href="/portfolio">How we will use SpacesEDU →</Link>}</aside>;
+}
+
 function HomePage() {
   return <main className="public-home">
     <section className="current-hero">
       <figure data-fit={isDiscoveryWindow ? "contain" : "cover"}><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill priority sizes="(max-width: 1050px) 100vw, 55vw" /><figcaption>{current.shared.visual.caption}</figcaption></figure>
       <div className="current-hero-copy">
         <p className="eyebrow">{windowStateLabel()} · {formatWindowDates()}</p>
-        <h1>{current.student.title}</h1>
-        <div className="first-action"><small>{homeActionLabel()}</small><p>{current.student.firstMove}</p></div>
+        <h1>{welcome.title}</h1>
+        <p className="welcome-class">{welcome.classLabel} · {welcome.location}</p>
+        <p>{welcome.intro}</p>
+        <div className="first-action"><small>OUR CURRENT FOCUS</small><p>{current.shared.title}</p></div>
         <div className="status-pills" aria-label="Quick facts">
           <span>{current.student.duration}</span><span>{compactGrouping()}</span><span>{homeworkStatus()}</span>
         </div>
         <div className="hero-buttons">
-          <Link href="/students">Student page →</Link>
-          <Link href="/families" className="secondary">Family page</Link>
+          <Link href="/families">Start here, families →</Link>
+          <Link href="/students" className="secondary">Student page</Link>
+          <a href={emailUrl} className="secondary">Email Mr. Wyatt</a>
           <ResourceDownload compact />
         </div>
       </div>
     </section>
+
+    <WelcomeUpdate />
+    <FamilyReminders />
+    <SpacesStatus />
 
     <section className="home-glance" aria-label="At a glance">
       <div className="key-dates-card">
@@ -154,7 +179,7 @@ function HomePage() {
     {newsroom?.election && <SurreyElectionStrip election={newsroom.election} detailsHref="/newsroom#surrey-election" />}
 
     <section className="official-link-row" aria-label="Useful official links">
-      <a href={spacesUrl} target="_blank" rel="noreferrer"><small>PORTFOLIO</small><strong>SpacesEDU Canada ↗</strong></a>
+      {spacesPending ? <Link href="/portfolio"><small>PORTFOLIO</small><strong>SpacesEDU · setup update →</strong></Link> : <a href={spacesUrl} target="_blank" rel="noreferrer"><small>PORTFOLIO</small><strong>SpacesEDU Canada ↗</strong></a>}
       <a href={schoolUrl} target="_blank" rel="noreferrer"><small>SCHOOL</small><strong>Walnut Road Elementary ↗</strong></a>
       <a href={emailUrl}><small>CONTACT</small><strong>Email Mr. Wyatt</strong></a>
     </section>
@@ -220,7 +245,7 @@ function StudentPage() {
 
     <p className="student-save-boundary">{current.student.spacesNote}</p>
     <section className="student-launch-row single" aria-label="Student launch point">
-      <a href={spacesUrl} target="_blank" rel="noreferrer"><span>↗</span><div><small>FOR WORK YOU CHOOSE TO SHARE · NOT PRIVATE PAGES</small><strong>Open SpacesEDU Canada</strong></div></a>
+      {spacesPending ? <Link href="/portfolio"><div><small>NO UPLOAD DUE</small><strong>SpacesEDU class setup is in progress →</strong></div></Link> : <a href={spacesUrl} target="_blank" rel="noreferrer"><span>↗</span><div><small>FOR WORK YOU CHOOSE TO SHARE · NOT PRIVATE PAGES</small><strong>Open SpacesEDU Canada</strong></div></a>}
     </section>
   </main>;
 }
@@ -231,16 +256,19 @@ function FamilyPage() {
       <div>
         <p className="eyebrow">{windowStateLabel()} · FOR FAMILIES</p>
         <h1>{current.family.title}</h1>
+        <p className="welcome-class">{welcome.classLabel} · {welcome.location}</p>
         <div className="status-pills"><span>{homeworkStatus()}</span><span>{assessmentStatus()}</span><span>{current.student.duration}</span></div>
       </div>
       <ResourceDownload />
     </section>
 
-    <TruthLearningLink />
+    <FamilyReminders />
+    <SpacesStatus />
+    <WelcomeUpdate />
     <section className="family-priority-grid">
       <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.shortLabel ?? item.label}</span></li>)}</ol></article>
-      <article><small>AT SCHOOL</small><h2>What students will do</h2><p>{current.family.quickReference.atSchool}</p></article>
-      <article><small>AT HOME</small><h2>Nothing due</h2><p>{current.family.quickReference.home}</p></article>
+      <article><small>AT SCHOOL</small><h2>Our classroom focus</h2><p>{current.family.quickReference.atSchool}</p></article>
+      <article><small>AT HOME</small><h2>How to help</h2><p>{current.family.quickReference.home}</p></article>
       <article><small>ASSESSMENT</small><h2>{assessmentStatus()}</h2><p>{current.family.quickReference.assessment}</p></article>
       <article className="family-product"><small>WHAT STUDENTS MAKE OR SHOW</small><h2>What students make</h2><p>{current.family.product}</p></article>
     </section>
@@ -255,13 +283,14 @@ function FamilyPage() {
 
     {(isDiscoveryWindow || isLegacyAiOpeningWindow) && <section className="family-question-card"><div><small>ASK AT HOME</small><blockquote>“{current.family.conversationPrompts[0]}”</blockquote></div><p><strong>Privacy and support:</strong> {current.family.agreementNote}</p></section>}
 
+    <TruthLearningLink />
     <section className="family-artifact-conversation" aria-label="Family conversation about learning">
       <figure><Image unoptimized src="/images/public-family-artifact-conversation-v1.webp" alt="Illustrated family looking at work a student has chosen to share and asking a supportive question" width={1792} height={1008} /></figure>
       <div><small>WHEN A STUDENT CHOOSES WORK TO SHARE</small><h2>Ask about ideas, not neatness.</h2><p>If your child wants to share, ask what they tried, changed, or learned. Private original pages stay private. Only a safe part the student chooses may be copied separately for sharing, after the teacher asks permission again. Do not upload private Discovery pages to SpacesEDU. The How I Learn Best page is never copied for display.</p></div>
     </section>
 
     <section className="family-utilities">
-      <div><small>SPACES EDU</small><h2>Chosen work, feedback, and reflection</h2><p>{current.family.quickReference.spaces}</p><a href={spacesUrl} target="_blank" rel="noreferrer">Open SpacesEDU Canada ↗</a></div>
+      <div><small>STAY IN TOUCH</small><h2>Planners and school email</h2><p>Use the planner for take-home reminders and email Mr. Wyatt with questions or to arrange a conversation. Confirmed school dates will be added as they become available.</p><p>{spacesPending ? welcome.spaces.message : current.family.quickReference.spaces}</p></div>
       <nav aria-label="Family contact and official links">
         <a href={emailUrl}><strong>Email Mr. Wyatt</strong><span>{emailAddress}</span></a>
         <a href={schoolUrl} target="_blank" rel="noreferrer"><strong>Walnut Road Elementary</strong><span>Official school site ↗</span></a>
@@ -301,11 +330,13 @@ function LearningPage() {
 
 function PortfolioPage() {
   return <main className="content-page portfolio-page compact-content-page">
+    <SpacesStatus showLink={false}/>
     <section className="portfolio-action-hero">
-      <div><p className="eyebrow">PROJECTS &amp; SPACES EDU</p><h1>Choose. Explain. Reflect.</h1><p>SpacesEDU is where students can share chosen examples of learning, read feedback, and think about next steps. Private classroom pages and Discovery originals are not uploaded.</p></div>
-      <a href={spacesUrl} target="_blank" rel="noreferrer"><small>OFFICIAL CANADIAN SITE</small><strong>Open SpacesEDU Canada ↗</strong></a>
+      <div><p className="eyebrow">PROJECTS &amp; SPACES EDU</p><h1>{spacesPending ? "Getting our portfolios ready" : "Choose. Explain. Reflect."}</h1><p>{welcome.spaces.purpose} Private classroom pages and Discovery originals are not uploaded.</p></div>
+      {!spacesPending && <a href={spacesUrl} target="_blank" rel="noreferrer"><small>OFFICIAL CANADIAN SITE</small><strong>Open SpacesEDU Canada ↗</strong></a>}
     </section>
 
+    <h2>{spacesPending ? "Once class access is ready" : "How to make a useful post"}</h2>
     <section className="portfolio-steps" aria-label="How to make a useful post">
       <article><b>1</b><h2>Choose</h2><p>Select work that shows important learning or progress.</p></article>
       <article><b>2</b><h2>Explain</h2><p>Describe something you tried, a problem you worked on, how you helped, or a change you made.</p></article>
@@ -328,7 +359,7 @@ function GuidePage() {
     <section className="functional-page-header"><p className="eyebrow">CLASSROOM HELP</p><h1>Four quick answers</h1></section>
 
     <section className="guide-quick-grid">
-      {publicWindowManifest.guideSections.map((section, index) => <article key={section.title}><span>{String(index + 1).padStart(2, "0")}</span><div><small>{section.title.toUpperCase()}</small><h2>{section.lead}</h2>{section.items.map(item => <p key={item}>{publicGuideItem(item)}</p>)}</div></article>)}
+      {guideSections.map((section, index) => <article key={section.title}><span>{String(index + 1).padStart(2, "0")}</span><div><small>{section.title.toUpperCase()}</small><h2>{section.lead}</h2>{section.items.map(item => <p key={item}>{publicGuideItem(item)}</p>)}</div></article>)}
     </section>
 
     <section className="contact-action-card"><div><small>CONTACT MR. WYATT</small><h2>Questions or concerns?</h2><p>Use school email to arrange a conversation or ask what matters most after an absence.</p></div><a href={emailUrl}>{emailAddress}</a></section>
@@ -336,7 +367,7 @@ function GuidePage() {
     <section className="official-link-row" aria-label="Official links">
       <a href={schoolUrl} target="_blank" rel="noreferrer"><small>SCHOOL</small><strong>Walnut Road Elementary ↗</strong></a>
       <a href={schoolCalendarUrl} target="_blank" rel="noreferrer"><small>DATES</small><strong>Surrey Schools calendar ↗</strong></a>
-      <a href={spacesUrl} target="_blank" rel="noreferrer"><small>PORTFOLIO</small><strong>SpacesEDU Canada ↗</strong></a>
+      {spacesPending ? <Link href="/portfolio"><small>PORTFOLIO</small><strong>SpacesEDU · setup update →</strong></Link> : <a href={spacesUrl} target="_blank" rel="noreferrer"><small>PORTFOLIO</small><strong>SpacesEDU Canada ↗</strong></a>}
     </section>
   </main>;
 }
@@ -410,7 +441,7 @@ function compactBring() {
 }
 
 function homeworkStatus() {
-  return /^no\b/i.test(current.family.homework) ? "No homework or special supplies" : "Check the family page";
+  return /^no\b/i.test(current.family.homework) ? "No routine homework" : "Check family reminders";
 }
 
 function assessmentStatus() {
@@ -418,5 +449,6 @@ function assessmentStatus() {
 }
 
 function publicGuideItem(item: string) {
+  if (spacesPending && /Check (Now|This week) and SpacesEDU/.test(item)) return "Check the planner and this hub, then ask Mr. Wyatt where to begin after an absence. No SpacesEDU upload is due while class setup is in progress.";
   return item.replace("Check This week and SpacesEDU", "Check Now and SpacesEDU");
 }

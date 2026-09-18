@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-opening-rehearsal-2026-09-05-v4",
-  "sourceUpdatedAt": "2026-08-31T18:00:00Z",
+  "contentVersion": "2026-first-week-family-update-2026-09-18",
+  "sourceUpdatedAt": "2026-09-18T04:45:53Z",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1343,6 +1343,38 @@
     "bcCurriculum": "https://curriculum.gov.bc.ca/curriculum",
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
+  "classroomWelcome": {
+    "updatedOn": "September 17, 2026",
+    "classLabel": "Grade 6 · Division 8",
+    "location": "Room 112 · Annex · Walnut Road Elementary",
+    "title": "Welcome to our Grade 6 community",
+    "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
+    "recapTitle": "Our first days together",
+    "recap": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules.",
+    "nextTitle": "Planned for Friday, September 18",
+    "next": "Our flexible plan includes chess and other games, French, finishing work and decorating for Open House, quiet reading or colouring, and a Five Agreements activity about how we treat one another. A short introduction to Nonviolent Communication is optional. We hope to finish with Capture the Flag after cleanup.",
+    "later": "Next week we plan to continue whole-number and decimal place value, Truth and Reconciliation learning, and classroom routines. We will adjust the pace to what students need.",
+    "reminders": [
+      {
+        "title": "Device-use form",
+        "text": "Please read and sign the form when it comes home and return it to school."
+      },
+      {
+        "title": "Planner",
+        "text": "Planners are planned to go home on Friday. Please pay $6 for the planner through School Cash Online. Contact Mr. Wyatt privately if you have a question about the fee."
+      },
+      {
+        "title": "Dates and Open House",
+        "text": "Confirmed Open House details and other upcoming school reminders will be shared once the school calendar and weekly memo are available."
+      }
+    ],
+    "spaces": {
+      "status": "pending",
+      "title": "SpacesEDU is not ready for our class yet",
+      "message": "Students are still being added to our class in the system. There is nothing to upload or set up at home yet. Mr. Wyatt will share access instructions when the class is ready.",
+      "purpose": "Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
+    }
+  },
   "windows": [
     {
       "id": "september-opening",
@@ -1542,72 +1574,72 @@
     {
       "id": "first-formed-class-week",
       "effectiveFrom": "2026-09-14",
-      "effectiveTo": "2026-09-18",
+      "effectiveTo": "2026-09-20",
       "state": "published",
       "shared": {
-        "bigQuestion": "What can we learn about ourselves, one another, and this place without asking anyone to share a private story?",
+        "bigQuestion": "How can we help one another feel welcome, learn, and enjoy our classroom?",
         "eyebrow": "SEPTEMBER · OUR FIRST WEEK AS A CLASS",
         "learningArc": [
           {
-            "label": "Story",
-            "outcome": "Practise telling a story, listening, and using details. Your story can be made up.",
-            "studentAction": "Choose an ordinary object. Point to five details you can see, tell a story with a beginning, middle, and end, and make one change after a listener's question.",
-            "timing": "Mon. Sept. 14"
+            "label": "Connect",
+            "timing": "Our first days",
+            "studentAction": "Find something in common and listen to an answer that differs from yours.",
+            "outcome": "Practise including others and asking a follow-up question."
           },
           {
-            "label": "Number",
-            "outcome": "Show how you estimate and compare numbers so your teacher can plan what to teach next.",
-            "studentAction": "Place very large and very small quantities on number scales. Explain one position that surprises you.",
-            "timing": "Tues. Sept. 15"
+            "label": "Discover",
+            "timing": "In progress",
+            "studentAction": "Continue the Discovery work your teacher selects. Choose what you want to share.",
+            "outcome": "Help your teacher get to know your ideas and useful supports."
           },
           {
-            "label": "Learning",
-            "outcome": "Find things that help with a task. What works can change; you do not need a learning-style label.",
-            "studentAction": "Try supports in classroom situations, such as a worked example or a quiet place. Choose one useful request or strategy.",
-            "timing": "Wed. Sept. 16"
+            "label": "Play together",
+            "timing": "Begun this week",
+            "studentAction": "Listen, explain your thinking, and follow the agreed rules in Werewolf and other class games.",
+            "outcome": "Practise oral communication and fair participation."
           },
           {
-            "label": "Place",
-            "outcome": "Keep what you notice separate from what you think it means. Use those details in later work about this place.",
-            "studentAction": "Record sounds, movement, colours, light, and textures outside, or from a seated or indoor place where you can observe.",
-            "timing": "Thurs. Sept. 17"
+            "label": "Prepare our room",
+            "timing": "Friday plan",
+            "studentAction": "Finish one useful piece of work and help with an available decorating or cleanup job.",
+            "outcome": "Take responsibility for our shared space and prepare for Open House."
           },
           {
-            "label": "Bring it together",
-            "outcome": "Bring the week together in one Learning Story. Sharing is optional; private practice pages are not uploaded.",
-            "studentAction": "Choose one example of your learning, say what it shows, and add a small school goal, first step, and check-in date. Make it clear for a teacher or family reader.",
-            "timing": "Fri. Sept. 18"
+            "label": "Practise a helpful choice",
+            "timing": "Friday plan",
+            "studentAction": "Use a fictional situation to act or draw a helpful response, then choose one action to try.",
+            "outcome": "Connect community agreements to everyday classroom moments."
           }
         ],
         "primaryResource": null,
         "subjectSnapshot": [
           {
-            "now": "Object stories, listening, place notes, and the Friday Learning Story",
             "subject": "English Language Arts",
-            "why": "Use clear details, tell events in order, think about your reader or listener, and improve your work."
+            "now": "Conversation, listening, Discovery work and Werewolf discussion",
+            "why": "Explain a choice, listen to others and ask useful questions."
           },
           {
-            "now": "Magnitude Gallery: very large and very small numbers",
             "subject": "Mathematics",
-            "why": "Estimate, show, and compare quantities, then explain how you worked them out."
+            "now": "Coming next: whole-number and decimal place value",
+            "why": "Show what each digit represents and explain comparisons."
           },
           {
-            "now": "What helps us learn and one small goal",
-            "subject": "Career Education",
-            "why": "Find useful support and actions to try. You do not need a fixed label or private details."
+            "subject": "French",
+            "now": "French with our specialist teacher",
+            "why": "Build communication skills through the French programme."
           },
           {
-            "now": "Learning about this place and who makes local decisions",
             "subject": "Social Studies",
-            "why": "Tell apart what you observe, what a map shows, different viewpoints, and who can make a decision."
+            "now": "Coming next: Truth and Reconciliation learning",
+            "why": "Learn from appropriate sources and discuss care and responsibility."
           },
           {
-            "now": "Movement, routines, helping, and belonging",
-            "subject": "PHE & Community",
-            "why": "Join in safely, take turns speaking, ask for help, and find a way back in after a break or absence."
+            "subject": "Community, Arts & PHE",
+            "now": "Games, classroom responsibilities, preparing displays and outdoor play",
+            "why": "Create, move, include others and look after our shared spaces."
           }
         ],
-        "summary": "Across five days with the new class, tell a story about an ordinary object, explore very large and very small numbers, try things that help you learn, look closely at the school grounds, and choose one example for a Friday Learning Story. You can use made-up examples and skip any question without a reason. If your group is still doing a Discovery visit, your teacher can choose one page; you have not missed a required earlier step.",
+        "summary": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules. Our flexible plan includes chess and other games, French, finishing work and decorating for Open House, quiet reading or colouring, and a Five Agreements activity about how we treat one another. A short introduction to Nonviolent Communication is optional. We hope to finish with Capture the Flag after cleanup.",
         "thinkingMoves": [
           {
             "id": "notice",
@@ -1635,10 +1667,10 @@
             "prompt": "Which example shows something important about your learning?"
           }
         ],
-        "title": "Five ways to get to know each other",
+        "title": "Getting to know our Grade 6 community",
         "visual": {
           "alt": "Fictional Grade 6 classroom scene with students working in pairs and small groups using paper cards, discussion, and a shared class display.",
-          "caption": "Five days to get to know how we think, help, communicate, and learn.",
+          "caption": "Illustration · getting to know one another through conversation, games and classroom work.",
           "src": "/images/visual-review/public-week-collaboration-hero-v1.webp"
         }
       },
@@ -1653,32 +1685,32 @@
           "Use a fictional character or made-up school example. You may skip any question without giving a reason. You do not have to tell a private story or share your work.",
           "Work with a partner or table when it helps. Ask for a quiet place to observe or a shorter amount of work agreed with your teacher; that choice does not create catch-up work."
         ],
-        "duration": "Five class blocks",
-        "finish": "Can you point to an example and say what it shows about your learning or how you helped? Choose a small next step you could try. Skipped questions and shorter work agreed with your teacher count; you do not have to explain a private choice or share your work.",
-        "firstMove": "Choose one ordinary object. Point to five details you can see, then use those clues to invent a story.",
-        "firstMoveNote": "Begin with details you can point to, such as a colour, shape, or mark. You can make up the story and its characters.",
-        "grouping": "Partners and table groups most days; your own Learning Story on Friday",
-        "handInOrSave": "Keep practice work in class. If you choose to share your Friday Learning Story, check it with your teacher before posting to SpacesEDU. Private learning pages and Discovery originals are not uploaded.",
+        "duration": "A flexible first week",
+        "finish": "Check the task with your teacher, put materials away, and name one thing you tried or learned. You can keep personal details private.",
+        "firstMove": "Check the classroom screen and listen for today’s activity. Ask if you need a game partner or help choosing what to finish.",
+        "firstMoveNote": "Your teacher will explain the task and show an example. You do not need to start a new online assignment.",
+        "grouping": "Whole class, partners and small groups",
+        "handInOrSave": "Keep class work where your teacher shows you. SpacesEDU is not ready for our class yet; no upload is due. Private Discovery originals are not uploaded.",
         "ifAbsentOrStuck": "Ask for today's picture or question and an example. You can ask an adult to write your words or agree with your teacher on a shorter amount of work, with no catch-up. Made-up examples and skipped questions are okay; no reason is needed.",
         "label": "FOR STUDENTS",
-        "product": "One Friday Learning Story: an example of your learning, something that helps you learn, one small school goal, a first step, and a check-in date. You may use made-up examples, skip a question, or agree on shorter work with your teacher.",
+        "product": "A piece of class work you have improved, a contribution to our classroom, or an example of helpful teamwork. Your teacher will explain what to finish today.",
         "quickReference": {
-          "firstMove": "Choose an object and point to five details you can see. Then invent a story.",
-          "handIn": "Keep Monday–Thursday work in class. Make one Learning Story on Friday. If you choose to share it, check with your teacher before posting. Do not upload private practice pages.",
-          "missed": "Ask your teacher for today's picture or question, one example, and the most useful part to try. Agree on a shorter amount of work if needed; it does not become catch-up work."
+          "firstMove": "Check the classroom screen and listen for today’s activity. Ask if you need a game partner or help choosing what to finish.",
+          "handIn": "Keep class work where your teacher shows you. SpacesEDU is not ready for our class yet; no upload is due. Private Discovery originals are not uploaded.",
+          "missed": "Ask Mr. Wyatt where to begin and what matters most. You do not need to recreate every missed activity or upload catch-up work."
         },
-        "routeTitle": "Five days to show how you learn",
-        "spacesNote": "One Friday Learning Story brings the week together. Sharing is optional. Do not upload private practice pages or Discovery originals. A safe part you choose may be copied into a separate story only after your teacher asks permission again. The How I Learn Best page is never copied for display.",
+        "routeTitle": "Join in, make progress, and help our class",
+        "spacesNote": "No SpacesEDU upload is due. Our class is still being set up. Keep private Discovery originals in class; the How I Learn Best page is never copied for display.",
         "steps": [
-          "Tell: use details you can see to invent a short story about an object.",
-          "Estimate: place very large and very small numbers on a scale and explain your choices.",
-          "Try: test something that could help with a class task, such as a worked example or a quieter seat.",
-          "Notice: record exact details from the school grounds or a seated or indoor observation spot.",
-          "Reflect: choose one example of your learning, a small school goal, a first step, and a check-in date."
+          "Start: check the classroom screen and listen to the instructions.",
+          "Connect: include someone and ask a follow-up question.",
+          "Work: finish or improve the piece your teacher helps you choose.",
+          "Practise: try a helpful response in a game or fictional scenario.",
+          "Finish: put materials away and check that your planner and forms are packed."
         ],
-        "summary": "Across five days, tell stories, estimate, notice details, discuss, move, create, and think about your learning. You can use fictional characters or made-up school examples. You may skip any question without a reason; private details are never required.",
-        "title": "Our first week together",
-        "why": "Your teacher gets to know you in more than one way. This week you can show how you think, tell stories, solve problems, help others, and learn."
+        "summary": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules. Our flexible plan includes chess and other games, French, finishing work and decorating for Open House, quiet reading or colouring, and a Five Agreements activity about how we treat one another. A short introduction to Nonviolent Communication is optional. We hope to finish with Capture the Flag after cleanup.",
+        "title": "Building our classroom community",
+        "why": "We are getting to know one another while practising how to listen, explain, create, play fairly and care for our classroom."
       },
       "family": {
         "agreementNote": "Students may use made-up examples, describe only what they observe, or show ideas by writing, speaking, drawing, or recording. They may skip any question without a reason, ask an adult for help, or agree on shorter work with no catch-up. Private family or health details, difficult experiences, and sharing are never required.",
@@ -1688,43 +1720,43 @@
           "Did a partner's question or idea help you change something?",
           "What small next step would you like to try?"
         ],
-        "groupAndIndividualEvidence": "Partners and groups give students chances to explain and hear ideas. Each student makes their own Learning Story and chooses what to keep private. Original private pages are not displayed or uploaded. A safe part may be copied separately only if the student chooses it and gives permission again. The How I Learn Best page is never copied for display.",
-        "homework": "No special supplies or routine homework are expected.",
+        "groupAndIndividualEvidence": "Conversations, games, class work and observation help Mr. Wyatt get to know each student. Private Discovery originals stay private. The How I Learn Best page is never copied for display.",
+        "homework": "No routine homework is assigned for these opening activities. Please check the planner and return the device-use form when it comes home.",
         "label": "FOR FAMILIES",
         "milestones": [
           {
-            "date": "Sept. 14–18",
-            "label": "First week with the new class · five days of getting to know how we learn",
-            "shortLabel": "First week with your class"
+            "date": "This week",
+            "label": "Getting to know our class through conversation, Discovery work and games",
+            "shortLabel": "Building our classroom community"
           },
           {
-            "date": "Sept. 18",
-            "label": "Friday Learning Story · optional sharing on SpacesEDU",
-            "shortLabel": "First Learning Story"
+            "date": "Fri. Sept. 18",
+            "label": "Planned: finish work, prepare our room, practise community agreements, and send home planners/forms",
+            "shortLabel": "Friday plans · planners & forms"
           },
           {
-            "date": "Sept. 21",
-            "label": "Local decision-making, place, and election source work begins",
-            "shortLabel": "Local inquiry begins"
+            "date": "Coming soon",
+            "label": "Confirmed Open House and school reminders will follow",
+            "shortLabel": "Open House details to follow"
           }
         ],
-        "product": "One Friday Learning Story with an example the student chooses, something that helps learning, a small school goal, a first step, and a check-in date. Made-up examples, skipped questions, and shorter work agreed with the teacher are welcome.",
+        "product": "Discovery work, classroom contributions, and selected work being prepared for Open House. There is no required Friday Learning Story or online submission.",
         "quickReference": {
-          "assessment": "The teacher notices strategies, listening, helping, and useful changes to plan support. These opening activities are not graded or used to decide class placement.",
-          "atSchool": "Students tell stories, estimate, discuss, observe, create, and improve their work across five connected days.",
-          "home": "Nothing to finish or prepare at home. A short conversation about an example your child wants to discuss is welcome.",
-          "spaces": "Students make one Friday Learning Story and may choose whether to share it. Private practice pages stay in class and are not uploaded."
+          "atSchool": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules. Friday’s activities are a flexible plan, with unfinished work carried forward as needed.",
+          "home": "Check the planner when it comes home, return the signed device-use form, and pay the $6 planner fee through School Cash Online. No curriculum work or online upload is due from this first-week update.",
+          "assessment": "These opening activities are not graded. Conversation, work and observation help Mr. Wyatt plan teaching and support.",
+          "spaces": "Students are still being added to our class in the system. There is nothing to upload or set up at home yet. Mr. Wyatt will share access instructions when the class is ready. Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
         },
-        "spacesNote": "One Friday Learning Story is planned for this week, with optional sharing on SpacesEDU. The smaller activities and private pages are not separate uploads. If a student wants to use a safe part of private work, the teacher asks permission again before it is copied into a separate story. The How I Learn Best page is never copied for display.",
-        "summary": "Students get to know their new class through storytelling and listening, number problems, trying learning supports, observing the school grounds, working together, and reflecting. Made-up examples are welcome. Students may skip any question without giving a reason and never have to share a private or painful story.",
+        "spacesNote": "Students are still being added to our class in the system. There is nothing to upload or set up at home yet. Mr. Wyatt will share access instructions when the class is ready.",
+        "summary": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules. Our flexible plan includes chess and other games, French, finishing work and decorating for Open House, quiet reading or colouring, and a Five Agreements activity about how we treat one another. A short introduction to Nonviolent Communication is optional. We hope to finish with Capture the Flag after cleanup.",
         "supportAtHome": [
-          "Ask which activity helped your child show how they think or help others.",
-          "Invite your child to discuss an example from the Friday Learning Story if they would like to share.",
-          "Keep the story and goal in your child's own words, and respect anything they choose to keep private."
+          "Ask about a game, classmate or piece of work your child wants to discuss.",
+          "Look at the planner together and help return the device-use form.",
+          "Respect anything your child chooses to keep private. There is no upload to complete."
         ],
-        "title": "Our first week as a class",
-        "whatStudentsDo": "On Monday, students tell a story about an ordinary object. On Tuesday, they explore very large and very small numbers. On Wednesday, they try things that help with learning. On Thursday, they record details of the school grounds. On Friday, they bring one example together with a small school goal and a first step.",
-        "whyThisMatters": "One task cannot show everything a student can do. This week gives the teacher several ways to notice strengths, strategies, useful supports, and questions. Students then choose one example for a Friday Learning Story."
+        "title": "Welcome, Division 8 families",
+        "whatStudentsDo": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules. Our flexible plan includes chess and other games, French, finishing work and decorating for Open House, quiet reading or colouring, and a Five Agreements activity about how we treat one another. A short introduction to Nonviolent Communication is optional. We hope to finish with Capture the Flag after cleanup.",
+        "whyThisMatters": "A welcoming classroom gives students opportunities to contribute, ask for help, listen to different ideas and learn together. Our opening plans have adjusted as we got to know the class."
       }
     },
     {
@@ -2311,5 +2343,5 @@
       }
     }
   ],
-  "checksum": "sha256:dd7b15eb6e4c0fc273a655a9010b0cdeac8bffd60144a43afa1bed899056ae18"
+  "checksum": "sha256:576f2f3175e0eb642864913e0a3031c394f753b2dcca55cd976a1d5f663e3abf"
 }
