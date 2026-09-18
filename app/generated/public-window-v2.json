@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-family-payment-availability-2026-09-18",
-  "sourceUpdatedAt": "2026-09-18T05:55:05.601881Z",
+  "contentVersion": "2026-family-fees-volunteers-2026-09-18",
+  "sourceUpdatedAt": "2026-09-18T06:17:41.249320Z",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1387,6 +1387,16 @@
         "description": "The $6 planner item is expected Friday, September 18. Please check again then and pay once it appears."
       },
       {
+        "title": "School fees and supplies",
+        "url": "https://www.surreyschools.ca/walnutroad/school-fees-supplies",
+        "description": "Find school fee information, grade supply lists, and information about financial assistance."
+      },
+      {
+        "title": "How to become a volunteer",
+        "url": "https://www.surreyschools.ca/how-to-become-a-volunteer",
+        "description": "Start with the school office. Find application forms, criminal record check information, and extra requirements for volunteer drivers. School approval is required before volunteering."
+      },
+      {
         "title": "Walnut Road school news",
         "url": "https://www.surreyschools.ca/walnutroad",
         "description": "Read school announcements and find school-wide updates."
@@ -1412,7 +1422,12 @@
         "description": "Surrey Schools resources to help families understand learning updates and assessment."
       }
     ],
-    "hotLunchNotice": "Hot-lunch registration is currently unavailable, and ordering details are pending. Please wait for a school or PAC notice before trying to order. October 2 remains unconfirmed."
+    "hotLunchNotice": "Hot-lunch registration is currently unavailable, and ordering details are pending. Please wait for a school or PAC notice before trying to order. October 2 remains unconfirmed.",
+    "volunteerInvitation": {
+      "title": "Interested in helping?",
+      "text": "We will likely need parent volunteers to drive for field trips and may need help refereeing soccer. If you are interested, or know a high-school student who may be interested in refereeing, please contact Mr. Wyatt. Opportunities and dates are still being arranged; the school will confirm the requirements and approval for each role.",
+      "linkLabel": "Email Mr. Wyatt about volunteering"
+    }
   },
   "schoolEvents": [
     {
@@ -2464,5 +2479,5 @@
       }
     }
   ],
-  "checksum": "sha256:c5206b932cad3cdf92738faebb4f4bd0a37cddc83993b407ebe7c63f2a3cfab1"
+  "checksum": "sha256:911051e2a163be778418fd0ea9e2fbedd9cff13589e5b91e1633c1d0d826747b"
 }
