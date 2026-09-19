@@ -1701,6 +1701,69 @@
         }
       ]
     },
+    "districtResources": {
+      "checkedOn": "September 19, 2026",
+      "directory": "https://surreyschoolsone.ca/students/digital-resources/",
+      "parents": "https://surreyschoolsone.ca/parents/digital-resources/",
+      "intro": "Optional choices from Surrey Schools ONE’s approved digital-resource directory. Approval conditions vary by resource; these are not extra assignments or a claim that every account is ready.",
+      "access": "Open a Surrey listing below for its Visit Website link and current access steps. For district passwords, use PASSWORDS → Parent/Student on Surrey Schools ONE; that area asks for a Surrey Schools sign-in. Never post passwords here. If school access or consent is not ready, ask Mr. Wyatt and use the screen-free choice. No purchase is needed.",
+      "items": [
+        {
+          "title": "Sora",
+          "subject": "Reading & listening",
+          "href": "https://surreyschoolsone.ca/resources/sora",
+          "status": "District approved · school sign-in",
+          "description": "Borrow ebooks and audiobooks through the school reading service. Surrey’s listing directs students to sign in with their Surrey Schools email and password.",
+          "activity": "Read or listen for 10–15 minutes. Retell one part and explain a detail that stood out.",
+          "offline": "Read a book or comic you have, or listen to someone tell a story."
+        },
+        {
+          "title": "Math Learning Center apps",
+          "subject": "Math · visual models",
+          "href": "https://surreyschoolsone.ca/resources/math-learning-center",
+          "status": "District-approved apps · free · no login",
+          "description": "Use the free virtual manipulatives to show familiar maths. Surrey’s approval covers the apps, not the learning resources sold in the store.",
+          "activity": "Model 243 as 2 hundreds, 4 tens and 3 ones. Show another way: 1 hundred, 14 tens and 3 ones. Explain why the value stays the same.",
+          "offline": "Draw and label the hundreds, tens and ones on paper."
+        },
+        {
+          "title": "World Book Student",
+          "subject": "Research · Grade 5+",
+          "href": "https://surreyschoolsone.ca/resources/world-book-student",
+          "status": "District subscription · consent required",
+          "description": "An encyclopedia with articles, images and read-aloud support. Surrey lists conditional approval requiring a signed Technology Tool Consent form. Use the district access steps, not a paid personal subscription.",
+          "activity": "Choose one question about a familiar topic. Read a short article, write two facts in your own words and record the article title.",
+          "offline": "Use a nonfiction book, or write your question to bring to school."
+        },
+        {
+          "title": "Explora Primary",
+          "subject": "Research · Grades 4–7",
+          "href": "https://surreyschoolsone.ca/resources/explora-primary",
+          "status": "District subscription · consent required",
+          "description": "Surrey’s Grades 4–7 research database, with text and read-aloud options. Its conditional approval requires a signed Technology Tool Consent form and district access.",
+          "activity": "Search a familiar science or social studies topic. Explain one new fact and record the title of the source where you found it.",
+          "offline": "Read a nonfiction page you already have. Share a fact and point to its source."
+        },
+        {
+          "title": "Learn360",
+          "subject": "Science & other subjects",
+          "href": "https://surreyschoolsone.ca/resources/learn-360",
+          "status": "District subscription · consent required",
+          "description": "Educational videos, audio and learning materials. Surrey’s conditional approval requires a signed Technology Tool Consent form. Follow the student access steps on the listing.",
+          "activity": "With an adult, choose a short clip about a familiar topic. Pause and explain two things you learned and one question you still have.",
+          "offline": "Draw a familiar object and label two observations and one question."
+        },
+        {
+          "title": "Curio (CBC)",
+          "subject": "Canadian stories · English & French",
+          "href": "https://surreyschoolsone.ca/resources/curio",
+          "status": "District subscription · check student setup",
+          "description": "CBC video and audio resources. Surrey requires a signed Technology Tool Consent form and an account; its published sign-in steps are labelled for teachers. Ask Mr. Wyatt about student access before creating an account.",
+          "activity": "Once access is confirmed, choose an age-appropriate short item with an adult. Retell its main idea and explain one supporting detail.",
+          "offline": "Discuss a story or community event with an adult. Separate what you know from what you wonder."
+        }
+      ]
+    },
     "resources": [
       {
         "title": "Prodigy Math",
@@ -2720,5 +2783,5 @@
       }
     }
   ],
-  "checksum": "sha256:406994160a22776c5f7167aa871cd2bfbcea08e76d6582eeb889332fcf7c3a21"
+  "checksum": "sha256:daac33a2ab30886ac91456b1190b8407e7c53a5d38b47a9c25b7eb9f545960d7"
 }

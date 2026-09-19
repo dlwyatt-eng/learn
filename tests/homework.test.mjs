@@ -20,3 +20,12 @@ test('actual tasks, answers, offline routes and private support render',()=>{
  assert.match(html,/href="\/homework#homework-menu"/);
  assert.doesNotMatch(html,/href="https:\/\/ca.spacesedu.com\//);
 });
+test('district resources retain official sources, access conditions and offline choices',()=>{
+ const html=render('2026-09-19');
+ const section=html.split('id="surrey-resources"')[1].split('</section>')[0];
+ assert.equal((section.match(/<article/g)||[]).length,6);
+ for(const text of ['Sora','World Book Student','Explora Primary','Learn360','Curio (CBC)','Math Learning Center apps','Technology Tool Consent','check student setup','not district assignments','No purchase is needed']) assert.ok(section.includes(text),text);
+ assert.equal((section.match(/Screen-free choice:/g)||[]).length,6);
+ assert.equal((section.match(/href="https:\/\/surreyschoolsone.ca\/resources\//g)||[]).length,6);
+ assert.match(html,/href="\/homework#surrey-resources"/);
+});
