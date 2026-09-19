@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-family-fees-volunteers-2026-09-18",
-  "sourceUpdatedAt": "2026-09-18T06:17:41.249320Z",
+  "contentVersion": "2026-09-18-rights-strand",
+  "sourceUpdatedAt": "2026-09-18",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -965,7 +965,7 @@
       "month": "October",
       "timing": "Oct. 1–30 · about 20 instructional days",
       "phase": "Learn from place and perspective",
-      "focus": "Identity, place, evidence, maps, and whose perspectives are represented",
+      "focus": "Identity, place, evidence, maps, and whose perspectives are represented; a short introduction to expression and fair disagreement",
       "learning": "Short, supported inquiries teach students how to read closely, distinguish observation from inference, and attribute ideas to specific sources and knowledge holders.",
       "subjects": [
         "Social Studies",
@@ -976,7 +976,8 @@
       "highlights": [
         "Weeks 1–2 · Maps Make Arguments using the three authentic map sources",
         "Weeks 2–3 · Trace the Claim: Two Lies and a Truth + source verification",
-        "Weeks 3–4 · perspective listening simulation and Fleetwood case file"
+        "Weeks 3–4 · perspective listening simulation and Fleetwood case file",
+        "October · Can I disagree? Expression, dignity and fair disagreement."
       ],
       "anticipatedShare": "Late October · Fleetwood evidence-board gallery walk; archive selected boards for the inquiry-topic bank."
     },
@@ -984,7 +985,7 @@
       "month": "November",
       "timing": "Nov. 2–30 · about 19 instructional days",
       "phase": "Investigate power and rights",
-      "focus": "Government, human rights, media, systems, and respectful disagreement",
+      "focus": "Government, human rights, media, systems, and respectful disagreement; children’s rights and National Child Day on November 20",
       "learning": "Students compare accounts, examine causes and consequences, participate in structured dialogue, and support claims with relevant evidence.",
       "subjects": [
         "Social Studies",
@@ -995,7 +996,8 @@
       "highlights": [
         "Weeks 1–2 · power-in-the-room simulation and levels of government",
         "Weeks 2–3 · compare government systems and trace how a decision moves",
-        "Weeks 3–4 · Juniper Park public-decision lab; inquiry teams form and choose topics"
+        "Weeks 3–4 · Juniper Park public-decision lab; inquiry teams form and choose topics",
+        "Nov. 9–20 · Rights scenarios and proposals; share for National Child Day Nov. 20."
       ],
       "anticipatedShare": "Nov. 27 · team inquiry-question clinic and power-map feedback wall."
     },
@@ -1003,7 +1005,7 @@
       "month": "December",
       "timing": "Dec. 1–18 · about 14 instructional days",
       "phase": "Think like a solutionary",
-      "focus": "Root causes, affected perspectives, existing responses, and possible leverage points",
+      "focus": "Root causes, affected perspectives, existing responses, and possible leverage points; racism, equality and freedom of expression for Human Rights Day on December 10",
       "learning": "Teams investigate a manageable issue without rushing to a solution. They learn to ask who is affected, what evidence is missing, and what responsible action might look like.",
       "subjects": [
         "Social Studies",
@@ -1013,8 +1015,9 @@
       ],
       "highlights": [
         "Dec. 1–4 · human-rights cases and Universal Declaration source work",
-        "Dec. 7–10 · Human Rights Day teaching gallery",
-        "Dec. 11–18 · root causes, global connections, existing responses, and mid-year reflection"
+        "Dec. 7–10 · Human Rights Day teaching gallery: racism, equality, expression and fair responses",
+        "Dec. 11–18 · root causes, global connections, existing responses, and mid-year reflection",
+        "Dec. 10 · Rights gallery: racism, equality, expression and fair responses."
       ],
       "anticipatedShare": "Dec. 10 · Human Rights Day gallery; Dec. 17 · quiet reflection and inquiry-progress share."
     },
@@ -1509,6 +1512,22 @@
       "dateLabel": "Last week of October",
       "title": "We Scare Hunger food drive",
       "detail": "Exact collection dates to follow."
+    },
+    {
+      "id": "national-child-day",
+      "date": "2026-11-20",
+      "month": "2026-11",
+      "dateLabel": "Fri, November 20",
+      "title": "National Child Day / World Children’s Day",
+      "detail": "Learning milestone: children’s voice, equal treatment and adult responsibility. Planned sharing details will follow; this is not a school closure."
+    },
+    {
+      "id": "human-rights-day",
+      "date": "2026-12-10",
+      "month": "2026-12",
+      "dateLabel": "Thu, December 10",
+      "title": "Human Rights Day",
+      "detail": "Planned rights case gallery or teach-back, connecting racism, equality and freedom of expression. This is not a school closure."
     }
   ],
   "windows": [
@@ -2098,7 +2117,7 @@
         "eyebrow": "OCTOBER · COMPARE, CHECK, PREPARE",
         "title": "Before the vote: claims, responsibilities, and choices",
         "bigQuestion": "How can we compare election choices without confusing a persuasive promise with evidence that it can happen?",
-        "summary": "Students continue the existing Surrey election case through Trace the Claim, the Newsroom, and Civic Decision Brief. They compare directly sourced statements about the same issue, check what mayor, council, and trustees can actually decide, weigh trade-offs, and prepare for the existing Student Vote process without adding another unit or portfolio post.",
+        "summary": "Students continue the existing Surrey election case through Trace the Claim, the Newsroom, and Civic Decision Brief. They compare directly sourced statements about the same issue, check what mayor, council, and trustees can actually decide, weigh trade-offs, and prepare for the existing Student Vote process without adding another unit or portfolio post. Planned October connection: Can I disagree? We will practise challenging an idea or decision while protecting people’s dignity, as an introduction to children’s rights on November 20 and Human Rights Day on December 10.",
         "learningArc": [
           {
             "timing": "Oct. 1–2",
@@ -2479,5 +2498,5 @@
       }
     }
   ],
-  "checksum": "sha256:911051e2a163be778418fd0ea9e2fbedd9cff13589e5b91e1633c1d0d826747b"
+  "checksum": "sha256:28591545fccb63713658ad064a949b6e87c945ad42e4e5acfd1184f0ce996998"
 }

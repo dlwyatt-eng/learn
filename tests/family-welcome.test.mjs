@@ -51,7 +51,12 @@ test('confirmed school dates render on home and families, preserve times, and ex
     assert.doesNotMatch(october,/>Photo Day</);
     assert.match(october,/Early dismissal/);
     assert.match(october,/We Scare Hunger food drive/);
-    assert.doesNotMatch(render(route,'2026-11-01'),/>School dates</);
+    const november=render(route,'2026-11-01');
+    assert.match(november,/National Child Day/);
+    assert.match(november,/Human Rights Day/);
+    assert.doesNotMatch(november,/We Scare Hunger food drive/);
+    assert.doesNotMatch(render(route,'2026-11-21'),/dateTime="2026-11-20"/i);
+    assert.doesNotMatch(render(route,'2026-12-11'),/>School dates</);
   }
   assert.equal(manifest.schoolEvents.find(item=>item.id==='food-drive').date,null);
 });

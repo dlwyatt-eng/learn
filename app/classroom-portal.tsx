@@ -1,5 +1,6 @@
 "use client";
 
+import RightsStrand, { RightsEntry } from "./rights-strand";
 import TruthFamilyPage, { TruthLearningLink } from "./truth-family-page";
 import { ExplorationRevisits } from "./virtual-explorations";
 import { useEffect, useState, type MouseEvent } from "react";
@@ -10,7 +11,7 @@ import { monthlyPublicWindowForDate } from "./monthly-public-window.mjs";
 import NewsroomPublic, { selectNewsroomFeature, SurreyElectionStrip, type PublicNewsroom } from "./newsroom-public";
 import { publicWindowState, selectPublicWindow, vancouverDateKey } from "./public-window-selection.mjs";
 
-export type PortalRoute = "home" | "students" | "families" | "newsroom" | "learning" | "portfolio" | "guide" | "truth-and-reconciliation";
+export type PortalRoute = "rights" | "home" | "students" | "families" | "newsroom" | "learning" | "portfolio" | "guide" | "truth-and-reconciliation";
 
 type PublicWindow = Omit<typeof publicWindowManifest.window, "shared"> & {
   shared: Omit<typeof publicWindowManifest.window.shared, "primaryResource"> & {
@@ -103,6 +104,7 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
       </header>
 
       <div id="public-main" tabIndex={-1}>
+        {route === "rights" && <RightsStrand />}
         {route === "home" && <HomePage />}
         {route === "students" && <StudentPage />}
         {route === "families" && <FamilyPage />}
@@ -215,6 +217,7 @@ function StudentPage() {
     </section>
 
     <TruthLearningLink />
+    <RightsEntry href="#/rights" />
     <section className="student-task-facts" aria-label="Lesson quick facts">
       <article><small>TIME</small><strong>{current.student.duration}</strong></article>
       <article><small>WORK WITH</small><strong>{compactGrouping()}</strong></article>
@@ -302,6 +305,7 @@ function FamilyPage() {
     {(isDiscoveryWindow || isLegacyAiOpeningWindow) && <section className="family-question-card"><div><small>ASK AT HOME</small><blockquote>“{current.family.conversationPrompts[0]}”</blockquote></div><p><strong>Privacy and support:</strong> {current.family.agreementNote}</p></section>}
 
     <TruthLearningLink />
+    <RightsEntry href="#/rights" />
     <section className="family-artifact-conversation" aria-label="Family conversation about learning">
       <figure><Image unoptimized src="/images/public-family-artifact-conversation-v1.webp" alt="Illustrated family looking at work a student has chosen to share and asking a supportive question" width={1792} height={1008} /></figure>
       <div><small>WHEN A STUDENT CHOOSES WORK TO SHARE</small><h2>Ask about ideas, not neatness.</h2><p>If your child wants to share, ask what they tried, changed, or learned. Private original pages stay private. Only a safe part the student chooses may be copied separately for sharing, after the teacher asks permission again. Do not upload private Discovery pages to SpacesEDU. The How I Learn Best page is never copied for display.</p></div>
@@ -330,6 +334,7 @@ function LearningPage() {
     <figure className="learning-mosaic"><Image unoptimized src="/images/public-student-learning-mosaic-v1.webp" alt="Fictional classroom panorama of Grade 6 students observing an object and photograph, discussing ideas, building a model, moving, and reading together" width={1792} height={1008} sizes="(max-width: 1180px) 100vw, 1180px" /><figcaption>ILLUSTRATION · OBSERVATION, DISCUSSION, MODEL-MAKING, MOVEMENT, AND READING</figcaption></figure>
 
     <TruthLearningLink />
+    <RightsEntry href="#/rights" />
     <section className="subject-now-grid" aria-labelledby="subject-now-title">
       <header><small>RIGHT NOW</small><h2 id="subject-now-title">Learning by subject</h2></header>
       <div>{current.shared.subjectSnapshot.map(item => <article key={item.subject}><small>{item.subject}</small><h3>{item.now}</h3></article>)}</div>
