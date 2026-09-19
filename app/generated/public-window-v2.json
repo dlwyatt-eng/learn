@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-19-home-practice",
+  "contentVersion": "2026-09-19-monday-sept21",
   "sourceUpdatedAt": "2026-09-19",
   "window": {
     "id": "september-opening",
@@ -1347,17 +1347,22 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 18, 2026",
+    "updatedOn": "September 19, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
     "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
     "recapTitle": "Our first days together",
     "recap": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules.",
-    "nextTitle": "Planned for Friday, September 18",
-    "next": "Our flexible plan includes chess and other games, French, finishing work and decorating for Open House, quiet reading or colouring, and a Five Agreements activity about how we treat one another. A short introduction to Nonviolent Communication is optional. We hope to finish with Capture the Flag after cleanup.",
-    "later": "Next week we plan to continue whole-number and decimal place value, Truth and Reconciliation learning, and classroom routines. We will adjust the pace to what students need.",
+    "nextTitle": "Planned for Monday, September 21",
+    "next": "On Monday we plan to discuss how everyone can participate meaningfully in PE and outdoor activities, begin whole-number place value and our Truth and Reconciliation booklets, compare three class-novel choices, and allow time to finish Discovery booklets. Our day includes quiet reading, drawing or colouring after lunch. Plans may shift as we see what students need.",
+    "later": "Later in the week we plan separate lessons for Nonviolent Communication and the Five Agreements. Decimal place value will follow our whole-number work. PE and learning-support times are still being arranged.",
     "reminders": [
+      {
+        "title": "Monday forms and booklet check-in",
+        "text": "After attendance on Monday, we will collect returned information forms and signed device agreements, and check Discovery booklet submissions. Students with unfinished Discovery work will have catch-up time at school.",
+        "link": null
+      },
       {
         "title": "Device-use form",
         "text": "Please read and sign the form when it comes home and return it to school.",
@@ -2715,5 +2720,5 @@
       }
     }
   ],
-  "checksum": "sha256:fd1a3176fbab27559e42d487e7404e16e1159133be36328cb7a80dbe2bad2081"
+  "checksum": "sha256:406994160a22776c5f7167aa871cd2bfbcea08e76d6582eeb889332fcf7c3a21"
 }

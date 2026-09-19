@@ -21,7 +21,7 @@ function render(route,date='2026-09-18') {
 test('family arrival shows class identity, actual first days, plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our first days together','Planned for Friday, September 18','device-use form','$6','School Cash Online','SpacesEDU is not ready']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','Our first days together','Planned for Monday, September 21','whole-number place value','Truth and Reconciliation booklets','information forms','device-use form','$6','School Cash Online','SpacesEDU is not ready']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
