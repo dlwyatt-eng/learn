@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-18-rights-strand",
-  "sourceUpdatedAt": "2026-09-18",
+  "contentVersion": "2026-09-19-home-practice",
+  "sourceUpdatedAt": "2026-09-19",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1530,6 +1530,223 @@
       "detail": "Planned rights case gallery or teach-back, connecting racism, equality and freedom of expression. This is not a school closure."
     }
   ],
+  "homePractice": {
+    "updatedOn": "September 19, 2026",
+    "policy": "Separate daily homework is not routinely assigned. This is optional practice for families who want a regular routine. Choose what is useful; there is no expectation to complete the whole menu or submit optional practice.",
+    "unfinished": "Check your planner and the instructions Mr. Wyatt has given you. Finish only the small piece identified for you, using the support agreed at school. An unfinished class activity is not automatically homework. If you were absent or are unsure, ask where to begin.",
+    "routine": "Read or listen for 10–15 minutes, then choose one short activity. Families wanting a longer routine can add a second choice, keeping the total around 30–40 minutes including reading, or less when needed. Spread choices across evenings or select a few for the weekend; do not save up a catch-up pile.",
+    "stopRule": "Stop if the work is confusing, upsetting or taking much longer than expected. Let Mr. Wyatt know which part was difficult. Rest, play, family time and activities outside school matter too.",
+    "access": "Use paper, drawings, spoken explanations or a language that helps you think. Every menu activity can be done without an online account. No purchase, AI tool or routine portfolio upload is required.",
+    "week": {
+      "id": "2026-09-18",
+      "label": "September 18–20 · Opening-week practice",
+      "from": "2026-09-18",
+      "through": "2026-09-20",
+      "connection": "We have practised conversation, Discovery activities and Werewolf. Place value is part of our September plan; try the maths review only if it is familiar. Other choices below are optional general practice, not a claim that every subject has already been taught.",
+      "activities": [
+        {
+          "id": "math",
+          "subject": "Math",
+          "title": "What is each digit worth?",
+          "time": "10 minutes",
+          "context": "September place-value review · choose familiar work",
+          "example": "2,406 = 2,000 + 400 + 6. The zero holds the tens place.",
+          "steps": [
+            "Write 6,307 in expanded form. What does the zero tell you?",
+            "Write 4,052 in expanded form. What is the value of the 5?",
+            "If decimals are familiar, compare 0.5 and 0.05. Draw or explain why."
+          ],
+          "check": "6,307 = 6,000 + 300 + 7; zero tens. 4,052 = 4,000 + 50 + 2; the 5 is worth 50. 0.5 > 0.05 because five tenths is greater than five hundredths.",
+          "extension": "Choose a larger number. Change one digit and explain how much its value changes."
+        },
+        {
+          "id": "reading",
+          "subject": "Language Arts",
+          "title": "Read, notice and explain",
+          "time": "10–15 minutes",
+          "context": "Connects to reading and listening routines",
+          "example": "Try: ‘I think the character is worried because they keep checking the door.’ For nonfiction: ‘The main idea is … One detail is …’",
+          "steps": [
+            "Read or listen to a short part of a book you choose.",
+            "Tell, draw or write one important event or idea.",
+            "Point to one detail that helped you understand it."
+          ],
+          "check": "Can someone follow your explanation? Can you point to the detail in the text? A spoken answer counts.",
+          "extension": ""
+        },
+        {
+          "id": "story",
+          "subject": "Language Arts",
+          "title": "Tell a tiny mystery",
+          "time": "10 minutes",
+          "context": "Connects to storytelling and reasoning in Werewolf",
+          "example": "A library book disappears. A bookmark is on the sofa and a book-shaped lump is under a cushion. The reader finds it there.",
+          "steps": [
+            "Invent a missing-object mystery with a beginning, problem and ending.",
+            "Tell it in about one minute. Include two clues.",
+            "Ask which clue helped your listener; retell one part more clearly. You can practise alone or with a toy."
+          ],
+          "check": "Does the ending fit both clues? Did you keep imagined details separate from real events?",
+          "extension": ""
+        },
+        {
+          "id": "fairness",
+          "subject": "Social Studies",
+          "title": "Make a game fairer",
+          "time": "10 minutes",
+          "context": "Connects to games and our classroom community",
+          "example": "Allow a practice round before scoring so a beginner can learn the rules.",
+          "steps": [
+            "Choose a familiar game. Explain one rule and whom it helps.",
+            "Imagine a new player cannot join in easily. Suggest one change.",
+            "Explain how your change helps people participate."
+          ],
+          "check": "Name who benefits and explain why. Could your change create a different problem? Revise it if needed.",
+          "extension": ""
+        },
+        {
+          "id": "science",
+          "subject": "Science",
+          "title": "Notice before you guess",
+          "time": "10 minutes",
+          "context": "General observation practice · no new science unit assigned",
+          "example": "‘The leaf has a brown edge’ is an observation. ‘It may have dried out’ is a possible explanation.",
+          "steps": [
+            "Choose a safe everyday object, such as a spoon or leaf.",
+            "Draw it and write three things you can directly observe.",
+            "Write one question and one possible explanation. Label the explanation ‘I think …’."
+          ],
+          "check": "Can you separate what you observed from what you think caused it? Do not taste unknown objects or plants.",
+          "extension": ""
+        },
+        {
+          "id": "french",
+          "subject": "French",
+          "title": "Use words you already know",
+          "time": "5–10 minutes",
+          "context": "Review only · use familiar classroom words",
+          "example": "If familiar: bonjour = hello; merci = thank you; au revoir = goodbye.",
+          "steps": [
+            "Choose three French words or phrases you have already learned.",
+            "Say each one and match it to a picture or meaning.",
+            "Cover your notes and try again. If none are familiar yet, skip this choice."
+          ],
+          "check": "Can you match each phrase to its meaning without looking? Check classroom notes; ask at school about pronunciation.",
+          "extension": ""
+        },
+        {
+          "id": "arts",
+          "subject": "Arts Education",
+          "title": "Draw the same object twice",
+          "time": "10–15 minutes",
+          "context": "General drawing and observation practice",
+          "example": "A mug handle may appear on the side in one view and be hidden in the other.",
+          "steps": [
+            "Draw a safe everyday object from the front.",
+            "Turn it or move your seat and draw it from another angle.",
+            "Circle one detail that changed and one that stayed the same."
+          ],
+          "check": "Can someone tell the drawings show different views? Explain one choice of line or shape.",
+          "extension": ""
+        },
+        {
+          "id": "adst",
+          "subject": "ADST",
+          "title": "Build, test and improve",
+          "time": "10–15 minutes",
+          "context": "General design practice",
+          "example": "Fold a sheet into a tent. If it tips, try a wider base.",
+          "steps": [
+            "Use one sheet of scrap paper to make a freestanding name card. Keep it at home.",
+            "Test whether it stands for ten seconds.",
+            "Change one fold and test again. Draw or describe what improved."
+          ],
+          "check": "What did you change? Did the second version stand more steadily? An unsuccessful test still gives useful information.",
+          "extension": ""
+        },
+        {
+          "id": "movement",
+          "subject": "Physical and Health Education",
+          "title": "Move in a way that works for you",
+          "time": "10–15 minutes",
+          "context": "Connects to active play and shared rules",
+          "example": "Try three favourite movements with pauses between them.",
+          "steps": [
+            "Choose a walk, dance, stretch or comfortable seated movement.",
+            "Choose a safe space and a pace that feels manageable.",
+            "Notice how you feel before and after."
+          ],
+          "check": "Describe how your body felt and one choice that helped you move safely. There is no speed or distance target.",
+          "extension": ""
+        },
+        {
+          "id": "career",
+          "subject": "Career Education",
+          "title": "Prepare for tomorrow",
+          "time": "5 minutes",
+          "context": "Connects to classroom routines",
+          "example": "‘I can pack my book. I need help finding the form.’",
+          "steps": [
+            "Check your planner or the reminder you were given.",
+            "Choose one useful task: pack a book, organize supplies or put a form where an adult will see it.",
+            "Name one thing you can do independently and one thing you need help with."
+          ],
+          "check": "Can you find the item you need? Choose one small next step; do not share private family information.",
+          "extension": ""
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Prodigy Math",
+        "subject": "Math",
+        "href": "https://play.prodigygame.com/",
+        "description": "Use school-provided login details when available. Choose familiar maths or practice your teacher identifies. A paid membership is not required for this menu.",
+        "offline": "Use the place-value activity above or explain a familiar problem on paper."
+      },
+      {
+        "title": "NoRedInk",
+        "subject": "Language Arts",
+        "href": "https://www.noredink.com/",
+        "description": "Use class instructions and account details supplied by your teacher. If access is not ready or no practice is listed, choose reading or storytelling.",
+        "offline": "Write three sentences about your reading. Check capitals, sentence endings and whether each sentence makes sense."
+      },
+      {
+        "title": "Reading in any language",
+        "subject": "Language Arts",
+        "href": "",
+        "description": "Choose a book, comic or other text you have, or listen to someone read. Discuss one idea and the detail that supports it.",
+        "offline": "Use a book at home or a borrowed classroom or library book."
+      },
+      {
+        "title": "Math Antics",
+        "subject": "Math",
+        "href": "https://mathantics.com/",
+        "description": "Optional explanation videos. Choose Place Value or Decimal Place Value when reviewing a familiar skill. The written model above is enough to begin.",
+        "offline": "Try the written example and questions above; no worksheet subscription is needed."
+      },
+      {
+        "title": "Truth and Reconciliation family guide",
+        "subject": "Social Studies",
+        "href": "/truth-and-reconciliation",
+        "description": "For families when this learning begins in class. Preview the selected sources and follow your child’s readiness. Conversation is optional.",
+        "offline": "Ask what your child would like to share from class. They may pass; no separate research or submission is expected."
+      },
+      {
+        "title": "Rights and expression family guide",
+        "subject": "Social Studies",
+        "href": "/rights",
+        "description": "An optional connection to our rights and belonging resources. Follow classroom timing; this is not extra assigned research.",
+        "offline": "Discuss how a familiar game or shared space could include people fairly. Use a fictional example."
+      }
+    ],
+    "familyCheck": [
+      "Ask: ‘What did you try, and why?’",
+      "Notice one thing your child did independently and one place they needed help.",
+      "Use checking guidance after an attempt. Correct together without turning optional practice into a test.",
+      "Keep notes at home. Contact Mr. Wyatt privately about persistent difficulty; do not post names, scores or work on this public site."
+    ]
+  },
   "windows": [
     {
       "id": "september-opening",
@@ -2498,5 +2715,5 @@
       }
     }
   ],
-  "checksum": "sha256:28591545fccb63713658ad064a949b6e87c945ad42e4e5acfd1184f0ce996998"
+  "checksum": "sha256:fd1a3176fbab27559e42d487e7404e16e1159133be36328cb7a80dbe2bad2081"
 }

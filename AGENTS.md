@@ -1,5 +1,9 @@
 # Classroom OS public hub rules
 
+## Home practice updates
+
+Teacher Hub content/home-practice.json owns the optional homework menu. Its existing sync:public-window command projects homePractice into the shared manifest. Copy that generated manifest here; do not independently edit the generated menu. Keep dated/stale labels, screen-free alternatives and account-setup uncertainty. Do not turn plans into assigned homework.
+
 ## Keep Learn Hub aligned with published teaching
 
 After a major day-plan change, schedule change, or addition that families/students need, update the public summary and confirmed school dates in teacher-hub/content/current-learning-window-v2.json. Distinguish planned activities from confirmed classroom experience. Run teacher-hub npm run sync:public-window and copy the resulting public/generated/public-window-v2.json to learn/app/generated/public-window-v2.json. Update relevant public resource links when new materials should be discoverable. Review both renderers, run appropriate checks, commit and publish both without overwriting newer work. Minor code/layout changes do not require a family announcement.

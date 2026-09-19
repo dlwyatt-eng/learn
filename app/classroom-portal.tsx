@@ -1,6 +1,7 @@
 "use client";
 
 import RightsStrand, { RightsEntry } from "./rights-strand";
+import HomeworkPage, { HomeworkDoorway } from "./homework-page";
 import TruthFamilyPage, { TruthLearningLink } from "./truth-family-page";
 import { ExplorationRevisits } from "./virtual-explorations";
 import { useEffect, useState, type MouseEvent } from "react";
@@ -11,7 +12,7 @@ import { monthlyPublicWindowForDate } from "./monthly-public-window.mjs";
 import NewsroomPublic, { selectNewsroomFeature, SurreyElectionStrip, type PublicNewsroom } from "./newsroom-public";
 import { publicWindowState, selectPublicWindow, vancouverDateKey } from "./public-window-selection.mjs";
 
-export type PortalRoute = "rights" | "home" | "students" | "families" | "newsroom" | "learning" | "portfolio" | "guide" | "truth-and-reconciliation";
+export type PortalRoute = "homework" | "rights" | "home" | "students" | "families" | "newsroom" | "learning" | "portfolio" | "guide" | "truth-and-reconciliation";
 
 type PublicWindow = Omit<typeof publicWindowManifest.window, "shared"> & {
   shared: Omit<typeof publicWindowManifest.window.shared, "primaryResource"> & {
@@ -58,6 +59,7 @@ const navigation: { route: PortalRoute; href: string; label: string }[] = [
   { route: "home", href: "/", label: "Now" },
   { route: "students", href: "/students", label: "Students" },
   { route: "families", href: "/families", label: "Families" },
+  { route: "homework", href: "/homework", label: "Homework" },
   { route: "newsroom", href: "/newsroom", label: "Newsroom" },
   { route: "learning", href: "/learning", label: "Learning" },
 ];
@@ -106,6 +108,7 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
       <div id="public-main" tabIndex={-1}>
         {route === "rights" && <RightsStrand />}
         {route === "home" && <HomePage />}
+        {route === "homework" && <HomeworkPage />}
         {route === "students" && <StudentPage />}
         {route === "families" && <FamilyPage />}
         {route === "newsroom" && <NewsroomPublic newsroom={newsroom} />}
@@ -180,6 +183,7 @@ function HomePage() {
       </div>
     </section>
 
+    <HomeworkDoorway />
     <WelcomeUpdate />
     <FamilyReminders />
     <FamilyLinks />
@@ -216,6 +220,7 @@ function StudentPage() {
       </div>
     </section>
 
+    <HomeworkDoorway />
     <TruthLearningLink />
     <RightsEntry href="#/rights" />
     <section className="student-task-facts" aria-label="Lesson quick facts">
@@ -285,6 +290,7 @@ function FamilyPage() {
     <FamilyLinks />
     <SchoolDates />
     <SpacesStatus />
+    <HomeworkDoorway />
     <WelcomeUpdate />
     <section className="family-priority-grid">
       <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.shortLabel ?? item.label}</span></li>)}</ol></article>
