@@ -10,6 +10,10 @@ Source-reviewed: Equity #rights (Learn, scenarios, action, four-screen dialog an
 
 Student print output contains the active fictional case and four response prompts, without teacher notes or discussion rationales. Adult sources distinguish Charter protection, Criminal Code section 319, BC Human Rights Code and school conduct. The school code landing page was verified; the older district racial-equity page was marked retired and is not used as current authority. Source review is not a legal review of individual incidents.
 
+## Synchronized source versions
+
+Rights source release: Teacher Hub `5dacc5c2cbcdc3e7b23cf929c9cd9187c660ac94`; Learn `2cf844fc83297603cafe6660f7361e6adf5974c8`. The synchronized public projection is content version `2026-09-18-rights-strand` with checksum `sha256:28591545fccb63713658ad064a949b6e87c945ad42e4e5acfd1184f0ce996998`.
+
 ## Verification scope
 
 Existing repository tests and production builds run before publication. Learn adds two rendered-output checks for adult/student separation and printable content, and updates date-expiry checks for the new observances. Canonical inquiry copies and public manifests are byte-compared. No existing daily plan or device-local calendar record is overwritten.
