@@ -15,3 +15,9 @@ Prodigy and NoRedInk are offered only when school-provided access and teacher in
 ## Verification
 
 Teacher Hub and Learn public manifests were byte-compared. Repository rendering checks cover date rollover, optional-language boundaries, actual activities, checking guidance, offline routes and the absence of a SpacesEDU upload expectation. Both GitHub Pages deployment workflows completed successfully.
+## September 21 plan and Surrey resource update
+
+The planned Monday learning summary was synchronized from Teacher Hub `284e3b6a04d8cb096b16d162ebeae4a7102083e7` to Learn `4fa449b73aafd43205b15c8052bbb2b9997e7228`. It presents inclusion, whole-number place value, Truth and Reconciliation booklets, novel choice and Discovery catch-up as plans rather than completed learning; PE and learning-support times remain unconfirmed.
+
+The Surrey Schools ONE resource update was synchronized from Teacher Hub `0b932f21f1e0d437600678243b284be608ad1cca` to Learn `76350a8c33056a8eb8a991c6488aa3ec96588cd9`. The byte-identical current manifests use content version `2026-09-19-monday-sept21`, blob `d73ecdb0d4c2e3958feacae2fdb176d4c960c7b6`, and checksum `sha256:daac33a2ab30886ac91456b1190b8407e7c53a5d38b47a9c25b7eb9f545960d7`. District links preserve consent, sign-in and account uncertainty; no password, purchase or extra assignment is published.
+
