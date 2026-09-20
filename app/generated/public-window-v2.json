@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-19-monday-sept21",
-  "sourceUpdatedAt": "2026-09-19",
+  "contentVersion": "2026-09-20-belonging-sequence",
+  "sourceUpdatedAt": "2026-09-20",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,7 +1347,7 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 19, 2026",
+    "updatedOn": "September 20, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
@@ -1355,8 +1355,8 @@
     "recapTitle": "Our first days together",
     "recap": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules.",
     "nextTitle": "Planned for Monday, September 21",
-    "next": "On Monday we plan to discuss how everyone can participate meaningfully in PE and outdoor activities, begin whole-number place value and our Truth and Reconciliation booklets, compare three class-novel choices, and allow time to finish Discovery booklets. Our day includes quiet reading, drawing or colouring after lunch. Plans may shift as we see what students need.",
-    "later": "Later in the week we plan separate lessons for Nonviolent Communication and the Five Agreements. Decimal place value will follow our whole-number work. PE and learning-support times are still being arranged.",
+    "next": "On Monday we plan to begin Who gets to belong? We will explore the difference between being invited and taking part, identify barriers in fictional situations, and agree on changes to our shared activities. We also plan whole-number place value, Truth and Reconciliation booklets, class-novel previews and Discovery catch-up. Snack remains around 10:20, with quiet reading, drawing or colouring after lunch. Plans may shift as we see what students need.",
+    "later": "Our planned Belonging & Community sequence continues with separate lessons on the Five Agreements, Nonviolent Communication, and fairness and accessibility. Later we will connect these ideas to human rights and student action. Decimal place value follows whole-number work; specialist and learning-support times are still being arranged.",
     "reminders": [
       {
         "title": "Monday forms and booklet check-in",
@@ -1428,6 +1428,11 @@
         "title": "Understanding learning and reports",
         "url": "https://surreyschoolsone.ca/teachers/csl/parent-resources/",
         "description": "Surrey Schools resources to help families understand learning updates and assessment."
+      },
+      {
+        "title": "Belonging & Community learning sequence",
+        "url": "https://dlwyatt-eng.github.io/teacher-hub/?view=Games+%26+Activities&mode=student&deck=belonging-sequence",
+        "description": "Our planned lessons and shared question: how do we build communities where people actually belong? No home assignment or personal disclosures required."
       }
     ],
     "hotLunchNotice": "Hot-lunch registration is currently unavailable, and ordering details are pending. Please wait for a school or PAC notice before trying to order. October 2 remains unconfirmed.",
@@ -2783,5 +2788,5 @@
       }
     }
   ],
-  "checksum": "sha256:daac33a2ab30886ac91456b1190b8407e7c53a5d38b47a9c25b7eb9f545960d7"
+  "checksum": "sha256:caac0fdee5c1c917615ef7f55aa9e0c7e354918801f498068ce270b2922b8bd4"
 }
