@@ -37,3 +37,8 @@ The supported cloud browser could not access the local preview (ERR_BLOCKED_BY_C
 ## Next coordinated update
 
 After Monday, record actual timing, unfinished work, the two commitments and whether changes helped, without private student details. Place the separate Agreements/NVC lessons after specialist and support times are confirmed. Check the next activity's actual surface, equipment, communication and participant preferences before using it. Confirm buddy timing with the colleague. Keep the existing Truth and Reconciliation booklet/source preparation task. There is no need to add more near-duplicate belonging resources.
+## Synchronized public versions
+
+The Belonging & Community public-summary release is Teacher Hub `5dbf3eacaefccd58dda178432b742fd542a6d9dc` and Learn `15590b8707e4f297cbf483257ddd6dee4c46b36a`. The inclusive-printable follow-up is Teacher Hub `69fdf2fa3c4ef832606812845d970c0f9060f7c9` and Learn `f75dd93a21868ebd312af7eb48df10d4cc279d6e`.
+
+The byte-identical public manifests use content version `2026-09-20-belonging-sequence`, blob `0f95fa29b731c0d3051d9cce8471aa0369273298`, and checksum `sha256:caac0fdee5c1c917615ef7f55aa9e0c7e354918801f498068ce270b2922b8bd4`. Teacher Hub remains canonical. The follow-up connects classroom access supports and preserves cross-hub download URLs; it does not add homework, a due date, a required family action, or a claim that Monday's activities are complete.
