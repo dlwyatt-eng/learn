@@ -137,6 +137,7 @@ function WelcomeUpdate() {
     <header><small>CLASS UPDATE · {welcome.updatedOn}</small><h2 id="welcome-update-title">Getting settled, together</h2></header>
     <div className="welcome-update-grid"><article><h3>{welcome.recapTitle}</h3><p>{welcome.recap}</p></article><article><h3>{welcome.nextTitle}</h3><p>{welcome.next}</p></article></div>
     <p className="welcome-next"><strong>Looking ahead:</strong> {welcome.later}</p>
+    <p><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Games+%26+Activities&deck=belonging&mode=student">Our belonging question and picture supports →</a> · <a href="https://dlwyatt-eng.github.io/teacher-hub/printables/belonging/Monday_Inclusive_Printables.pdf">Classroom printables (PDF)</a></p><p>These supports offer different ways to communicate the same ideas. They are classroom options, not additional homework.</p>
   </section>;
 }
 function SchoolDates() {
