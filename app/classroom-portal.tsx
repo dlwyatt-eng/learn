@@ -173,7 +173,7 @@ function HomePage() {
         <p>{welcome.intro}</p>
         <div className="first-action"><small>OUR CURRENT FOCUS</small><p>{current.shared.title}</p></div>
         <div className="status-pills" aria-label="Quick facts">
-          <span>{current.student.duration}</span><span>{compactGrouping()}</span><span>{homeworkStatus()}</span>
+          <span>{current.student.duration}</span><span>{compactGrouping()}</span>
         </div>
         <div className="hero-buttons">
           <Link href="/families">Start here, families →</Link>
@@ -282,7 +282,7 @@ function FamilyPage() {
         <p className="eyebrow">{windowStateLabel()} · FOR FAMILIES</p>
         <h1>{current.family.title}</h1>
         <p className="welcome-class">{welcome.classLabel} · {welcome.location}</p>
-        <div className="status-pills"><span>{homeworkStatus()}</span><span>{assessmentStatus()}</span><span>{current.student.duration}</span></div>
+        <div className="status-pills"><span>{assessmentStatus()}</span><span>{current.student.duration}</span></div>
       </div>
       <ResourceDownload />
     </section>
@@ -468,10 +468,6 @@ function compactGrouping() {
 function compactBring() {
   const first = current.student.bring[0] ?? "Ask your teacher";
   return /pencil/i.test(first) ? "Pencil" : first;
-}
-
-function homeworkStatus() {
-  return /^no\b/i.test(current.family.homework) ? "No routine homework" : "Check family reminders";
 }
 
 function assessmentStatus() {
