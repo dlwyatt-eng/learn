@@ -18,10 +18,10 @@ function render(route,date='2026-09-18') {
   return renderToStaticMarkup(React.createElement(load('app/classroom-portal.tsx').default,{route}));
 }
 
-test('family arrival shows class identity, actual first days, plans and take-home reminders',()=>{
+test('family arrival shows current completed learning, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our first days together','Planned for Monday, September 21','whole-number place value','Truth and Reconciliation booklets','information forms','device-use form','$6','School Cash Online','SpacesEDU is not ready']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','Our first days together','Planned for Tuesday, September 22','students began our Belonging work','Nevermoor','whole-number place value','Truth and Reconciliation booklets','information forms','device-use form','$6','School Cash Online','SpacesEDU is not ready']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
@@ -46,7 +46,7 @@ test('the first-week recap remains current through the weekend without replacing
 test('confirmed school dates render on home and families, preserve times, and expire without guessing the food-drive date',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Tue, September 22','Photo Day','Fri, September 25','Wed, September 30','5:30–6:30 pm','Hot lunch','1:35 pm','1–2 pm','Thanksgiving','By Friday, October 16','Last week of October']) assert.ok(html.includes(text),route+': '+text);
+    for(const text of ['Tue, September 22','Photo Day','Fri, September 25','Mon, September 28','Grade 6 Reconciliation Walk','9:30 am','Wed, September 30','5:30–6:30 pm','Hot lunch','1:35 pm','1–2 pm','Thanksgiving','By Friday, October 16','Last week of October']) assert.ok(html.includes(text),route+': '+text);
     const october=render(route,'2026-10-03');
     assert.doesNotMatch(october,/>Photo Day</);
     assert.match(october,/Early dismissal/);

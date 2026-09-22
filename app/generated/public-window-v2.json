@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-20-belonging-sequence",
-  "sourceUpdatedAt": "2026-09-20",
+  "contentVersion": "2026-09-21-reconciliation-walk",
+  "sourceUpdatedAt": "2026-09-21",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,20 +1347,20 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 20, 2026",
+    "updatedOn": "September 21, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
     "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
     "recapTitle": "Our first days together",
-    "recap": "We have been getting to know one another through conversation activities and Discovery work. We have also learned and played Werewolf, a group game that gives us practice listening carefully, explaining a choice, and following shared rules.",
-    "nextTitle": "Planned for Monday, September 21",
-    "next": "On Monday we plan to begin Who gets to belong? We will explore the difference between being invited and taking part, identify barriers in fictional situations, and agree on changes to our shared activities. We also plan whole-number place value, Truth and Reconciliation booklets, class-novel previews and Discovery catch-up. Snack remains around 10:20, with quiet reading, drawing or colouring after lunch. Plans may shift as we see what students need.",
-    "later": "Our planned Belonging & Community sequence continues with separate lessons on the Five Agreements, Nonviolent Communication, and fairness and accessibility. Later we will connect these ideas to human rights and student action. Decimal place value follows whole-number work; specialist and learning-support times are still being arranged.",
+    "recap": "On Monday, students began our Belonging work, started whole-number place value and Truth and Reconciliation booklets, chose Nevermoor as our first class novel, and began the audiobook. Some forms and Discovery booklets are still coming in, so unfinished work will continue at school.",
+    "nextTitle": "Planned for Tuesday, September 22",
+    "next": "On Tuesday we plan to continue whole-number place value before recess, followed by reading, Language Arts and Truth and Reconciliation learning. The class has French, and laptops are planned for part of the afternoon if they do not conflict with another school activity. We may begin decimal place value only if students are ready to move on from the whole-number work. Plans may shift as we see what students need.",
+    "later": "During the week we plan to watch The Secret Path in preparation for our confirmed Reconciliation Walk on Monday, September 28 at 9:30 am; the classroom viewing day may change. Orange Shirt Day decorations will wait until current Discovery and Truth and Reconciliation booklet work is finished. Our Belonging & Community sequence continues with separate lessons on the Five Agreements, Nonviolent Communication, and fairness and accessibility. Specialist and learning-support times are still being arranged.",
     "reminders": [
       {
-        "title": "Monday forms and booklet check-in",
-        "text": "After attendance on Monday, we will collect returned information forms and signed device agreements, and check Discovery booklet submissions. Students with unfinished Discovery work will have catch-up time at school.",
+        "title": "Forms and booklet check-in",
+        "text": "We are continuing to collect returned information forms and signed device agreements and to check Discovery booklet submissions. Students with unfinished Discovery work will have catch-up time at school.",
         "link": null
       },
       {
@@ -1370,7 +1370,7 @@
       },
       {
         "title": "Planner",
-        "text": "Planners are planned to go home on Friday. The $6 planner payment is expected to appear on School Cash Online on Friday, September 18. Please wait until the item is available before paying. Contact Mr. Wyatt privately if you have a question about the fee.",
+        "text": "The $6 planner payment was expected to appear on School Cash Online on Friday, September 18. If the item is not visible, please wait for school guidance before paying. Contact Mr. Wyatt privately if you have a question about the fee.",
         "link": {
           "label": "Open School Cash Online",
           "url": "https://surreyschools.schoolcashonline.com/"
@@ -1392,7 +1392,7 @@
       {
         "title": "School Cash Online",
         "url": "https://surreyschools.schoolcashonline.com/",
-        "description": "The $6 planner item is expected Friday, September 18. Please check again then and pay once it appears."
+        "description": "The $6 planner item was expected Friday, September 18. If it is not visible, please wait for school guidance before paying."
       },
       {
         "title": "School fees and supplies",
@@ -1458,6 +1458,14 @@
       "dateLabel": "Fri, September 25",
       "title": "Non-instructional day",
       "detail": "No classes for students."
+    },
+    {
+      "id": "reconciliation-walk",
+      "date": "2026-09-28",
+      "month": "2026-09",
+      "dateLabel": "Mon, September 28",
+      "title": "Grade 6 Reconciliation Walk",
+      "detail": "9:30 am. This is a class learning activity; no family action is requested at this time."
     },
     {
       "id": "truth-reconciliation",
@@ -2788,5 +2796,5 @@
       }
     }
   ],
-  "checksum": "sha256:caac0fdee5c1c917615ef7f55aa9e0c7e354918801f498068ce270b2922b8bd4"
+  "checksum": "sha256:7bc64ba00b709de56ad23f0556dbaa1d9c9919ddb5c6e60472edf0cad889b4c8"
 }
