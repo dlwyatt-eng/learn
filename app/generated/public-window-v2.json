@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-21-reconciliation-walk",
-  "sourceUpdatedAt": "2026-09-21",
+  "contentVersion": "2026-09-22-tuesday-day-plan",
+  "sourceUpdatedAt": "2026-09-22",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,7 +1347,7 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 21, 2026",
+    "updatedOn": "September 22, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
@@ -1355,7 +1355,7 @@
     "recapTitle": "Our first days together",
     "recap": "On Monday, students began our Belonging work, started whole-number place value and Truth and Reconciliation booklets, chose Nevermoor as our first class novel, and began the audiobook. Some forms and Discovery booklets are still coming in, so unfinished work will continue at school.",
     "nextTitle": "Planned for Tuesday, September 22",
-    "next": "On Tuesday we plan to continue whole-number place value before recess, followed by reading, Language Arts and Truth and Reconciliation learning. The class has French, and laptops are planned for part of the afternoon if they do not conflict with another school activity. We may begin decimal place value only if students are ready to move on from the whole-number work. Plans may shift as we see what students need.",
+    "next": "On Tuesday we plan to continue whole-number place value before recess, with a short decimal introduction only if understanding is secure. After recess we will work on Language Arts and Truth and Reconciliation booklets and continue our Nevermoor audiobook. Mr. Eckert’s specialist block is 12:35–1:35; class laptop work follows, focusing on signing in and trying one small SpacesEDU post. A short review game is optional if time permits. Individual photos may interrupt our plan. Orange Shirt Day decorations begin after current Discovery and Truth and Reconciliation booklet work is finished.",
     "later": "During the week we plan to watch The Secret Path in preparation for our confirmed Reconciliation Walk on Monday, September 28 at 9:30 am; the classroom viewing day may change. Orange Shirt Day decorations will wait until current Discovery and Truth and Reconciliation booklet work is finished. Our Belonging & Community sequence continues with separate lessons on the Five Agreements, Nonviolent Communication, and fairness and accessibility. Specialist and learning-support times are still being arranged.",
     "reminders": [
       {
@@ -2796,5 +2796,5 @@
       }
     }
   ],
-  "checksum": "sha256:7bc64ba00b709de56ad23f0556dbaa1d9c9919ddb5c6e60472edf0cad889b4c8"
+  "checksum": "sha256:4041088bafc8a0f6b4181b7686877d00ccfc656581d661fc2f60f6b59fa00818"
 }
