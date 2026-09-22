@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-22-tuesday-day-plan",
+  "contentVersion": "2026-09-22-evidence-and-orange-shirt-art",
   "sourceUpdatedAt": "2026-09-22",
   "window": {
     "id": "september-opening",
@@ -1355,7 +1355,7 @@
     "recapTitle": "Our first days together",
     "recap": "On Monday, students began our Belonging work, started whole-number place value and Truth and Reconciliation booklets, chose Nevermoor as our first class novel, and began the audiobook. Some forms and Discovery booklets are still coming in, so unfinished work will continue at school.",
     "nextTitle": "Planned for Tuesday, September 22",
-    "next": "On Tuesday we plan to continue whole-number place value before recess, with a short decimal introduction only if understanding is secure. After recess we will work on Language Arts and Truth and Reconciliation booklets and continue our Nevermoor audiobook. Mr. Eckert’s specialist block is 12:35–1:35; class laptop work follows, focusing on signing in and trying one small SpacesEDU post. A short review game is optional if time permits. Individual photos may interrupt our plan. Orange Shirt Day decorations begin after current Discovery and Truth and Reconciliation booklet work is finished.",
+    "next": "On Tuesday we plan to continue place value before recess, with decimals only if understanding is secure. After recess, a short evidence lesson leads into Truth and Reconciliation reading for Language Arts and Social Studies: students explain an idea using a relevant source detail. We will use the same skill while listening to Nevermoor. Mr. Eckert’s block is 12:35–1:35; laptops follow. If class access is ready, students will practise one SpacesEDU post using their booklet response; otherwise work stays in class. Photos may interrupt. Orange-shirt art follows completion of both current booklets; linked examples help students choose a design and explain its connection to the reading.",
     "later": "During the week we plan to watch The Secret Path in preparation for our confirmed Reconciliation Walk on Monday, September 28 at 9:30 am; the classroom viewing day may change. Orange Shirt Day decorations will wait until current Discovery and Truth and Reconciliation booklet work is finished. Our Belonging & Community sequence continues with separate lessons on the Five Agreements, Nonviolent Communication, and fairness and accessibility. Specialist and learning-support times are still being arranged.",
     "reminders": [
       {
@@ -1380,6 +1380,14 @@
         "title": "Open House · October 1",
         "text": "Join us Thursday, October 1, from 5:30–6:30 pm. More school dates are listed below.",
         "link": null
+      },
+      {
+        "title": "Orange-shirt art examples",
+        "text": "After current Discovery and Truth and Reconciliation booklet work is finished, students can choose a simple design and explain its connection to the reading.",
+        "link": {
+          "label": "See the art examples",
+          "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/orange-shirt-art.html"
+        }
       }
     ],
     "spaces": {
@@ -2796,5 +2804,5 @@
       }
     }
   ],
-  "checksum": "sha256:4041088bafc8a0f6b4181b7686877d00ccfc656581d661fc2f60f6b59fa00818"
+  "checksum": "sha256:c80f218a0f9f3c7dd36d324b90383e374eb02a88a230e39ab03892954d5d2eea"
 }
