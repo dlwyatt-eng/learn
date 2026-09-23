@@ -2413,6 +2413,11 @@
             "date": "Oct. 17",
             "label": "Surrey municipal and school-board election",
             "shortLabel": "Surrey election day"
+          },
+          {
+            "date": "Oct. 24",
+            "label": "B.C. provincial election: voters choose MLAs; compare provincial and local responsibilities",
+            "shortLabel": "B.C. provincial election"
           }
         ],
         "homework": "No special supplies, candidate research, or routine homework are expected.",
@@ -2819,5 +2824,5 @@
       }
     }
   ],
-  "checksum": "sha256:4de8fd656e757cdcb824c90f33b8e97b0e7aea4f416dbeb60e9a0c5c330683f4"
+  "checksum": "sha256:dd2f2a282a225f1016dc9e456bdcaa092edc188528890bbdf9bf92eebb83acc8"
 }

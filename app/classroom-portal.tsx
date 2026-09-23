@@ -29,9 +29,12 @@ const isDiscoveryWindow = /discovery/i.test(current.shared.title)
   || /Grade_6_Discovery_Booklet\.pdf$/i.test(current.shared.primaryResource?.href ?? "");
 const isLegacyAiOpeningWindow = current.id === "september-opening" && /technology|\bAI\b/i.test(current.shared.title);
 const familyMilestones = current.id === "surrey-place-and-election"
-  ? [...current.family.milestones.slice(0, 2), ...current.family.milestones.filter(item => item.date === "Oct. 17")].slice(0, 3)
+  ? [...current.family.milestones.slice(0, 2), ...current.family.milestones.filter(item => item.date === "Oct. 17" || item.date === "Oct. 24")]
   : current.family.milestones.slice(0, 3);
 const welcome = publicWindowManifest.classroomWelcome;
+const classUpdateTime = Date.parse(welcome.updatedOn);
+const classUpdateDate = Number.isFinite(classUpdateTime) ? new Date(classUpdateTime).toISOString().slice(0, 10) : null;
+const classUpdateIsOld = Boolean(classUpdateDate && classUpdateDate < today);
 const spacesPending = welcome.spaces.status === "pending";
 const spacesUrl = publicWindowManifest.safeLinks.spacesEduCanada;
 const schoolUrl = publicWindowManifest.safeLinks.school;
@@ -125,8 +128,9 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
           <a href={schoolUrl} target="_blank" rel="noreferrer">School site ↗</a>
           {spacesPending ? <Link href="/portfolio">SpacesEDU setup</Link> : <a href={spacesUrl} target="_blank" rel="noreferrer">SpacesEDU Canada ↗</a>}
           <Link href="/guide">Classroom help</Link>
+          <a href="https://dlwyatt-eng.github.io/equity-hub/" target="_blank" rel="noreferrer">Equity learning ↗</a>
         </nav>
-        <p>No student names, work, grades, or private classroom information appear here.</p>
+        <p>Class update: {welcome.updatedOn}. No student names, work, grades, or private classroom information appear here.</p>
       </footer>
     </div>
   );
@@ -135,7 +139,8 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
 function WelcomeUpdate() {
   return <section className="welcome-update" aria-labelledby="welcome-update-title">
     <header><small>CLASS UPDATE · {welcome.updatedOn}</small><h2 id="welcome-update-title">Getting settled, together</h2></header>
-    <div className="welcome-update-grid"><article><h3>{welcome.recapTitle}</h3><p>{welcome.recap}</p></article><article><h3>{welcome.nextTitle}</h3><p>{welcome.next}</p></article></div>
+    {classUpdateIsOld && <p role="status" className="class-update-age">This class update was posted on {welcome.updatedOn}. Check the planner or school notices for changes to today’s plan.</p>}
+    <div className="welcome-update-grid"><article><h3>{welcome.recapTitle}</h3><p>{welcome.recap}</p></article><article><h3>{classUpdateIsOld ? `Plan as of ${welcome.updatedOn}` : welcome.nextTitle}</h3><p>{welcome.next}</p></article></div>
     <p className="welcome-next"><strong>Looking ahead:</strong> {welcome.later}</p>
     <p><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Games+%26+Activities&deck=belonging&mode=student">Our belonging question and picture supports →</a> · <a href="https://dlwyatt-eng.github.io/teacher-hub/printables/belonging/Monday_Inclusive_Printables.pdf">Classroom printables (PDF)</a></p><p>These supports offer different ways to communicate the same ideas. They are classroom options, not additional homework.</p>
   </section>;
@@ -143,7 +148,9 @@ function WelcomeUpdate() {
 function SchoolDates() {
   const upcoming = publicWindowManifest.schoolEvents.filter(item => item.date ? item.date >= today : item.month >= today.slice(0, 7));
   if (!upcoming.length) return null;
-  return <section className="school-dates" aria-labelledby="school-dates-title"><header><small>MARK YOUR CALENDAR · 2026</small><h2 id="school-dates-title">School dates</h2><p>Times are local to Surrey.</p></header><ol>{upcoming.map(item => <li key={item.id}><div>{item.date ? <time dateTime={item.date}>{item.dateLabel}</time> : <span>{item.dateLabel}</span>}</div><div><strong>{item.title}</strong>{item.detail && <p>{item.detail}</p>}</div></li>)}</ol></section>;
+  const learningOnly = new Set(["reconciliation-walk", "national-child-day", "human-rights-day"]);
+  const dateList = (items: typeof upcoming) => <ol>{items.map(item => <li key={item.id}><div>{item.date ? <time dateTime={item.date}>{item.dateLabel}</time> : <span>{item.dateLabel}</span>}</div><div><strong>{item.title}</strong>{item.detail && <p>{item.detail}</p>}</div></li>)}</ol>;
+  return <section className="school-dates" aria-labelledby="school-dates-title"><header><small>MARK YOUR CALENDAR · 2026</small><h2 id="school-dates-title">School dates</h2><p>Times are local to Surrey.</p></header><h3>Dates to plan around</h3>{dateList(upcoming.filter(item => !learningOnly.has(item.id)))}{upcoming.some(item => learningOnly.has(item.id)) && <><h3>Learning milestones · no family action needed</h3>{dateList(upcoming.filter(item => learningOnly.has(item.id)))}</>}</section>;
 }
 
 function FamilyReminders() {
@@ -154,7 +161,6 @@ function FamilyLinks() {
     <header><h2 id="family-links-title">Useful family links</h2><p>Payments, school updates, and support for home.</p></header>
     <div>{welcome.familyLinks.map(item => <a key={item.url} href={item.url} target="_blank" rel="noreferrer"><h3>{item.title} ↗</h3><p>{item.description}</p></a>)}</div>
     <aside className="family-links-note" aria-label={welcome.volunteerInvitation.title}><h3>{welcome.volunteerInvitation.title}</h3><p>{welcome.volunteerInvitation.text}</p><a className="family-reminder-link" href={emailUrl}>{welcome.volunteerInvitation.linkLabel}</a></aside>
-    <p className="family-links-note">{welcome.hotLunchNotice}</p>
   </section>;
 }
 function SpacesStatus({showLink=true}:{showLink?:boolean}) {
@@ -294,12 +300,18 @@ function FamilyPage() {
     <HomeworkDoorway />
     <WelcomeUpdate />
     <section className="family-priority-grid">
-      <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.shortLabel ?? item.label}</span></li>)}</ol></article>
+      <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.label}</span></li>)}</ol></article>
       <article><small>AT SCHOOL</small><h2>Our classroom focus</h2><p>{current.family.quickReference.atSchool}</p></article>
       <article><small>AT HOME</small><h2>How to help</h2><p>{current.family.quickReference.home}</p></article>
       <article><small>ASSESSMENT</small><h2>{assessmentStatus()}</h2><p>{current.family.quickReference.assessment}</p></article>
       <article className="family-product"><small>WHAT STUDENTS MAKE OR SHOW</small><h2>What students make</h2><p>{current.family.product}</p></article>
     </section>
+
+    {today >= "2026-09-23" && today <= "2026-10-24" && <section className="family-election-note" aria-labelledby="family-election-title">
+      <h2 id="family-election-title">Two elections, two levels of government</h2>
+      <p><strong>October 17:</strong> Surrey {today > "2026-10-17" ? "voted for" : "votes for"} its mayor, councillors and school trustees. <strong>October 24:</strong> B.C. {today > "2026-10-24" ? "voted for" : "votes for"} MLAs for the provincial legislature. Students can compare what each level decides and practise checking claims against original sources. We may hold classroom mock votes for both; school plans are not confirmed. A child’s political preference is never assessed, and no family campaign research is required.</p>
+      <p><a href="https://www.surrey.ca/2026-municipal-election" target="_blank" rel="noreferrer">Surrey election information ↗</a> · <a href="https://elections.bc.ca/2026-provincial-election/" target="_blank" rel="noreferrer">Elections BC provincial information ↗</a></p>
+    </section>}
 
     {isDiscoveryWindow ? <section className="discovery-family-summary" aria-labelledby="discovery-family-title">
       <figure data-fit="contain"><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill sizes="(max-width: 900px) 100vw, 42vw" /><figcaption>ONE OF FIVE DISCOVERY PAGES</figcaption></figure>
@@ -319,7 +331,7 @@ function FamilyPage() {
     </section>
 
     <section className="family-utilities">
-      <div><small>STAY IN TOUCH</small><h2>Planners and school email</h2><p>Use the planner for take-home reminders and email Mr. Wyatt with questions or to arrange a conversation. School dates are listed above; check the planner for additional class reminders.</p><p>{spacesPending ? welcome.spaces.message : current.family.quickReference.spaces}</p></div>
+      <div><small>STAY IN TOUCH</small><h2>Planners and school email</h2><p>Use the planner for take-home reminders and email Mr. Wyatt with questions or to arrange a conversation. Replies happen during school days, not through this page; for time-sensitive matters, contact the school office. Check the planner for additional class reminders.</p><p>{spacesPending ? welcome.spaces.message : current.family.quickReference.spaces}</p></div>
       <nav aria-label="Family contact and official links">
         <a href={emailUrl}><strong>Email Mr. Wyatt</strong><span>{emailAddress}</span></a>
         <a href={schoolUrl} target="_blank" rel="noreferrer"><strong>Walnut Road Elementary</strong><span>Official school site ↗</span></a>

@@ -60,3 +60,18 @@ test('confirmed school dates render on home and families, preserve times, and ex
   }
   assert.equal(manifest.schoolEvents.find(item=>item.id==='food-drive').date,null);
 });
+
+test('dated class copy ages honestly and civic learning keeps the two votes distinct',()=>{
+  const nextDay=render('families','2026-09-24');
+  assert.match(nextDay,/This class update was posted on September 23, 2026/);
+  assert.match(nextDay,/Plan as of September 23, 2026/);
+  assert.match(nextDay,/Dates to plan around/);
+  assert.match(nextDay,/Learning milestones · no family action needed/);
+  assert.match(nextDay,/October 17:.*Surrey votes for/);
+  assert.match(nextDay,/October 24:.*B\.C\. votes for/);
+  assert.match(nextDay,/school plans are not confirmed/);
+  assert.match(nextDay,/Equity learning/);
+  assert.equal((nextDay.match(/Registration is currently unavailable/g)??[]).length,1);
+  assert.match(render('families','2026-10-18'),/Surrey voted for/);
+  assert.doesNotMatch(render('families','2026-10-25'),/Two elections, two levels of government/);
+});
