@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-22-evidence-and-orange-shirt-art",
-  "sourceUpdatedAt": "2026-09-22",
+  "contentVersion": "2026-09-23-wednesday-plan",
+  "sourceUpdatedAt": "2026-09-23",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,16 +1347,16 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 22, 2026",
+    "updatedOn": "September 23, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
     "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
-    "recapTitle": "Our first days together",
-    "recap": "On Monday, students began our Belonging work, started whole-number place value and Truth and Reconciliation booklets, chose Nevermoor as our first class novel, and began the audiobook. Some forms and Discovery booklets are still coming in, so unfinished work will continue at school.",
-    "nextTitle": "Planned for Tuesday, September 22",
-    "next": "On Tuesday we plan to continue place value before recess, with decimals only if understanding is secure. After recess, a short evidence lesson leads into Truth and Reconciliation reading for Language Arts and Social Studies: students explain an idea using a relevant source detail. We will use the same skill while listening to Nevermoor. Mr. Eckert’s block is 12:35–1:35; laptops follow. If class access is ready, students will practise one SpacesEDU post using their booklet response; otherwise work stays in class. Photos may interrupt. Orange-shirt art follows completion of both current booklets; linked examples help students choose a design and explain its connection to the reading.",
-    "later": "During the week we plan to watch The Secret Path in preparation for our confirmed Reconciliation Walk on Monday, September 28 at 9:30 am; the classroom viewing day may change. Orange Shirt Day decorations will wait until current Discovery and Truth and Reconciliation booklet work is finished. Our Belonging & Community sequence continues with separate lessons on the Five Agreements, Nonviolent Communication, and fairness and accessibility. Specialist and learning-support times are still being arranged.",
+    "recapTitle": "Our learning so far",
+    "recap": "Students have completed decimal place value. Our class novel is Nevermoor; we did not listen on Tuesday, and the reading journal has not begun. Orange Shirt activities have not started. Some Discovery booklets and forms are still outstanding; Discovery work can continue independently at school.",
+    "nextTitle": "Planned for Wednesday, September 23",
+    "next": "Wednesday begins with Werewolf, practising evidence, inference, listening and respectful disagreement. We will pause for a one-time gym block from 9:35–10:05, resume the game, then listen to Nevermoor during snack. After recess, our protected maths hour focuses on rounding decimals, with comparison if students are ready. Afternoon laptops are for Matific and individual account setup, including SpacesEDU, followed by Blooket before device return and cleanup.",
+    "later": "Thursday’s proposed protected blocks are Orange Shirt / Truth and Reconciliation learning at 10:50–11:50 and The Secret Path with reflection at 12:35–1:50, preparing for our Reconciliation Walk on Monday, September 28 at 9:30 am. There is no school Friday, September 25. Unfinished rounding or comparison can continue Thursday; the Nevermoor journal will begin on a later day with modelling and support. Five Agreements and Nonviolent Communication remain separate later lessons.",
     "reminders": [
       {
         "title": "Forms and booklet check-in",
@@ -1383,17 +1383,25 @@
       },
       {
         "title": "Orange-shirt art examples",
-        "text": "After current Discovery and Truth and Reconciliation booklet work is finished, students can choose a simple design and explain its connection to the reading.",
+        "text": "After learning from the selected Truth and Reconciliation sources, students can choose a simple design and explain its connection to the learning. Unfinished Discovery work will not prevent participation in our shared lesson.",
         "link": {
           "label": "See the art examples",
           "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/orange-shirt-art.html"
+        }
+      },
+      {
+        "title": "Optional Matific practice and challenge",
+        "text": "Once school account access is working, students may use Matific at home for extra maths practice or explore more challenging activities when ready. This is optional; no score, completion target or purchase is required. See the home-practice menu for the link and a screen-free choice.",
+        "link": {
+          "label": "Optional home practice",
+          "url": "https://dlwyatt-eng.github.io/learn/#/homework"
         }
       }
     ],
     "spaces": {
       "status": "pending",
-      "title": "SpacesEDU is not ready for our class yet",
-      "message": "Students are still being added to our class in the system. There is nothing to upload or set up at home yet. Mr. Wyatt will share access instructions when the class is ready.",
+      "title": "SpacesEDU class setup",
+      "message": "Wednesday afternoon is planned for helping students connect and checking access individually. A simple test post may be used; it is not assessed work. There is nothing to upload or set up at home yet. Mr. Wyatt will share family access instructions when ready.",
       "purpose": "Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
     },
     "familyLinks": [
@@ -1557,33 +1565,33 @@
     }
   ],
   "homePractice": {
-    "updatedOn": "September 19, 2026",
+    "updatedOn": "September 23, 2026",
     "policy": "Separate daily homework is not routinely assigned. This is optional practice for families who want a regular routine. Choose what is useful; there is no expectation to complete the whole menu or submit optional practice.",
     "unfinished": "Check your planner and the instructions Mr. Wyatt has given you. Finish only the small piece identified for you, using the support agreed at school. An unfinished class activity is not automatically homework. If you were absent or are unsure, ask where to begin.",
     "routine": "Read or listen for 10–15 minutes, then choose one short activity. Families wanting a longer routine can add a second choice, keeping the total around 30–40 minutes including reading, or less when needed. Spread choices across evenings or select a few for the weekend; do not save up a catch-up pile.",
     "stopRule": "Stop if the work is confusing, upsetting or taking much longer than expected. Let Mr. Wyatt know which part was difficult. Rest, play, family time and activities outside school matter too.",
     "access": "Use paper, drawings, spoken explanations or a language that helps you think. Every menu activity can be done without an online account. No purchase, AI tool or routine portfolio upload is required.",
     "week": {
-      "id": "2026-09-18",
-      "label": "September 18–20 · Opening-week practice",
-      "from": "2026-09-18",
-      "through": "2026-09-20",
-      "connection": "We have practised conversation, Discovery activities and Werewolf. Place value is part of our September plan; try the maths review only if it is familiar. Other choices below are optional general practice, not a claim that every subject has already been taught.",
+      "id": "2026-09-23",
+      "label": "September 23–27 · Place value and explaining our thinking",
+      "from": "2026-09-23",
+      "through": "2026-09-27",
+      "connection": "Decimal place value is now complete. Practise a familiar skill if useful. Rounding and comparing decimals are planned next, not assumed completed. Other choices remain optional general practice; no account setup or portfolio upload is required at home.",
       "activities": [
         {
           "id": "math",
           "subject": "Math",
-          "title": "What is each digit worth?",
+          "title": "Explain decimal place value",
           "time": "10 minutes",
-          "context": "September place-value review · choose familiar work",
-          "example": "2,406 = 2,000 + 400 + 6. The zero holds the tens place.",
+          "context": "Review of decimal place value taught in class",
+          "example": "3.47 = 3 + 0.4 + 0.07. The 4 represents four tenths.",
           "steps": [
-            "Write 6,307 in expanded form. What does the zero tell you?",
-            "Write 4,052 in expanded form. What is the value of the 5?",
-            "If decimals are familiar, compare 0.5 and 0.05. Draw or explain why."
+            "In 6.284, what is each digit worth? Say, draw or write your explanation.",
+            "Write 2.305 in expanded form. What does the zero tell you?",
+            "Explain why 0.5 and 0.50 name the same amount."
           ],
-          "check": "6,307 = 6,000 + 300 + 7; zero tens. 4,052 = 4,000 + 50 + 2; the 5 is worth 50. 0.5 > 0.05 because five tenths is greater than five hundredths.",
-          "extension": "Choose a larger number. Change one digit and explain how much its value changes."
+          "check": "6 ones, 2 tenths, 8 hundredths and 4 thousandths. 2.305 = 2 + 0.3 + 0.005; zero hundredths. Five tenths equals fifty hundredths, so 0.5 = 0.50.",
+          "extension": "Change the tenths digit in 3.47 from 4 to 6. Explain why the number increases by 0.2."
         },
         {
           "id": "reading",
@@ -1786,6 +1794,13 @@
       ]
     },
     "resources": [
+      {
+        "title": "Matific",
+        "subject": "Math · extra practice & challenge",
+        "href": "https://www.matific.com/ca/en-ca/login-page/",
+        "description": "Optional extra maths practice and challenge using your school-provided account once access is working. Try a short session of around 10–15 minutes. Students who would like to work ahead may explore more challenging activities available in their account when ready. Explain your thinking and ask for help if a new idea is confusing. There is no required score, weekly target or extra submission. You do not need to buy a subscription or create a separate account.",
+        "offline": "Try the decimal-place-value activity above, then invent a harder example and explain your reasoning. If you cannot sign in, use this option and ask Mr. Wyatt at school."
+      },
       {
         "title": "Prodigy Math",
         "subject": "Math",
@@ -2804,5 +2819,5 @@
       }
     }
   ],
-  "checksum": "sha256:c80f218a0f9f3c7dd36d324b90383e374eb02a88a230e39ab03892954d5d2eea"
+  "checksum": "sha256:a1458c46750811c6e8ba891cb12b7daec33ef6db59c6ac6393713879a0891221"
 }
