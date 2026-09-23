@@ -21,7 +21,7 @@ function render(route,date='2026-09-18') {
 test('family arrival shows current completed learning, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our learning so far','Planned for Wednesday, September 23','completed decimal place value','Nevermoor','rounding decimals','Orange Shirt activities have not started','Matific','information forms','device-use form','$6','School Cash Online','SpacesEDU class setup']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','Our learning so far','Planned for Wednesday, September 23','completed decimal place value','Nevermoor','round decimals','Orange Shirt and Truth and Reconciliation learning','Matific','information forms','device-use form','$6','School Cash Online','SpacesEDU class setup']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });

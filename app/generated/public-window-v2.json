@@ -1353,10 +1353,10 @@
     "title": "Welcome to our Grade 6 community",
     "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
     "recapTitle": "Our learning so far",
-    "recap": "Students have completed decimal place value. Our class novel is Nevermoor; we did not listen on Tuesday, and the reading journal has not begun. Orange Shirt activities have not started. Some Discovery booklets and forms are still outstanding; Discovery work can continue independently at school.",
+    "recap": "Students have completed decimal place value and chosen Nevermoor as our class novel. We are continuing to collect forms and finish Discovery booklets at school.",
     "nextTitle": "Planned for Wednesday, September 23",
-    "next": "Wednesday begins with Werewolf, practising evidence, inference, listening and respectful disagreement. We will pause for a one-time gym block from 9:35–10:05, resume the game, then listen to Nevermoor during snack. After recess, our protected maths hour focuses on rounding decimals, with comparison if students are ready. Afternoon laptops are for Matific and individual account setup, including SpacesEDU, followed by Blooket before device return and cleanup.",
-    "later": "Thursday’s proposed protected blocks are Orange Shirt / Truth and Reconciliation learning at 10:50–11:50 and The Secret Path with reflection at 12:35–1:50, preparing for our Reconciliation Walk on Monday, September 28 at 9:30 am. There is no school Friday, September 25. Unfinished rounding or comparison can continue Thursday; the Nevermoor journal will begin on a later day with modelling and support. Five Agreements and Nonviolent Communication remain separate later lessons.",
+    "next": "On Wednesday, students will practise using clues as evidence, making inferences, listening, and disagreeing respectfully. We plan to listen to Nevermoor and round decimals, then compare them if students are ready. During laptop time, students can practise maths in Matific while I check access to classroom tools, including SpacesEDU. No account setup or portfolio upload is needed at home yet.",
+    "later": "On Thursday, we plan to begin Orange Shirt and Truth and Reconciliation learning and use The Secret Path for listening and reflection. This prepares us for our Reconciliation Walk on Monday, September 28 at 9:30 am. There is no school Friday, September 25. Unfinished decimal work can continue Thursday, and we will begin the Nevermoor journal with a model on a later day.",
     "reminders": [
       {
         "title": "Forms and booklet check-in",
@@ -2819,5 +2819,5 @@
       }
     }
   ],
-  "checksum": "sha256:a1458c46750811c6e8ba891cb12b7daec33ef6db59c6ac6393713879a0891221"
+  "checksum": "sha256:4de8fd656e757cdcb824c90f33b8e97b0e7aea4f416dbeb60e9a0c5c330683f4"
 }
