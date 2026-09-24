@@ -62,7 +62,7 @@ test('confirmed school dates render on home and families, preserve times, and ex
 });
 
 test('dated class copy ages honestly and civic learning keeps the two votes distinct',()=>{
-  const nextDay=render('families','2026-09-24');
+  const nextDay=render('families','2026-09-25');
   assert.match(nextDay,/This class update was posted on September 24, 2026/);
   assert.match(nextDay,/Plan as of September 24, 2026/);
   assert.match(nextDay,/Dates to plan around/);
