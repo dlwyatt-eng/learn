@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-23-wednesday-plan",
-  "sourceUpdatedAt": "2026-09-23",
+  "contentVersion": "2026-09-24-thursday-plan",
+  "sourceUpdatedAt": "2026-09-24",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,20 +1347,20 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 23, 2026",
+    "updatedOn": "September 24, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
     "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
     "recapTitle": "Our learning so far",
-    "recap": "Students have completed decimal place value and chosen Nevermoor as our class novel. We are continuing to collect forms and finish Discovery booklets at school.",
-    "nextTitle": "Planned for Wednesday, September 23",
-    "next": "On Wednesday, students will practise using clues as evidence, making inferences, listening, and disagreeing respectfully. We plan to listen to Nevermoor and round decimals, then compare them if students are ready. During laptop time, students can practise maths in Matific while I check access to classroom tools, including SpacesEDU. No account setup or portfolio upload is needed at home yet.",
-    "later": "On Thursday, we plan to begin Orange Shirt and Truth and Reconciliation learning and use The Secret Path for listening and reflection. This prepares us for our Reconciliation Walk on Monday, September 28 at 9:30 am. There is no school Friday, September 25. Unfinished decimal work can continue Thursday, and we will begin the Nevermoor journal with a model on a later day.",
+    "recap": "Students completed decimal place value. On Wednesday, PE and Werewolf happened, while a work block replaced the planned rounding/comparing lesson. Most student passwords were updated, and everyone is registered for Matific; first practice and SpacesEDU access still need checking.",
+    "nextTitle": "Planned for Thursday, September 24",
+    "next": "We plan to view a teacher-selected opening part of The Secret Path and begin Orange Shirt Day artwork in the morning. The film is an artistic retelling of Chanie Wenjack’s story; we will also return to Phyllis Webstad’s distinct account of the orange shirt. After lunch, students will try Matific and prepare a short SpacesEDU learning reflection if access is ready. No home upload is due.",
+    "later": "Friday, September 25 is a non-instructional day with no class. Our Reconciliation Walk is Monday, September 28 at 9:30 am. The rounding/comparing decimals lesson, Nevermoor listening and journal launch, and any remaining film or artwork will continue at suitable times. Plans are not a record that activities have happened.",
     "reminders": [
       {
         "title": "Forms and booklet check-in",
-        "text": "We are continuing to collect returned information forms and signed device agreements and to check Discovery booklet submissions. Students with unfinished Discovery work will have catch-up time at school.",
+        "text": "We are collecting returned forms and checking Discovery booklet submissions. Unfinished booklet work does not prevent students from joining the shared art lesson.",
         "link": null
       },
       {
@@ -1383,7 +1383,7 @@
       },
       {
         "title": "Orange-shirt art examples",
-        "text": "After learning from the selected Truth and Reconciliation sources, students can choose a simple design and explain its connection to the learning. Unfinished Discovery work will not prevent participation in our shared lesson.",
+        "text": "On Thursday we plan to begin original artwork connected to Phyllis Webstad’s account and our Truth and Reconciliation learning. The linked examples offer simple symbols, and everyone may begin regardless of unfinished booklet work.",
         "link": {
           "label": "See the art examples",
           "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/orange-shirt-art.html"
@@ -1401,7 +1401,7 @@
     "spaces": {
       "status": "pending",
       "title": "SpacesEDU class setup",
-      "message": "Wednesday afternoon is planned for helping students connect and checking access individually. A simple test post may be used; it is not assessed work. There is nothing to upload or set up at home yet. Mr. Wyatt will share family access instructions when ready.",
+      "message": "Thursday afternoon is planned for a first meaningful learning reflection after the morning art. Students may explain a design choice with text or audio and a work-in-progress photo if access is ready; an equivalent paper reflection is available. There is nothing to upload at home yet. Mr. Wyatt will share family access instructions when ready.",
       "purpose": "Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
     },
     "familyLinks": [
@@ -2253,16 +2253,16 @@
             "outcome": "Students distinguish influence, administration, voting, oversight, and final authority."
           },
           {
-            "timing": "Sept. 23–24",
+            "timing": "Later in this inquiry",
             "label": "Learn with place",
             "studentAction": "Gather local observations and compare what different maps and attributed sources make visible or leave out.",
             "outcome": "Place learning remains specific to source, Nation, speaker, purpose, and protocol."
           },
           {
             "timing": "Sept. 25",
-            "label": "Check a campaign claim",
-            "studentAction": "Label fact, opinion, claim, or promise; trace one checkable part to an official or independent source.",
-            "outcome": "A campaign statement becomes evidence to investigate, not a position students are told to support."
+            "label": "Non-instructional day",
+            "studentAction": "No classes for students. Continue source and claim investigations during later instructional blocks.",
+            "outcome": "No classroom learning is presented as occurring on a school closure."
           },
           {
             "timing": "Sept. 28–29",
@@ -2824,5 +2824,5 @@
       }
     }
   ],
-  "checksum": "sha256:dd2f2a282a225f1016dc9e456bdcaa092edc188528890bbdf9bf92eebb83acc8"
+  "checksum": "sha256:b20a9f5571ccfa8befab8cbae660fc3ce24ca5dc310df9cb0d210d9496959e4b"
 }
