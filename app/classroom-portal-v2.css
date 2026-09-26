@@ -124,3 +124,27 @@
 .family-election-note{margin:24px 0;padding:24px;border:1px solid #d2dbd2;border-radius:18px;background:#f8faf6;line-height:1.6}.family-election-note h2{margin:0 0 10px;font:650 25px/1.2 Georgia,serif;color:#173f35}.family-election-note p{margin:8px 0}.family-election-note a{color:#245a43}
 
 .family-links{margin:28px 0}.family-links h2{font:650 28px/1.2 Georgia,serif;color:#173f35;margin:0 0 10px}.family-links header p,.family-links-note{font-size:17px;line-height:1.6}.family-links>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.family-links>div>a{display:block;padding:22px;border:1px solid #cfdbd3;border-radius:16px;background:#fff;color:#173f35;text-decoration:none;overflow-wrap:anywhere}.family-links h3{font-size:20px;line-height:1.3;margin:0 0 10px;text-decoration:underline;text-underline-offset:3px}.family-links>div p{font-size:17px;line-height:1.6;margin:0;color:#354e44}.family-links>div>a:hover{background:#edf5f1}.family-links>div>a:focus-visible,.family-reminder-link:focus-visible{outline:3px solid #173f35;outline-offset:4px}.family-reminder-link{display:inline-block;margin-top:12px;font-size:17px;font-weight:700;color:#173f35}.family-links-note{padding:16px 20px;background:#fff6e3;border-radius:14px}@media(max-width:1000px){.family-links>div{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:760px){.family-links>div{grid-template-columns:1fr}}
+
+/* Keep nested source cards inside tablet columns. */
+.home-glance>*,.newsroom-home-card>*{min-width:0;overflow-wrap:anywhere}
+@media(max-width:1050px){.home-glance{grid-template-columns:minmax(0,1fr)}.newsroom-home-card{grid-template-columns:minmax(0,.85fr) minmax(0,1.2fr)}}
+.student-classroom-shortcuts{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 20px}
+.student-classroom-shortcuts a{display:flex;align-items:center;min-height:48px;padding:12px 18px;border:1px solid #b6cbbd;border-radius:12px;background:#e7f0e9;color:#173f35;font-size:17px;font-weight:700;line-height:1.4;text-underline-offset:3px}
+.student-classroom-shortcuts a:first-child{background:#204c3e;color:white}
+.student-classroom-shortcuts a:focus-visible{outline:3px solid #986418;outline-offset:3px}
+@media(max-width:600px){.student-classroom-shortcuts a{flex:1 1 100%}}
+@media print{.student-classroom-shortcuts{display:none}}
+
+/* Reset the retired dropdown layout so public links stay in normal flow. */
+.portal-v2 .site-header nav{position:static;flex-direction:row;flex-wrap:wrap;min-width:0;padding:0;border:0;background:transparent}
+.portal-v2 .site-header nav a{display:inline-flex;align-items:center;min-height:44px}
+@media(max-width:1050px){
+ .portal-v2 .portal-header{position:static;grid-template-columns:1fr auto;gap:10px 20px}
+ .portal-v2 .site-header nav{grid-column:1/-1;grid-row:2;justify-content:flex-start}
+ .portal-v2 .current-hero figure{min-height:180px;max-height:220px}
+}
+@media(max-width:720px){
+ .portal-v2 .site-header nav{gap:2px;overflow:visible}
+ .portal-v2 .site-header nav a{flex:1 0 28%;justify-content:center;padding:8px}
+ .portal-v2 .current-hero figure{min-height:140px;max-height:180px}
+}

@@ -184,6 +184,7 @@ function HomePage() {
         <div className="hero-buttons">
           <Link href="/families">Start here, families →</Link>
           <Link href="/students" className="secondary">Student page</Link>
+          {publicWindowManifest.schoolEvents.some(item => item.date ? item.date >= today : item.month >= today.slice(0, 7)) && <Link href="/#school-dates-title" className="secondary">School dates</Link>}
           <a href={emailUrl} className="secondary">Email Mr. Wyatt</a>
           <ResourceDownload compact />
         </div>
@@ -217,6 +218,11 @@ function HomePage() {
 
 function StudentPage() {
   return <main className="content-page audience-page student-page">
+    <nav className="student-classroom-shortcuts" aria-label="Open our classroom">
+      <a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Morning+Screen&mode=student">Shape of the Day</a>
+      <a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Home&mode=student">Classroom learning</a>
+      <a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Math+Thinking+Routines&mode=student">Math thinking routines</a>
+    </nav>
     <section className="student-task-hero">
       <figure data-fit={isDiscoveryWindow ? "contain" : "cover"}><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill priority sizes="(max-width: 1050px) 100vw, 53vw" /><figcaption>{current.shared.visual.caption}</figcaption></figure>
       <div>
