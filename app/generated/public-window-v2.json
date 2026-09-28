@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-24-thursday-plan",
-  "sourceUpdatedAt": "2026-09-24",
+  "contentVersion": "2026-09-26-weekly-pattern-and-october-calendar",
+  "sourceUpdatedAt": "2026-09-26",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,16 +1347,16 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 24, 2026",
+    "updatedOn": "September 26, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
     "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
     "recapTitle": "Our learning so far",
     "recap": "Students completed decimal place value. On Wednesday, PE and Werewolf happened, while a work block replaced the planned rounding/comparing lesson. Most student passwords were updated, and everyone is registered for Matific; first practice and SpacesEDU access still need checking.",
-    "nextTitle": "Planned for Thursday, September 24",
-    "next": "We plan to view a teacher-selected opening part of The Secret Path and begin Orange Shirt Day artwork in the morning. The film is an artistic retelling of Chanie Wenjack’s story; we will also return to Phyllis Webstad’s distinct account of the orange shirt. After lunch, students will try Matific and prepare a short SpacesEDU learning reflection if access is ready. No home upload is due.",
-    "later": "Friday, September 25 is a non-instructional day with no class. Our Reconciliation Walk is Monday, September 28 at 9:30 am. The rounding/comparing decimals lesson, Nevermoor listening and journal launch, and any remaining film or artwork will continue at suitable times. Plans are not a record that activities have happened.",
+    "nextTitle": "Planned for September 28–October 2",
+    "next": "Monday begins with our 9:30 am Reconciliation Walk; we plan to introduce a Truth and Reconciliation Commission Call to Action, begin comparing and rounding decimals, and continue Nevermoor. Tuesday is Orange Shirt Day with a choice-of-two reflection. After the September 30 school closure, Thursday has library and shared gym, and Friday has gym and Arts Education. These are plans and may change with classroom pacing or school events.",
+    "later": "Our recurring pattern starts with Mathematics, then English Language Arts before recess where prep and library allow. Social Studies and Science inquiries share the late-morning blocks. After lunch we usually have quiet individual time, Core Competencies and project work, then a short classroom community block. Tuesday French/Health prep changes the afternoon pattern. LST times are still pending. The October 2 PAC Hot Lunch appears on the school calendar, but ordering details should be confirmed with the school.",
     "reminders": [
       {
         "title": "Forms and booklet check-in",
@@ -1378,7 +1378,7 @@
       },
       {
         "title": "Open House · October 1",
-        "text": "Join us Thursday, October 1, from 5:30–6:30 pm. More school dates are listed below.",
+        "text": "Open House is listed for Thursday, October 1, 5:30–6:30 pm.",
         "link": null
       },
       {
@@ -1451,7 +1451,7 @@
         "description": "Our planned lessons and shared question: how do we build communities where people actually belong? No home assignment or personal disclosures required."
       }
     ],
-    "hotLunchNotice": "Hot-lunch registration is currently unavailable, and ordering details are pending. Please wait for a school or PAC notice before trying to order. October 2 remains unconfirmed.",
+    "hotLunchNotice": "The school events calendar lists PAC Hot Lunch on Friday, October 2. Ordering and distribution details were not available in the earlier notice; please check school or PAC instructions before relying on it.",
     "volunteerInvitation": {
       "title": "Interested in helping?",
       "text": "We will likely need parent volunteers to drive for field trips and may need help refereeing soccer. If you are interested, or know a high-school student who may be interested in refereeing, please contact Mr. Wyatt. Opportunities and dates are still being arranged; the school will confirm the requirements and approval for each role.",
@@ -1484,6 +1484,14 @@
       "detail": "9:30 am. This is a class learning activity; no family action is requested at this time."
     },
     {
+      "id": "orange-shirt-day",
+      "date": "2026-09-29",
+      "month": "2026-09",
+      "dateLabel": "Tue, September 29",
+      "title": "Orange Shirt Day",
+      "detail": "Classroom learning and reflection; no home assignment."
+    },
+    {
       "id": "truth-reconciliation",
       "date": "2026-09-30",
       "month": "2026-09",
@@ -1504,8 +1512,8 @@
       "date": "2026-10-02",
       "month": "2026-10",
       "dateLabel": "Fri, October 2",
-      "title": "Hot lunch · awaiting confirmation",
-      "detail": "October 2 is not confirmed. Registration is currently unavailable; please wait for a school or PAC notice about the date and ordering."
+      "title": "PAC Hot Lunch · check ordering details",
+      "detail": "Listed on the school events calendar for October 2. Confirm ordering and distribution through school or PAC notices."
     },
     {
       "id": "early-dismissal",
@@ -1540,12 +1548,28 @@
       "detail": "Sent home by this date."
     },
     {
+      "id": "photo-retake-day",
+      "date": "2026-10-21",
+      "month": "2026-10",
+      "dateLabel": "Wed, October 21",
+      "title": "Photo Day · retakes (check school notice)",
+      "detail": "The calendar label is clipped after “Ret”; confirm details with the school."
+    },
+    {
+      "id": "october-non-instructional",
+      "date": "2026-10-23",
+      "month": "2026-10",
+      "dateLabel": "Fri, October 23",
+      "title": "Non-instructional day",
+      "detail": "No classes for students."
+    },
+    {
       "id": "food-drive",
       "date": null,
       "month": "2026-10",
-      "dateLabel": "Last week of October",
+      "dateLabel": "October 26–30",
       "title": "We Scare Hunger food drive",
-      "detail": "Exact collection dates to follow."
+      "detail": "We Scare Hunger Food Drive Week is listed on the school calendar. Collection instructions will follow from the school."
     },
     {
       "id": "national-child-day",
@@ -2824,5 +2848,5 @@
       }
     }
   ],
-  "checksum": "sha256:b20a9f5571ccfa8befab8cbae660fc3ce24ca5dc310df9cb0d210d9496959e4b"
+  "checksum": "sha256:988c3cff9ccff20b8688d48c355089fc17f901f04cce1f9dc958410256dc8907"
 }

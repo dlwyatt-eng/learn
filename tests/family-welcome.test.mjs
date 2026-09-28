@@ -21,7 +21,7 @@ function render(route,date='2026-09-18') {
 test('family arrival shows current completed learning, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our learning so far','Planned for Thursday, September 24','completed decimal place value','Nevermoor','rounding/comparing decimals','Orange Shirt Day artwork','Matific','returned forms','device-use form','$6','School Cash Online','SpacesEDU class setup']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','Our learning so far','Planned for September 28–October 2','completed decimal place value','Nevermoor','comparing and rounding decimals','Orange Shirt Day','Matific','returned forms','device-use form','$6','School Cash Online','SpacesEDU class setup']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
@@ -46,7 +46,7 @@ test('the first-week recap remains current through the weekend without replacing
 test('confirmed school dates render on home and families, preserve times, and expire without guessing the food-drive date',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Tue, September 22','Photo Day','Fri, September 25','Mon, September 28','Grade 6 Reconciliation Walk','9:30 am','Wed, September 30','5:30–6:30 pm','Hot lunch','1:35 pm','1–2 pm','Thanksgiving','By Friday, October 16','Last week of October']) assert.ok(html.includes(text),route+': '+text);
+    for(const text of ['Tue, September 22','Photo Day','Fri, September 25','Mon, September 28','Grade 6 Reconciliation Walk','9:30 am','Wed, September 30','5:30–6:30 pm','Hot Lunch','1:35 pm','1–2 pm','Thanksgiving','By Friday, October 16','October 26–30']) assert.ok(html.includes(text),route+': '+text);
     const october=render(route,'2026-10-03');
     assert.doesNotMatch(october,/>Photo Day</);
     assert.match(october,/Early dismissal/);
@@ -62,16 +62,17 @@ test('confirmed school dates render on home and families, preserve times, and ex
 });
 
 test('dated class copy ages honestly and civic learning keeps the two votes distinct',()=>{
-  const nextDay=render('families','2026-09-25');
-  assert.match(nextDay,/This class update was posted on September 24, 2026/);
-  assert.match(nextDay,/Plan as of September 24, 2026/);
+  const nextDay=render('families','2026-09-27');
+  assert.match(nextDay,/This class update was posted on September 26, 2026/);
+  assert.match(nextDay,/Plan as of September 26, 2026/);
   assert.match(nextDay,/Dates to plan around/);
   assert.match(nextDay,/Learning milestones · no family action needed/);
   assert.match(nextDay,/October 17:.*Surrey votes for/);
   assert.match(nextDay,/October 24:.*B\.C\. votes for/);
   assert.match(nextDay,/school plans are not confirmed/);
   assert.match(nextDay,/Equity learning/);
-  assert.equal((nextDay.match(/Registration is currently unavailable/g)??[]).length,1);
+  assert.match(nextDay,/PAC Hot Lunch/);
+  assert.match(nextDay,/ordering details/);
   assert.match(render('families','2026-10-18'),/Surrey voted for/);
   assert.doesNotMatch(render('families','2026-10-25'),/Two elections, two levels of government/);
 });
