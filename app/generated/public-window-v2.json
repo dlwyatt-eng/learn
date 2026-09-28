@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-26-weekly-pattern-and-october-calendar",
-  "sourceUpdatedAt": "2026-09-26",
+  "contentVersion": "2026-09-28-tuesday-shape-of-day",
+  "sourceUpdatedAt": "2026-09-28",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,16 +1347,16 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 26, 2026",
+    "updatedOn": "September 28, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
     "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
     "recapTitle": "Our learning so far",
-    "recap": "Students completed decimal place value. On Wednesday, PE and Werewolf happened, while a work block replaced the planned rounding/comparing lesson. Most student passwords were updated, and everyone is registered for Matific; first practice and SpacesEDU access still need checking.",
-    "nextTitle": "Planned for September 28–October 2",
-    "next": "Monday begins with our 9:30 am Reconciliation Walk; we plan to introduce a Truth and Reconciliation Commission Call to Action, begin comparing and rounding decimals, and continue Nevermoor. Tuesday is Orange Shirt Day with a choice-of-two reflection. After the September 30 school closure, Thursday has library and shared gym, and Friday has gym and Arts Education. These are plans and may change with classroom pacing or school events.",
-    "later": "Our recurring pattern starts with Mathematics, then English Language Arts before recess where prep and library allow. Social Studies and Science inquiries share the late-morning blocks. After lunch we usually have quiet individual time, Core Competencies and project work, then a short classroom community block. Tuesday French/Health prep changes the afternoon pattern. LST times are still pending. The October 2 PAC Hot Lunch appears on the school calendar, but ordering details should be confirmed with the school.",
+    "recap": "On Monday, our class completed the Reconciliation Walk, began rounding decimals, and signed in to Be the Change Earth Alliance to explore Action Packs. Nevermoor has not started yet, and some SpacesEDU posts still need time.",
+    "nextTitle": "Planned for September 29–October 2",
+    "next": "On Tuesday, our class plans to use the morning computer booking for SpacesEDU posts and a Career Education inquiry question. After recess we will continue rounding decimals and begin comparing if ready. French/Health is after lunch, followed by the start of Nevermoor. School is closed Wednesday, September 30, for the National Day for Truth and Reconciliation. Thursday has library and shared gym; Friday has gym and Arts Education. Plans may change with classroom pacing.",
+    "later": "Our recurring pattern often starts with Mathematics, then English Language Arts before recess where prep and library allow. Social Studies and Science inquiries share late-morning blocks; Career Education, Health Education, ADST and Arts Education rotate through project time. Tuesday September 29 is adjusted for an 8:30–10:30 computer booking and afternoon French/Health, with Mathematics after recess and Language Arts after French. LST times are still pending. The October 2 PAC Hot Lunch appears on the school calendar, but ordering details should be confirmed with the school.",
     "reminders": [
       {
         "title": "Forms and booklet check-in",
@@ -1400,8 +1400,8 @@
     ],
     "spaces": {
       "status": "pending",
-      "title": "SpacesEDU class setup",
-      "message": "Thursday afternoon is planned for a first meaningful learning reflection after the morning art. Students may explain a design choice with text or audio and a work-in-progress photo if access is ready; an equivalent paper reflection is available. There is nothing to upload at home yet. Mr. Wyatt will share family access instructions when ready.",
+      "title": "SpacesEDU in-class practice",
+      "message": "Students have begun using SpacesEDU at school, and some learning posts are still in progress. Tuesday morning is planned for finishing or improving selected posts. A separate Career Action Pack activity has not yet been created. There is no new home upload due; family access instructions will follow when ready.",
       "purpose": "Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
     },
     "familyLinks": [
@@ -2848,5 +2848,5 @@
       }
     }
   ],
-  "checksum": "sha256:988c3cff9ccff20b8688d48c355089fc17f901f04cce1f9dc958410256dc8907"
+  "checksum": "sha256:951540dd8437a5e6fbd8ffb7ded63bb1adbc40a795ab719d9102a9af2f8e522e"
 }
