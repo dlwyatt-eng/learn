@@ -15,7 +15,7 @@ test('dated practice becomes reusable rather than a new assignment',()=>{
 });
 test('actual tasks, answers, offline routes and private support render',()=>{
  const html=render('2026-09-23');
- for(const text of ['6 ones, 2 tenths, 8 hundredths','2.305 = 2 + 0.3 + 0.005','0.5 = 0.50','Matific','work ahead','school-provided account','Tell a tiny mystery','Screen-free choice','NoRedInk','Prodigy Math','no hand-in deadline','nothing to upload','Include checking guidance in print']) assert.ok(html.includes(text),text);
+ for(const text of ['6 ones, 2 tenths, 8 hundredths','2.305 = 2 + 0.3 + 0.005','0.5 = 0.50','Matific','work ahead','school-provided account','Tell a tiny mystery','Screen-free choice','NoRedInk','Prodigy Math','no hand-in deadline','no new home upload due','Include checking guidance in print']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),text);
  assert.equal((html.match(/class="homework-activity"/g)||[]).length,10);
  assert.match(html,/href="\/homework#homework-menu"/);
  assert.doesNotMatch(html,/href="https:\/\/ca.spacesedu.com\//);
