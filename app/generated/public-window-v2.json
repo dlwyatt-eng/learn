@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-28-tuesday-shape-of-day",
+  "contentVersion": "2026-09-28-public-class-schedule",
   "sourceUpdatedAt": "2026-09-28",
   "window": {
     "id": "september-opening",
@@ -1489,7 +1489,7 @@
       "month": "2026-09",
       "dateLabel": "Tue, September 29",
       "title": "Orange Shirt Day",
-      "detail": "Classroom learning and reflection; no home assignment."
+      "detail": "Students are invited to wear an orange shirt on Tuesday if they have one. No purchase is needed; everyone can take part in our classroom learning and reflection."
     },
     {
       "id": "truth-reconciliation",
@@ -1588,6 +1588,76 @@
       "detail": "Planned rights case gallery or teach-back, connecting racism, equality and freedom of expression. This is not a school closure."
     }
   ],
+  "classSchedule": {
+    "updatedOn": "September 28, 2026",
+    "weekOf": "September 28–October 2",
+    "through": "2026-10-02",
+    "days": [
+      {
+        "date": "2026-09-28",
+        "label": "Mon 28",
+        "morning": "Reconciliation Walk",
+        "later": "Decimal rounding; Career Action Packs",
+        "reminder": "Completed in class"
+      },
+      {
+        "date": "2026-09-29",
+        "label": "Tue 29",
+        "morning": "Computers and Career Education",
+        "later": "Math after recess; French/Health after lunch; Nevermoor planned",
+        "reminder": "Orange Shirt Day — wear orange if you have an orange shirt"
+      },
+      {
+        "date": "2026-09-30",
+        "label": "Wed 30",
+        "morning": "School closed",
+        "later": "National Day for Truth and Reconciliation",
+        "reminder": ""
+      },
+      {
+        "date": "2026-10-01",
+        "label": "Thu 1",
+        "morning": "Library book exchange · 9:20–9:35 am",
+        "later": "PE · 11:10–11:50 am; project time after lunch",
+        "reminder": "Open House · 5:30–6:30 pm"
+      },
+      {
+        "date": "2026-10-02",
+        "label": "Fri 2",
+        "morning": "French/Health · 9:35–10:35 am",
+        "later": "PE · 11:10–11:50 am; Arts in the afternoon",
+        "reminder": "PAC Hot Lunch listed — check school/PAC ordering details"
+      }
+    ],
+    "regular": [
+      {
+        "day": "Tuesday",
+        "activity": "French/Health",
+        "time": "12:35–1:35 pm"
+      },
+      {
+        "day": "Thursday",
+        "activity": "Library book exchange",
+        "time": "9:20–9:35 am"
+      },
+      {
+        "day": "Thursday",
+        "activity": "PE",
+        "time": "11:10–11:50 am"
+      },
+      {
+        "day": "Friday",
+        "activity": "French/Health",
+        "time": "9:35–10:35 am"
+      },
+      {
+        "day": "Friday",
+        "activity": "PE",
+        "time": "11:10–11:50 am"
+      }
+    ],
+    "note": "This is our working pattern so far. The Shape of the Day and school notices carry day-to-day changes."
+  },
   "homePractice": {
     "updatedOn": "September 23, 2026",
     "policy": "Separate daily homework is not routinely assigned. This is optional practice for families who want a regular routine. Choose what is useful; there is no expectation to complete the whole menu or submit optional practice.",
@@ -2848,5 +2918,5 @@
       }
     }
   ],
-  "checksum": "sha256:951540dd8437a5e6fbd8ffb7ded63bb1adbc40a795ab719d9102a9af2f8e522e"
+  "checksum": "sha256:a8d7c52df815b0ccfbef5ac3c974deef1a66567bab91a608157fde05733365ad"
 }

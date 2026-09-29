@@ -153,6 +153,19 @@ function SchoolDates() {
   return <section className="school-dates" aria-labelledby="school-dates-title"><header><small>MARK YOUR CALENDAR · 2026</small><h2 id="school-dates-title">School dates</h2><p>Times are local to Surrey.</p></header><h3>Dates to plan around</h3>{dateList(upcoming.filter(item => !learningOnly.has(item.id)))}{upcoming.some(item => learningOnly.has(item.id)) && <><h3>Learning milestones · no family action needed</h3>{dateList(upcoming.filter(item => learningOnly.has(item.id)))}</>}</section>;
 }
 
+function ClassSchedule() {
+  const schedule = publicWindowManifest.classSchedule;
+  if (today < "2026-09-28") return null;
+  const showWeek = today <= schedule.through;
+  return <section className="class-schedule" aria-labelledby="class-schedule-title">
+    <header><small>DIVISION 8 · UPDATED {schedule.updatedOn}</small><h2 id="class-schedule-title">Our class schedule</h2><p>{schedule.note}</p></header>
+    {showWeek && <div className="class-schedule-week"><h3>Week of {schedule.weekOf}</h3><ol>{schedule.days.map(day => <li key={day.date} data-closed={day.date === "2026-09-30"}>
+      <time dateTime={day.date}>{day.label}</time><div><strong>{day.morning}</strong><span>{day.later}</span>{day.reminder && <em>{day.reminder}</em>}</div>
+    </li>)}</ol></div>}
+    <div className="class-schedule-routine"><h3>Weekly times to remember</h3><ul>{schedule.regular.map(item => <li key={`${item.day}-${item.activity}`}><strong>{item.day}</strong><span>{item.activity}</span><time>{item.time}</time></li>)}</ul></div>
+  </section>;
+}
+
 function FamilyReminders() {
   return <section className="family-reminders" aria-labelledby="family-reminders-title"><header><small>FOR HOME</small><h2 id="family-reminders-title">A few things to know</h2></header><div>{welcome.reminders.map(item=><article key={item.title}><h3>{item.title}</h3><p>{item.text}</p>{item.link && <a className="family-reminder-link" href={item.link.url} target="_blank" rel="noreferrer">{item.link.label} ↗</a>}</article>)}</div></section>;
 }
@@ -193,6 +206,7 @@ function HomePage() {
 
     <HomeworkDoorway />
     <WelcomeUpdate />
+    <ClassSchedule />
     <FamilyReminders />
     <FamilyLinks />
     <SchoolDates />
@@ -232,6 +246,9 @@ function StudentPage() {
         <div className="hero-buttons"><ResourceDownload compact /><Link href="/newsroom" className="secondary">Open Newsroom →</Link></div>
       </div>
     </section>
+
+    <ClassSchedule />
+    <SchoolDates />
 
     <HomeworkDoorway />
     <TruthLearningLink />
@@ -299,6 +316,7 @@ function FamilyPage() {
       <ResourceDownload />
     </section>
 
+    <ClassSchedule />
     <FamilyReminders />
     <FamilyLinks />
     <SchoolDates />

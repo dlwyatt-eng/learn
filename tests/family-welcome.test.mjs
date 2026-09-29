@@ -61,6 +61,18 @@ test('confirmed school dates render on home and families, preserve times, and ex
   assert.equal(manifest.schoolEvents.find(item=>item.id==='food-drive').date,null);
 });
 
+test('class schedule reaches families and students, then retires its dated week',()=>{
+  for(const route of ['home','families','students']) {
+    const html=render(route,'2026-09-29');
+    for(const text of ['Our class schedule','Week of September 28–October 2','Library book exchange','9:20–9:35 am','PE','11:10–11:50 am','wear orange if you have an orange shirt','School closed']) assert.ok(html.includes(text),route+': '+text);
+    const afterWeek=render(route,'2026-10-03');
+    assert.doesNotMatch(afterWeek,/Week of September 28–October 2/);
+    assert.match(afterWeek,/Weekly times to remember/);
+  }
+  assert.match(render('students','2026-09-29'),/School dates/);
+  assert.match(render('families','2026-09-29'),/No purchase is needed/);
+});
+
 test('dated class copy ages honestly and civic learning keeps the two votes distinct',()=>{
   const nextDay=render('families','2026-09-29');
   assert.match(nextDay,/This class update was posted on September 28, 2026/);
