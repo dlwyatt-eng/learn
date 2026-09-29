@@ -46,7 +46,7 @@ test('the first-week recap remains current through the weekend without replacing
 test('confirmed school dates render on home and families, preserve times, and expire without guessing the food-drive date',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Tue, September 22','Photo Day','Fri, September 25','Mon, September 28','Grade 6 Reconciliation Walk','9:30 am','Wed, September 30','5:30–6:30 pm','Hot Lunch','1:35 pm','1–2 pm','Thanksgiving','By Friday, October 16','October 26–30']) assert.ok(html.includes(text),route+': '+text);
+    for(const text of ['Tue, September 22','Photo Day','Fri, September 25','Mon, September 28','Grade 6 Reconciliation Walk','9:30 am','Wed, September 30','Latin American Heritage Month','Women’s History Month','5:30–6:30 pm','Hot Lunch','1:35 pm','1–2 pm','Thanksgiving','By Friday, October 16','October 26–30']) assert.ok(html.includes(text),route+': '+text);
     const october=render(route,'2026-10-03');
     assert.doesNotMatch(october,/>Photo Day</);
     assert.match(october,/Early dismissal/);
