@@ -148,7 +148,7 @@ function WelcomeUpdate() {
 function SchoolDates() {
   const upcoming = publicWindowManifest.schoolEvents.filter(item => item.date ? item.date >= today : item.month >= today.slice(0, 7));
   if (!upcoming.length) return null;
-  const learningOnly = new Set(["reconciliation-walk", "national-child-day", "human-rights-day"]);
+  const learningOnly = new Set(["reconciliation-walk", "latin-american-heritage-month", "womens-history-month", "national-child-day", "human-rights-day"]);
   const dateList = (items: typeof upcoming) => <ol>{items.map(item => <li key={item.id}><div>{item.date ? <time dateTime={item.date}>{item.dateLabel}</time> : <span>{item.dateLabel}</span>}</div><div><strong>{item.title}</strong>{item.detail && <p>{item.detail}</p>}</div></li>)}</ol>;
   return <section className="school-dates" aria-labelledby="school-dates-title"><header><small>MARK YOUR CALENDAR · 2026</small><h2 id="school-dates-title">School dates</h2><p>Times are local to Surrey.</p></header><h3>Dates to plan around</h3>{dateList(upcoming.filter(item => !learningOnly.has(item.id)))}{upcoming.some(item => learningOnly.has(item.id)) && <><h3>Learning milestones · no family action needed</h3>{dateList(upcoming.filter(item => learningOnly.has(item.id)))}</>}</section>;
 }
