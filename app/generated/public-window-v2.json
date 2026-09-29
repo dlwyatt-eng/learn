@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-28-october-equity-calendar-cleanup",
+  "contentVersion": "2026-09-28-october-equity-calendar-visible",
   "sourceUpdatedAt": "2026-09-28",
   "window": {
     "id": "september-opening",
@@ -1500,6 +1500,22 @@
       "detail": "School closed."
     },
     {
+      "id": "latin-american-heritage-month",
+      "date": null,
+      "month": "2026-10",
+      "dateLabel": "October 2026",
+      "title": "Latin American Heritage Month",
+      "detail": "Classroom connection: stories, contributions, languages, representation, and belonging. No family action is required."
+    },
+    {
+      "id": "womens-history-month",
+      "date": null,
+      "month": "2026-10",
+      "dateLabel": "October 2026",
+      "title": "Women’s History Month",
+      "detail": "Classroom connection: contributions, recognition, barriers, rights, and whose stories are remembered. No family action is required."
+    },
+    {
       "id": "open-house",
       "date": "2026-10-01",
       "month": "2026-10",
@@ -2918,5 +2934,5 @@
       }
     }
   ],
-  "checksum": "sha256:8a34138f90bb8a80fdc53187e7fcacdef7a691b3b15549f1ceb0e19af92d87eb"
+  "checksum": "sha256:1a132885b6427e258914033e859f8b0179c4b0aba7ed5dd189a3acda73e80c51"
 }
