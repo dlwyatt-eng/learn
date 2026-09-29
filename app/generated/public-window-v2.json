@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-28-public-class-schedule",
+  "contentVersion": "2026-09-28-october-equity-calendar-cleanup",
   "sourceUpdatedAt": "2026-09-28",
   "window": {
     "id": "september-opening",
@@ -965,7 +965,7 @@
       "month": "October",
       "timing": "Oct. 1–30 · about 20 instructional days",
       "phase": "Learn from place and perspective",
-      "focus": "Identity, place, evidence, maps, and whose perspectives are represented; a short introduction to expression and fair disagreement",
+      "focus": "Identity, place, evidence, maps, and whose perspectives are represented; October connections include Latin American Heritage Month and Women’s History Month, with source-based stories about contributions, representation, barriers, and belonging; continue fair disagreement.",
       "learning": "Short, supported inquiries teach students how to read closely, distinguish observation from inference, and attribute ideas to specific sources and knowledge holders.",
       "subjects": [
         "Social Studies",
@@ -977,7 +977,7 @@
         "Weeks 1–2 · Maps Make Arguments using the three authentic map sources",
         "Weeks 2–3 · Trace the Claim: Two Lies and a Truth + source verification",
         "Weeks 3–4 · perspective listening simulation and Fleetwood case file",
-        "October · Can I disagree? Expression, dignity and fair disagreement."
+        "October · Whose stories shape a community? Latin American Heritage Month + Women’s History Month, connected to representation, rights and evidence."
       ],
       "anticipatedShare": "Late October · Fleetwood evidence-board gallery walk; archive selected boards for the inquiry-topic bank."
     },
@@ -1383,7 +1383,7 @@
       },
       {
         "title": "Orange-shirt art examples",
-        "text": "On Thursday we plan to begin original artwork connected to Phyllis Webstad’s account and our Truth and Reconciliation learning. The linked examples offer simple symbols, and everyone may begin regardless of unfinished booklet work.",
+        "text": "Orange-shirt art examples are available for our Truth and Reconciliation learning. The linked examples offer simple symbols, and unfinished booklet work does not prevent students from joining the shared art lesson.",
         "link": {
           "label": "See the art examples",
           "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/orange-shirt-art.html"
@@ -1453,8 +1453,8 @@
     ],
     "hotLunchNotice": "The school events calendar lists PAC Hot Lunch on Friday, October 2. Ordering and distribution details were not available in the earlier notice; please check school or PAC instructions before relying on it.",
     "volunteerInvitation": {
-      "title": "Interested in helping?",
-      "text": "We will likely need parent volunteers to drive for field trips and may need help refereeing soccer. If you are interested, or know a high-school student who may be interested in refereeing, please contact Mr. Wyatt. Opportunities and dates are still being arranged; the school will confirm the requirements and approval for each role.",
+      "title": "Interested in helping later this year?",
+      "text": "School volunteer approval can take time. Families interested in helping with future field trips or class activities can begin the district volunteer process early. Forms are submitted to the school office, and driver requirements apply when transportation is involved.",
       "linkLabel": "Email Mr. Wyatt about volunteering"
     }
   },
@@ -2918,5 +2918,5 @@
       }
     }
   ],
-  "checksum": "sha256:a8d7c52df815b0ccfbef5ac3c974deef1a66567bab91a608157fde05733365ad"
+  "checksum": "sha256:8a34138f90bb8a80fdc53187e7fcacdef7a691b3b15549f1ceb0e19af92d87eb"
 }
