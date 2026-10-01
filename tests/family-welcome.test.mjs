@@ -21,7 +21,7 @@ function render(route,date='2026-09-18') {
 test('family arrival shows current completed learning, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our learning so far','Planned for September 29–October 2','began rounding decimals','Nevermoor','French/Health','Career Education','Matific','returned forms','device-use form','$6','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','Our learning so far','Looking ahead · October 1–2','began rounding decimals','Nevermoor','Career Education','Matific','returned forms','device-use form','$6','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
@@ -74,9 +74,9 @@ test('class schedule reaches families and students, then retires its dated week'
 });
 
 test('dated class copy ages honestly and civic learning keeps the two votes distinct',()=>{
-  const nextDay=render('families','2026-09-29');
-  assert.match(nextDay,/This class update was posted on September 28, 2026/);
-  assert.match(nextDay,/Plan as of September 28, 2026/);
+  const nextDay=render('families','2026-10-01');
+  assert.match(nextDay,/This class update was posted on September 30, 2026/);
+  assert.match(nextDay,/Plan as of September 30, 2026/);
   assert.match(nextDay,/Dates to plan around/);
   assert.match(nextDay,/Learning milestones · no family action needed/);
   assert.match(nextDay,/October 17:.*Surrey votes for/);

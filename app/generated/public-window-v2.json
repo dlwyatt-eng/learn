@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-28-october-equity-calendar-visible",
-  "sourceUpdatedAt": "2026-09-28",
+  "contentVersion": "2026-09-30-october-maintenance",
+  "sourceUpdatedAt": "2026-09-30",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,16 +1347,16 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 28, 2026",
+    "updatedOn": "September 30, 2026",
     "classLabel": "Grade 6 · Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Grade 6 community",
     "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
     "recapTitle": "Our learning so far",
-    "recap": "On Monday, our class completed the Reconciliation Walk, began rounding decimals, and signed in to Be the Change Earth Alliance to explore Action Packs. Nevermoor has not started yet, and some SpacesEDU posts still need time.",
-    "nextTitle": "Planned for September 29–October 2",
-    "next": "On Tuesday, our class plans to use the morning computer booking for SpacesEDU posts and a Career Education inquiry question. After recess we will continue rounding decimals and begin comparing if ready. French/Health is after lunch, followed by the start of Nevermoor. School is closed Wednesday, September 30, for the National Day for Truth and Reconciliation. Thursday has library and shared gym; Friday has gym and Arts Education. Plans may change with classroom pacing.",
-    "later": "Our recurring pattern often starts with Mathematics, then English Language Arts before recess where prep and library allow. Social Studies and Science inquiries share late-morning blocks; Career Education, Health Education, ADST and Arts Education rotate through project time. Tuesday September 29 is adjusted for an 8:30–10:30 computer booking and afternoon French/Health, with Mathematics after recess and Language Arts after French. LST times are still pending. The October 2 PAC Hot Lunch appears on the school calendar, but ordering details should be confirmed with the school.",
+    "recap": "Our September 28 update confirmed that the class completed the Reconciliation Walk, began rounding decimals, and signed in to Be the Change Earth Alliance to explore Action Packs. Nevermoor had not started at that update, and some SpacesEDU posts were still in progress.",
+    "nextTitle": "Looking ahead · October 1–2",
+    "next": "Thursday may focus on finishing selected work, improving learning posts and preparing for Open House, alongside library and shared gym. Friday’s planned art is a layered autumn forest using colour, size and overlap to create depth. Mathematics and Nevermoor will continue from the class’s actual stopping point. These are plans and may change with classroom pacing.",
+    "later": "Social Studies is the main inquiry focus in the first half of the year; Science follows in the second half. Mathematics and English Language Arts continue alongside Career Education, Health Education, ADST and Arts Education. The October 5–16 day plans are tentative and allow time to finish existing work. LST times are still pending. Check school or PAC instructions for October 2 Hot Lunch details.",
     "reminders": [
       {
         "title": "Forms and booklet check-in",
@@ -1396,12 +1396,20 @@
           "label": "Optional home practice",
           "url": "https://dlwyatt-eng.github.io/learn/#/homework"
         }
+      },
+      {
+        "title": "Friday’s planned autumn forest art",
+        "text": "Students will explore how colour, size and overlapping layers create depth and mood. The illustrated guide offers an example, with room for students’ own choices; no home art assignment is required.",
+        "link": {
+          "label": "Open the autumn forest guide",
+          "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/autumn-forest.html"
+        }
       }
     ],
     "spaces": {
       "status": "pending",
       "title": "SpacesEDU in-class practice",
-      "message": "Students have begun using SpacesEDU at school, and some learning posts are still in progress. Tuesday morning is planned for finishing or improving selected posts. A separate Career Action Pack activity has not yet been created. There is no new home upload due; family access instructions will follow when ready.",
+      "message": "Students have begun using SpacesEDU at school, and selected learning posts may still need time to finish or improve. In-class time can be used for this before beginning another task. There is no new home upload due; family access instructions will follow when ready.",
       "purpose": "Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
     },
     "familyLinks": [
@@ -1675,33 +1683,33 @@
     "note": "This is our working pattern so far. The Shape of the Day and school notices carry day-to-day changes."
   },
   "homePractice": {
-    "updatedOn": "September 23, 2026",
+    "updatedOn": "September 30, 2026",
     "policy": "Separate daily homework is not routinely assigned. This is optional practice for families who want a regular routine. Choose what is useful; there is no expectation to complete the whole menu or submit optional practice.",
     "unfinished": "Check your planner and the instructions Mr. Wyatt has given you. Finish only the small piece identified for you, using the support agreed at school. An unfinished class activity is not automatically homework. If you were absent or are unsure, ask where to begin.",
     "routine": "Read or listen for 10–15 minutes, then choose one short activity. Families wanting a longer routine can add a second choice, keeping the total around 30–40 minutes including reading, or less when needed. Spread choices across evenings or select a few for the weekend; do not save up a catch-up pile.",
     "stopRule": "Stop if the work is confusing, upsetting or taking much longer than expected. Let Mr. Wyatt know which part was difficult. Rest, play, family time and activities outside school matter too.",
     "access": "Use paper, drawings, spoken explanations or a language that helps you think. Every menu activity can be done without an online account. No purchase, AI tool or routine portfolio upload is required.",
     "week": {
-      "id": "2026-09-23",
-      "label": "September 23–27 · Place value and explaining our thinking",
-      "from": "2026-09-23",
-      "through": "2026-09-27",
-      "connection": "Decimal place value is now complete. Practise a familiar skill if useful. Rounding and comparing decimals are planned next, not assumed completed. Other choices remain optional general practice; no account setup or portfolio upload is required at home.",
+      "id": "2026-09-28",
+      "label": "September 28–October 4 · Rounding and explaining choices",
+      "from": "2026-09-28",
+      "through": "2026-10-04",
+      "connection": "Rounding decimals began on September 28. Try the supported example below, or return to familiar place value. Comparing decimals is a planned next step, not assumed completed. Reading can use any chosen book; Nevermoor progress is not assumed. All choices are optional and need no account or upload.",
       "activities": [
         {
           "id": "math",
           "subject": "Math",
-          "title": "Explain decimal place value",
+          "title": "Round and explain what changes",
           "time": "10 minutes",
-          "context": "Review of decimal place value taught in class",
-          "example": "3.47 = 3 + 0.4 + 0.07. The 4 represents four tenths.",
+          "context": "Supported practice · rounding began in class",
+          "example": "Round 3.47 to the nearest tenth. It lies between 3.4 and 3.5; the halfway point is 3.45. It is closer to 3.5, so 3.47 rounds to 3.5. The original number is still 3.47.",
           "steps": [
-            "In 6.284, what is each digit worth? Say, draw or write your explanation.",
-            "Write 2.305 in expanded form. What does the zero tell you?",
-            "Explain why 0.5 and 0.50 name the same amount."
+            "Round 6.284 to the nearest tenth. Name the two neighbouring tenths and explain which is nearer.",
+            "Round 2.305 to the nearest hundredth. Use the classroom convention: halfway rounds to the higher hundredth for these positive numbers.",
+            "If rounding is still unfamiliar, explain the value of each digit in 6.284 instead."
           ],
-          "check": "6 ones, 2 tenths, 8 hundredths and 4 thousandths. 2.305 = 2 + 0.3 + 0.005; zero hundredths. Five tenths equals fifty hundredths, so 0.5 = 0.50.",
-          "extension": "Change the tenths digit in 3.47 from 4 to 6. Explain why the number increases by 0.2."
+          "check": "6.284 lies between 6.2 and 6.3 and is nearer 6.3. 2.305 is halfway between 2.30 and 2.31, so it rounds to 2.31 using our convention. Place-value alternative: 6 ones, 2 tenths, 8 hundredths, 4 thousandths.",
+          "extension": "A measurement of 3.47 m is reported as 3.5 m. When might that be precise enough? When would you want the original measurement? Explain your choice."
         },
         {
           "id": "reading",
@@ -1713,9 +1721,9 @@
           "steps": [
             "Read or listen to a short part of a book you choose.",
             "Tell, draw or write one important event or idea.",
-            "Point to one detail that helped you understand it."
+            "Point to one detail that supports your idea. Could the same detail suggest another reasonable interpretation? For nonfiction, name something the text does not tell you."
           ],
-          "check": "Can someone follow your explanation? Can you point to the detail in the text? A spoken answer counts.",
+          "check": "Can someone follow your explanation and find the detail? Different interpretations can work when the text supports them. A spoken answer counts.",
           "extension": ""
         },
         {
@@ -1909,14 +1917,14 @@
         "subject": "Math · extra practice & challenge",
         "href": "https://www.matific.com/ca/en-ca/login-page/",
         "description": "Optional extra maths practice and challenge using your school-provided account once access is working. Try a short session of around 10–15 minutes. Students who would like to work ahead may explore more challenging activities available in their account when ready. Explain your thinking and ask for help if a new idea is confusing. There is no required score, weekly target or extra submission. You do not need to buy a subscription or create a separate account.",
-        "offline": "Try the decimal-place-value activity above, then invent a harder example and explain your reasoning. If you cannot sign in, use this option and ask Mr. Wyatt at school."
+        "offline": "Try the rounding or place-value activity above, then invent a harder example and explain your reasoning. If you cannot sign in, use this option and ask Mr. Wyatt at school."
       },
       {
         "title": "Prodigy Math",
         "subject": "Math",
         "href": "https://play.prodigygame.com/",
         "description": "Use school-provided login details when available. Choose familiar maths or practice your teacher identifies. A paid membership is not required for this menu.",
-        "offline": "Use the place-value activity above or explain a familiar problem on paper."
+        "offline": "Use the rounding or place-value activity above or explain a familiar problem on paper."
       },
       {
         "title": "NoRedInk",
@@ -2553,12 +2561,12 @@
         "eyebrow": "OCTOBER · COMPARE, CHECK, PREPARE",
         "title": "Before the vote: claims, responsibilities, and choices",
         "bigQuestion": "How can we compare election choices without confusing a persuasive promise with evidence that it can happen?",
-        "summary": "Students continue the existing Surrey election case through Trace the Claim, the Newsroom, and Civic Decision Brief. They compare directly sourced statements about the same issue, check what mayor, council, and trustees can actually decide, weigh trade-offs, and prepare for the existing Student Vote process without adding another unit or portfolio post. Planned October connection: Can I disagree? We will practise challenging an idea or decision while protecting people’s dignity, as an introduction to children’s rights on November 20 and Human Rights Day on December 10.",
+        "summary": "Tentative October learning: finish current work before moving through the existing Surrey election resources. Students can trace claims, compare directly sourced statements on the same issue and ask what each office can decide. The order and pace will follow classroom readiness; Student Vote depends on confirmed registration and arrangements. These plans do not confirm that the lessons or a vote have happened.",
         "learningArc": [
           {
-            "timing": "Oct. 1–2",
+            "timing": "When ready",
             "label": "Match power",
-            "studentAction": "Match candidate statements to the office's real responsibilities and flag anything that needs council, the Board of Education, the province, funding, or time.",
+            "studentAction": "When the teacher selects this lesson, match candidate statements to the office’s responsibilities and flag decisions needing others, funding or time.",
             "outcome": "Students distinguish leadership and influence from decisions one winner can make alone."
           },
           {
@@ -2576,7 +2584,7 @@
           {
             "timing": "Oct. 13–15",
             "label": "Hear and question",
-            "studentAction": "Use the existing Civic Decision Brief hearing to present evidence, ask neutral follow-up questions, and revise one conclusion.",
+            "studentAction": "Use the existing Civic Decision Brief hearing to present evidence, ask neutral follow-up questions, and reconsider a conclusion, changing it when the evidence warrants.",
             "outcome": "Public reasoning stays separate from anyone's private ballot choice."
           },
           {
@@ -2632,8 +2640,8 @@
           },
           {
             "subject": "Mathematics",
-            "now": "Numbers in campaign claims and public spending choices",
-            "why": "Read scale, totals, rates, and comparisons carefully before using a number as evidence."
+            "now": "Continue decimal rounding; introduce comparing when ready",
+            "why": "Use place value to explain decisions before applying numbers to civic claims."
           },
           {
             "subject": "Media Literacy",
@@ -2934,5 +2942,5 @@
       }
     }
   ],
-  "checksum": "sha256:1a132885b6427e258914033e859f8b0179c4b0aba7ed5dd189a3acda73e80c51"
+  "checksum": "sha256:4fd91901410d00d11c82d93d388e777a0b39ef86cea6fe0f0b20dd1f00d05678"
 }

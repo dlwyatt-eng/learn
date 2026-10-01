@@ -10,18 +10,18 @@ function render(date){
  return renderToStaticMarkup(React.createElement(load('app/homework-page.tsx').default));
 }
 test('dated practice becomes reusable rather than a new assignment',()=>{
- assert.match(render('2026-09-23'),/THIS WEEK’S OPTIONAL PRACTICE/);
- for(const date of ['2026-09-22','2026-09-28','2027-02-01']){const html=render(date);assert.match(html,/LATEST PUBLISHED PRACTICE/);assert.match(html,/not a new assignment for today/);assert.doesNotMatch(html,/THIS WEEK’S OPTIONAL PRACTICE/);}
+ assert.match(render('2026-09-30'),/THIS WEEK’S OPTIONAL PRACTICE/);
+ for(const date of ['2026-09-27','2026-10-05','2027-02-01']){const html=render(date);assert.match(html,/LATEST PUBLISHED PRACTICE/);assert.match(html,/not a new assignment for today/);assert.doesNotMatch(html,/THIS WEEK’S OPTIONAL PRACTICE/);}
 });
 test('actual tasks, answers, offline routes and private support render',()=>{
- const html=render('2026-09-23');
- for(const text of ['6 ones, 2 tenths, 8 hundredths','2.305 = 2 + 0.3 + 0.005','0.5 = 0.50','Matific','work ahead','school-provided account','Tell a tiny mystery','Screen-free choice','NoRedInk','Prodigy Math','no hand-in deadline','no new home upload due','Include checking guidance in print']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),text);
+ const html=render('2026-09-30');
+ for(const text of ['6 ones, 2 tenths, 8 hundredths','it rounds to 2.31','so 3.47 rounds to 3.5','Matific','work ahead','school-provided account','Tell a tiny mystery','Screen-free choice','NoRedInk','Prodigy Math','no hand-in deadline','no new home upload due','Include checking guidance in print']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),text);
  assert.equal((html.match(/class="homework-activity"/g)||[]).length,10);
  assert.match(html,/href="\/homework#homework-menu"/);
  assert.doesNotMatch(html,/href="https:\/\/ca.spacesedu.com\//);
 });
 test('district resources retain official sources, access conditions and offline choices',()=>{
- const html=render('2026-09-23');
+ const html=render('2026-09-30');
  const section=html.split('id="surrey-resources"')[1].split('</section>')[0];
  assert.equal((section.match(/<article/g)||[]).length,6);
  for(const text of ['Sora','World Book Student','Explora Primary','Learn360','Curio (CBC)','Math Learning Center apps','Technology Tool Consent','check student setup','not district assignments','No purchase is needed']) assert.ok(section.includes(text),text);
