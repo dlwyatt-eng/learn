@@ -63,10 +63,11 @@ test('confirmed school dates render on home and families, preserve times, and ex
 
 test('class schedule reaches families and students, then retires its dated week',()=>{
   for(const route of ['home','families','students']) {
-    const html=render(route,'2026-09-29');
-    for(const text of ['Our class schedule','Week of September 28–October 2','Library book exchange','9:20–9:35 am','PE','11:10–11:50 am','wear orange if you have an orange shirt','School closed']) assert.ok(html.includes(text),route+': '+text);
-    const afterWeek=render(route,'2026-10-03');
-    assert.doesNotMatch(afterWeek,/Week of September 28–October 2/);
+    const html=render(route,'2026-10-05');
+    for(const text of ['Our class schedule','Week of October 5–9','Library book exchange','9:20–9:35 am','PE','11:10–11:50 am','Core French','Mr. Eckert','Mr. Wyatt','Early dismissal','1:35 pm']) assert.ok(html.includes(text),route+': '+text);
+    assert.doesNotMatch(html,/French\/Health/);
+    const afterWeek=render(route,'2026-10-10');
+    assert.doesNotMatch(afterWeek,/Week of October 5–9/);
     assert.match(afterWeek,/Weekly times to remember/);
   }
   assert.match(render('students','2026-09-29'),/School dates/);

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-09-30-october-maintenance",
-  "sourceUpdatedAt": "2026-09-30",
+  "contentVersion": "2026-10-02-division8-french-phe",
+  "sourceUpdatedAt": "2026-10-02",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1613,50 +1613,50 @@
     }
   ],
   "classSchedule": {
-    "updatedOn": "September 28, 2026",
-    "weekOf": "September 28–October 2",
-    "through": "2026-10-02",
+    "updatedOn": "October 2, 2026",
+    "weekOf": "October 5–9",
+    "through": "2026-10-09",
     "days": [
       {
-        "date": "2026-09-28",
-        "label": "Mon 28",
-        "morning": "Reconciliation Walk",
-        "later": "Decimal rounding; Career Action Packs",
-        "reminder": "Completed in class"
+        "date": "2026-10-05",
+        "label": "Mon 5",
+        "morning": "Mathematics · number comparison; Nevermoor",
+        "later": "Social Studies; Career Action Packs",
+        "reminder": "Tentative learning plan"
       },
       {
-        "date": "2026-09-29",
-        "label": "Tue 29",
-        "morning": "Computers and Career Education",
-        "later": "Math after recess; French/Health after lunch; Nevermoor planned",
-        "reminder": "Orange Shirt Day — wear orange if you have an orange shirt"
+        "date": "2026-10-06",
+        "label": "Tue 6",
+        "morning": "Mathematics · rounding; Nevermoor",
+        "later": "Social Studies; Core French with Mr. Eckert · 12:35–1:35 pm",
+        "reminder": "Tentative learning plan"
       },
       {
-        "date": "2026-09-30",
-        "label": "Wed 30",
-        "morning": "School closed",
-        "later": "National Day for Truth and Reconciliation",
-        "reminder": ""
+        "date": "2026-10-07",
+        "label": "Wed 7",
+        "morning": "Mathematics; Nevermoor; Social Studies",
+        "later": "PHE health learning with Mr. Wyatt · 1:00–1:25 pm; ADST",
+        "reminder": "Tentative learning plan"
       },
       {
-        "date": "2026-10-01",
-        "label": "Thu 1",
+        "date": "2026-10-08",
+        "label": "Thu 8",
         "morning": "Library book exchange · 9:20–9:35 am",
-        "later": "PE · 11:10–11:50 am; project time after lunch",
-        "reminder": "Open House · 5:30–6:30 pm"
+        "later": "PE with Mr. Wyatt · 11:10–11:50 am; Career Education",
+        "reminder": "Early dismissal · 1:35 pm"
       },
       {
-        "date": "2026-10-02",
-        "label": "Fri 2",
-        "morning": "French/Health · 9:35–10:35 am",
-        "later": "PE · 11:10–11:50 am; Arts in the afternoon",
-        "reminder": "PAC Hot Lunch listed — check school/PAC ordering details"
+        "date": "2026-10-09",
+        "label": "Fri 9",
+        "morning": "Core French with Mr. Eckert · 9:35–10:35 am",
+        "later": "PE with Mr. Wyatt · 11:10–11:50 am; Terry Fox Run",
+        "reminder": "Run timing follows school notices; learning plan tentative"
       }
     ],
     "regular": [
       {
         "day": "Tuesday",
-        "activity": "French/Health",
+        "activity": "Core French · Mr. Eckert",
         "time": "12:35–1:35 pm"
       },
       {
@@ -1671,7 +1671,7 @@
       },
       {
         "day": "Friday",
-        "activity": "French/Health",
+        "activity": "Core French · Mr. Eckert",
         "time": "9:35–10:35 am"
       },
       {
@@ -1680,7 +1680,7 @@
         "time": "11:10–11:50 am"
       }
     ],
-    "note": "This is our working pattern so far. The Shape of the Day and school notices carry day-to-day changes."
+    "note": "Division 8 working schedule. Mr. Eckert teaches French only. Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning. Planned learning may change as we finish work; school notices confirm event changes."
   },
   "homePractice": {
     "updatedOn": "September 30, 2026",
@@ -2942,5 +2942,5 @@
       }
     }
   ],
-  "checksum": "sha256:4fd91901410d00d11c82d93d388e777a0b39ef86cea6fe0f0b20dd1f00d05678"
+  "checksum": "sha256:c3b801fcddf91ef85301de9567eef076d34aca2ecd0206506e9cbae78de3525d"
 }
