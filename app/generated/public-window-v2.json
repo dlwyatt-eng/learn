@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-02-division8-french-phe",
-  "sourceUpdatedAt": "2026-10-02",
+  "contentVersion": "2026-10-04-division8-family-notice",
+  "sourceUpdatedAt": "2026-10-04",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,17 +1347,49 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "September 30, 2026",
-    "classLabel": "Grade 6 · Division 8",
+    "updatedOn": "October 4, 2026",
+    "classLabel": "Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
-    "title": "Welcome to our Grade 6 community",
-    "intro": "I’m looking forward to getting to know your child and working with your family this year. This hub is a place to see our learning, find reminders, and start a conversation about school. — Mr. Wyatt",
-    "recapTitle": "Our learning so far",
-    "recap": "Our September 28 update confirmed that the class completed the Reconciliation Walk, began rounding decimals, and signed in to Be the Change Earth Alliance to explore Action Packs. Nevermoor had not started at that update, and some SpacesEDU posts were still in progress.",
-    "nextTitle": "Looking ahead · October 1–2",
-    "next": "Thursday may focus on finishing selected work, improving learning posts and preparing for Open House, alongside library and shared gym. Friday’s planned art is a layered autumn forest using colour, size and overlap to create depth. Mathematics and Nevermoor will continue from the class’s actual stopping point. These are plans and may change with classroom pacing.",
-    "later": "Social Studies is the main inquiry focus in the first half of the year; Science follows in the second half. Mathematics and English Language Arts continue alongside Career Education, Health Education, ADST and Arts Education. The October 5–16 day plans are tentative and allow time to finish existing work. LST times are still pending. Check school or PAC instructions for October 2 Hot Lunch details.",
+    "title": "Welcome to our Division 8 community",
+    "intro": "It was a pleasure meeting families at Open House. Thank you to everyone who was able to visit our classroom. I’m looking forward to working with your family this year. — Mr. Wyatt",
+    "recapTitle": "Our class learning",
+    "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
+    "nextTitle": "Learning this week",
+    "next": "We’ll continue building number sense, reading and responding to stories, and exploring what makes a community fair. We’ll also make room for creative work and for finishing and improving work already underway. We may spend extra time finishing art from last week. Our focus and pace may change with what the class needs; no new home assignment is required.",
+    "later": "Our timetable is flexible. We will adjust learning and finishing time as needed. Mr. Eckert teaches French during both prep blocks; Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning.",
     "reminders": [
+      {
+        "title": "Terry Fox permission form · due Tuesday, October 6",
+        "text": "Please return the signed permission form to school by Tuesday, October 6, 2026. The Terry Fox Run is Friday, October 9, from 12:35–2:00 pm.",
+        "link": {
+          "label": "Download the original notice and permission form (PDF)",
+          "url": "https://dlwyatt-eng.github.io/learn/printables/Walnut_Road_Terry_Fox_Permission_2026.pdf"
+        }
+      },
+      {
+        "title": "Ready for the Terry Fox Run · Friday, October 9",
+        "text": "Bring a full water bottle and running shoes, and dress for rain or sun. Our school fundraising goal is $2,500. Families who would like to donate can use Walnut Road Elementary’s Terry Fox Foundation page.",
+        "link": {
+          "label": "Walnut Road Terry Fox donations",
+          "url": "https://schools.terryfox.ca/138285"
+        }
+      },
+      {
+        "title": "Can you volunteer for the Terry Fox Run?",
+        "text": "Volunteers are needed from 12:35–2:00 pm on Friday, October 9. Please confirm with the school office that your volunteer paperwork and criminal record check are on file and your school approval is complete.",
+        "link": {
+          "label": "Volunteer information and forms",
+          "url": "https://www.surreyschools.ca/how-to-become-a-volunteer"
+        }
+      },
+      {
+        "title": "Volunteer and driver registration · each school year",
+        "text": "Please re-register with the school office each school year. Parents driving students need their annual driver’s abstract, licence verification and insurance verification completed together through the office. These driver documents apply to transporting students, not helping on foot. Criminal record checks are normally renewed every five years; the office confirms your status and any earlier requirement.",
+        "link": {
+          "label": "School volunteer requirements",
+          "url": "https://www.surreyschools.ca/how-to-become-a-volunteer"
+        }
+      },
       {
         "title": "Forms and booklet check-in",
         "text": "We are collecting returned forms and checking Discovery booklet submissions. Unfinished booklet work does not prevent students from joining the shared art lesson.",
@@ -1377,8 +1409,8 @@
         }
       },
       {
-        "title": "Open House · October 1",
-        "text": "Open House is listed for Thursday, October 1, 5:30–6:30 pm.",
+        "title": "Thank you for coming to Open House",
+        "text": "It was a pleasure meeting families at Open House. Thank you to everyone who was able to take the time to visit our classroom.",
         "link": null
       },
       {
@@ -1398,8 +1430,8 @@
         }
       },
       {
-        "title": "Friday’s planned autumn forest art",
-        "text": "Students will explore how colour, size and overlapping layers create depth and mood. The illustrated guide offers an example, with room for students’ own choices; no home art assignment is required.",
+        "title": "Creative work · autumn forest art",
+        "text": "Our autumn forest art explores how colour, size and overlapping layers create depth and mood. We may spend extra time finishing art from last week. The guide offers an example with room for students’ own choices; no home art assignment is required.",
         "link": {
           "label": "Open the autumn forest guide",
           "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/autumn-forest.html"
@@ -1426,7 +1458,7 @@
       {
         "title": "How to become a volunteer",
         "url": "https://www.surreyschools.ca/how-to-become-a-volunteer",
-        "description": "Start with the school office. Find application forms, criminal record check information, and extra requirements for volunteer drivers. School approval is required before volunteering."
+        "description": "Start with the school office for this year’s registration and approval. Driver paperwork applies only if you will transport students."
       },
       {
         "title": "Walnut Road school news",
@@ -1461,8 +1493,8 @@
     ],
     "hotLunchNotice": "The school events calendar lists PAC Hot Lunch on Friday, October 2. Ordering and distribution details were not available in the earlier notice; please check school or PAC instructions before relying on it.",
     "volunteerInvitation": {
-      "title": "Interested in helping later this year?",
-      "text": "School volunteer approval can take time. Families interested in helping with future field trips or class activities can begin the district volunteer process early. Forms are submitted to the school office, and driver requirements apply when transportation is involved.",
+      "title": "Planning to help with class activities or field trips?",
+      "text": "Please contact the office to re-register for this school year and confirm approval before volunteering. Drivers should complete the annual driver’s abstract, licence verification and insurance verification together; the abstract must be issued within 30 days before submission. Criminal record checks are normally renewed every five years; ask the office to confirm your status.",
       "linkLabel": "Email Mr. Wyatt about volunteering"
     }
   },
@@ -1540,6 +1572,14 @@
       "detail": "Listed on the school events calendar for October 2. Confirm ordering and distribution through school or PAC notices."
     },
     {
+      "id": "terry-fox-permission",
+      "date": "2026-10-06",
+      "month": "2026-10",
+      "dateLabel": "Tue, October 6",
+      "title": "Terry Fox permission form due",
+      "detail": "Please return the signed permission form to school."
+    },
+    {
       "id": "early-dismissal",
       "date": "2026-10-08",
       "month": "2026-10",
@@ -1553,7 +1593,7 @@
       "month": "2026-10",
       "dateLabel": "Fri, October 9",
       "title": "Terry Fox Run",
-      "detail": "1–2 pm"
+      "detail": "12:35–2:00 pm. Bring a full water bottle, wear running shoes and dress for rain or sun. Volunteers: confirm school approval with the office."
     },
     {
       "id": "thanksgiving",
@@ -1613,30 +1653,30 @@
     }
   ],
   "classSchedule": {
-    "updatedOn": "October 2, 2026",
+    "updatedOn": "October 4, 2026",
     "weekOf": "October 5–9",
     "through": "2026-10-09",
     "days": [
       {
         "date": "2026-10-05",
         "label": "Mon 5",
-        "morning": "Mathematics · number comparison; Nevermoor",
-        "later": "Social Studies; Career Action Packs",
-        "reminder": "Tentative learning plan"
+        "morning": "Number sense and reading",
+        "later": "Community inquiry and creative work; time to finish existing work",
+        "reminder": "Flexible class plan; extra art finishing time may be needed"
       },
       {
         "date": "2026-10-06",
         "label": "Tue 6",
-        "morning": "Mathematics · rounding; Nevermoor",
-        "later": "Social Studies; Core French with Mr. Eckert · 12:35–1:35 pm",
-        "reminder": "Tentative learning plan"
+        "morning": "Number sense and reading",
+        "later": "Class learning; Core French with Mr. Eckert · 12:35–1:35 pm",
+        "reminder": "Terry Fox permission form due"
       },
       {
         "date": "2026-10-07",
         "label": "Wed 7",
-        "morning": "Mathematics; Nevermoor; Social Studies",
-        "later": "PHE health learning with Mr. Wyatt · 1:00–1:25 pm; ADST",
-        "reminder": "Tentative learning plan"
+        "morning": "Number sense, reading and community inquiry",
+        "later": "Creative work and PHE health learning with Mr. Wyatt",
+        "reminder": "Flexible class plan"
       },
       {
         "date": "2026-10-08",
@@ -1649,8 +1689,8 @@
         "date": "2026-10-09",
         "label": "Fri 9",
         "morning": "Core French with Mr. Eckert · 9:35–10:35 am",
-        "later": "PE with Mr. Wyatt · 11:10–11:50 am; Terry Fox Run",
-        "reminder": "Run timing follows school notices; learning plan tentative"
+        "later": "PE with Mr. Wyatt · 11:10–11:50 am; Terry Fox Run · 12:35–2:00 pm",
+        "reminder": "Full water bottle, running shoes; dress for rain or sun"
       }
     ],
     "regular": [
@@ -2942,5 +2982,5 @@
       }
     }
   ],
-  "checksum": "sha256:c3b801fcddf91ef85301de9567eef076d34aca2ecd0206506e9cbae78de3525d"
+  "checksum": "sha256:54b65deb549753f9ad3f529cbb90f02db455c645d4c55873f33092a57ac400e2"
 }
