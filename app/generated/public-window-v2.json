@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 44973)
-Total output lines: 2986
-
 {
   "schemaVersion": "classroom-os-public-window/v2",
   "contentVersion": "2026-10-05-tuesday-shape-of-day",
@@ -1437,7 +1434,422 @@ Total output lines: 2986
         "text": "Our autumn forest art explores how colour, size and overlapping layers create depth and mood. We may spend extra time finishing art from last week. The guide offers an example with room for students’ own choices; no home art assignment is required.",
         "link": {
           "label": "Open the autumn forest guide",
-          "url": "https://dlwyatt-eng…4973 tokens truncated… at home.",
+          "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/autumn-forest.html"
+        }
+      }
+    ],
+    "spaces": {
+      "status": "pending",
+      "title": "SpacesEDU in-class practice",
+      "message": "Students have begun using SpacesEDU at school, and selected learning posts may still need time to finish or improve. In-class time can be used for this before beginning another task. There is no new home upload due; family access instructions will follow when ready.",
+      "purpose": "Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
+    },
+    "familyLinks": [
+      {
+        "title": "School Cash Online",
+        "url": "https://surreyschools.schoolcashonline.com/",
+        "description": "The $6 planner item was expected Friday, September 18. If it is not visible, please wait for school guidance before paying."
+      },
+      {
+        "title": "School fees and supplies",
+        "url": "https://www.surreyschools.ca/walnutroad/school-fees-supplies",
+        "description": "Find school fee information, grade supply lists, and information about financial assistance."
+      },
+      {
+        "title": "How to become a volunteer",
+        "url": "https://www.surreyschools.ca/how-to-become-a-volunteer",
+        "description": "Start with the school office for this year’s registration and approval. Driver paperwork applies only if you will transport students."
+      },
+      {
+        "title": "Walnut Road school news",
+        "url": "https://www.surreyschools.ca/walnutroad",
+        "description": "Read school announcements and find school-wide updates."
+      },
+      {
+        "title": "School calendar",
+        "url": "https://www.surreyschools.ca/walnutroad/school-calendar",
+        "description": "Check the school calendar alongside the class dates below."
+      },
+      {
+        "title": "School office and contact details",
+        "url": "https://www.surreyschools.ca/walnutroad/contact-us",
+        "description": "Find office contact information for absences and school questions."
+      },
+      {
+        "title": "Parent Advisory Committee (PAC)",
+        "url": "https://www.surreyschools.ca/walnutroad/pac-parent-advisory-committee",
+        "description": "Find PAC information and contacts. Check school or PAC notices for confirmed hot-lunch dates and ordering instructions."
+      },
+      {
+        "title": "Understanding learning and reports",
+        "url": "https://surreyschoolsone.ca/teachers/csl/parent-resources/",
+        "description": "Surrey Schools resources to help families understand learning updates and assessment."
+      },
+      {
+        "title": "Belonging & Community learning sequence",
+        "url": "https://dlwyatt-eng.github.io/teacher-hub/?view=Games+%26+Activities&mode=student&deck=belonging-sequence",
+        "description": "Our planned lessons and shared question: how do we build communities where people actually belong? No home assignment or personal disclosures required."
+      }
+    ],
+    "hotLunchNotice": "The school events calendar lists PAC Hot Lunch on Friday, October 2. Ordering and distribution details were not available in the earlier notice; please check school or PAC instructions before relying on it.",
+    "volunteerInvitation": {
+      "title": "Planning to help with class activities or field trips?",
+      "text": "Please contact the office to re-register for this school year and confirm approval before volunteering. Drivers should complete the annual driver’s abstract, licence verification and insurance verification together; the abstract must be issued within 30 days before submission. Criminal record checks are normally renewed every five years; ask the office to confirm your status.",
+      "linkLabel": "Email Mr. Wyatt about volunteering"
+    }
+  },
+  "schoolEvents": [
+    {
+      "id": "photo-day",
+      "date": "2026-09-22",
+      "month": "2026-09",
+      "dateLabel": "Tue, September 22",
+      "title": "Photo Day",
+      "detail": ""
+    },
+    {
+      "id": "non-instructional",
+      "date": "2026-09-25",
+      "month": "2026-09",
+      "dateLabel": "Fri, September 25",
+      "title": "Non-instructional day",
+      "detail": "No classes for students."
+    },
+    {
+      "id": "reconciliation-walk",
+      "date": "2026-09-28",
+      "month": "2026-09",
+      "dateLabel": "Mon, September 28",
+      "title": "Grade 6 Reconciliation Walk",
+      "detail": "9:30 am. This is a class learning activity; no family action is requested at this time."
+    },
+    {
+      "id": "orange-shirt-day",
+      "date": "2026-09-29",
+      "month": "2026-09",
+      "dateLabel": "Tue, September 29",
+      "title": "Orange Shirt Day",
+      "detail": "Students are invited to wear an orange shirt on Tuesday if they have one. No purchase is needed; everyone can take part in our classroom learning and reflection."
+    },
+    {
+      "id": "truth-reconciliation",
+      "date": "2026-09-30",
+      "month": "2026-09",
+      "dateLabel": "Wed, September 30",
+      "title": "National Day for Truth and Reconciliation",
+      "detail": "School closed."
+    },
+    {
+      "id": "latin-american-heritage-month",
+      "date": null,
+      "month": "2026-10",
+      "dateLabel": "October 2026",
+      "title": "Latin American Heritage Month",
+      "detail": "Classroom connection: stories, contributions, languages, representation, and belonging. No family action is required."
+    },
+    {
+      "id": "womens-history-month",
+      "date": null,
+      "month": "2026-10",
+      "dateLabel": "October 2026",
+      "title": "Women’s History Month",
+      "detail": "Classroom connection: contributions, recognition, barriers, rights, and whose stories are remembered. No family action is required."
+    },
+    {
+      "id": "open-house",
+      "date": "2026-10-01",
+      "month": "2026-10",
+      "dateLabel": "Thu, October 1",
+      "title": "Open House",
+      "detail": "5:30–6:30 pm"
+    },
+    {
+      "id": "hot-lunch",
+      "date": "2026-10-02",
+      "month": "2026-10",
+      "dateLabel": "Fri, October 2",
+      "title": "PAC Hot Lunch · check ordering details",
+      "detail": "Listed on the school events calendar for October 2. Confirm ordering and distribution through school or PAC notices."
+    },
+    {
+      "id": "terry-fox-permission",
+      "date": "2026-10-06",
+      "month": "2026-10",
+      "dateLabel": "Tue, October 6",
+      "title": "Terry Fox permission form due",
+      "detail": "Please return the signed permission form to school."
+    },
+    {
+      "id": "early-dismissal",
+      "date": "2026-10-08",
+      "month": "2026-10",
+      "dateLabel": "Thu, October 8",
+      "title": "Early dismissal",
+      "detail": "1:35 pm"
+    },
+    {
+      "id": "terry-fox",
+      "date": "2026-10-09",
+      "month": "2026-10",
+      "dateLabel": "Fri, October 9",
+      "title": "Terry Fox Run",
+      "detail": "12:35–2:00 pm. Bring a full water bottle, wear running shoes and dress for rain or sun. Volunteers: confirm school approval with the office."
+    },
+    {
+      "id": "thanksgiving",
+      "date": "2026-10-12",
+      "month": "2026-10",
+      "dateLabel": "Mon, October 12",
+      "title": "Thanksgiving",
+      "detail": "School closed."
+    },
+    {
+      "id": "interim-reports",
+      "date": "2026-10-16",
+      "month": "2026-10",
+      "dateLabel": "By Friday, October 16",
+      "title": "Interim reports",
+      "detail": "Sent home by this date."
+    },
+    {
+      "id": "photo-retake-day",
+      "date": "2026-10-21",
+      "month": "2026-10",
+      "dateLabel": "Wed, October 21",
+      "title": "Photo Day · retakes (check school notice)",
+      "detail": "The calendar label is clipped after “Ret”; confirm details with the school."
+    },
+    {
+      "id": "october-non-instructional",
+      "date": "2026-10-23",
+      "month": "2026-10",
+      "dateLabel": "Fri, October 23",
+      "title": "Non-instructional day",
+      "detail": "No classes for students."
+    },
+    {
+      "id": "food-drive",
+      "date": null,
+      "month": "2026-10",
+      "dateLabel": "October 26–30",
+      "title": "We Scare Hunger food drive",
+      "detail": "We Scare Hunger Food Drive Week is listed on the school calendar. Collection instructions will follow from the school."
+    },
+    {
+      "id": "national-child-day",
+      "date": "2026-11-20",
+      "month": "2026-11",
+      "dateLabel": "Fri, November 20",
+      "title": "National Child Day / World Children’s Day",
+      "detail": "Learning milestone: children’s voice, equal treatment and adult responsibility. Planned sharing details will follow; this is not a school closure."
+    },
+    {
+      "id": "human-rights-day",
+      "date": "2026-12-10",
+      "month": "2026-12",
+      "dateLabel": "Thu, December 10",
+      "title": "Human Rights Day",
+      "detail": "Planned rights case gallery or teach-back, connecting racism, equality and freedom of expression. This is not a school closure."
+    }
+  ],
+  "classSchedule": {
+    "updatedOn": "October 5, 2026",
+    "weekOf": "October 5–9",
+    "through": "2026-10-09",
+    "days": [
+      {
+        "date": "2026-10-05",
+        "label": "Mon 5",
+        "morning": "Number sense and reading",
+        "later": "Community inquiry and creative work; time to finish existing work",
+        "reminder": "Flexible class plan; extra art finishing time may be needed"
+      },
+      {
+        "date": "2026-10-06",
+        "label": "Tue 6",
+        "morning": "Laptop work block · 8:45–10:20 am; after recess, class choice: maths, community reflection or Nevermoor",
+        "later": "French with Mr. Eckert · 12:35–1:35 pm; quiet reset and unfinished work",
+        "reminder": "Terry Fox permission form due; dismissal · 2:35 pm"
+      },
+      {
+        "date": "2026-10-07",
+        "label": "Wed 7",
+        "morning": "Number sense, reading and community inquiry",
+        "later": "Creative work and PHE health learning with Mr. Wyatt",
+        "reminder": "Flexible class plan"
+      },
+      {
+        "date": "2026-10-08",
+        "label": "Thu 8",
+        "morning": "Library book exchange · 9:20–9:35 am",
+        "later": "PE with Mr. Wyatt · 11:10–11:50 am; Career Education",
+        "reminder": "Early dismissal · 1:35 pm"
+      },
+      {
+        "date": "2026-10-09",
+        "label": "Fri 9",
+        "morning": "Core French with Mr. Eckert · 9:35–10:35 am",
+        "later": "PE with Mr. Wyatt · 11:10–11:50 am; Terry Fox Run · 12:35–2:00 pm",
+        "reminder": "Full water bottle, running shoes; dress for rain or sun"
+      }
+    ],
+    "regular": [
+      {
+        "day": "Tuesday",
+        "activity": "Core French · Mr. Eckert",
+        "time": "12:35–1:35 pm"
+      },
+      {
+        "day": "Thursday",
+        "activity": "Library book exchange",
+        "time": "9:20–9:35 am"
+      },
+      {
+        "day": "Thursday",
+        "activity": "PE",
+        "time": "11:10–11:50 am"
+      },
+      {
+        "day": "Friday",
+        "activity": "Core French · Mr. Eckert",
+        "time": "9:35–10:35 am"
+      },
+      {
+        "day": "Friday",
+        "activity": "PE",
+        "time": "11:10–11:50 am"
+      }
+    ],
+    "note": "Division 8 working schedule. Mr. Eckert teaches French only. Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning. Planned learning may change as we finish work; school notices confirm event changes."
+  },
+  "homePractice": {
+    "updatedOn": "September 30, 2026",
+    "policy": "Separate daily homework is not routinely assigned. This is optional practice for families who want a regular routine. Choose what is useful; there is no expectation to complete the whole menu or submit optional practice.",
+    "unfinished": "Check your planner and the instructions Mr. Wyatt has given you. Finish only the small piece identified for you, using the support agreed at school. An unfinished class activity is not automatically homework. If you were absent or are unsure, ask where to begin.",
+    "routine": "Read or listen for 10–15 minutes, then choose one short activity. Families wanting a longer routine can add a second choice, keeping the total around 30–40 minutes including reading, or less when needed. Spread choices across evenings or select a few for the weekend; do not save up a catch-up pile.",
+    "stopRule": "Stop if the work is confusing, upsetting or taking much longer than expected. Let Mr. Wyatt know which part was difficult. Rest, play, family time and activities outside school matter too.",
+    "access": "Use paper, drawings, spoken explanations or a language that helps you think. Every menu activity can be done without an online account. No purchase, AI tool or routine portfolio upload is required.",
+    "week": {
+      "id": "2026-09-28",
+      "label": "September 28–October 4 · Rounding and explaining choices",
+      "from": "2026-09-28",
+      "through": "2026-10-04",
+      "connection": "Rounding decimals began on September 28. Try the supported example below, or return to familiar place value. Comparing decimals is a planned next step, not assumed completed. Reading can use any chosen book; Nevermoor progress is not assumed. All choices are optional and need no account or upload.",
+      "activities": [
+        {
+          "id": "math",
+          "subject": "Math",
+          "title": "Round and explain what changes",
+          "time": "10 minutes",
+          "context": "Supported practice · rounding began in class",
+          "example": "Round 3.47 to the nearest tenth. It lies between 3.4 and 3.5; the halfway point is 3.45. It is closer to 3.5, so 3.47 rounds to 3.5. The original number is still 3.47.",
+          "steps": [
+            "Round 6.284 to the nearest tenth. Name the two neighbouring tenths and explain which is nearer.",
+            "Round 2.305 to the nearest hundredth. Use the classroom convention: halfway rounds to the higher hundredth for these positive numbers.",
+            "If rounding is still unfamiliar, explain the value of each digit in 6.284 instead."
+          ],
+          "check": "6.284 lies between 6.2 and 6.3 and is nearer 6.3. 2.305 is halfway between 2.30 and 2.31, so it rounds to 2.31 using our convention. Place-value alternative: 6 ones, 2 tenths, 8 hundredths, 4 thousandths.",
+          "extension": "A measurement of 3.47 m is reported as 3.5 m. When might that be precise enough? When would you want the original measurement? Explain your choice."
+        },
+        {
+          "id": "reading",
+          "subject": "Language Arts",
+          "title": "Read, notice and explain",
+          "time": "10–15 minutes",
+          "context": "Connects to reading and listening routines",
+          "example": "Try: ‘I think the character is worried because they keep checking the door.’ For nonfiction: ‘The main idea is … One detail is …’",
+          "steps": [
+            "Read or listen to a short part of a book you choose.",
+            "Tell, draw or write one important event or idea.",
+            "Point to one detail that supports your idea. Could the same detail suggest another reasonable interpretation? For nonfiction, name something the text does not tell you."
+          ],
+          "check": "Can someone follow your explanation and find the detail? Different interpretations can work when the text supports them. A spoken answer counts.",
+          "extension": ""
+        },
+        {
+          "id": "story",
+          "subject": "Language Arts",
+          "title": "Tell a tiny mystery",
+          "time": "10 minutes",
+          "context": "Connects to storytelling and reasoning in Werewolf",
+          "example": "A library book disappears. A bookmark is on the sofa and a book-shaped lump is under a cushion. The reader finds it there.",
+          "steps": [
+            "Invent a missing-object mystery with a beginning, problem and ending.",
+            "Tell it in about one minute. Include two clues.",
+            "Ask which clue helped your listener; retell one part more clearly. You can practise alone or with a toy."
+          ],
+          "check": "Does the ending fit both clues? Did you keep imagined details separate from real events?",
+          "extension": ""
+        },
+        {
+          "id": "fairness",
+          "subject": "Social Studies",
+          "title": "Make a game fairer",
+          "time": "10 minutes",
+          "context": "Connects to games and our classroom community",
+          "example": "Allow a practice round before scoring so a beginner can learn the rules.",
+          "steps": [
+            "Choose a familiar game. Explain one rule and whom it helps.",
+            "Imagine a new player cannot join in easily. Suggest one change.",
+            "Explain how your change helps people participate."
+          ],
+          "check": "Name who benefits and explain why. Could your change create a different problem? Revise it if needed.",
+          "extension": ""
+        },
+        {
+          "id": "science",
+          "subject": "Science",
+          "title": "Notice before you guess",
+          "time": "10 minutes",
+          "context": "General observation practice · no new science unit assigned",
+          "example": "‘The leaf has a brown edge’ is an observation. ‘It may have dried out’ is a possible explanation.",
+          "steps": [
+            "Choose a safe everyday object, such as a spoon or leaf.",
+            "Draw it and write three things you can directly observe.",
+            "Write one question and one possible explanation. Label the explanation ‘I think …’."
+          ],
+          "check": "Can you separate what you observed from what you think caused it? Do not taste unknown objects or plants.",
+          "extension": ""
+        },
+        {
+          "id": "french",
+          "subject": "French",
+          "title": "Use words you already know",
+          "time": "5–10 minutes",
+          "context": "Review only · use familiar classroom words",
+          "example": "If familiar: bonjour = hello; merci = thank you; au revoir = goodbye.",
+          "steps": [
+            "Choose three French words or phrases you have already learned.",
+            "Say each one and match it to a picture or meaning.",
+            "Cover your notes and try again. If none are familiar yet, skip this choice."
+          ],
+          "check": "Can you match each phrase to its meaning without looking? Check classroom notes; ask at school about pronunciation.",
+          "extension": ""
+        },
+        {
+          "id": "arts",
+          "subject": "Arts Education",
+          "title": "Draw the same object twice",
+          "time": "10–15 minutes",
+          "context": "General drawing and observation practice",
+          "example": "A mug handle may appear on the side in one view and be hidden in the other.",
+          "steps": [
+            "Draw a safe everyday object from the front.",
+            "Turn it or move your seat and draw it from another angle.",
+            "Circle one detail that changed and one that stayed the same."
+          ],
+          "check": "Can someone tell the drawings show different views? Explain one choice of line or shape.",
+          "extension": ""
+        },
+        {
+          "id": "adst",
+          "subject": "ADST",
+          "title": "Build, test and improve",
+          "time": "10–15 minutes",
+          "context": "General design practice",
+          "example": "Fold a sheet into a tent. If it tips, try a wider base.",
+          "steps": [
+            "Use one sheet of scrap paper to make a freestanding name card. Keep it at home.",
             "Test whether it stands for ten seconds.",
             "Change one fold and test again. Draw or describe what improved."
           ],
