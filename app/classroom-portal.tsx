@@ -30,7 +30,7 @@ const isDiscoveryWindow = /discovery/i.test(current.shared.title)
 const isLegacyAiOpeningWindow = current.id === "september-opening" && /technology|\bAI\b/i.test(current.shared.title);
 const familyMilestones = current.id === "surrey-place-and-election"
   ? [...current.family.milestones.slice(0, 2), ...current.family.milestones.filter(item => item.date === "Oct. 17" || item.date === "Oct. 24")]
-  : current.family.milestones.slice(0, 3);
+  : current.id === "surrey-election-compare-and-prepare" ? current.family.milestones : current.family.milestones.slice(0, 3);
 const welcome = publicWindowManifest.classroomWelcome;
 const classUpdateTime = Date.parse(welcome.updatedOn);
 const classUpdateDate = Number.isFinite(classUpdateTime) ? new Date(classUpdateTime).toISOString().slice(0, 10) : null;
@@ -166,6 +166,17 @@ function ClassSchedule() {
   </section>;
 }
 
+function WeekReminders() {
+  // Use the same confirmed events as SchoolDates, bounded by the Vancouver week.
+  const end = new Date(`${today}T12:00:00Z`);
+  end.setUTCDate(end.getUTCDate() + (7 - end.getUTCDay()) % 7);
+  const through = end.toISOString().slice(0, 10);
+  const reminders = publicWindowManifest.schoolEvents.filter(item => item.date && item.date >= today && item.date <= through)
+    .sort((a, b) => (a.date ?? '').localeCompare(b.date ?? ''));
+  if (!reminders.length) return null;
+  return <section className="week-reminders" aria-labelledby="week-reminders-title"><h2 id="week-reminders-title">This week’s reminders</h2><ul>{reminders.map(item => <li key={item.id}><time dateTime={item.date!}>{item.dateLabel}</time><strong>{item.title}</strong><span>{item.detail.split('. ')[0]}</span></li>)}</ul><Link href="/#school-dates-title">All school dates and details →</Link></section>;
+}
+
 function FamilyReminders() {
   return <section className="family-reminders" aria-labelledby="family-reminders-title"><header><small>FOR HOME</small><h2 id="family-reminders-title">A few things to know</h2></header><div>{welcome.reminders.map(item=><article key={item.title}><h3>{item.title}</h3><p>{item.text}</p>{item.link && <a className="family-reminder-link" href={item.link.url} target="_blank" rel="noreferrer">{item.link.label} ↗</a>}</article>)}</div></section>;
 }
@@ -204,6 +215,7 @@ function HomePage() {
       </div>
     </section>
 
+    <WeekReminders />
     <HomeworkDoorway />
     <WelcomeUpdate />
     <ClassSchedule />
@@ -316,6 +328,7 @@ function FamilyPage() {
       <ResourceDownload />
     </section>
 
+    <WeekReminders />
     <ClassSchedule />
     <FamilyReminders />
     <FamilyLinks />
@@ -333,7 +346,7 @@ function FamilyPage() {
 
     {today >= "2026-09-23" && today <= "2026-10-24" && <section className="family-election-note" aria-labelledby="family-election-title">
       <h2 id="family-election-title">Two elections, two levels of government</h2>
-      <p><strong>October 17:</strong> Surrey {today > "2026-10-17" ? "voted for" : "votes for"} its mayor, councillors and school trustees. <strong>October 24:</strong> B.C. {today > "2026-10-24" ? "voted for" : "votes for"} MLAs for the provincial legislature. Students can compare what each level decides and practise checking claims against original sources. We may hold classroom mock votes for both; school plans are not confirmed. A child’s political preference is never assessed, and no family campaign research is required.</p>
+      <p><strong>October 17:</strong> Surrey {today > "2026-10-17" ? "voted for" : "votes for"} its mayor, councillors and school trustees. <strong>October 24:</strong> B.C. {today > "2026-10-24" ? "voted for" : "votes for"} MLAs for the provincial legislature. Students can compare what each level decides and practise checking claims against original sources. Division 8’s planned Student Vote focus is the B.C. provincial election; the classroom date, registration and arrangements still need confirmation. A municipal classroom ballot is not confirmed. The Equity Hub offers optional resources for both elections; those suggestions are not Division 8 commitments. A child’s political preference is never assessed, and no family campaign research is required.</p>
       <p><a href="https://www.surrey.ca/2026-municipal-election" target="_blank" rel="noreferrer">Surrey election information ↗</a> · <a href="https://elections.bc.ca/2026-provincial-election/" target="_blank" rel="noreferrer">Elections BC provincial information ↗</a></p>
     </section>}
 

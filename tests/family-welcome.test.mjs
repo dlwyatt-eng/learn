@@ -82,10 +82,24 @@ test('dated class copy ages honestly and civic learning keeps the two votes dist
   assert.match(nextDay,/Learning milestones · no family action needed/);
   assert.match(nextDay,/October 17:.*Surrey votes for/);
   assert.match(nextDay,/October 24:.*B\.C\. votes for/);
-  assert.match(nextDay,/school plans are not confirmed/);
+  assert.match(nextDay,/planned Student Vote focus is the B.C. provincial election/);
+  assert.match(nextDay,/classroom date, registration and arrangements still need confirmation/);
+  assert.match(nextDay,/A municipal classroom ballot is not confirmed/);
+  assert.doesNotMatch(nextDay,/Oct. 13–15|By Oct. 16/);
+  assert.match(render('home','2026-10-06'),/CURRENT SOURCE · CHECKED OCT\.? 6/);
   assert.match(nextDay,/Equity learning/);
   assert.match(render('families','2026-10-01'),/PAC Hot Lunch/);
   assert.match(render('families','2026-10-01'),/ordering details/);
   assert.match(render('families','2026-10-18'),/Surrey voted for/);
   assert.doesNotMatch(render('families','2026-10-25'),/Two elections, two levels of government/);
+});
+
+
+test('compact reminders use confirmed events and disappear after their dates', () => {
+  const section = date => render('families',date).match(/<section class="week-reminders"[\s\S]*?<\/section>/)?.[0] ?? '';
+  const thisWeek = section('2026-10-06');
+  for (const label of ['Terry Fox permission form due','Early dismissal','1:35 pm','Terry Fox Run','12:35–2:00 pm']) assert.ok(thisWeek.includes(label));
+  assert.doesNotMatch(section('2026-10-07'),/permission form due/);
+  assert.equal(section('2026-10-10'),'');
+  assert.match(section('2026-10-12'),/Thanksgiving/);
 });

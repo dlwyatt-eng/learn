@@ -149,3 +149,10 @@
  .portal-v2 .site-header nav a{flex:1 0 28%;justify-content:center;padding:8px}
  .portal-v2 .current-hero figure{min-height:140px;max-height:180px}
 }
+
+.week-reminders{margin:24px 0;padding:20px 24px;border:1px solid #9fb9a9;border-radius:16px;background:#f2f7ef;color:#214d3d}
+.week-reminders h2{margin:0 0 14px;font-size:1.35rem}
+.week-reminders ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:16px;list-style:none;padding:0;margin:0 0 14px}
+.week-reminders li{display:grid;gap:5px;align-content:start;line-height:1.5}
+.week-reminders time{font-weight:700}.week-reminders a{color:inherit;text-underline-offset:3px}
+.week-reminders a:focus-visible{outline:3px solid #a45613;outline-offset:3px}

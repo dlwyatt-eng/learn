@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-05-tuesday-shape-of-day",
-  "sourceUpdatedAt": "2026-10-05",
+  "contentVersion": "classroom-maintenance-2026-10-06",
+  "sourceUpdatedAt": "2026-10-06",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -589,9 +589,9 @@
         "topic": "Surrey election · promises, evidence, and real power",
         "question": "How can we test a campaign promise against the real job, the evidence, and the people who must decide together?",
         "summary": "Students test a real, teacher-selected campaign statement against official Surrey descriptions of mayor, council, and trustee responsibilities. The goal is a more accurate claim—not a candidate ranking.",
-        "whyNow": "The official candidate period is underway, so students can move from generic civics to dated local evidence while keeping political neutrality and jurisdiction visible.",
+        "whyNow": "Official Surrey candidate profiles are available. This optional municipal source inquiry supports comparison of local and provincial powers; it does not confirm a Division 8 municipal ballot.",
         "minutes": "12–20 min",
-        "checkedOn": "2026-08-23",
+        "checkedOn": "2026-10-06",
         "reviewBy": "2026-10-16",
         "publicFrom": "2026-09-26",
         "publicUntil": "2026-10-16",
@@ -643,16 +643,16 @@
             "url": "https://www.surrey.ca/city-government/2026-municipal-election/candidates/elected-positions-roles-responsibilities",
             "sourceKind": "official-page",
             "sourceFocus": "Choose one mayor, council, or trustee responsibility. Find the wording that shows whether one person can act alone or a council or board must decide together.",
-            "checkedOn": "2026-08-23",
+            "checkedOn": "2026-10-06",
             "reproduction": "link-only"
           },
           {
             "title": "Candidates",
             "organization": "City of Surrey",
-            "url": "https://www.surrey.ca/city-government/2026-municipal-election/candidates",
+            "url": "https://www.surrey.ca/2026-municipal-election/candidates",
             "sourceKind": "official-page",
             "sourceFocus": "Use the official list only after nominations close. Choose one candidate statement from a teacher-opened source, record its exact words and date, and do not infer a position from a name or photograph.",
-            "checkedOn": "2026-08-23",
+            "checkedOn": "2026-10-06",
             "reproduction": "link-only"
           },
           {
@@ -660,8 +660,8 @@
             "organization": "Surrey Schools",
             "url": "https://www.surreyschools.ca/board-overview",
             "sourceKind": "official-page",
-            "sourceFocus": "Find the board's responsibilities and the sentence explaining that trustees act as a board rather than as individuals.",
-            "checkedOn": "2026-08-23",
+            "sourceFocus": "Find the board’s educational and operational responsibilities. Explain which decisions belong to the seven-member board.",
+            "checkedOn": "2026-10-06",
             "reproduction": "link-only"
           },
           {
@@ -670,7 +670,7 @@
             "url": "https://electionsanddemocracy.ca/digital-skills-democracy",
             "sourceKind": "official-page",
             "sourceFocus": "Use one verification move to separate the campaign claim, the supporting evidence, and a conclusion the source does not yet prove.",
-            "checkedOn": "2026-08-23",
+            "checkedOn": "2026-10-06",
             "reproduction": "link-only"
           }
         ],
@@ -2601,7 +2601,7 @@
         "eyebrow": "OCTOBER · COMPARE, CHECK, PREPARE",
         "title": "Before the vote: claims, responsibilities, and choices",
         "bigQuestion": "How can we compare election choices without confusing a persuasive promise with evidence that it can happen?",
-        "summary": "Tentative October learning: finish current work before moving through the existing Surrey election resources. Students can trace claims, compare directly sourced statements on the same issue and ask what each office can decide. The order and pace will follow classroom readiness; Student Vote depends on confirmed registration and arrangements. These plans do not confirm that the lessons or a vote have happened.",
+        "summary": "Tentative October learning: finish current work, then check claims and compare the responsibilities of Surrey local officials and B.C. MLAs. Division 8’s planned Student Vote focus is the B.C. provincial election; its classroom date, registration and arrangements still need confirmation. A civic hearing is an optional next step with no confirmed date. Municipal resources support comparison; a second classroom ballot is not confirmed.",
         "learningArc": [
           {
             "timing": "When ready",
@@ -2610,27 +2610,27 @@
             "outcome": "Students distinguish leadership and influence from decisions one winner can make alone."
           },
           {
-            "timing": "Oct. 5–7",
+            "timing": "Tentative · when ready",
             "label": "Trace a claim",
             "studentAction": "Use Trace the Claim and a dated source trail to label fact, opinion, claim, or promise and verify one checkable part.",
             "outcome": "Students report supported, contradicted, or still uncertain instead of reacting to confidence or style."
           },
           {
-            "timing": "Oct. 8–9",
+            "timing": "Tentative · when ready",
             "label": "Compare fairly",
             "studentAction": "Place directly sourced statements about one issue on a common comparison board: proposal, evidence, authority, trade-off, missing perspective, and question.",
             "outcome": "Candidates are compared by the same inquiry criteria without a teacher ranking or endorsement."
           },
           {
-            "timing": "Oct. 13–15",
+            "timing": "Tentative · when ready",
             "label": "Hear and question",
             "studentAction": "Use the existing Civic Decision Brief hearing to present evidence, ask neutral follow-up questions, and reconsider a conclusion, changing it when the evidence warrants.",
             "outcome": "Public reasoning stays separate from anyone's private ballot choice."
           },
           {
-            "timing": "By Oct. 16",
+            "timing": "Date to be confirmed",
             "label": "Student Vote",
-            "studentAction": "Learn the ballot routine, serve in election-worker roles, and vote privately through the existing Student Vote structure when the class is registered.",
+            "studentAction": "If provincial Student Vote arrangements are confirmed, learn the ballot routine, try election-worker roles, and vote privately.",
             "outcome": "Students practise an election process after learning the offices, evidence, and responsibilities."
           }
         ],
@@ -2670,8 +2670,8 @@
         "subjectSnapshot": [
           {
             "subject": "Social Studies",
-            "now": "Surrey offices, candidate evidence, trade-offs, civic hearing, and Student Vote",
-            "why": "Use a live local election to investigate representation, authority, participation, and accountability."
+            "now": "Local and provincial responsibilities, candidate evidence and questions; optional civic hearing and planned provincial Student Vote",
+            "why": "Compare two levels of government while investigating representation, authority, participation and accountability."
           },
           {
             "subject": "English Language Arts",
@@ -2699,8 +2699,8 @@
         "label": "STUDENT PATH",
         "title": "Check the promise before the vote",
         "why": "Candidates use facts, opinions, claims, and promises to persuade voters. You can check the source, the office's real power, and the trade-offs before making up your own mind.",
-        "summary": "Work with a partner and team to trace one claim, compare statements with the same questions, take part in a civic hearing, and prepare for a private Student Vote ballot.",
-        "duration": "Oct. 1–16",
+        "summary": "When your teacher chooses this learning, work with a partner to trace a claim and compare statements. A civic hearing is optional. Our planned Student Vote focus is the B.C. provincial election; the classroom date and arrangements are still to be confirmed.",
+        "duration": "October · timing to be confirmed",
         "grouping": "Pairs and teams for investigation; whole class for the hearing; a private individual ballot",
         "routeTitle": "Read, trace, compare, question, decide",
         "bring": [
@@ -2737,12 +2737,12 @@
       },
       "family": {
         "label": "FAMILY WINDOW",
-        "title": "Checking claims before Surrey's October 17 election",
-        "summary": "Students compare candidate statements for Surrey mayor, council, and school trustee through existing civics and media-literacy lessons. The class uses neutral questions and directly sourced material; it does not recommend a candidate or ask families to share how they vote.",
+        "title": "Checking claims and comparing two levels of government",
+        "summary": "Tentative October learning: finish current work, then check claims and compare the responsibilities of Surrey local officials and B.C. MLAs. Division 8’s planned Student Vote focus is the B.C. provincial election; its classroom date, registration and arrangements still need confirmation. A civic hearing is an optional next step with no confirmed date. Municipal resources support comparison; a second classroom ballot is not confirmed.",
         "whyThisMatters": "A promise may sound clear while still requiring a council or Board of Education vote, a budget, provincial action, public input, or time. Students learn to check both the evidence and the limits of an elected role.",
-        "whatStudentsDo": "Pairs trace one campaign claim to its source, teams use the same comparison headings for candidates, and the class holds an evidence-based civic hearing. If registered, the class then follows CIVIX Student Vote procedures for a private mock ballot.",
+        "whatStudentsDo": "When selected by the teacher, pairs trace a campaign claim to its source and teams compare statements using the same questions. A civic hearing is proposed. The planned Student Vote focus is the B.C. provincial election, with the classroom date and arrangements still to be confirmed.",
         "quickReference": {
-          "atSchool": "Students check claims, compare responsibilities and trade-offs, ask neutral questions, and practise a private Student Vote process.",
+          "atSchool": "Planned learning: check claims, compare local and provincial responsibilities, and ask questions. A civic hearing and provincial Student Vote remain subject to classroom readiness and confirmed arrangements.",
           "home": "No candidate research, political disclosure, or election homework is required.",
           "assessment": "The teacher assesses source use, jurisdiction, reasoning, questions, and revision—not political preference.",
           "spaces": "Investigation and ballot work stay in class; no extra post is planned."
@@ -2753,24 +2753,24 @@
         "groupAndIndividualEvidence": "Pairs and teams make reasoning visible. Any individual reflection concerns evidence and process; the name selected on a ballot remains private.",
         "milestones": [
           {
-            "date": "Oct. 1–9",
-            "label": "Candidate responsibilities, source checking, and fair comparison",
-            "shortLabel": "Check and compare"
+            "date": "Tentative · when ready",
+            "label": "Source checking and fair comparison; optional civic hearing. Classroom dates are not confirmed.",
+            "shortLabel": "Check, compare and question · tentative"
           },
           {
-            "date": "Oct. 13–15",
-            "label": "Civic hearing and neutral follow-up questions",
-            "shortLabel": "Civic hearing"
-          },
-          {
-            "date": "By Oct. 16",
-            "label": "Student Vote classroom process, if the class is registered",
-            "shortLabel": "Student Vote"
+            "date": "Date to be confirmed",
+            "label": "Planned B.C. provincial Student Vote; registration and classroom arrangements still to be confirmed. A municipal classroom ballot is not confirmed.",
+            "shortLabel": "Provincial Student Vote · date and arrangements to be confirmed"
           },
           {
             "date": "Oct. 17",
-            "label": "Surrey municipal and school-board election day",
-            "shortLabel": "Surrey election day"
+            "label": "Surrey municipal and school-board election day · public election, not a class event",
+            "shortLabel": "Surrey public election"
+          },
+          {
+            "date": "Oct. 24",
+            "label": "B.C. provincial election day · public election, not a class event",
+            "shortLabel": "B.C. public election"
           }
         ],
         "homework": "No routine homework or family political discussion is expected.",
@@ -2982,5 +2982,5 @@
       }
     }
   ],
-  "checksum": "sha256:d44666d622de7caa6213520294a402855fca91eddad19adbde34413a74b1d529"
+  "checksum": "sha256:21524d809f06fdfbeefe4805ce2949e845af0c9375aa687ff4d438243a91f501"
 }
