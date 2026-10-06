@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "classroom-maintenance-2026-10-06",
+  "contentVersion": "2026-10-06-wednesday-shape-of-day",
   "sourceUpdatedAt": "2026-10-06",
   "window": {
     "id": "september-opening",
@@ -1653,7 +1653,7 @@
     }
   ],
   "classSchedule": {
-    "updatedOn": "October 5, 2026",
+    "updatedOn": "October 6, 2026",
     "weekOf": "October 5–9",
     "through": "2026-10-09",
     "days": [
@@ -1674,9 +1674,9 @@
       {
         "date": "2026-10-07",
         "label": "Wed 7",
-        "morning": "Number sense, reading and community inquiry",
-        "later": "Creative work and PHE health learning with Mr. Wyatt",
-        "reminder": "Flexible class plan"
+        "morning": "Oral storytelling / Werewolf · 9:00–10:20 am; introduction to comparing whole numbers and decimals after recess",
+        "later": "Quiet time, Nevermoor and unfinished work; community activity and cleanup",
+        "reminder": "No student devices planned; dismissal · 2:35 pm"
       },
       {
         "date": "2026-10-08",
@@ -1698,6 +1698,11 @@
         "day": "Tuesday",
         "activity": "Core French · Mr. Eckert",
         "time": "12:35–1:35 pm"
+      },
+      {
+        "day": "Wednesday",
+        "activity": "Oral storytelling / Werewolf",
+        "time": "About 9:00–10:20 am"
       },
       {
         "day": "Thursday",
@@ -2982,5 +2987,5 @@
       }
     }
   ],
-  "checksum": "sha256:21524d809f06fdfbeefe4805ce2949e845af0c9375aa687ff4d438243a91f501"
+  "checksum": "sha256:42b1a6bb803d22546315cbefdfefdb12ffaa3822503d1a9d5849414a80d735d5"
 }
