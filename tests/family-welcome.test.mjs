@@ -21,7 +21,7 @@ function render(route,date='2026-09-18') {
 test('family arrival shows current completed learning, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our class learning','Learning this week','number sense','community questions','creative work','Matific','returned forms','device-use form','$6','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','Our class learning','Our learning themes','number sense','community questions','creative work','Matific','$5','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
@@ -46,10 +46,10 @@ test('the first-week recap remains current through the weekend without replacing
 test('confirmed school dates render on home and families, preserve times, and expire without guessing the food-drive date',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Tue, September 22','Photo Day','Fri, September 25','Mon, September 28','Grade 6 Reconciliation Walk','9:30 am','Wed, September 30','Latin American Heritage Month','Women’s History Month','5:30–6:30 pm','Hot Lunch','1:35 pm','12:35–2:00 pm','Thanksgiving','By Friday, October 16','October 26–30']) assert.ok(html.includes(text),route+': '+text);
+    for(const text of ['Tue, September 22','Photo Day','Fri, September 25','Mon, September 28','Grade 6 Reconciliation Walk','9:30 am','Wed, September 30','Latin American Heritage Month','Women’s History Month','5:30–6:30 pm','Hot Lunch','12:35 pm','1:00 pm','Thanksgiving','By Friday, October 16','October 26–30']) assert.ok(html.includes(text),route+': '+text);
     const october=render(route,'2026-10-03');
     assert.doesNotMatch(october,/>Photo Day</);
-    assert.match(october,/Early dismissal/);
+    assert.doesNotMatch(october,/Early dismissal/);
     assert.match(october,/We Scare Hunger food drive/);
     const november=render(route,'2026-11-01');
     assert.match(november,/National Child Day/);
@@ -64,7 +64,7 @@ test('confirmed school dates render on home and families, preserve times, and ex
 test('class schedule reaches families and students, then retires its dated week',()=>{
   for(const route of ['home','families','students']) {
     const html=render(route,'2026-10-05');
-    for(const text of ['Our class schedule','Week of October 5–9','Library book exchange','9:20–9:35 am','PE','11:10–11:50 am','Core French','Mr. Eckert','Mr. Wyatt','Early dismissal','1:35 pm']) assert.ok(html.includes(text),route+': '+text);
+    for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','PE','11:10–11:50 am','Core French','Mr. Eckert','Mr. Wyatt']) assert.ok(html.includes(text),route+': '+text);
     assert.doesNotMatch(html,/French\/Health/);
     const afterWeek=render(route,'2026-10-10');
     assert.doesNotMatch(afterWeek,/Week of October 5–9/);
@@ -75,9 +75,9 @@ test('class schedule reaches families and students, then retires its dated week'
 });
 
 test('dated class copy ages honestly and civic learning keeps the two votes distinct',()=>{
-  const nextDay=render('families','2026-10-05');
-  assert.match(nextDay,/This class update was posted on October 4, 2026/);
-  assert.match(nextDay,/Plan as of October 4, 2026/);
+  const nextDay=render('families','2026-10-09');
+  assert.match(nextDay,/This class update was posted on October 8, 2026/);
+  assert.match(nextDay,/Plan as of October 8, 2026/);
   assert.match(nextDay,/Dates to plan around/);
   assert.match(nextDay,/Learning milestones · no family action needed/);
   assert.match(nextDay,/October 17:.*Surrey votes for/);
@@ -98,7 +98,7 @@ test('dated class copy ages honestly and civic learning keeps the two votes dist
 test('compact reminders use confirmed events and disappear after their dates', () => {
   const section = date => render('families',date).match(/<section class="week-reminders"[\s\S]*?<\/section>/)?.[0] ?? '';
   const thisWeek = section('2026-10-06');
-  for (const label of ['Terry Fox permission form due','Early dismissal','1:35 pm','Terry Fox Run','12:35–2:00 pm']) assert.ok(thisWeek.includes(label));
+  for (const label of ['Terry Fox Run','12:35 pm','1:00 pm']) assert.ok(thisWeek.includes(label));
   assert.doesNotMatch(section('2026-10-07'),/permission form due/);
   assert.equal(section('2026-10-10'),'');
   assert.match(section('2026-10-12'),/Thanksgiving/);

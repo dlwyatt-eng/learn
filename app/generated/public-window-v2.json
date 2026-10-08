@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-06-wednesday-shape-of-day",
-  "sourceUpdatedAt": "2026-10-06",
+  "contentVersion": "2026-10-08-family-maintenance",
+  "sourceUpdatedAt": "2026-10-08",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,28 +1347,20 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "October 4, 2026",
+    "updatedOn": "October 8, 2026",
     "classLabel": "Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Division 8 community",
-    "intro": "It was a pleasure meeting families at Open House. Thank you to everyone who was able to visit our classroom. I’m looking forward to working with your family this year. — Mr. Wyatt",
+    "intro": "Welcome, Division 8 families. Use this hub for class learning themes, optional home practice, school reminders and useful links.",
     "recapTitle": "Our class learning",
     "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
-    "nextTitle": "Learning this week",
-    "next": "We’ll continue building number sense, reading and responding to stories, and exploring what makes a community fair. We’ll also make room for creative work and for finishing and improving work already underway. We may spend extra time finishing art from last week. Our focus and pace may change with what the class needs; no new home assignment is required.",
+    "nextTitle": "Our learning themes",
+    "next": "Our learning includes rounding and comparing whole numbers and decimals, explaining our thinking, reading and oral storytelling, and exploring fairness and belonging. Creative work and time to finish and improve existing work are part of our classroom routines. The pace responds to the class; optional home practice has no required upload.",
     "later": "Our timetable is flexible. We will adjust learning and finishing time as needed. Mr. Eckert teaches French during both prep blocks; Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning.",
     "reminders": [
       {
-        "title": "Terry Fox permission form · due Tuesday, October 6",
-        "text": "Please return the signed permission form to school by Tuesday, October 6, 2026. The Terry Fox Run is Friday, October 9, from 12:35–2:00 pm.",
-        "link": {
-          "label": "Download the original notice and permission form (PDF)",
-          "url": "https://dlwyatt-eng.github.io/learn/printables/Walnut_Road_Terry_Fox_Permission_2026.pdf"
-        }
-      },
-      {
         "title": "Ready for the Terry Fox Run · Friday, October 9",
-        "text": "Bring a full water bottle and running shoes, and dress for rain or sun. Our school fundraising goal is $2,500. Families who would like to donate can use Walnut Road Elementary’s Terry Fox Foundation page.",
+        "text": "Friday, October 9, rain or shine. Volunteers arrive at 12:35 pm; students have a staggered start beginning at 1:00 pm, with the run ending at 2:00 pm. Wear weather-appropriate clothing and running shoes, and bring a water bottle. Our school has reached its $2,500 fundraising goal—thank you! Donations are still welcome through the school’s Terry Fox page.",
         "link": {
           "label": "Walnut Road Terry Fox donations",
           "url": "https://schools.terryfox.ca/138285"
@@ -1376,7 +1368,7 @@
       },
       {
         "title": "Can you volunteer for the Terry Fox Run?",
-        "text": "Volunteers are needed from 12:35–2:00 pm on Friday, October 9. Please confirm with the school office that your volunteer paperwork and criminal record check are on file and your school approval is complete.",
+        "text": "Volunteers arrive at 12:35 pm on Friday, October 9 and help until 2:00 pm. Students begin their staggered start at 1:00 pm. Please confirm with the school office that your volunteer paperwork and criminal record check are on file and your school approval is complete.",
         "link": {
           "label": "Volunteer information and forms",
           "url": "https://www.surreyschools.ca/how-to-become-a-volunteer"
@@ -1391,50 +1383,11 @@
         }
       },
       {
-        "title": "Forms and booklet check-in",
-        "text": "We are collecting returned forms and checking Discovery booklet submissions. Unfinished booklet work does not prevent students from joining the shared art lesson.",
-        "link": null
-      },
-      {
-        "title": "Device-use form",
-        "text": "Please read and sign the form when it comes home and return it to school.",
-        "link": null
-      },
-      {
-        "title": "Planner",
-        "text": "The $6 planner payment was expected to appear on School Cash Online on Friday, September 18. If the item is not visible, please wait for school guidance before paying. Contact Mr. Wyatt privately if you have a question about the fee.",
-        "link": {
-          "label": "Open School Cash Online",
-          "url": "https://surreyschools.schoolcashonline.com/"
-        }
-      },
-      {
-        "title": "Thank you for coming to Open House",
-        "text": "It was a pleasure meeting families at Open House. Thank you to everyone who was able to take the time to visit our classroom.",
-        "link": null
-      },
-      {
-        "title": "Orange-shirt art examples",
-        "text": "Orange-shirt art examples are available for our Truth and Reconciliation learning. The linked examples offer simple symbols, and unfinished booklet work does not prevent students from joining the shared art lesson.",
-        "link": {
-          "label": "See the art examples",
-          "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/orange-shirt-art.html"
-        }
-      },
-      {
         "title": "Optional Matific practice and challenge",
         "text": "Once school account access is working, students may use Matific at home for extra maths practice or explore more challenging activities when ready. This is optional; no score, completion target or purchase is required. See the home-practice menu for the link and a screen-free choice.",
         "link": {
           "label": "Optional home practice",
           "url": "https://dlwyatt-eng.github.io/learn/#/homework"
-        }
-      },
-      {
-        "title": "Creative work · autumn forest art",
-        "text": "Our autumn forest art explores how colour, size and overlapping layers create depth and mood. We may spend extra time finishing art from last week. The guide offers an example with room for students’ own choices; no home art assignment is required.",
-        "link": {
-          "label": "Open the autumn forest guide",
-          "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/autumn-forest.html"
         }
       }
     ],
@@ -1448,7 +1401,7 @@
       {
         "title": "School Cash Online",
         "url": "https://surreyschools.schoolcashonline.com/",
-        "description": "The $6 planner item was expected Friday, September 18. If it is not visible, please wait for school guidance before paying."
+        "description": "Check your school account for available payment items. The school’s 2026–27 fees page lists an optional $5 planner; ask the office about any difference in your payment item. Contact the teacher or principal privately for financial support."
       },
       {
         "title": "School fees and supplies",
@@ -1491,7 +1444,7 @@
         "description": "Our planned lessons and shared question: how do we build communities where people actually belong? No home assignment or personal disclosures required."
       }
     ],
-    "hotLunchNotice": "The school events calendar lists PAC Hot Lunch on Friday, October 2. Ordering and distribution details were not available in the earlier notice; please check school or PAC instructions before relying on it.",
+    "hotLunchNotice": "Check current school or PAC notices for hot-lunch dates and ordering instructions.",
     "volunteerInvitation": {
       "title": "Planning to help with class activities or field trips?",
       "text": "Please contact the office to re-register for this school year and confirm approval before volunteering. Drivers should complete the annual driver’s abstract, licence verification and insurance verification together; the abstract must be issued within 30 days before submission. Criminal record checks are normally renewed every five years; ask the office to confirm your status.",
@@ -1572,28 +1525,12 @@
       "detail": "Listed on the school events calendar for October 2. Confirm ordering and distribution through school or PAC notices."
     },
     {
-      "id": "terry-fox-permission",
-      "date": "2026-10-06",
-      "month": "2026-10",
-      "dateLabel": "Tue, October 6",
-      "title": "Terry Fox permission form due",
-      "detail": "Please return the signed permission form to school."
-    },
-    {
-      "id": "early-dismissal",
-      "date": "2026-10-08",
-      "month": "2026-10",
-      "dateLabel": "Thu, October 8",
-      "title": "Early dismissal",
-      "detail": "1:35 pm"
-    },
-    {
       "id": "terry-fox",
       "date": "2026-10-09",
       "month": "2026-10",
       "dateLabel": "Fri, October 9",
       "title": "Terry Fox Run",
-      "detail": "12:35–2:00 pm. Bring a full water bottle, wear running shoes and dress for rain or sun. Volunteers: confirm school approval with the office."
+      "detail": "Volunteers arrive at 12:35 pm; students have a staggered start beginning at 1:00 pm, ending at 2:00 pm. Rain or shine. Wear weather-appropriate clothing and running shoes; bring a water bottle. Our school has reached its $2,500 fundraising goal!"
     },
     {
       "id": "thanksgiving",
@@ -1613,11 +1550,11 @@
     },
     {
       "id": "photo-retake-day",
-      "date": "2026-10-21",
+      "date": null,
       "month": "2026-10",
-      "dateLabel": "Wed, October 21",
-      "title": "Photo Day · retakes (check school notice)",
-      "detail": "The calendar label is clipped after “Ret”; confirm details with the school."
+      "dateLabel": "Date to be confirmed",
+      "title": "Photo retakes · awaiting school confirmation",
+      "detail": "Check the school’s current notice for the retake date; the previously displayed October 21 date is not confirmed."
     },
     {
       "id": "october-non-instructional",
@@ -1653,46 +1590,10 @@
     }
   ],
   "classSchedule": {
-    "updatedOn": "October 6, 2026",
+    "updatedOn": "October 8, 2026",
     "weekOf": "October 5–9",
     "through": "2026-10-09",
-    "days": [
-      {
-        "date": "2026-10-05",
-        "label": "Mon 5",
-        "morning": "Number sense and reading",
-        "later": "Community inquiry and creative work; time to finish existing work",
-        "reminder": "Flexible class plan; extra art finishing time may be needed"
-      },
-      {
-        "date": "2026-10-06",
-        "label": "Tue 6",
-        "morning": "Laptop work block · 8:45–10:20 am; after recess, class choice: maths, community reflection or Nevermoor",
-        "later": "French with Mr. Eckert · 12:35–1:35 pm; quiet reset and unfinished work",
-        "reminder": "Terry Fox permission form due; dismissal · 2:35 pm"
-      },
-      {
-        "date": "2026-10-07",
-        "label": "Wed 7",
-        "morning": "Oral storytelling / Werewolf · 9:00–10:20 am; introduction to comparing whole numbers and decimals after recess",
-        "later": "Quiet time, Nevermoor and unfinished work; community activity and cleanup",
-        "reminder": "No student devices planned; dismissal · 2:35 pm"
-      },
-      {
-        "date": "2026-10-08",
-        "label": "Thu 8",
-        "morning": "Library book exchange · 9:20–9:35 am",
-        "later": "PE with Mr. Wyatt · 11:10–11:50 am; Career Education",
-        "reminder": "Early dismissal · 1:35 pm"
-      },
-      {
-        "date": "2026-10-09",
-        "label": "Fri 9",
-        "morning": "Core French with Mr. Eckert · 9:35–10:35 am",
-        "later": "PE with Mr. Wyatt · 11:10–11:50 am; Terry Fox Run · 12:35–2:00 pm",
-        "reminder": "Full water bottle, running shoes; dress for rain or sun"
-      }
-    ],
+    "days": [],
     "regular": [
       {
         "day": "Tuesday",
@@ -1728,18 +1629,18 @@
     "note": "Division 8 working schedule. Mr. Eckert teaches French only. Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning. Planned learning may change as we finish work; school notices confirm event changes."
   },
   "homePractice": {
-    "updatedOn": "September 30, 2026",
+    "updatedOn": "October 8, 2026",
     "policy": "Separate daily homework is not routinely assigned. This is optional practice for families who want a regular routine. Choose what is useful; there is no expectation to complete the whole menu or submit optional practice.",
     "unfinished": "Check your planner and the instructions Mr. Wyatt has given you. Finish only the small piece identified for you, using the support agreed at school. An unfinished class activity is not automatically homework. If you were absent or are unsure, ask where to begin.",
     "routine": "Read or listen for 10–15 minutes, then choose one short activity. Families wanting a longer routine can add a second choice, keeping the total around 30–40 minutes including reading, or less when needed. Spread choices across evenings or select a few for the weekend; do not save up a catch-up pile.",
     "stopRule": "Stop if the work is confusing, upsetting or taking much longer than expected. Let Mr. Wyatt know which part was difficult. Rest, play, family time and activities outside school matter too.",
     "access": "Use paper, drawings, spoken explanations or a language that helps you think. Every menu activity can be done without an online account. No purchase, AI tool or routine portfolio upload is required.",
     "week": {
-      "id": "2026-09-28",
-      "label": "September 28–October 4 · Rounding and explaining choices",
-      "from": "2026-09-28",
-      "through": "2026-10-04",
-      "connection": "Rounding decimals began on September 28. Try the supported example below, or return to familiar place value. Comparing decimals is a planned next step, not assumed completed. Reading can use any chosen book; Nevermoor progress is not assumed. All choices are optional and need no account or upload.",
+      "id": "2026-10-08",
+      "label": "Rounding, comparing numbers and explaining choices",
+      "from": "2026-10-08",
+      "through": "2026-10-18",
+      "connection": "Reusable optional practice: round numbers, compare whole numbers and decimals, and explain your choices. Choose familiar activities and repeat with your own numbers. Use paper, drawings or spoken explanations; no account or home upload is required.",
       "activities": [
         {
           "id": "math",
@@ -1755,6 +1656,21 @@
           ],
           "check": "6.284 lies between 6.2 and 6.3 and is nearer 6.3. 2.305 is halfway between 2.30 and 2.31, so it rounds to 2.31 using our convention. Place-value alternative: 6 ones, 2 tenths, 8 hundredths, 4 thousandths.",
           "extension": "A measurement of 3.47 m is reported as 3.5 m. When might that be precise enough? When would you want the original measurement? Explain your choice."
+        },
+        {
+          "id": "compare",
+          "subject": "Math",
+          "title": "Compare and explain",
+          "time": "10 minutes",
+          "context": "Optional whole-number and decimal practice",
+          "example": "4.7 = 4.70. Compare 4.70 and 4.65: the ones are equal, but 7 tenths is greater than 6 tenths, so 4.7 > 4.65. Extra decimal digits do not automatically make a number larger.",
+          "steps": [
+            "Compare 48,305 and 48,350 using <, > or =. Start at the greatest place value and find the first differing digit.",
+            "Compare 0.8 and 0.75, then 3.04 and 3.4. Explain with place value, a drawing or a number line.",
+            "Put 2.5, 2.05 and 2.50 in order from least to greatest. Explain any equality."
+          ],
+          "check": "48,305 < 48,350; 0.8 > 0.75; 3.04 < 3.4; 2.05 < 2.5 = 2.50. Explain the value of the first differing digit, rather than counting digits.",
+          "extension": "Choose two different decimals that both round to 3.5 to the nearest tenth. Compare the original numbers and explain why their rounded values match."
         },
         {
           "id": "reading",
@@ -2987,5 +2903,5 @@
       }
     }
   ],
-  "checksum": "sha256:42b1a6bb803d22546315cbefdfefdb12ffaa3822503d1a9d5849414a80d735d5"
+  "checksum": "sha256:0cc6ff96b36f018b41959b85a1a598f69b2b1dd10d11d9ccf2126ce922671168"
 }

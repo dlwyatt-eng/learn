@@ -156,3 +156,8 @@
 .week-reminders li{display:grid;gap:5px;align-content:start;line-height:1.5}
 .week-reminders time{font-weight:700}.week-reminders a{color:inherit;text-underline-offset:3px}
 .week-reminders a:focus-visible{outline:3px solid #a45613;outline-offset:3px}
+
+/* Match scroll offsets to the actual wrapping header, including large text. */
+html { scroll-padding-top: calc(var(--portal-header-height, 160px) + 16px); }
+#public-main, .portal-v2 [id] { scroll-margin-top: 0; }
+@media print { html { scroll-padding-top: 0; } }
