@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-08-family-maintenance",
-  "sourceUpdatedAt": "2026-10-08",
+  "contentVersion": "2026-10-09-tentative-week-oct13",
+  "sourceUpdatedAt": "2026-10-09",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,7 +1347,7 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "October 8, 2026",
+    "updatedOn": "October 9, 2026",
     "classLabel": "Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Division 8 community",
@@ -1355,7 +1355,7 @@
     "recapTitle": "Our class learning",
     "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
     "nextTitle": "Our learning themes",
-    "next": "Our learning includes rounding and comparing whole numbers and decimals, explaining our thinking, reading and oral storytelling, and exploring fairness and belonging. Creative work and time to finish and improve existing work are part of our classroom routines. The pace responds to the class; optional home practice has no required upload.",
+    "next": "Tentative plans for October 13–16 include factors and factor pairs, Nevermoor, oral storytelling, Career/Action Pack work and time to finish existing learning. Tuesday’s longer morning tech block depends on laptop availability, with maths after recess. Wednesday is planned without student devices. No inequalities upload is required; learning plans may change.",
     "later": "Our timetable is flexible. We will adjust learning and finishing time as needed. Mr. Eckert teaches French during both prep blocks; Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning.",
     "reminders": [
       {
@@ -1590,7 +1590,7 @@
     }
   ],
   "classSchedule": {
-    "updatedOn": "October 8, 2026",
+    "updatedOn": "October 9, 2026",
     "weekOf": "October 5–9",
     "through": "2026-10-09",
     "days": [],
@@ -1626,7 +1626,7 @@
         "time": "11:10–11:50 am"
       }
     ],
-    "note": "Division 8 working schedule. Mr. Eckert teaches French only. Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning. Planned learning may change as we finish work; school notices confirm event changes."
+    "note": "Division 8 working schedule. Mr. Eckert teaches French only. Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning. Planned learning may change as we finish work; school notices confirm event changes. Tentative October 13–16 plan: Monday October 12 is Thanksgiving (no school); Tuesday tech 8:45–10:20 am if laptops are available, maths 10:50–11:50 am; Wednesday oral storytelling 9:00–10:20 am with maths after recess and no student devices. LST times and device bookings remain unconfirmed."
   },
   "homePractice": {
     "updatedOn": "October 8, 2026",
@@ -2903,5 +2903,5 @@
       }
     }
   ],
-  "checksum": "sha256:0cc6ff96b36f018b41959b85a1a598f69b2b1dd10d11d9ccf2126ce922671168"
+  "checksum": "sha256:c3f5aec670906704890d0c47040c2a346524a9c683f3d34ae76b5a66f52e3d5c"
 }
