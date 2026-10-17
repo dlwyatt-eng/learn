@@ -76,8 +76,11 @@ test('class schedule reaches families and students, then retires its dated week'
 
 test('dated class copy ages honestly and civic learning keeps the two votes distinct',()=>{
   const nextDay=render('families','2026-10-10');
-  assert.match(nextDay,/This class update was posted on October 9, 2026/);
-  assert.match(nextDay,/Plan as of October 9, 2026/);
+  const afterUpdate = new Date(manifest.classroomWelcome.updatedOn + ' 12:00:00 UTC');
+  afterUpdate.setUTCDate(afterUpdate.getUTCDate() + 1);
+  const aged = render('families',afterUpdate.toISOString().slice(0,10));
+  assert.ok(aged.includes(`This class update was posted on ${manifest.classroomWelcome.updatedOn}`));
+  assert.ok(aged.includes(`Plan as of ${manifest.classroomWelcome.updatedOn}`));
   assert.match(nextDay,/Dates to plan around/);
   assert.match(nextDay,/Learning milestones · no family action needed/);
   assert.match(nextDay,/October 17:.*Surrey votes for/);
