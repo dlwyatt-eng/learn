@@ -2777,7 +2777,12 @@
             "now": "Summarize sources and explain comparisons",
             "why": "Separate the source's claims from our questions."
           }
-        ]
+        ],
+        "visual": {
+          "src": "/images/visual-review/newsroom-source-desk-v1.webp",
+          "alt": "Fictional source-analysis desk with an unlabeled map, photograph, bar chart, text page, blank note card, pencil, and magnifying glass.",
+          "caption": "Compare proposals using the original sources. This illustration is not election evidence."
+        }
       },
       "student": {
         "label": "STUDENT PATH",
@@ -3062,5 +3067,5 @@
       }
     }
   ],
-  "checksum": "sha256:6e1e07d2a0615d0f006465a72cbe845774c800d2809353637f4d307c0b8e120f"
+  "checksum": "sha256:d0c59b71ef220fc52f20c23a09e29300a23efda9b53e9102f18381f98d05b079"
 }
