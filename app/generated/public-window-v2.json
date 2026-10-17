@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-09-tentative-week-oct13",
-  "sourceUpdatedAt": "2026-10-09",
+  "contentVersion": "2026-10-17-week-oct19",
+  "sourceUpdatedAt": "2026-10-17",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,7 +1347,7 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "October 9, 2026",
+    "updatedOn": "October 17, 2026",
     "classLabel": "Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Division 8 community",
@@ -1355,24 +1355,16 @@
     "recapTitle": "Our class learning",
     "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
     "nextTitle": "Our learning themes",
-    "next": "Tentative plans for October 13–16 include factors and factor pairs, Nevermoor, oral storytelling, Career/Action Pack work and time to finish existing learning. Tuesday’s longer morning tech block depends on laptop availability, with maths after recess. Wednesday is planned without student devices. No inequalities upload is required; learning plans may change.",
+    "next": "Planned learning for October 19–22 includes factors and factor pairs, clear explanations, Nevermoor, oral storytelling, post-election questions about promises and shared decision-making, and Career/Action Pack work. Tuesday tech 8:45–10:20 depends on laptop availability, with maths after recess. Wednesday has no student devices. No inequalities upload is required. Friday October 23 is a non-instructional day.",
     "later": "Our timetable is flexible. We will adjust learning and finishing time as needed. Mr. Eckert teaches French during both prep blocks; Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning.",
     "reminders": [
       {
-        "title": "Ready for the Terry Fox Run · Friday, October 9",
-        "text": "Friday, October 9, rain or shine. Volunteers arrive at 12:35 pm; students have a staggered start beginning at 1:00 pm, with the run ending at 2:00 pm. Wear weather-appropriate clothing and running shoes, and bring a water bottle. Our school has reached its $2,500 fundraising goal—thank you! Donations are still welcome through the school’s Terry Fox page.",
-        "link": {
-          "label": "Walnut Road Terry Fox donations",
-          "url": "https://schools.terryfox.ca/138285"
-        }
+        "title": "Friday, October 23 · Non-instructional day",
+        "text": "No classes for students."
       },
       {
-        "title": "Can you volunteer for the Terry Fox Run?",
-        "text": "Volunteers arrive at 12:35 pm on Friday, October 9 and help until 2:00 pm. Students begin their staggered start at 1:00 pm. Please confirm with the school office that your volunteer paperwork and criminal record check are on file and your school approval is complete.",
-        "link": {
-          "label": "Volunteer information and forms",
-          "url": "https://www.surreyschools.ca/how-to-become-a-volunteer"
-        }
+        "title": "Wednesday, October 21 · Photo retakes",
+        "text": "Students needing retakes will be called during the school day. Follow school notices for details."
       },
       {
         "title": "Volunteer and driver registration · each school year",
@@ -1550,11 +1542,11 @@
     },
     {
       "id": "photo-retake-day",
-      "date": null,
+      "date": "2026-10-21",
       "month": "2026-10",
-      "dateLabel": "Date to be confirmed",
-      "title": "Photo retakes · awaiting school confirmation",
-      "detail": "Check the school’s current notice for the retake date; the previously displayed October 21 date is not confirmed."
+      "dateLabel": "Wed, October 21",
+      "title": "Photo retakes",
+      "detail": "Students needing retakes will be called during the school day; follow school notices."
     },
     {
       "id": "october-non-instructional",
@@ -1590,9 +1582,9 @@
     }
   ],
   "classSchedule": {
-    "updatedOn": "October 9, 2026",
-    "weekOf": "October 5–9",
-    "through": "2026-10-09",
+    "updatedOn": "October 17, 2026",
+    "weekOf": "October 19–23",
+    "through": "2026-10-23",
     "days": [],
     "regular": [
       {
@@ -1626,7 +1618,7 @@
         "time": "11:10–11:50 am"
       }
     ],
-    "note": "Division 8 working schedule. Mr. Eckert teaches French only. Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning. Planned learning may change as we finish work; school notices confirm event changes. Tentative October 13–16 plan: Monday October 12 is Thanksgiving (no school); Tuesday tech 8:45–10:20 am if laptops are available, maths 10:50–11:50 am; Wednesday oral storytelling 9:00–10:20 am with maths after recess and no student devices. LST times and device bookings remain unconfirmed."
+    "note": "Four-day learning week: Friday October 23 is non-instructional. Tuesday tech 8:45–10:20 am depends on laptops, with maths after recess. Wednesday storytelling 9:00–10:20 am, maths after recess and no student devices. Thursday library 9:20–9:35 and shared PE 11:10–11:50. Regular Friday blocks do not run October 23. Mr. Eckert teaches French only; Mr. Wyatt teaches PHE. Learning blocks may adjust."
   },
   "homePractice": {
     "updatedOn": "October 8, 2026",
@@ -2883,8 +2875,8 @@
             "shortLabel": "What happens next?"
           },
           {
-            "date": "Oct. 23",
-            "label": "Participation and future Newsroom question",
+            "date": "Oct. 22",
+            "label": "Participation and future Newsroom question before Friday’s non-instructional day",
             "shortLabel": "Keep participating"
           }
         ],
@@ -2903,5 +2895,5 @@
       }
     }
   ],
-  "checksum": "sha256:c3f5aec670906704890d0c47040c2a346524a9c683f3d34ae76b5a66f52e3d5c"
+  "checksum": "sha256:e3b0f834610492713bf808d9e04c76f9c092dcdbea54fb5f5d03bc9eb0f20b66"
 }
