@@ -25,7 +25,11 @@ function forbiddenPaths(value, currentPath = "$") {
 
 test("public windows use the exact safe schema", () => {
   assert.equal(manifest.schemaVersion, "classroom-os-public-window/v2");
-  assert.equal(manifest.windows.length, 5);
+  assert.equal(manifest.windows.length, 6);
+  const prep = manifest.windows.find(window => window.id === "bc-student-vote-preparation");
+  assert.equal(prep.effectiveTo, "2026-10-23");
+  const results = manifest.windows.find(window => window.id === "surrey-election-results-and-next-steps");
+  assert.equal(results.effectiveFrom, "2026-10-26");
   for (const window of manifest.windows) {
     assert.deepEqual(Object.keys(window), exactWindowKeys);
   }
