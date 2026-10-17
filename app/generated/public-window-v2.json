@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-17-week-oct19",
+  "contentVersion": "2026-10-17-student-vote-prep",
   "sourceUpdatedAt": "2026-10-17",
   "window": {
     "id": "september-opening",
@@ -1355,9 +1355,13 @@
     "recapTitle": "Our class learning",
     "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
     "nextTitle": "Our learning themes",
-    "next": "Planned learning for October 19–22 includes factors and factor pairs, clear explanations, Nevermoor, oral storytelling, post-election questions about promises and shared decision-making, and Career/Action Pack work. Tuesday tech 8:45–10:20 depends on laptop availability, with maths after recess. Wednesday has no student devices. No inequalities upload is required. Friday October 23 is a non-instructional day.",
+    "next": "Planned learning for October 19–22 includes factors and factor pairs, clear explanations, Nevermoor, oral storytelling, party-poster comparisons and preparation for provincial Student Vote on Thursday October 22, and Career/Action Pack work. Tuesday tech 8:45–10:20 depends on laptop availability, with maths after recess. Wednesday has no student devices. No inequalities upload is required. Friday October 23 is a non-instructional day.",
     "later": "Our timetable is flexible. We will adjust learning and finishing time as needed. Mr. Eckert teaches French during both prep blocks; Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning.",
     "reminders": [
+      {
+        "title": "Thursday, October 22 · Provincial Student Vote",
+        "text": "Students prepare through party posters, local-candidate learning and ballot practice. Class voting time is pending. No municipal Student Vote is planned."
+      },
       {
         "title": "Friday, October 23 · Non-instructional day",
         "text": "No classes for students."
@@ -1579,6 +1583,14 @@
       "dateLabel": "Thu, December 10",
       "title": "Human Rights Day",
       "detail": "Planned rights case gallery or teach-back, connecting racism, equality and freedom of expression. This is not a school closure."
+    },
+    {
+      "id": "provincial-student-vote",
+      "date": "2026-10-22",
+      "month": "2026-10",
+      "dateLabel": "Thu, October 22",
+      "title": "Provincial Student Vote",
+      "detail": "Class voting slot pending. Preparation builds on existing party posters. Voting choices remain private."
     }
   ],
   "classSchedule": {
@@ -2701,42 +2713,197 @@
       }
     },
     {
-      "id": "surrey-election-results-and-next-steps",
+      "id": "bc-student-vote-preparation",
       "effectiveFrom": "2026-10-17",
       "effectiveTo": "2026-10-23",
+      "state": "published",
+      "shared": {
+        "eyebrow": "OCTOBER · PREPARE FOR STUDENT VOTE",
+        "title": "From party posters to an informed choice",
+        "bigQuestion": "How can we compare proposals fairly and make an informed, independent choice?",
+        "summary": "Build on party posters already underway, compare proposals, learn about local candidates and prepare for provincial Student Vote on Thursday October 22. The class voting slot is pending; no municipal Student Vote is planned.",
+        "learningArc": [
+          {
+            "timing": "Oct. 19 · 30 min",
+            "label": "Check posters",
+            "studentAction": "Monday: finish and source-check existing posters. Verify party, leader and three provincial proposals; distinguish the local candidate from the leader.",
+            "outcome": "Explain a verified proposal in your own words."
+          },
+          {
+            "timing": "Oct. 20 · 30 min",
+            "label": "Compare proposals",
+            "studentAction": "Tuesday: visit every party poster. Record a proposal, who it might affect, and a question. Compare two parties on the same issue using sources.",
+            "outcome": "Make a fair comparison supported by sources."
+          },
+          {
+            "timing": "Oct. 21 · 25 min",
+            "label": "Meet local candidates",
+            "studentAction": "Wednesday: use the district on the school ballot to identify local candidates and parties. Reflect privately on an issue that matters to you.",
+            "outcome": "Distinguish a local candidate from a party leader."
+          },
+          {
+            "timing": "Oct. 22 · 10–15 min before voting",
+            "label": "Practise and vote",
+            "studentAction": "Thursday: practise marking a sample ballot, then cast an independent secret vote at the assigned school time.",
+            "outcome": "Understand independent choice and ballot secrecy."
+          }
+        ],
+        "primaryResource": {
+          "label": "CIVIX BC elementary resources",
+          "href": "https://studentvote.ca/bc/classroom-resources/",
+          "format": "Lessons and printable activities",
+          "description": "Activity 3.1 My Electoral District; Lesson 4 Voting Process. Save Lesson 5 Post-Election Analysis for the following week."
+        },
+        "thinkingMoves": [
+          {
+            "id": "verify",
+            "label": "Verify",
+            "prompt": "Where does this proposal appear in the source?"
+          },
+          {
+            "id": "compare",
+            "label": "Compare",
+            "prompt": "What do different parties propose about the same issue?"
+          }
+        ],
+        "subjectSnapshot": [
+          {
+            "subject": "Social Studies",
+            "now": "Provincial proposals, local candidates and secret ballots",
+            "why": "Make informed choices while respecting others' independence."
+          },
+          {
+            "subject": "English Language Arts",
+            "now": "Summarize sources and explain comparisons",
+            "why": "Separate the source's claims from our questions."
+          }
+        ]
+      },
+      "student": {
+        "label": "STUDENT PATH",
+        "title": "From party posters to an informed choice",
+        "why": "How can we compare proposals fairly and make an informed, independent choice?",
+        "summary": "Build on party posters already underway, compare proposals, learn about local candidates and prepare for provincial Student Vote on Thursday October 22. The class voting slot is pending; no municipal Student Vote is planned.",
+        "duration": "October 19–22",
+        "grouping": "Whole class, pairs, and teams; one short personal next-step reflection",
+        "routeTitle": "Check, compare, identify, vote",
+        "bring": [
+          "Your group poster",
+          "Original sources",
+          "Paper and pencil"
+        ],
+        "firstMove": "Open your existing poster and check one proposal against its source.",
+        "firstMoveNote": "Example: The party proposes ___. The source says ___. This could affect ___.",
+        "quickReference": {
+          "firstMove": "Check one proposal against its source.",
+          "handIn": "Keep posters and comparison notes in class. Keep your vote private.",
+          "missed": "Read the posters with a partner and compare two proposals on the same issue."
+        },
+        "steps": [
+          "Monday: finish and source-check existing posters. Verify party, leader and three provincial proposals; distinguish the local candidate from the leader.",
+          "Tuesday: visit every party poster. Record a proposal, who it might affect, and a question. Compare two parties on the same issue using sources.",
+          "Wednesday: use the district on the school ballot to identify local candidates and parties. Reflect privately on an issue that matters to you.",
+          "Thursday: practise marking a sample ballot, then cast an independent secret vote at the assigned school time."
+        ],
+        "choices": [
+          "Read with a partner or listen to teacher-read proposals.",
+          "Write, draw, point or explain orally.",
+          "Keep your voting choice private."
+        ],
+        "product": "A checked poster, comparison notes and a local-candidate table.",
+        "finish": "Explain a sourced comparison and how a secret ballot works.",
+        "handInOrSave": "Keep learning notes in class; no vote disclosure or extra upload.",
+        "ifAbsentOrStuck": "Ask for two posters on the same issue and compare one proposal from each.",
+        "spacesNote": "No extra SpacesEDU post is planned. Results discussion and ballot choices stay out of the portfolio."
+      },
+      "family": {
+        "label": "FAMILY WINDOW",
+        "title": "From party posters to an informed choice",
+        "summary": "Build on party posters already underway, compare proposals, learn about local candidates and prepare for provincial Student Vote on Thursday October 22. The class voting slot is pending; no municipal Student Vote is planned.",
+        "whyThisMatters": "Students practise evidence-based comparison and respect independent choices.",
+        "whatStudentsDo": "Monday: finish and source-check existing posters. Verify party, leader and three provincial proposals; distinguish the local candidate from the leader. Tuesday: visit every party poster. Record a proposal, who it might affect, and a question. Compare two parties on the same issue using sources. Wednesday: use the district on the school ballot to identify local candidates and parties. Reflect privately on an issue that matters to you. Thursday: practise marking a sample ballot, then cast an independent secret vote at the assigned school time.",
+        "quickReference": {
+          "atSchool": "Check posters, compare proposals, identify candidates and practise voting.",
+          "home": "No election homework or disclosure of family voting is expected.",
+          "assessment": "Source use, comparison and understanding of voting; never political preference.",
+          "spaces": "No additional upload."
+        },
+        "product": "A checked poster, comparison notes and a local-candidate table.",
+        "assessment": "Evidence use, fair comparison and understanding the process.",
+        "agreementNote": "Students and families keep voting choices private.",
+        "groupAndIndividualEvidence": "Posters and comparisons show learning without recording ballot choices.",
+        "milestones": [
+          {
+            "date": "Oct. 19",
+            "label": "Check posters",
+            "shortLabel": "Check posters"
+          },
+          {
+            "date": "Oct. 20",
+            "label": "Compare proposals",
+            "shortLabel": "Compare proposals"
+          },
+          {
+            "date": "Oct. 21",
+            "label": "Meet local candidates",
+            "shortLabel": "Meet local candidates"
+          },
+          {
+            "date": "Oct. 22",
+            "label": "Practise and vote",
+            "shortLabel": "Practise and vote"
+          }
+        ],
+        "homework": "No routine homework is assigned for this reflection.",
+        "supportAtHome": [
+          "Ask which issue students compared and what their sources showed.",
+          "Discuss why each person makes their own choice privately."
+        ],
+        "conversationPrompts": [
+          "How do the proposals compare on the same issue?",
+          "How is a local candidate different from a party leader?",
+          "Why is a ballot secret?"
+        ],
+        "spacesNote": "No additional portfolio post is planned, and no ballot choice is collected or shared."
+      }
+    },
+    {
+      "id": "surrey-election-results-and-next-steps",
+      "effectiveFrom": "2026-10-26",
+      "effectiveTo": "2026-10-30",
       "state": "published",
       "shared": {
         "eyebrow": "OCTOBER · RESULTS AND WHAT HAPPENS NEXT",
         "title": "Election day to next steps: what happens now?",
         "bigQuestion": "What do election results tell us—and what still has to happen before a promise becomes a public decision?",
-        "summary": "Students use the Newsroom to read official Surrey results and CIVIX Student Vote results when each is released. They compare patterns carefully, follow one promise through the people, votes, budgets, approvals, and time it may require, and identify ways people can continue to influence public decisions after election day.",
+        "summary": "Students use the Newsroom to read official BC provincial results and CIVIX Student Vote results when each is released. They compare patterns carefully, follow one promise through the people, votes, budgets, approvals, and time it may require, and identify ways people can continue to influence public decisions after election day.",
         "learningArc": [
           {
-            "timing": "Oct. 17",
+            "timing": "Oct. 24",
             "label": "Election day",
-            "studentAction": "Notice which Surrey offices are being elected and wait for official, dated results rather than reposting early claims or guesses.",
+            "studentAction": "Notice which BC provincial offices are being elected and wait for official, dated results rather than reposting early claims or guesses.",
             "outcome": "Students understand that result status and source matter."
           },
           {
-            "timing": "Oct. 19",
+            "timing": "Oct. 26",
             "label": "Read the results",
-            "studentAction": "Open the official Surrey results and record office, names, totals or shares, result status, source, and update time.",
-            "outcome": "The class builds an accurate result record for mayor, council, and school trustees."
+            "studentAction": "Open the official BC provincial results and record office, names, totals or shares, result status, source, and update time.",
+            "outcome": "The class builds an accurate result record for MLAs."
           },
           {
-            "timing": "Oct. 20",
+            "timing": "Oct. 27",
             "label": "Compare carefully",
             "studentAction": "Compare official and Student Vote results when both are available; describe a pattern without guessing why it happened.",
             "outcome": "Students separate numerical patterns from unsupported explanations about voters."
           },
           {
-            "timing": "Oct. 21–22",
+            "timing": "Oct. 28–29",
             "label": "Follow a promise",
-            "studentAction": "Trace one promise through the council or board decision, staff work, budget, other approvals, public input, and time it may require.",
+            "studentAction": "Trace one promise through the Legislature decision, staff work, budget, other approvals, public input, and time it may require.",
             "outcome": "Winning an election is distinguished from having unlimited or immediate power."
           },
           {
-            "timing": "Oct. 23",
+            "timing": "Oct. 30",
             "label": "Keep participating",
             "studentAction": "Choose one respectful next action a young person could take: follow a meeting, ask a question, write, verify, speak, create, volunteer, or revisit the evidence.",
             "outcome": "Democratic participation continues between elections."
@@ -2807,8 +2974,8 @@
         "label": "STUDENT PATH",
         "title": "Results are the beginning, not the end",
         "why": "Election results tell us who was chosen. They do not prove why everyone voted, and they do not give one winner unlimited power.",
-        "summary": "Read official Surrey results, compare them with Student Vote results when available, follow one promise through the real decision path, and choose a way young people can keep participating.",
-        "duration": "Oct. 17–23",
+        "summary": "Read official BC provincial results, compare them with Student Vote results when available, follow one promise through the real decision path, and choose a way young people can keep participating.",
+        "duration": "Oct. 26–30",
         "grouping": "Whole class, pairs, and teams; one short personal next-step reflection",
         "routeTitle": "Verify, describe, compare, trace, continue",
         "bring": [
@@ -2824,11 +2991,11 @@
           "missed": "Ask for the official result source and one promise. Add one accurate pattern and one next step the promise would require."
         },
         "steps": [
-          "Verify: use the official Surrey result and record when it was updated.",
+          "Verify: use the official BC provincial result and record when it was updated.",
           "Describe: state one result pattern without guessing why people voted.",
           "Compare: add Student Vote results when released and name one similarity or difference.",
           "Trace: follow one promise through the people, collective vote, money, approvals, public input, and time it needs.",
-          "Question: identify what should be checked at a future council or Board meeting.",
+          "Question: identify what should be checked at a future Legislature meeting.",
           "Continue: choose one respectful way a young person can follow or influence the issue."
         ],
         "choices": [
@@ -2844,9 +3011,9 @@
       },
       "family": {
         "label": "FAMILY WINDOW",
-        "title": "After Surrey votes: results, limits, and next steps",
-        "summary": "Students read official Surrey election results and CIVIX Student Vote results when they become available. They practise describing numerical patterns carefully, then investigate what an elected mayor, councillor, or trustee must do with other people before a promise becomes a decision.",
-        "whyThisMatters": "Winning an election grants a public role, not unlimited power. Council and the Board of Education make collective decisions, and many proposals also require staff work, budgets, approvals, public input, and time.",
+        "title": "After BC provincial votes: results, limits, and next steps",
+        "summary": "Students read official BC provincial election results and CIVIX Student Vote results when they become available. They practise describing numerical patterns carefully, then investigate what an elected MLA must do with other people before a promise becomes a decision.",
+        "whyThisMatters": "Winning an election grants a public role, not unlimited power. The Legislature makes collective decisions, and many proposals also require staff work, budgets, approvals, public input, and time.",
         "whatStudentsDo": "Students verify the result source and status, compare official and Student Vote patterns without guessing at voters' motives, follow one earlier promise through a decision pathway, and identify ways participation continues after election day.",
         "quickReference": {
           "atSchool": "Students read results, compare patterns, trace one promise into the real public process, and ask what should be followed next.",
@@ -2860,23 +3027,23 @@
         "groupAndIndividualEvidence": "Pairs and teams make source and decision reasoning visible. A short individual next step may show personal agency without recording a political preference.",
         "milestones": [
           {
-            "date": "Oct. 17",
-            "label": "Surrey municipal and school-board election day",
+            "date": "Oct. 24",
+            "label": "BC provincial provincial election day",
             "shortLabel": "Election day"
           },
           {
             "date": "When released",
-            "label": "Official Surrey results and CIVIX Student Vote results become class sources",
+            "label": "Official BC provincial results and CIVIX Student Vote results become class sources",
             "shortLabel": "Results released"
           },
           {
-            "date": "Oct. 19–22",
+            "date": "Oct. 26–30",
             "label": "Results comparison and promise pathway investigation",
             "shortLabel": "What happens next?"
           },
           {
-            "date": "Oct. 22",
-            "label": "Participation and future Newsroom question before Friday’s non-instructional day",
+            "date": "Oct. 29",
+            "label": "Participation and future Newsroom question after the election",
             "shortLabel": "Keep participating"
           }
         ],
@@ -2895,5 +3062,5 @@
       }
     }
   ],
-  "checksum": "sha256:e3b0f834610492713bf808d9e04c76f9c092dcdbea54fb5f5d03bc9eb0f20b66"
+  "checksum": "sha256:6e1e07d2a0615d0f006465a72cbe845774c800d2809353637f4d307c0b8e120f"
 }
