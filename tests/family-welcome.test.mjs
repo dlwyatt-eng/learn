@@ -85,9 +85,10 @@ test('dated class copy ages honestly and civic learning keeps the two votes dist
   assert.match(nextDay,/Learning milestones · no family action needed/);
   assert.match(nextDay,/October 17:.*Surrey votes for/);
   assert.match(nextDay,/October 24:.*B\.C\. votes for/);
-  assert.match(nextDay,/planned Student Vote focus is the B.C. provincial election/);
-  assert.match(nextDay,/classroom date, registration and arrangements still need confirmation/);
-  assert.match(nextDay,/A municipal classroom ballot is not confirmed/);
+  assert.match(nextDay,/planned provincial Student Vote is Thursday October 22, 2026/);
+  assert.match(nextDay,/exact class time is pending and registration is not confirmed here/);
+  assert.match(nextDay,/school ballot district and full candidate roster still need verification/);
+  assert.match(nextDay,/No municipal Student Vote is planned/);
   assert.doesNotMatch(nextDay,/Oct. 13–15|By Oct. 16/);
   assert.match(render('home','2026-10-06'),/CURRENT SOURCE · CHECKED OCT\.? 6/);
   assert.match(nextDay,/Equity learning/);

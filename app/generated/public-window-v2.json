@@ -2526,7 +2526,7 @@
         "eyebrow": "OCTOBER · COMPARE, CHECK, PREPARE",
         "title": "Before the vote: claims, responsibilities, and choices",
         "bigQuestion": "How can we compare election choices without confusing a persuasive promise with evidence that it can happen?",
-        "summary": "Tentative October learning: finish current work, then check claims and compare the responsibilities of Surrey local officials and B.C. MLAs. Division 8’s planned Student Vote focus is the B.C. provincial election; its classroom date, registration and arrangements still need confirmation. A civic hearing is an optional next step with no confirmed date. Municipal resources support comparison; a second classroom ballot is not confirmed.",
+        "summary": "Tentative October learning: finish current work, then check claims and compare the responsibilities of Surrey local officials and B.C. MLAs. Division 8’s planned Student Vote focus is the B.C. provincial election; the planned classroom date is Thursday October 22, 2026, exact class time is pending, and registration is not confirmed here. A civic hearing is an optional next step with no confirmed date. Municipal resources support comparison; no municipal Student Vote is planned.",
         "learningArc": [
           {
             "timing": "When ready",
@@ -2624,9 +2624,9 @@
         "label": "STUDENT PATH",
         "title": "Check the promise before the vote",
         "why": "Candidates use facts, opinions, claims, and promises to persuade voters. You can check the source, the office's real power, and the trade-offs before making up your own mind.",
-        "summary": "When your teacher chooses this learning, work with a partner to trace a claim and compare statements. A civic hearing is optional. Our planned Student Vote focus is the B.C. provincial election; the classroom date and arrangements are still to be confirmed.",
-        "duration": "October · timing to be confirmed",
-        "grouping": "Pairs and teams for investigation; whole class for the hearing; a private individual ballot",
+        "summary": "When your teacher chooses this learning, work with a partner to trace a claim and compare statements. A civic hearing is optional. Our planned Student Vote focus is the B.C. provincial election; Thursday October 22, 2026 is planned, with exact class time pending and registration not confirmed here.",
+        "duration": "Municipal inquiry is flexible; provincial Student Vote planned October 22, class time pending",
+        "grouping": "Pairs and teams for investigation; whole class for an optional hearing. Provincial voting is private.",
         "routeTitle": "Read, trace, compare, question, decide",
         "bring": [
           "One source detail you can point to",
@@ -2663,9 +2663,9 @@
       "family": {
         "label": "FAMILY WINDOW",
         "title": "Checking claims and comparing two levels of government",
-        "summary": "Tentative October learning: finish current work, then check claims and compare the responsibilities of Surrey local officials and B.C. MLAs. Division 8’s planned Student Vote focus is the B.C. provincial election; its classroom date, registration and arrangements still need confirmation. A civic hearing is an optional next step with no confirmed date. Municipal resources support comparison; a second classroom ballot is not confirmed.",
+        "summary": "Tentative October learning: finish current work, then check claims and compare the responsibilities of Surrey local officials and B.C. MLAs. Division 8’s planned Student Vote focus is the B.C. provincial election; the planned classroom date is Thursday October 22, 2026, exact class time is pending, and registration is not confirmed here. A civic hearing is an optional next step with no confirmed date. Municipal resources support comparison; no municipal Student Vote is planned.",
         "whyThisMatters": "A promise may sound clear while still requiring a council or Board of Education vote, a budget, provincial action, public input, or time. Students learn to check both the evidence and the limits of an elected role.",
-        "whatStudentsDo": "When selected by the teacher, pairs trace a campaign claim to its source and teams compare statements using the same questions. A civic hearing is proposed. The planned Student Vote focus is the B.C. provincial election, with the classroom date and arrangements still to be confirmed.",
+        "whatStudentsDo": "When selected by the teacher, pairs trace a campaign claim to its source and teams compare statements using the same questions. A civic hearing is proposed. The planned Student Vote focus is the B.C. provincial election, planned for Thursday October 22, 2026, with exact class time pending and registration not confirmed here.",
         "quickReference": {
           "atSchool": "Planned learning: check claims, compare local and provincial responsibilities, and ask questions. A civic hearing and provincial Student Vote remain subject to classroom readiness and confirmed arrangements.",
           "home": "No candidate research, political disclosure, or election homework is required.",
@@ -2683,9 +2683,9 @@
             "shortLabel": "Check, compare and question · tentative"
           },
           {
-            "date": "Date to be confirmed",
-            "label": "Planned B.C. provincial Student Vote; registration and classroom arrangements still to be confirmed. A municipal classroom ballot is not confirmed.",
-            "shortLabel": "Provincial Student Vote · date and arrangements to be confirmed"
+            "date": "Thursday October 22 — planned; time pending",
+            "label": "B.C. provincial Student Vote planned for Thursday October 22; class time pending and registration not confirmed here. No municipal Student Vote is planned.",
+            "shortLabel": "Provincial Student Vote · October 22 planned; class time pending"
           },
           {
             "date": "Oct. 17",
@@ -3067,5 +3067,5 @@
       }
     }
   ],
-  "checksum": "sha256:4971cdec8d7c3bbbdd5e7aada26371512078216deaf22f2a2a963ec73ee9d7b2"
+  "checksum": "sha256:e4905a84f568f8bda2c3fb996cb23b08e7a085b40729d5b1861acb65d2fec3f4"
 }
