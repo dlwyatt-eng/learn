@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-17-student-vote-prep",
+  "contentVersion": "2026-10-17-prime-factorization",
   "sourceUpdatedAt": "2026-10-17",
   "window": {
     "id": "september-opening",
@@ -1355,7 +1355,7 @@
     "recapTitle": "Our class learning",
     "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
     "nextTitle": "Our learning themes",
-    "next": "Planned learning for October 19–22 includes factors and factor pairs, clear explanations, Nevermoor, oral storytelling, party-poster comparisons and preparation for provincial Student Vote on Thursday October 22, and Career/Action Pack work. Tuesday tech 8:45–10:20 depends on laptop availability, with maths after recess. Wednesday has no student devices. No inequalities upload is required. Friday October 23 is a non-instructional day.",
+    "next": "Planned learning for October 19–22 includes prime factorization on Monday, followed by applications of factors, clear explanations, Nevermoor, oral storytelling, party-poster comparisons and preparation for provincial Student Vote on Thursday October 22, and Career/Action Pack work. Tuesday tech 8:45–10:20 depends on laptop availability, with maths after recess. Wednesday has no student devices. No inequalities upload is required. Friday October 23 is a non-instructional day.",
     "later": "Our timetable is flexible. We will adjust learning and finishing time as needed. Mr. Eckert teaches French during both prep blocks; Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning.",
     "reminders": [
       {
@@ -3067,5 +3067,5 @@
       }
     }
   ],
-  "checksum": "sha256:d0c59b71ef220fc52f20c23a09e29300a23efda9b53e9102f18381f98d05b079"
+  "checksum": "sha256:4971cdec8d7c3bbbdd5e7aada26371512078216deaf22f2a2a963ec73ee9d7b2"
 }
