@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-19-tuesday-laptops",
+  "contentVersion": "2026-10-19-family-summary",
   "sourceUpdatedAt": "2026-10-19",
   "window": {
     "id": "september-opening",
@@ -1355,8 +1355,8 @@
     "recapTitle": "Our class learning",
     "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
     "nextTitle": "Our learning themes",
-    "next": "Planned learning for October 19–22 includes prime factorization on Monday, followed by applications of factors, clear explanations, Nevermoor, oral storytelling, party-poster comparisons and preparation for provincial Student Vote on Thursday October 22, and Career/Action Pack work. Tuesday October 20 laptops are confirmed for 8:45–10:20, including a 30-minute party-poster comparison, with maths after recess. Wednesday has no student devices. No inequalities upload is required. Friday October 23 is a non-instructional day.",
-    "later": "Our timetable is flexible. We will adjust learning and finishing time as needed. Mr. Eckert teaches French during both prep blocks; Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning.",
+    "next": "Planned learning for October 19–22 includes prime factorization on Monday, followed by applications of factors, clear explanations, Nevermoor, oral storytelling, party-poster comparisons and preparation for provincial Student Vote on Thursday October 22, and Career/Action Pack work. Friday October 23 is a non-instructional day.",
+    "later": "Learning plans may adjust as students need more time. Check the planner and school notices for take-home reminders.",
     "reminders": [
       {
         "title": "Thursday, October 22 · Provincial Student Vote",
@@ -1431,7 +1431,7 @@
       },
       {
         "title": "Understanding learning and reports",
-        "url": "https://surreyschoolsone.ca/teachers/csl/parent-resources/",
+        "url": "https://surreyschoolsone.ca/csl/parent-resources/",
         "description": "Surrey Schools resources to help families understand learning updates and assessment."
       },
       {
@@ -3067,5 +3067,5 @@
       }
     }
   ],
-  "checksum": "sha256:ca301dd000ccf00313967593a67eb303f755d6578b6528cad5bf7a4177b50f2f"
+  "checksum": "sha256:8a315b89045befb258a082ad84724772d9230ad2b005d8f9c251b959f2caaee0"
 }

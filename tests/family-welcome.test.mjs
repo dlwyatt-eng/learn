@@ -61,17 +61,35 @@ test('confirmed school dates render on home and families, preserve times, and ex
   assert.equal(manifest.schoolEvents.find(item=>item.id==='food-drive').date,null);
 });
 
-test('class schedule reaches families and students, then retires its dated week',()=>{
-  for(const route of ['home','families','students']) {
-    const html=render(route,'2026-10-05');
-    for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','PE','11:10–11:50 am','Core French','Mr. Eckert','Mr. Wyatt']) assert.ok(html.includes(text),route+': '+text);
-    assert.doesNotMatch(html,/French\/Health/);
-    const afterWeek=render(route,'2026-10-10');
-    assert.doesNotMatch(afterWeek,/Week of October 5–9/);
-    assert.match(afterWeek,/Weekly times to remember/);
+test('classroom logistics stay on the student page, not parent arrival pages',()=>{
+  const students=render('students','2026-10-19');
+  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','laptops are confirmed']) assert.ok(students.includes(text),text);
+  for(const route of ['home','families']) {
+    const html=render(route,'2026-10-19');
+    assert.doesNotMatch(html,/Our class routines|Weekly times to remember|laptops are confirmed|student devices|after recess|prep blocks|Mr\. Eckert/);
+    for(const text of ['prime factorization','Nevermoor','Photo retakes','Non-instructional day','Optional home practice']) assert.ok(html.includes(text),route+': '+text);
   }
   assert.match(render('students','2026-09-29'),/School dates/);
   assert.match(render('families','2026-09-29'),/No purchase is needed/);
+});
+
+test('contact entry points work without an installed email handler',()=>{
+  for(const route of ['home','families','students']) assert.match(render(route,'2026-10-19'),/href="\/guide#contact"/);
+  const html=render('guide','2026-10-19');
+  assert.match(html,/id="contact"/);
+  assert.match(html,/href="mailto:wyatt_daryl@surreyschools.ca"/);
+  assert.match(html,/value="wyatt_daryl@surreyschools.ca"/);
+  assert.match(html,/Copy email address/);
+  assert.match(html,/If nothing opens, copy the address/);
+});
+
+test('family arrival prioritizes helpful guidance and uses dedicated welcome art',()=>{
+  const home=render('home','2026-10-19');
+  assert.match(home,/family-welcome-learning-v1.webp/);
+  const hero=home.match(/<section class="current-hero">[\s\S]*?<\/section>/)?.[0];
+  assert.doesNotMatch(hero,/Whole class, pairs|CIVIX BC elementary resources/);
+  const family=render('families','2026-10-19');
+  assert.ok(family.indexOf('How to help')<family.indexOf('Useful family links'));
 });
 
 test('dated class copy ages honestly and civic learning keeps the two votes distinct',()=>{

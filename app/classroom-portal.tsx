@@ -4,7 +4,7 @@ import RightsStrand, { RightsEntry } from "./rights-strand";
 import HomeworkPage, { HomeworkDoorway } from "./homework-page";
 import TruthFamilyPage, { TruthLearningLink } from "./truth-family-page";
 import { ExplorationRevisits } from "./virtual-explorations";
-import { useEffect, useState, type MouseEvent } from "react";
+import { useEffect, useRef, useState, type MouseEvent } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import publicWindowManifest from "./generated/public-window-v2.json";
@@ -134,7 +134,7 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
       <footer className="site-footer compact-footer">
         <div><strong>Mr. Wyatt&apos;s Grade 6</strong><span>Walnut Road Elementary · Division 8 · 2026–27</span></div>
         <nav aria-label="Footer links">
-          <a href={emailUrl}>Email</a>
+          <Link href="/guide#contact">Contact</Link>
           <a href={schoolUrl} target="_blank" rel="noreferrer">School site ↗</a>
           {spacesPending ? <Link href="/portfolio">SpacesEDU setup</Link> : <a href={spacesUrl} target="_blank" rel="noreferrer">SpacesEDU Canada ↗</a>}
           <Link href="/guide">Classroom help</Link>
@@ -190,7 +190,7 @@ function FamilyLinks() {
   return <section className="family-links" aria-labelledby="family-links-title">
     <header><h2 id="family-links-title">Useful family links</h2><p>Payments, school updates, and support for home.</p></header>
     <div>{welcome.familyLinks.map(item => <a key={item.url} href={item.url} target="_blank" rel="noreferrer"><h3>{item.title} ↗</h3><p>{item.description}</p></a>)}</div>
-    <aside className="family-links-note" aria-label={welcome.volunteerInvitation.title}><h3>{welcome.volunteerInvitation.title}</h3><p>{welcome.volunteerInvitation.text}</p><a className="family-reminder-link" href={emailUrl}>{welcome.volunteerInvitation.linkLabel}</a></aside>
+    <aside className="family-links-note" aria-label={welcome.volunteerInvitation.title}><h3>{welcome.volunteerInvitation.title}</h3><p>{welcome.volunteerInvitation.text}</p><Link className="family-reminder-link" href="/guide#contact">Contact Mr. Wyatt about volunteering</Link></aside>
   </section>;
 }
 function SpacesStatus({showLink=true}:{showLink?:boolean}) {
@@ -201,22 +201,18 @@ function SpacesStatus({showLink=true}:{showLink?:boolean}) {
 function HomePage() {
   return <main className="public-home">
     <section className="current-hero">
-      <figure data-fit={isDiscoveryWindow ? "contain" : "cover"}><Image unoptimized src={current.shared.visual.src} alt={current.shared.visual.alt} fill priority sizes="(max-width: 1050px) 100vw, 55vw" /><figcaption>{current.shared.visual.caption}</figcaption></figure>
+      <figure className="family-welcome-art"><Image unoptimized src="/images/family-welcome-learning-v1.webp" alt="A sunlit reading nook with books and plants overlooking evergreen trees and mountains." width={1448} height={1086} priority sizes="(max-width: 1050px) 100vw, 46vw" /><figcaption>Illustration · A place to learn and grow</figcaption></figure>
       <div className="current-hero-copy">
         <p className="eyebrow">{windowStateLabel()} · {formatWindowDates()}</p>
         <h1>{welcome.title}</h1>
         <p className="welcome-class">{welcome.classLabel} · {welcome.location}</p>
         <p>{welcome.intro}</p>
         <div className="first-action"><small>OUR CURRENT FOCUS</small><p>{current.shared.title}</p></div>
-        <div className="status-pills" aria-label="Quick facts">
-          <span>{current.student.duration}</span><span>{compactGrouping()}</span>
-        </div>
         <div className="hero-buttons">
           <Link href="/families">Start here, families →</Link>
           <Link href="/students" className="secondary">Student page</Link>
           {publicWindowManifest.schoolEvents.some(item => item.date ? item.date >= today : item.month >= today.slice(0, 7)) && <Link href="/#school-dates-title" className="secondary">School dates</Link>}
-          <a href={emailUrl} className="secondary">Email Mr. Wyatt</a>
-          <ResourceDownload compact />
+          <Link href="/guide#contact" className="secondary">Contact Mr. Wyatt</Link>
         </div>
       </div>
     </section>
@@ -224,7 +220,6 @@ function HomePage() {
     <WeekReminders />
     <HomeworkDoorway />
     <WelcomeUpdate />
-    <ClassSchedule />
     <FamilyReminders />
     <FamilyLinks />
     <SchoolDates />
@@ -243,7 +238,7 @@ function HomePage() {
     <section className="official-link-row" aria-label="Useful official links">
       {spacesPending ? <Link href="/portfolio"><small>PORTFOLIO</small><strong>SpacesEDU · setup update →</strong></Link> : <a href={spacesUrl} target="_blank" rel="noreferrer"><small>PORTFOLIO</small><strong>SpacesEDU Canada ↗</strong></a>}
       <a href={schoolUrl} target="_blank" rel="noreferrer"><small>SCHOOL</small><strong>Walnut Road Elementary ↗</strong></a>
-      <a href={emailUrl}><small>CONTACT</small><strong>Email Mr. Wyatt</strong></a>
+      <Link href="/guide#contact"><small>CONTACT</small><strong>Contact Mr. Wyatt</strong></Link>
     </section>
   </main>;
 }
@@ -331,17 +326,10 @@ function FamilyPage() {
         <p className="welcome-class">{welcome.classLabel} · {welcome.location}</p>
         <div className="status-pills"><span>{assessmentStatus()}</span><span>{current.student.duration}</span></div>
       </div>
-      <ResourceDownload />
+      <div className="family-arrival-links"><Link href="/guide#contact">Contact Mr. Wyatt →</Link><Link href="/homework">Optional home practice →</Link></div>
     </section>
 
     <WeekReminders />
-    <ClassSchedule />
-    <FamilyReminders />
-    <FamilyLinks />
-    <SchoolDates />
-    <SpacesStatus />
-    <HomeworkDoorway />
-    <WelcomeUpdate />
     <section className="family-priority-grid">
       <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.label}</span></li>)}</ol></article>
       <article><small>AT SCHOOL</small><h2>Our classroom focus</h2><p>{current.family.quickReference.atSchool}</p></article>
@@ -349,6 +337,13 @@ function FamilyPage() {
       <article><small>ASSESSMENT</small><h2>{assessmentStatus()}</h2><p>{current.family.quickReference.assessment}</p></article>
       <article className="family-product"><small>WHAT STUDENTS MAKE OR SHOW</small><h2>What students make</h2><p>{current.family.product}</p></article>
     </section>
+    <FamilyReminders />
+    <FamilyLinks />
+    <SchoolDates />
+    <SpacesStatus />
+    <HomeworkDoorway />
+    <WelcomeUpdate />
+
 
     {today >= "2026-09-23" && today <= "2026-10-24" && <section className="family-election-note" aria-labelledby="family-election-title">
       <h2 id="family-election-title">Two elections, two levels of government</h2>
@@ -376,7 +371,7 @@ function FamilyPage() {
     <section className="family-utilities">
       <div><small>STAY IN TOUCH</small><h2>Planners and school email</h2><p>Use the planner for take-home reminders and email Mr. Wyatt with questions or to arrange a conversation. Replies happen during school days, not through this page; for time-sensitive matters, contact the school office. Check the planner for additional class reminders.</p><p>{spacesPending ? welcome.spaces.message : current.family.quickReference.spaces}</p></div>
       <nav aria-label="Family contact and official links">
-        <a href={emailUrl}><strong>Email Mr. Wyatt</strong><span>{emailAddress}</span></a>
+        <Link href="/guide#contact"><strong>Contact Mr. Wyatt</strong><span>{emailAddress} · email and copy options →</span></Link>
         <a href={schoolUrl} target="_blank" rel="noreferrer"><strong>Walnut Road Elementary</strong><span>Official school site ↗</span></a>
         <a href={schoolCalendarUrl} target="_blank" rel="noreferrer"><strong>Surrey Schools calendar</strong><span>District dates ↗</span></a>
         <Link href="/guide"><strong>Classroom help</strong><span>Homework, absences, and expectations →</span></Link>
@@ -447,7 +442,7 @@ function GuidePage() {
       {guideSections.map((section, index) => <article key={section.title}><span>{String(index + 1).padStart(2, "0")}</span><div><small>{section.title.toUpperCase()}</small><h2>{section.lead}</h2>{section.items.map(item => <p key={item}>{publicGuideItem(item)}</p>)}</div></article>)}
     </section>
 
-    <section className="contact-action-card"><div><small>CONTACT MR. WYATT</small><h2>Questions or concerns?</h2><p>Use school email to arrange a conversation or ask what matters most after an absence.</p></div><a href={emailUrl}>{emailAddress}</a></section>
+    <EmailContact />
 
     <section className="official-link-row" aria-label="Official links">
       <a href={schoolUrl} target="_blank" rel="noreferrer"><small>SCHOOL</small><strong>Walnut Road Elementary ↗</strong></a>
@@ -455,6 +450,32 @@ function GuidePage() {
       {spacesPending ? <Link href="/portfolio"><small>PORTFOLIO</small><strong>SpacesEDU · setup update →</strong></Link> : <a href={spacesUrl} target="_blank" rel="noreferrer"><small>PORTFOLIO</small><strong>SpacesEDU Canada ↗</strong></a>}
     </section>
   </main>;
+}
+
+function EmailContact() {
+  const addressInput = useRef<HTMLInputElement>(null);
+  const [copyStatus, setCopyStatus] = useState("");
+  async function copyEmail() {
+    try {
+      if (!navigator.clipboard?.writeText) throw new Error("Clipboard unavailable");
+      await navigator.clipboard.writeText(emailAddress);
+      setCopyStatus("Email address copied. Paste it into your email service.");
+    } catch {
+      addressInput.current?.focus();
+      addressInput.current?.select();
+      setCopyStatus("The address is selected. Choose Copy, then paste it into your email service.");
+    }
+  }
+  return <section id="contact" className="email-contact" aria-labelledby="contact-title">
+    <div><small>CONTACT MR. WYATT</small><h2 id="contact-title">Questions or concerns?</h2><p>Use school email to ask a question or arrange a conversation. For time-sensitive matters or absences, contact the school office.</p></div>
+    <div className="email-contact-options">
+      <label htmlFor="teacher-email">School email address</label>
+      <input id="teacher-email" ref={addressInput} value={emailAddress} readOnly onFocus={event => event.currentTarget.select()} />
+      <div className="email-contact-buttons"><a href={emailUrl}>Open email app</a><button type="button" onClick={copyEmail}>Copy email address</button></div>
+      <p className="email-contact-help">The email link opens your device’s email app. If nothing opens, copy the address into Gmail, Outlook or your preferred email service.</p>
+      <p className="email-copy-status" role="status" aria-live="polite">{copyStatus}</p>
+    </div>
+  </section>;
 }
 
 function ResourceDownload({ compact = false }: { compact?: boolean }) {
