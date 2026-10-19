@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-17-prime-factorization",
-  "sourceUpdatedAt": "2026-10-17",
+  "contentVersion": "2026-10-19-tuesday-laptops",
+  "sourceUpdatedAt": "2026-10-19",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,7 +1347,7 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "October 17, 2026",
+    "updatedOn": "October 19, 2026",
     "classLabel": "Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Division 8 community",
@@ -1355,7 +1355,7 @@
     "recapTitle": "Our class learning",
     "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
     "nextTitle": "Our learning themes",
-    "next": "Planned learning for October 19–22 includes prime factorization on Monday, followed by applications of factors, clear explanations, Nevermoor, oral storytelling, party-poster comparisons and preparation for provincial Student Vote on Thursday October 22, and Career/Action Pack work. Tuesday tech 8:45–10:20 depends on laptop availability, with maths after recess. Wednesday has no student devices. No inequalities upload is required. Friday October 23 is a non-instructional day.",
+    "next": "Planned learning for October 19–22 includes prime factorization on Monday, followed by applications of factors, clear explanations, Nevermoor, oral storytelling, party-poster comparisons and preparation for provincial Student Vote on Thursday October 22, and Career/Action Pack work. Tuesday October 20 laptops are confirmed for 8:45–10:20, including a 30-minute party-poster comparison, with maths after recess. Wednesday has no student devices. No inequalities upload is required. Friday October 23 is a non-instructional day.",
     "later": "Our timetable is flexible. We will adjust learning and finishing time as needed. Mr. Eckert teaches French during both prep blocks; Mr. Wyatt teaches Physical and Health Education, including PE and classroom health learning.",
     "reminders": [
       {
@@ -1594,7 +1594,7 @@
     }
   ],
   "classSchedule": {
-    "updatedOn": "October 17, 2026",
+    "updatedOn": "October 19, 2026",
     "weekOf": "October 19–23",
     "through": "2026-10-23",
     "days": [],
@@ -1630,7 +1630,7 @@
         "time": "11:10–11:50 am"
       }
     ],
-    "note": "Four-day learning week: Friday October 23 is non-instructional. Tuesday tech 8:45–10:20 am depends on laptops, with maths after recess. Wednesday storytelling 9:00–10:20 am, maths after recess and no student devices. Thursday library 9:20–9:35 and shared PE 11:10–11:50. Regular Friday blocks do not run October 23. Mr. Eckert teaches French only; Mr. Wyatt teaches PHE. Learning blocks may adjust."
+    "note": "Four-day learning week: Friday October 23 is non-instructional. Tuesday October 20 laptops are confirmed for 8:45–10:20 am, including a 30-minute party-poster comparison, with maths after recess. Wednesday storytelling 9:00–10:20 am, maths after recess and no student devices. Thursday library 9:20–9:35 and shared PE 11:10–11:50. Regular Friday blocks do not run October 23. Mr. Eckert teaches French only; Mr. Wyatt teaches PHE. Learning blocks may adjust."
   },
   "homePractice": {
     "updatedOn": "October 8, 2026",
@@ -3067,5 +3067,5 @@
       }
     }
   ],
-  "checksum": "sha256:e4905a84f568f8bda2c3fb996cb23b08e7a085b40729d5b1861acb65d2fec3f4"
+  "checksum": "sha256:ca301dd000ccf00313967593a67eb303f755d6578b6528cad5bf7a4177b50f2f"
 }
