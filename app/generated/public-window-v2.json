@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-10-19-family-summary",
-  "sourceUpdatedAt": "2026-10-19",
+  "contentVersion": "2026-10-20-wednesday-plan",
+  "sourceUpdatedAt": "2026-10-20",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -1347,7 +1347,7 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "October 19, 2026",
+    "updatedOn": "October 20, 2026",
     "classLabel": "Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Division 8 community",
@@ -1355,12 +1355,12 @@
     "recapTitle": "Our class learning",
     "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
     "nextTitle": "Our learning themes",
-    "next": "Planned learning for October 19–22 includes prime factorization on Monday, followed by applications of factors, clear explanations, Nevermoor, oral storytelling, party-poster comparisons and preparation for provincial Student Vote on Thursday October 22, and Career/Action Pack work. Friday October 23 is a non-instructional day.",
+    "next": "Planned learning for October 21–22 includes the first prime factorization lesson, Nevermoor, oral storytelling and supported writing. Halloween decoration choices may begin Wednesday if materials are ready, with more art time prioritized Thursday and finishing time likely needed next week. Provincial Student Vote remains planned for Thursday October 22. Friday October 23 is a non-instructional day.",
     "later": "Learning plans may adjust as students need more time. Check the planner and school notices for take-home reminders.",
     "reminders": [
       {
         "title": "Thursday, October 22 · Provincial Student Vote",
-        "text": "Students prepare through party posters, local-candidate learning and ballot practice. Class voting time is pending. No municipal Student Vote is planned."
+        "text": "Students prepare through party posters and ballot practice. Class voting time is pending. No municipal Student Vote is planned."
       },
       {
         "title": "Friday, October 23 · Non-instructional day",
@@ -1594,7 +1594,7 @@
     }
   ],
   "classSchedule": {
-    "updatedOn": "October 19, 2026",
+    "updatedOn": "October 20, 2026",
     "weekOf": "October 19–23",
     "through": "2026-10-23",
     "days": [],
@@ -1630,7 +1630,7 @@
         "time": "11:10–11:50 am"
       }
     ],
-    "note": "Four-day learning week: Friday October 23 is non-instructional. Tuesday October 20 laptops are confirmed for 8:45–10:20 am, including a 30-minute party-poster comparison, with maths after recess. Wednesday storytelling 9:00–10:20 am, maths after recess and no student devices. Thursday library 9:20–9:35 and shared PE 11:10–11:50. Regular Friday blocks do not run October 23. Mr. Eckert teaches French only; Mr. Wyatt teaches PHE. Learning blocks may adjust."
+    "note": "Four-day learning week: Friday October 23 is non-instructional. Wednesday October 21: storytelling 9:00–10:20 am; photo retakes when called; first prime-factorization lesson 10:50–11:50 am; quiet reset and Nevermoor 12:35–1:05 pm; supported writing/work 1:05–1:30 pm; Halloween decoration choices and a possible start 1:35–2:10 pm, otherwise more Nevermoor. No student devices are assumed. Thursday library 9:20–9:35 and shared PE 11:10–11:50 remain; prioritize more decoration time around fixed commitments. Regular Friday blocks do not run October 23. Mr. Eckert teaches French only; Mr. Wyatt teaches PHE. Learning blocks may adjust."
   },
   "homePractice": {
     "updatedOn": "October 8, 2026",
@@ -2721,7 +2721,7 @@
         "eyebrow": "OCTOBER · PREPARE FOR STUDENT VOTE",
         "title": "From party posters to an informed choice",
         "bigQuestion": "How can we compare proposals fairly and make an informed, independent choice?",
-        "summary": "Build on party posters already underway, compare proposals, learn about local candidates and prepare for provincial Student Vote on Thursday October 22. The class voting slot is pending; no municipal Student Vote is planned.",
+        "summary": "Build on party posters already underway, compare proposals and prepare for provincial Student Vote on Thursday October 22. The class voting slot is pending; no municipal Student Vote is planned.",
         "learningArc": [
           {
             "timing": "Oct. 19 · 30 min",
@@ -2734,12 +2734,6 @@
             "label": "Compare proposals",
             "studentAction": "Tuesday: visit every party poster. Record a proposal, who it might affect, and a question. Compare two parties on the same issue using sources.",
             "outcome": "Make a fair comparison supported by sources."
-          },
-          {
-            "timing": "Oct. 21 · 25 min",
-            "label": "Meet local candidates",
-            "studentAction": "Wednesday: use the district on the school ballot to identify local candidates and parties. Reflect privately on an issue that matters to you.",
-            "outcome": "Distinguish a local candidate from a party leader."
           },
           {
             "timing": "Oct. 22 · 10–15 min before voting",
@@ -2769,7 +2763,7 @@
         "subjectSnapshot": [
           {
             "subject": "Social Studies",
-            "now": "Provincial proposals, local candidates and secret ballots",
+            "now": "Provincial proposals and secret ballots",
             "why": "Make informed choices while respecting others' independence."
           },
           {
@@ -2788,10 +2782,10 @@
         "label": "STUDENT PATH",
         "title": "From party posters to an informed choice",
         "why": "How can we compare proposals fairly and make an informed, independent choice?",
-        "summary": "Build on party posters already underway, compare proposals, learn about local candidates and prepare for provincial Student Vote on Thursday October 22. The class voting slot is pending; no municipal Student Vote is planned.",
+        "summary": "Build on party posters already underway, compare proposals and prepare for provincial Student Vote on Thursday October 22. The class voting slot is pending; no municipal Student Vote is planned.",
         "duration": "October 19–22",
         "grouping": "Whole class, pairs, and teams; one short personal next-step reflection",
-        "routeTitle": "Check, compare, identify, vote",
+        "routeTitle": "Check, compare and vote",
         "bring": [
           "Your group poster",
           "Original sources",
@@ -2807,7 +2801,6 @@
         "steps": [
           "Monday: finish and source-check existing posters. Verify party, leader and three provincial proposals; distinguish the local candidate from the leader.",
           "Tuesday: visit every party poster. Record a proposal, who it might affect, and a question. Compare two parties on the same issue using sources.",
-          "Wednesday: use the district on the school ballot to identify local candidates and parties. Reflect privately on an issue that matters to you.",
           "Thursday: practise marking a sample ballot, then cast an independent secret vote at the assigned school time."
         ],
         "choices": [
@@ -2815,7 +2808,7 @@
           "Write, draw, point or explain orally.",
           "Keep your voting choice private."
         ],
-        "product": "A checked poster, comparison notes and a local-candidate table.",
+        "product": "A checked poster and comparison notes.",
         "finish": "Explain a sourced comparison and how a secret ballot works.",
         "handInOrSave": "Keep learning notes in class; no vote disclosure or extra upload.",
         "ifAbsentOrStuck": "Ask for two posters on the same issue and compare one proposal from each.",
@@ -2824,16 +2817,16 @@
       "family": {
         "label": "FAMILY WINDOW",
         "title": "From party posters to an informed choice",
-        "summary": "Build on party posters already underway, compare proposals, learn about local candidates and prepare for provincial Student Vote on Thursday October 22. The class voting slot is pending; no municipal Student Vote is planned.",
+        "summary": "Build on party posters already underway, compare proposals and prepare for provincial Student Vote on Thursday October 22. The class voting slot is pending; no municipal Student Vote is planned.",
         "whyThisMatters": "Students practise evidence-based comparison and respect independent choices.",
-        "whatStudentsDo": "Monday: finish and source-check existing posters. Verify party, leader and three provincial proposals; distinguish the local candidate from the leader. Tuesday: visit every party poster. Record a proposal, who it might affect, and a question. Compare two parties on the same issue using sources. Wednesday: use the district on the school ballot to identify local candidates and parties. Reflect privately on an issue that matters to you. Thursday: practise marking a sample ballot, then cast an independent secret vote at the assigned school time.",
+        "whatStudentsDo": "Monday: finish and source-check existing posters. Verify party, leader and three provincial proposals; distinguish the local candidate from the leader. Tuesday: visit every party poster. Record a proposal, who it might affect, and a question. Compare two parties on the same issue using sources. Thursday: practise marking a sample ballot, then cast an independent secret vote at the assigned school time.",
         "quickReference": {
-          "atSchool": "Check posters, compare proposals, identify candidates and practise voting.",
+          "atSchool": "Check posters, compare proposals and practise voting.",
           "home": "No election homework or disclosure of family voting is expected.",
           "assessment": "Source use, comparison and understanding of voting; never political preference.",
           "spaces": "No additional upload."
         },
-        "product": "A checked poster, comparison notes and a local-candidate table.",
+        "product": "A checked poster and comparison notes.",
         "assessment": "Evidence use, fair comparison and understanding the process.",
         "agreementNote": "Students and families keep voting choices private.",
         "groupAndIndividualEvidence": "Posters and comparisons show learning without recording ballot choices.",
@@ -2847,11 +2840,6 @@
             "date": "Oct. 20",
             "label": "Compare proposals",
             "shortLabel": "Compare proposals"
-          },
-          {
-            "date": "Oct. 21",
-            "label": "Meet local candidates",
-            "shortLabel": "Meet local candidates"
           },
           {
             "date": "Oct. 22",
@@ -3067,5 +3055,5 @@
       }
     }
   ],
-  "checksum": "sha256:8a315b89045befb258a082ad84724772d9230ad2b005d8f9c251b959f2caaee0"
+  "checksum": "sha256:6d0fec0271f077a362b9a366c080b3756dc33c299ac2d4a30808f14a31b6f4be"
 }

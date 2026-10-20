@@ -18,10 +18,10 @@ function render(route,date='2026-09-18') {
   return renderToStaticMarkup(React.createElement(load('app/classroom-portal.tsx').default,{route}));
 }
 
-test('family arrival shows current completed learning, next plans and take-home reminders',()=>{
+test('family arrival shows learning themes, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our class learning','Our learning themes','number sense','community questions','prime factorization on Monday','Matific','$5','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','Our class learning','Our learning themes','number sense','community questions','first prime factorization lesson','Matific','$5','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
@@ -62,8 +62,8 @@ test('confirmed school dates render on home and families, preserve times, and ex
 });
 
 test('classroom logistics stay on the student page, not parent arrival pages',()=>{
-  const students=render('students','2026-10-19');
-  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','laptops are confirmed']) assert.ok(students.includes(text),text);
+  const students=render('students','2026-10-21');
+  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','No student devices are assumed']) assert.ok(students.includes(text),text);
   for(const route of ['home','families']) {
     const html=render(route,'2026-10-19');
     assert.doesNotMatch(html,/Our class routines|Weekly times to remember|laptops are confirmed|student devices|after recess|prep blocks|Mr\. Eckert/);
