@@ -21,7 +21,7 @@ function render(route,date='2026-09-18') {
 test('family arrival shows learning themes, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our class learning','Our learning themes','number sense','community questions','first prime factorization lesson','Matific','$5','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','Our class learning','Our learning themes','number sense','community questions','Nevermoor','Halloween decorations','Career Education','Matific','$5','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
@@ -62,12 +62,12 @@ test('confirmed school dates render on home and families, preserve times, and ex
 });
 
 test('classroom logistics stay on the student page, not parent arrival pages',()=>{
-  const students=render('students','2026-10-21');
-  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','No student devices are assumed']) assert.ok(students.includes(text),text);
+  const students=render('students','2026-10-22');
+  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','computers for finishing current Career work']) assert.ok(students.includes(text),text);
   for(const route of ['home','families']) {
     const html=render(route,'2026-10-19');
-    assert.doesNotMatch(html,/Our class routines|Weekly times to remember|laptops are confirmed|student devices|after recess|prep blocks|Mr\. Eckert/);
-    for(const text of ['prime factorization','Nevermoor','Photo retakes','Non-instructional day','Optional home practice']) assert.ok(html.includes(text),route+': '+text);
+    assert.doesNotMatch(html,/Our class routines|Weekly times to remember|laptops are confirmed|student devices|computers for finishing|after recess|prep blocks|Mr\. Eckert/);
+    for(const text of ['Halloween decorations','Nevermoor','Career Education','Photo retakes','Non-instructional day','Optional home practice']) assert.ok(html.includes(text),route+': '+text);
   }
   assert.match(render('students','2026-09-29'),/School dates/);
   assert.match(render('families','2026-09-29'),/No purchase is needed/);
@@ -104,7 +104,7 @@ test('dated class copy ages honestly and civic learning keeps the two votes dist
   assert.match(nextDay,/October 17:.*Surrey votes for/);
   assert.match(nextDay,/October 24:.*B\.C\. votes for/);
   assert.match(nextDay,/planned provincial Student Vote is Thursday October 22, 2026/);
-  assert.match(nextDay,/exact class time is pending and registration is not confirmed here/);
+  assert.match(nextDay,/class voting start is confirmed for 12:50 pm and registration is not confirmed here/);
   assert.match(nextDay,/school ballot district and full candidate roster still need verification/);
   assert.match(nextDay,/No municipal Student Vote is planned/);
   assert.doesNotMatch(nextDay,/Oct. 13–15|By Oct. 16/);
