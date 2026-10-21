@@ -1633,33 +1633,33 @@
     "note": "Four-day learning week: Friday October 23 is non-instructional. Thursday October 22: Nevermoor 8:45–9:15 am; library 9:20–9:35; Halloween decorations 9:35–10:20 and 10:50–11:10; snack 10:20 and recess 10:35–10:50; PE 11:10–11:50; lunch 11:50–12:35; quiet reset 12:35–12:45; Student Vote preparation 12:45–12:50 and voting 12:50–1:10 (12:50 school start confirmed); computers for finishing current Career work 1:10–2:00; cleanup and community before dismissal at 2:35. Regular Friday blocks do not run October 23. Mr. Eckert teaches French only; Mr. Wyatt teaches PHE. Learning blocks may adjust."
   },
   "homePractice": {
-    "updatedOn": "October 8, 2026",
+    "updatedOn": "October 21, 2026",
     "policy": "Separate daily homework is not routinely assigned. This is optional practice for families who want a regular routine. Choose what is useful; there is no expectation to complete the whole menu or submit optional practice.",
     "unfinished": "Check your planner and the instructions Mr. Wyatt has given you. Finish only the small piece identified for you, using the support agreed at school. An unfinished class activity is not automatically homework. If you were absent or are unsure, ask where to begin.",
     "routine": "Read or listen for 10–15 minutes, then choose one short activity. Families wanting a longer routine can add a second choice, keeping the total around 30–40 minutes including reading, or less when needed. Spread choices across evenings or select a few for the weekend; do not save up a catch-up pile.",
     "stopRule": "Stop if the work is confusing, upsetting or taking much longer than expected. Let Mr. Wyatt know which part was difficult. Rest, play, family time and activities outside school matter too.",
     "access": "Use paper, drawings, spoken explanations or a language that helps you think. Every menu activity can be done without an online account. No purchase, AI tool or routine portfolio upload is required.",
     "week": {
-      "id": "2026-10-08",
-      "label": "Rounding, comparing numbers and explaining choices",
-      "from": "2026-10-08",
-      "through": "2026-10-18",
-      "connection": "Reusable optional practice: round numbers, compare whole numbers and decimals, and explain your choices. Choose familiar activities and repeat with your own numbers. Use paper, drawings or spoken explanations; no account or home upload is required.",
+      "id": "2026-10-19",
+      "label": "Read, practise factor trees and create",
+      "from": "2026-10-19",
+      "through": "2026-10-25",
+      "connection": "This week’s optional choices connect to reading, the factor trees we are using in class, and explaining creative choices. Pick one that is useful. These are not new assignments, and there is no routine upload or hand-in deadline.",
       "activities": [
         {
           "id": "math",
           "subject": "Math",
-          "title": "Round and explain what changes",
+          "title": "Factor trees or a familiar fact family",
           "time": "10 minutes",
-          "context": "Supported practice · rounding began in class",
-          "example": "Round 3.47 to the nearest tenth. It lies between 3.4 and 3.5; the halfway point is 3.45. It is closer to 3.5, so 3.47 rounds to 3.5. The original number is still 3.47.",
+          "context": "Optional practice · factor trees are being used in class",
+          "example": "For 12, split 12 = 3 × 4, then 4 = 2 × 2. The prime end factors are 2, 2 and 3. Keep both 2s: 2 × 2 × 3 = 12. A prime number has exactly two positive factors: 1 and itself; 1 is not prime.",
           "steps": [
-            "Round 6.284 to the nearest tenth. Name the two neighbouring tenths and explain which is nearer.",
-            "Round 2.305 to the nearest hundredth. Use the classroom convention: halfway rounds to the higher hundredth for these positive numbers.",
-            "If rounding is still unfamiliar, explain the value of each digit in 6.284 instead."
+            "Choose 18 or 24. Draw a factor tree, splitting composite numbers until every end number is prime.",
+            "Write all the prime end factors, including repeats, and multiply them to check your starting number.",
+            "Prefer a familiar fact family? Use 3 × 6 = 18 to say or write 6 × 3 = 18, 18 ÷ 3 = 6 and 18 ÷ 6 = 3. Explain how the same three numbers are connected."
           ],
-          "check": "6.284 lies between 6.2 and 6.3 and is nearer 6.3. 2.305 is halfway between 2.30 and 2.31, so it rounds to 2.31 using our convention. Place-value alternative: 6 ones, 2 tenths, 8 hundredths, 4 thousandths.",
-          "extension": "A measurement of 3.47 m is reported as 3.5 m. When might that be precise enough? When would you want the original measurement? Explain your choice."
+          "check": "18 = 2 × 3 × 3. 24 = 2 × 2 × 2 × 3. A different tree can be correct if it ends in the same prime factors and multiplies back to the starting number. In the fact-family option, multiplication and division undo each other.",
+          "extension": "Try a second tree for the same number using a different first split. Explain what changes and what stays the same."
         },
         {
           "id": "compare",
@@ -1811,6 +1811,11 @@
           "check": "Can you find the item you need? Choose one small next step; do not share private family information.",
           "extension": ""
         }
+      ],
+      "featuredIds": [
+        "reading",
+        "math",
+        "arts"
       ]
     },
     "districtResources": {
@@ -1882,14 +1887,14 @@
         "subject": "Math · extra practice & challenge",
         "href": "https://www.matific.com/ca/en-ca/login-page/",
         "description": "Optional extra maths practice and challenge using your school-provided account once access is working. Try a short session of around 10–15 minutes. Students who would like to work ahead may explore more challenging activities available in their account when ready. Explain your thinking and ask for help if a new idea is confusing. There is no required score, weekly target or extra submission. You do not need to buy a subscription or create a separate account.",
-        "offline": "Try the rounding or place-value activity above, then invent a harder example and explain your reasoning. If you cannot sign in, use this option and ask Mr. Wyatt at school."
+        "offline": "Try the factor-tree or fact-family choice above, or compare numbers from the reusable menu. If you cannot sign in, use this option and ask Mr. Wyatt at school."
       },
       {
         "title": "Prodigy Math",
         "subject": "Math",
         "href": "https://play.prodigygame.com/",
         "description": "Use school-provided login details when available. Choose familiar maths or practice your teacher identifies. A paid membership is not required for this menu.",
-        "offline": "Use the rounding or place-value activity above or explain a familiar problem on paper."
+        "offline": "Use the factor-tree or familiar fact-family choice above, or explain a familiar problem on paper."
       },
       {
         "title": "NoRedInk",
@@ -1909,8 +1914,8 @@
         "title": "Math Antics",
         "subject": "Math",
         "href": "https://mathantics.com/",
-        "description": "Optional explanation videos. Choose Place Value or Decimal Place Value when reviewing a familiar skill. The written model above is enough to begin.",
-        "offline": "Try the written example and questions above; no worksheet subscription is needed."
+        "description": "Optional explanation videos. Choose Prime Factorization to revisit the factor trees we are using, or a familiar topic such as Rounding. The written example above is enough to begin; no worksheet subscription is needed.",
+        "offline": "Use the written factor-tree model and checking guidance above. No video, account or purchase is needed."
       },
       {
         "title": "Truth and Reconciliation family guide",
@@ -3055,5 +3060,5 @@
       }
     }
   ],
-  "checksum": "sha256:4556d04bc1cb140118b11bad33e2eaf659a00c19cbb552dbb8c595451d506db3"
+  "checksum": "sha256:75d26c0bfd3b703535036b2525c2be8ba4fbdbef43393f92a25f7f75518873a0"
 }
