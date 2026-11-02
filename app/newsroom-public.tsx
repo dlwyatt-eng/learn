@@ -179,7 +179,7 @@ export default function NewsroomPublic({ newsroom }: { newsroom?: PublicNewsroom
     </details>}
 
     {newsroom.election && <section className="newsroom-election-window" id="surrey-election" aria-labelledby="surrey-election-window-title">
-      <header><span>LIVE SURREY CASE</span><strong id="surrey-election-window-title">{newsroom.election.title}</strong><em>Questions + official timeline</em></header>
+      <header><span>SURREY CIVIC SOURCE SET</span><strong id="surrey-election-window-title">{newsroom.election.title}</strong><em>Resource timeline · not a class schedule</em></header>
       <div><h2>{newsroom.election.question}</h2><ol>{newsroom.election.calendar.map(item => <li key={item.date}><b>{item.date}</b><span>{item.label}</span></li>)}</ol><nav aria-label="Official Surrey election sources">{newsroom.election.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><strong>{electionSourceLabel(source)}</strong><span>{source.organization}{source.dated ? ` · ${source.dated}` : ""} · OPEN ↗</span></a>)}</nav><blockquote>Talk at home: “{newsroom.election.familyPrompt}”</blockquote></div>
     </section>}
 

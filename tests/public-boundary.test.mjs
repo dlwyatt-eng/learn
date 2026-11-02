@@ -88,7 +88,7 @@ test("the current public window renders its purpose, finish, and products", () =
   assert.match(portal, /\{current\.student\.why\}/);
   assert.match(portal, /\{current\.student\.finish\}/);
   assert.match(portal, /\{current\.student\.product\}/);
-  assert.match(portal, /\{current\.family\.product\}/);
+  assert.match(portal, /current\.family\.product/);
   assert.doesNotMatch(portal, /<small>FINISH<\/small><strong>\{current\.student\.product\}/);
 });
 

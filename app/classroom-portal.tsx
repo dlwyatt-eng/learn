@@ -9,6 +9,7 @@ import Link from "next/link";
 import Image from "next/image";
 import publicWindowManifest from "./generated/public-window-v2.json";
 import { monthlyPublicWindowForDate } from "./monthly-public-window.mjs";
+import SubjectLearningUpdates, { learningUpdates, LearningUpdateSummary } from "./subject-learning-updates";
 import NewsroomPublic, { selectNewsroomFeature, SurreyElectionStrip, type PublicNewsroom } from "./newsroom-public";
 import { publicWindowState, selectPublicWindow, vancouverDateKey } from "./public-window-selection.mjs";
 
@@ -25,6 +26,7 @@ const today = vancouverDateKey();
 const current = selectPublicWindow(publicWindows, today)
   ?? (monthlyPublicWindowForDate(publicWindowManifest.yearMonths, publicWindowManifest.window, today) as PublicWindow | null)
   ?? (publicWindowManifest.window as PublicWindow);
+const isMonthlyWindow = current.id.startsWith("monthly-learning-");
 const isDiscoveryWindow = /discovery/i.test(current.shared.title)
   || /Grade_6_Discovery_Booklet\.pdf$/i.test(current.shared.primaryResource?.href ?? "");
 const isLegacyAiOpeningWindow = current.id === "september-opening" && /technology|\bAI\b/i.test(current.shared.title);
@@ -148,7 +150,7 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
 
 function WelcomeUpdate() {
   return <section className="welcome-update" aria-labelledby="welcome-update-title">
-    <header><small>CLASS UPDATE · {welcome.updatedOn}</small><h2 id="welcome-update-title">Getting settled, together</h2></header>
+    <header><small>CLASS UPDATE · {welcome.updatedOn}</small><h2 id="welcome-update-title">Our learning community</h2></header>
     {classUpdateIsOld && <p role="status" className="class-update-age">This class update was posted on {welcome.updatedOn}. Check the planner or school notices for changes to today’s plan.</p>}
     <div className="welcome-update-grid"><article><h3>{welcome.recapTitle}</h3><p>{welcome.recap}</p></article><article><h3>{classUpdateIsOld ? `Plan as of ${welcome.updatedOn}` : welcome.nextTitle}</h3><p>{welcome.next}</p></article></div>
     <p className="welcome-next"><strong>Looking ahead:</strong> {welcome.later}</p>
@@ -203,11 +205,11 @@ function HomePage() {
     <section className="current-hero">
       <figure className="family-welcome-art"><Image unoptimized src="/images/family-welcome-learning-v1.webp" alt="A sunlit reading nook with books and plants overlooking evergreen trees and mountains." width={1448} height={1086} priority sizes="(max-width: 1050px) 100vw, 46vw" /><figcaption>Illustration · A place to learn and grow</figcaption></figure>
       <div className="current-hero-copy">
-        <p className="eyebrow">{windowStateLabel()} · {formatWindowDates()}</p>
+        <p className="eyebrow">{isMonthlyWindow ? `LATEST CLASSROOM UPDATE · ${learningUpdates.updatedOn}` : `${windowStateLabel()} · ${formatWindowDates()}`}</p>
         <h1>{welcome.title}</h1>
         <p className="welcome-class">{welcome.classLabel} · {welcome.location}</p>
         <p>{welcome.intro}</p>
-        <div className="first-action"><small>OUR CURRENT FOCUS</small><p>{current.shared.title}</p></div>
+        <div className="first-action"><small>OUR LEARNING</small><p>{isMonthlyWindow ? learningUpdates.title : current.shared.title}</p><Link href="/learning#subject-now-title">Learning by subject →</Link></div>
         <div className="hero-buttons">
           <Link href="/families">Start here, families →</Link>
           <Link href="/students" className="secondary">Student page</Link>
@@ -226,10 +228,10 @@ function HomePage() {
     <SpacesStatus />
 
     <section className="home-glance" aria-label="At a glance">
-      <div className="key-dates-card">
+      {isMonthlyWindow ? <div className="key-dates-card"><header><small>LEARNING</small><h2>Recent, ongoing and planned</h2></header><p>{learningUpdates.summary}</p><Link href="/learning">Read the dated subject updates →</Link></div> : <div className="key-dates-card">
         <header><small>DATES</small><h2>Learning dates</h2></header>
         <ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.shortLabel ?? item.label}</span></li>)}</ol>
-      </div>
+      </div>}
       <NewsroomDoorway />
     </section>
 
@@ -244,6 +246,13 @@ function HomePage() {
 }
 
 function StudentPage() {
+  if (isMonthlyWindow) return <main className="content-page audience-page student-page">
+    <section className="functional-page-header"><p className="eyebrow">FOR STUDENTS</p><h1>Our classroom learning</h1><p>Use the Shape of the Day and your teacher’s instructions for today’s work. The public update is not a new assignment.</p></section>
+    <nav className="student-classroom-shortcuts" aria-label="Open our classroom"><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Morning+Screen&mode=student">Shape of the Day</a><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Home&mode=student">Classroom learning</a><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Math+Thinking+Routines&mode=student">Math thinking routines</a></nav>
+    <LearningUpdateSummary /><ClassSchedule /><SchoolDates /><HomeworkDoorway /><SpacesStatus />
+    <section className="student-next-grid"><article><small>CLASS WORK</small><h2>Your next step</h2><p>{publicWindowManifest.homePractice.unfinished}</p></article><article><small>NEED HELP?</small><h2>Ask where to begin</h2><p>Ask your teacher for the source, instructions and one useful next step. Use the support agreed at school.</p></article></section>
+    <TruthLearningLink /><RightsEntry href="#/rights" />
+  </main>;
   return <main className="content-page audience-page student-page">
     <nav className="student-classroom-shortcuts" aria-label="Open our classroom">
       <a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Morning+Screen&mode=student">Shape of the Day</a>
@@ -321,21 +330,21 @@ function FamilyPage() {
   return <main className="content-page audience-page family-page">
     <section className="family-dashboard-hero">
       <div>
-        <p className="eyebrow">{windowStateLabel()} · FOR FAMILIES</p>
-        <h1>{current.family.title}</h1>
+        <p className="eyebrow">{isMonthlyWindow ? 'LATEST CLASSROOM UPDATE' : windowStateLabel()} · FOR FAMILIES</p>
+        <h1>{isMonthlyWindow ? 'Learning in Division 8' : current.family.title}</h1>
         <p className="welcome-class">{welcome.classLabel} · {welcome.location}</p>
-        <div className="status-pills"><span>{assessmentStatus()}</span><span>{current.student.duration}</span></div>
+        <div className="status-pills"><span>{assessmentStatus()}</span><span>{isMonthlyWindow ? learningUpdates.updatedOn : current.student.duration}</span></div>
       </div>
       <div className="family-arrival-links"><Link href="/guide#contact">Contact Mr. Wyatt →</Link><Link href="/homework">Optional home practice →</Link></div>
     </section>
 
     <WeekReminders />
     <section className="family-priority-grid">
-      <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.label}</span></li>)}</ol></article>
-      <article><small>AT SCHOOL</small><h2>Our classroom focus</h2><p>{current.family.quickReference.atSchool}</p></article>
-      <article><small>AT HOME</small><h2>How to help</h2><p>{current.family.quickReference.home}</p></article>
+      {isMonthlyWindow ? <article className="family-dates"><small>UPDATED {learningUpdates.updatedOn}</small><h2>Learning by subject</h2><p>See what is ongoing, recent or planned. An unconfirmed focus is labelled clearly.</p><Link href="/learning#subject-now-title">Open all subject updates →</Link></article> : <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.label}</span></li>)}</ol></article>}
+      <article><small>AT SCHOOL</small><h2>Our classroom focus</h2><p>{isMonthlyWindow ? learningUpdates.summary : current.family.quickReference.atSchool}</p></article>
+      <article><small>AT HOME</small><h2>How to help</h2><p>{isMonthlyWindow ? publicWindowManifest.homePractice.policy : current.family.quickReference.home}</p></article>
       <article><small>ASSESSMENT</small><h2>{assessmentStatus()}</h2><p>{current.family.quickReference.assessment}</p></article>
-      <article className="family-product"><small>WHAT STUDENTS MAKE OR SHOW</small><h2>What students make</h2><p>{current.family.product}</p></article>
+      <article className="family-product"><small>{isMonthlyWindow ? 'PLANS AND PROGRESS' : 'WHAT STUDENTS MAKE OR SHOW'}</small><h2>{isMonthlyWindow ? 'Follow actual classroom progress' : 'What students make'}</h2><p>{isMonthlyWindow ? learningUpdates.note : current.family.product}</p></article>
     </section>
     <FamilyReminders />
     <FamilyLinks />
@@ -385,17 +394,15 @@ function LearningPage() {
     <section className="functional-page-header">
       <p className="eyebrow">WHAT WE&apos;RE LEARNING · 2026–27</p>
       <h1>Now and across the year</h1>
-      <p><strong>{windowStateLabel()}:</strong> {current.shared.title}</p>
+      <p>Distinct subject updates from our latest confirmed classroom context. Plans stay labelled as plans.</p>
     </section>
 
     <figure className="learning-mosaic"><Image unoptimized src="/images/public-student-learning-mosaic-v1.webp" alt="Fictional classroom panorama of Grade 6 students observing an object and photograph, discussing ideas, building a model, moving, and reading together" width={1792} height={1008} sizes="(max-width: 1180px) 100vw, 1180px" /><figcaption>ILLUSTRATION · OBSERVATION, DISCUSSION, MODEL-MAKING, MOVEMENT, AND READING</figcaption></figure>
 
     <TruthLearningLink />
     <RightsEntry href="#/rights" />
-    <section className="subject-now-grid" aria-labelledby="subject-now-title">
-      <header><small>RIGHT NOW</small><h2 id="subject-now-title">Learning by subject</h2></header>
-      <div>{current.shared.subjectSnapshot.map(item => <article key={item.subject}><small>{item.subject}</small><h3>{item.now}</h3></article>)}</div>
-    </section>
+    <SubjectLearningUpdates />
+    {isMonthlyWindow && <details className="compact-disclosure monthly-outlook"><summary>Flexible monthly outlook · not the daily plan</summary><h2>{current.shared.title}</h2><p>{current.shared.summary}</p><p>This is a broad year-plan direction. It does not confirm that these activities have happened or assign work, products or deadlines. Use the dated subject updates above and classroom instructions for current learning.</p></details>}
 
     <ExplorationRevisits />
 
@@ -423,7 +430,7 @@ function PortfolioPage() {
       <article><b>3</b><h2>Reflect</h2><p>Say what changed and what you will try next.</p></article>
     </section>
 
-    <section className="portfolio-current"><div><small>CURRENT LEARNING</small><h2>{current.student.title}</h2></div><p>{current.student.spacesNote}</p></section>
+    <section className="portfolio-current"><div><small>{isMonthlyWindow ? `CLASSROOM UPDATE · ${learningUpdates.updatedOn}` : 'CURRENT LEARNING'}</small><h2>{isMonthlyWindow ? 'Existing reflections, work and feedback' : current.student.title}</h2></div><p>{isMonthlyWindow ? learningUpdates.subjects.find(item=>item.subject==='Career Education')?.detail : current.student.spacesNote}</p></section>
 
     <details className="compact-disclosure">
       <summary>See major projects across the year</summary>
@@ -500,6 +507,7 @@ function NewsroomDoorway() {
 }
 
 function windowStateLabel() {
+  if (isMonthlyWindow) return "FLEXIBLE MONTHLY OUTLOOK";
   const state = currentWindowState();
   if (state === "up-next") return "COMING UP";
   if (state === "finished") return "RECENTLY FINISHED";

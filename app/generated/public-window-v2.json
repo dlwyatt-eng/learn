@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-11-02-family-refresh",
+  "contentVersion": "2026-11-02-subject-learning-refresh",
   "sourceUpdatedAt": "2026-11-02",
   "window": {
     "id": "september-opening",
@@ -1620,6 +1620,74 @@
     ],
     "note": "Follow classroom directions for current learning; plans may adjust. Regular classroom routines continue."
   },
+  "learningUpdates": {
+    "updatedOn": "November 2, 2026",
+    "title": "Number sense, stories, creative projects and reflection",
+    "summary": "Our current work connects prime factorization and order of operations, Nevermoor, original-story Bloxels projects, and existing Career reflections. PE self-assessment and Health are planned for Monday; peace artwork is planned to begin Thursday.",
+    "note": "These are the latest confirmed classroom updates, not a checklist or homework menu. Planned learning is not a record of completed lessons. Follow classroom instructions for the task and stopping point.",
+    "subjects": [
+      {
+        "subject": "Mathematics",
+        "status": "Ongoing",
+        "focus": "Prime factorization and order of operations",
+        "detail": "Recent work includes factor trees and prime factorization. Order of operations is ongoing; MathUP activities are available for planned classroom use. Students are still practising and explaining their thinking."
+      },
+      {
+        "subject": "Language Arts",
+        "status": "Ongoing",
+        "focus": "Nevermoor: old life and new life",
+        "detail": "Reading and discussion continue from the actual class bookmark. Students have identified death and rebirth, or an old life ending and a new life beginning, as a theme. Interpretations use details already encountered; no chapter is assumed here."
+      },
+      {
+        "subject": "Career Education",
+        "status": "Ongoing",
+        "focus": "Interests, strengths and community needs",
+        "detail": "Students continue existing reflections and SpacesEDU work about interests, strengths and community needs, including responding to feedback. There is no new posting deadline or home upload requirement."
+      },
+      {
+        "subject": "Physical Education",
+        "status": "Planned",
+        "focus": "PE self-assessment: evidence and next steps",
+        "detail": "The existing self-assessment was unfinished last week and is planned for Monday, November 2. Students will reflect on real participation and learning, then identify a realistic next step. This is class work, not new homework."
+      },
+      {
+        "subject": "Health",
+        "status": "Planned",
+        "focus": "Feelings, needs and healthy boundaries",
+        "detail": "Monday’s plan uses fictional situations to explore feelings, needs, respectful requests and boundaries. Respecting a no or stop and getting adult help are central. This plan is not confirmation that the lesson has been taught."
+      },
+      {
+        "subject": "Social Studies",
+        "status": "Recent learning",
+        "focus": "Student Vote: views, evidence and civic understanding",
+        "detail": "Recent Student Vote work compared political views and the evidence behind claims. The focus is understanding public decisions and explaining reasons. Students’ voting preferences remain private."
+      },
+      {
+        "subject": "Arts Education",
+        "status": "Planned",
+        "focus": "Remembrance artwork with a message of peace",
+        "detail": "An informal discussion and colouring artwork are planned to begin Thursday, November 5 and continue the following week. The assembly date and time are not confirmed here. This is planned classroom learning, with no required home task."
+      },
+      {
+        "subject": "ADST",
+        "status": "Ongoing",
+        "focus": "Original-story games in Bloxels",
+        "detail": "Students continue developing original-story games, connecting storytelling with design and creative choices. Follow the existing project directions and actual progress; no new game or upload is assigned by this update."
+      },
+      {
+        "subject": "Science",
+        "status": "Update pending",
+        "focus": "Science: current focus awaiting confirmation",
+        "detail": "A new current Science unit has not been confirmed for this update. Follow the teacher’s classroom directions; the year overview shows possible learning, not work already taught or newly assigned."
+      },
+      {
+        "subject": "French",
+        "status": "Update pending",
+        "focus": "French: follow current class instructions",
+        "detail": "No new French topic has been verified for this update. Continue with the French teacher’s current materials and instructions; no additional home practice is assigned here."
+      }
+    ]
+  },
   "homePractice": {
     "updatedOn": "November 2, 2026",
     "policy": "Separate daily homework is not routinely assigned. This is optional practice for families who want a regular routine. Choose what is useful; there is no expectation to complete the whole menu or submit optional practice.",
@@ -3048,5 +3116,5 @@
       }
     }
   ],
-  "checksum": "sha256:c8c0cfd421c98e2985a353e1c792fd87bb75306bc18599d89e3aa32134e3b860"
+  "checksum": "sha256:a34a86cfd69511a6ab0515fea31e3105576fbd77b865123bdd06e9a0dcc4f464"
 }

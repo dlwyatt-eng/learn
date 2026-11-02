@@ -60,7 +60,9 @@ export function monthlyPublicWindowForDate(yearMonths, template, dateKey) {
         caption: `${month.month}: ${month.subjects.join(" · ")}`,
       },
       primaryResource: null,
-      subjectSnapshot: month.subjects.map(subject => ({ subject, now: month.focus, why: month.learning })),
+      // A year-plan overview is not evidence of current learning in each subject.
+      // Dated subject updates are published separately from the canonical source.
+      subjectSnapshot: [],
     },
     student: {
       ...template.student,
