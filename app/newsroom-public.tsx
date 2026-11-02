@@ -170,7 +170,7 @@ export default function NewsroomPublic({ newsroom }: { newsroom?: PublicNewsroom
     </section>
 
     {archivedFeatures.length > 0 && <details className="newsroom-source-archive">
-      <summary><span>PAST SOURCE SETS</span><strong>{archivedFeatures.length} checked {archivedFeatures.length === 1 ? "feature" : "features"}</strong><em>Open archive</em></summary>
+      <summary><span>MORE TOPICS</span><strong>{archivedFeatures.length} past {archivedFeatures.length === 1 ? "topic" : "topics"}</strong><em>Open archive</em></summary>
       <div>{archivedFeatures.map(item => <article key={item.id}>
         <small>{formatDate(item.publicFrom)}–{formatDate(item.publicUntil)}</small>
         <div><strong>{safeFeatureTitle(item)}</strong><p>{item.question}</p></div>
@@ -179,7 +179,7 @@ export default function NewsroomPublic({ newsroom }: { newsroom?: PublicNewsroom
     </details>}
 
     {newsroom.election && <section className="newsroom-election-window" id="surrey-election" aria-labelledby="surrey-election-window-title">
-      <header><span>SURREY CIVIC SOURCE SET</span><strong id="surrey-election-window-title">{newsroom.election.title}</strong><em>Resource timeline · not a class schedule</em></header>
+      <header><span>SURREY ELECTION SOURCES</span><strong id="surrey-election-window-title">{newsroom.election.title}</strong><em>Explore the election sources</em></header>
       <div><h2>{newsroom.election.question}</h2><ol>{newsroom.election.calendar.map(item => <li key={item.date}><b>{item.date}</b><span>{item.label}</span></li>)}</ol><nav aria-label="Official Surrey election sources">{newsroom.election.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><strong>{electionSourceLabel(source)}</strong><span>{source.organization}{source.dated ? ` · ${source.dated}` : ""} · OPEN ↗</span></a>)}</nav><blockquote>Talk at home: “{newsroom.election.familyPrompt}”</blockquote></div>
     </section>}
 

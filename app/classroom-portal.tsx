@@ -151,10 +151,10 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
 function WelcomeUpdate() {
   return <section className="welcome-update" aria-labelledby="welcome-update-title">
     <header><small>CLASS UPDATE · {welcome.updatedOn}</small><h2 id="welcome-update-title">Our learning community</h2></header>
-    {classUpdateIsOld && <p role="status" className="class-update-age">This class update was posted on {welcome.updatedOn}. Check the planner or school notices for changes to today’s plan.</p>}
-    <div className="welcome-update-grid"><article><h3>{welcome.recapTitle}</h3><p>{welcome.recap}</p></article><article><h3>{classUpdateIsOld ? `Plan as of ${welcome.updatedOn}` : welcome.nextTitle}</h3><p>{welcome.next}</p></article></div>
-    <p className="welcome-next"><strong>Looking ahead:</strong> {welcome.later}</p>
-    <p><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Games+%26+Activities&deck=belonging&mode=student">Our belonging question and picture supports →</a> · <a href="https://dlwyatt-eng.github.io/teacher-hub/printables/belonging/Monday_Inclusive_Printables.pdf">Classroom printables (PDF)</a></p><p>These supports offer different ways to communicate the same ideas. They are classroom options, not additional homework.</p>
+    {classUpdateIsOld && <p role="status" className="class-update-age">Updated {welcome.updatedOn}. Check the planner for daily reminders.</p>}
+    <div className="welcome-update-grid"><article><h3>{welcome.recapTitle}</h3><p>{welcome.recap}</p></article><article><h3>{classUpdateIsOld ? `Coming up · posted ${welcome.updatedOn}` : welcome.nextTitle}</h3><p>{welcome.next}</p></article></div>
+    <p className="welcome-next">{welcome.later}</p>
+    <p><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Games+%26+Activities&deck=belonging&mode=student">Our belonging question and picture supports →</a> · <a href="https://dlwyatt-eng.github.io/teacher-hub/printables/belonging/Monday_Inclusive_Printables.pdf">Classroom printables (PDF)</a></p><p>Pictures and printables offer different ways to join the conversation.</p>
   </section>;
 }
 function SchoolDates() {
@@ -228,7 +228,7 @@ function HomePage() {
     <SpacesStatus />
 
     <section className="home-glance" aria-label="At a glance">
-      {isMonthlyWindow ? <div className="key-dates-card"><header><small>LEARNING</small><h2>Recent, ongoing and planned</h2></header><p>{learningUpdates.summary}</p><Link href="/learning">Read the dated subject updates →</Link></div> : <div className="key-dates-card">
+      {isMonthlyWindow ? <div className="key-dates-card"><header><small>LEARNING</small><h2>In our classroom</h2></header><p>{learningUpdates.summary}</p><Link href="/learning">See what we’re learning →</Link></div> : <div className="key-dates-card">
         <header><small>DATES</small><h2>Learning dates</h2></header>
         <ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.shortLabel ?? item.label}</span></li>)}</ol>
       </div>}
@@ -247,7 +247,7 @@ function HomePage() {
 
 function StudentPage() {
   if (isMonthlyWindow) return <main className="content-page audience-page student-page">
-    <section className="functional-page-header"><p className="eyebrow">FOR STUDENTS</p><h1>Our classroom learning</h1><p>Use the Shape of the Day and your teacher’s instructions for today’s work. The public update is not a new assignment.</p></section>
+    <section className="functional-page-header"><p className="eyebrow">FOR STUDENTS</p><h1>Our classroom learning</h1><p>Use the Shape of the Day and your teacher’s instructions for today’s work. </p></section>
     <nav className="student-classroom-shortcuts" aria-label="Open our classroom"><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Morning+Screen&mode=student">Shape of the Day</a><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Home&mode=student">Classroom learning</a><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Math+Thinking+Routines&mode=student">Math thinking routines</a></nav>
     <LearningUpdateSummary /><ClassSchedule /><SchoolDates /><HomeworkDoorway /><SpacesStatus />
     <section className="student-next-grid"><article><small>CLASS WORK</small><h2>Your next step</h2><p>{publicWindowManifest.homePractice.unfinished}</p></article><article><small>NEED HELP?</small><h2>Ask where to begin</h2><p>Ask your teacher for the source, instructions and one useful next step. Use the support agreed at school.</p></article></section>
@@ -340,11 +340,11 @@ function FamilyPage() {
 
     <WeekReminders />
     <section className="family-priority-grid">
-      {isMonthlyWindow ? <article className="family-dates"><small>UPDATED {learningUpdates.updatedOn}</small><h2>Learning by subject</h2><p>See what is ongoing, recent or planned. An unconfirmed focus is labelled clearly.</p><Link href="/learning#subject-now-title">Open all subject updates →</Link></article> : <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.label}</span></li>)}</ol></article>}
+      {isMonthlyWindow ? <article className="family-dates"><small>UPDATED {learningUpdates.updatedOn}</small><h2>Learning by subject</h2><p>Find out what we’re working on and what’s coming up.</p><Link href="/learning#subject-now-title">See each subject →</Link></article> : <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.label}</span></li>)}</ol></article>}
       <article><small>AT SCHOOL</small><h2>Our classroom focus</h2><p>{isMonthlyWindow ? learningUpdates.summary : current.family.quickReference.atSchool}</p></article>
       <article><small>AT HOME</small><h2>How to help</h2><p>{isMonthlyWindow ? publicWindowManifest.homePractice.policy : current.family.quickReference.home}</p></article>
       <article><small>ASSESSMENT</small><h2>{assessmentStatus()}</h2><p>{current.family.quickReference.assessment}</p></article>
-      <article className="family-product"><small>{isMonthlyWindow ? 'PLANS AND PROGRESS' : 'WHAT STUDENTS MAKE OR SHOW'}</small><h2>{isMonthlyWindow ? 'Follow actual classroom progress' : 'What students make'}</h2><p>{isMonthlyWindow ? learningUpdates.note : current.family.product}</p></article>
+      <article className="family-product"><small>{isMonthlyWindow ? 'TALKING TOGETHER' : 'WHAT STUDENTS MAKE OR SHOW'}</small><h2>{isMonthlyWindow ? 'Ask about your child’s learning' : 'What students make'}</h2><p>{isMonthlyWindow ? 'What have you been working on? What are you trying next? Let your child choose what to share.' : current.family.product}</p></article>
     </section>
     <FamilyReminders />
     <FamilyLinks />
@@ -366,19 +366,19 @@ function FamilyPage() {
     </section> : isLegacyAiOpeningWindow ? <section className="family-visual-summary" aria-labelledby="family-flow-title">
       <figure><Image unoptimized src="/images/public-family-artifact-conversation-v1.webp" alt="Illustrated family looking together at a student's paper learning agreement and discussing one question" width={1792} height={1008} sizes="(max-width: 900px) 100vw, 42vw" /><figcaption>ILLUSTRATION · THE PAGE STARTS A CONVERSATION</figcaption></figure>
       <div><small>THE SHORT VERSION</small><h2 id="family-flow-title">Talk → write → follow up</h2><ol><li><b>1</b><span>Pairs and tables reason through realistic choices.</span></li><li><b>2</b><span>Each student writes an agreement in their own words.</span></li><li><b>3</b><span>The teacher uses it for a private follow-up conversation.</span></li></ol><div className="family-answer-chips"><span>No account needed</span><span>No supplies</span><span>Not homework</span><span>Not graded</span></div><ResourceDownload compact /></div>
-    </section> : <section className="family-question-card"><div><small>WHY THIS MATTERS</small><blockquote>{current.family.whyThisMatters}</blockquote></div><p><strong>Ask at home:</strong> “{current.family.conversationPrompts[0]}”</p></section>}
+    </section> : <section className="family-question-card"><div><small>WHY THIS MATTERS</small><blockquote>{isMonthlyWindow ? "A conversation can help your child notice how their ideas are growing." : current.family.whyThisMatters}</blockquote></div><p><strong>Ask at home:</strong> “{isMonthlyWindow ? "What surprised you in your learning this week?" : current.family.conversationPrompts[0]}”</p></section>}
 
     {(isDiscoveryWindow || isLegacyAiOpeningWindow) && <section className="family-question-card"><div><small>ASK AT HOME</small><blockquote>“{current.family.conversationPrompts[0]}”</blockquote></div><p><strong>Privacy and support:</strong> {current.family.agreementNote}</p></section>}
 
     <TruthLearningLink />
     <RightsEntry href="#/rights" />
-    <section className="family-artifact-conversation" aria-label="Family conversation about learning">
+    {!isMonthlyWindow && <section className="family-artifact-conversation" aria-label="Family conversation about learning">
       <figure><Image unoptimized src="/images/public-family-artifact-conversation-v1.webp" alt="Illustrated family looking at work a student has chosen to share and asking a supportive question" width={1792} height={1008} /></figure>
       <div><small>WHEN A STUDENT CHOOSES WORK TO SHARE</small><h2>Ask about ideas, not neatness.</h2><p>If your child wants to share, ask what they tried, changed, or learned. Private original pages stay private. Only a safe part the student chooses may be copied separately for sharing, after the teacher asks permission again. Do not upload private Discovery pages to SpacesEDU. The How I Learn Best page is never copied for display.</p></div>
-    </section>
+    </section>}
 
     <section className="family-utilities">
-      <div><small>STAY IN TOUCH</small><h2>Planners and school email</h2><p>Use the planner for take-home reminders and email Mr. Wyatt with questions or to arrange a conversation. Replies happen during school days, not through this page; for time-sensitive matters, contact the school office. Check the planner for additional class reminders.</p><p>{spacesPending ? welcome.spaces.message : current.family.quickReference.spaces}</p></div>
+      <div><small>STAY IN TOUCH</small><h2>Planners and school email</h2><p>Use the planner for take-home reminders and email Mr. Wyatt with questions or to arrange a conversation. For time-sensitive matters, contact the school office.</p>{!spacesPending && <p>{current.family.quickReference.spaces}</p>}</div>
       <nav aria-label="Family contact and official links">
         <Link href="/guide#contact"><strong>Contact Mr. Wyatt</strong><span>{emailAddress} · email and copy options →</span></Link>
         <a href={schoolUrl} target="_blank" rel="noreferrer"><strong>Walnut Road Elementary</strong><span>Official school site ↗</span></a>
@@ -394,7 +394,7 @@ function LearningPage() {
     <section className="functional-page-header">
       <p className="eyebrow">WHAT WE&apos;RE LEARNING · 2026–27</p>
       <h1>Now and across the year</h1>
-      <p>Distinct subject updates from our latest confirmed classroom context. Plans stay labelled as plans.</p>
+      <p>What we’re working on and what’s coming up.</p>
     </section>
 
     <figure className="learning-mosaic"><Image unoptimized src="/images/public-student-learning-mosaic-v1.webp" alt="Fictional classroom panorama of Grade 6 students observing an object and photograph, discussing ideas, building a model, moving, and reading together" width={1792} height={1008} sizes="(max-width: 1180px) 100vw, 1180px" /><figcaption>ILLUSTRATION · OBSERVATION, DISCUSSION, MODEL-MAKING, MOVEMENT, AND READING</figcaption></figure>
@@ -402,7 +402,7 @@ function LearningPage() {
     <TruthLearningLink />
     <RightsEntry href="#/rights" />
     <SubjectLearningUpdates />
-    {isMonthlyWindow && <details className="compact-disclosure monthly-outlook"><summary>Flexible monthly outlook · not the daily plan</summary><h2>{current.shared.title}</h2><p>{current.shared.summary}</p><p>This is a broad year-plan direction. It does not confirm that these activities have happened or assign work, products or deadlines. Use the dated subject updates above and classroom instructions for current learning.</p></details>}
+    {isMonthlyWindow && <details className="compact-disclosure monthly-outlook"><summary>Ideas for the month</summary><h2>{current.shared.title}</h2><p>{current.shared.summary}</p><p>These are ideas we may explore as the month unfolds.</p></details>}
 
     <ExplorationRevisits />
 
@@ -419,18 +419,18 @@ function PortfolioPage() {
   return <main className="content-page portfolio-page compact-content-page">
     <SpacesStatus showLink={false}/>
     <section className="portfolio-action-hero">
-      <div><p className="eyebrow">PROJECTS &amp; SPACES EDU</p><h1>{spacesPending ? "Getting our portfolios ready" : "Choose. Explain. Reflect."}</h1><p>{welcome.spaces.purpose} Private classroom pages and Discovery originals are not uploaded.</p></div>
+      <div><p className="eyebrow">PROJECTS &amp; SPACES EDU</p><h1>{spacesPending ? "Our learning portfolios" : "Choose. Explain. Reflect."}</h1><p>{welcome.spaces.purpose} Keep private classroom pages out of your posts.</p></div>
       {!spacesPending && <a href={spacesUrl} target="_blank" rel="noreferrer"><small>OFFICIAL CANADIAN SITE</small><strong>Open SpacesEDU Canada ↗</strong></a>}
     </section>
 
-    <h2>{spacesPending ? "Once class access is ready" : "How to make a useful post"}</h2>
+    <h2>{spacesPending ? "Sharing your learning" : "How to make a useful post"}</h2>
     <section className="portfolio-steps" aria-label="How to make a useful post">
       <article><b>1</b><h2>Choose</h2><p>Select work that shows important learning or progress.</p></article>
       <article><b>2</b><h2>Explain</h2><p>Describe something you tried, a problem you worked on, how you helped, or a change you made.</p></article>
       <article><b>3</b><h2>Reflect</h2><p>Say what changed and what you will try next.</p></article>
     </section>
 
-    <section className="portfolio-current"><div><small>{isMonthlyWindow ? `CLASSROOM UPDATE · ${learningUpdates.updatedOn}` : 'CURRENT LEARNING'}</small><h2>{isMonthlyWindow ? 'Existing reflections, work and feedback' : current.student.title}</h2></div><p>{isMonthlyWindow ? learningUpdates.subjects.find(item=>item.subject==='Career Education')?.detail : current.student.spacesNote}</p></section>
+    <section className="portfolio-current"><div><small>{isMonthlyWindow ? `CLASSROOM UPDATE · ${learningUpdates.updatedOn}` : 'CURRENT LEARNING'}</small><h2>{isMonthlyWindow ? 'Interests, strengths and next steps' : current.student.title}</h2></div><p>{isMonthlyWindow ? learningUpdates.subjects.find(item=>item.subject==='Career Education')?.detail : current.student.spacesNote}</p></section>
 
     <details className="compact-disclosure">
       <summary>See major projects across the year</summary>
@@ -502,8 +502,7 @@ function NewsroomDoorway() {
   const preview = feature?.preview;
   const currentSource = Boolean(feature && feature.publicFrom <= today && today <= feature.publicUntil && today <= feature.reviewBy);
   const sourceLabel = currentSource ? "CURRENT SOURCE" : "HISTORICAL SOURCE";
-  const checkedLabel = feature ? ` · CHECKED ${formatShortDate(feature.checkedOn).toUpperCase()}` : "";
-  return <article className="newsroom-home-card">{preview && <div className="newsroom-home-source"><small>DATED EXCERPT{checkedLabel}</small><blockquote>“{preview.text}”</blockquote><span>{preview.credit}</span></div>}<div><small>{sourceLabel}{checkedLabel}</small><h2>{title}</h2><p>{question}</p><Link href="/newsroom">Open the source and evidence →</Link></div></article>;
+  return <article className="newsroom-home-card">{preview && <div className="newsroom-home-source"><small>FROM THE SOURCE</small><blockquote>“{preview.text}”</blockquote><span>{preview.credit}</span></div>}<div><small>{sourceLabel}</small><h2>{title}</h2><p>{question}</p><Link href="/newsroom">Explore the sources →</Link></div></article>;
 }
 
 function windowStateLabel() {

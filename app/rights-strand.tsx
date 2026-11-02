@@ -4,7 +4,7 @@ import { rightsCases, rightsLabels, rightsMilestones, rightsScreens, rightsSourc
 import "./rights-strand.css";
 
 export function RightsEntry({href = "#rights"}:{href?:string}) {
-  return <aside className="rights-entry"><div><small>RIGHTS · EQUALITY · VOICE</small><h2>Racism, Human Rights &amp; Freedom of Expression</h2><p>Explore disagreement, discrimination and what we can do. October foundations → November 20 children’s rights → December 10 human rights.</p></div><a href={href}>Open the inquiry →</a></aside>;
+  return <aside className="rights-entry"><div><small>RIGHTS · EQUALITY · VOICE</small><h2>Racism, Human Rights &amp; Freedom of Expression</h2><p>Explore disagreement, discrimination and ways to stand up for people’s rights.</p></div><a href={href}>Explore rights →</a></aside>;
 }
 
 export default function RightsStrand({adult = false}:{adult?:boolean}) {
@@ -32,7 +32,7 @@ export default function RightsStrand({adult = false}:{adult?:boolean}) {
         ["04","Adults have responsibilities too","Schools should protect students from discrimination and respect their right to be heard. Responses need evidence, fairness, support and follow-through."],
       ].map(([n,title,text])=><article key={n}><b>{n}</b><h2>{title}</h2><p>{text}</p></article>)}</div>
       <details className="rights-panel"><summary>Words we will use</summary><dl>{rightsTerms.map(([word,definition])=><div key={word}><dt>{word}</dt><dd>{definition}</dd></div>)}</dl></details>
-      <section className="rights-panel"><h2>Two dates, one continuing inquiry</h2><p>These are planned learning milestones. Exact lesson days stay flexible.</p><ol className="rights-timeline">{rightsMilestones.map(m=><li key={m.when}><small>{m.when}</small><h3>{m.title}</h3><p>{m.detail}</p></li>)}</ol></section>
+      <section className="rights-panel"><h2>Coming up: children’s rights and Human Rights Day</h2><p>Your teacher will choose when to use these activities.</p><ol className="rights-timeline">{rightsMilestones.map(m=><li key={m.when}><small>{m.when}</small><h3>{m.title}</h3><p>{m.detail}</p></li>)}</ol></section>
       {adult&&<>
         <details className="rights-panel"><summary>Teacher guide · three ready-to-teach sessions</summary><p><b>Prepare:</b> Read the source notes below, preview the nine cases, and choose examples suitable for your group. Have plain paper ready; print the response page only if useful.</p><ol>
           <li><b>Can I disagree? · 25 minutes.</b> Use the four teaching screens. Model the schedule example, read UNICEF articles 2, 12 and 13, compare criticism with exclusion, and collect the two-sentence exit response.</li>

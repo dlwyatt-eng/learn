@@ -21,7 +21,7 @@ function render(route,date='2026-09-18') {
 test('family arrival shows learning themes, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our class learning','Our learning themes','number sense','community questions','Nevermoor','order of operations','Bloxels','Matific','$5','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','What we’re working on','Coming up','prime factorization','Nevermoor','order of operations','Bloxels','Matific','$5','School Cash Online','SpacesEDU and family access']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
@@ -31,7 +31,7 @@ test('pending SpacesEDU status suppresses sign-in prompts across routes and next
     const html=render(route,date);
     assert.doesNotMatch(html,/href="https:\/\/ca\.spacesedu\.com\//,date+': '+route);
     assert.match(html,/SpacesEDU setup/);
-    if(route==='portfolio') assert.match(html,/Once class access is ready/);
+    if(route==='portfolio') assert.match(html,/Sharing your learning/);
   }
 });
 
@@ -98,8 +98,8 @@ test('dated class copy ages honestly and civic learning keeps the two votes dist
   const afterUpdate = new Date(manifest.classroomWelcome.updatedOn + ' 12:00:00 UTC');
   afterUpdate.setUTCDate(afterUpdate.getUTCDate() + 1);
   const aged = render('families',afterUpdate.toISOString().slice(0,10));
-  assert.ok(aged.includes(`This class update was posted on ${manifest.classroomWelcome.updatedOn}`));
-  assert.ok(aged.includes(`Plan as of ${manifest.classroomWelcome.updatedOn}`));
+  assert.ok(aged.includes(`Updated ${manifest.classroomWelcome.updatedOn}`));
+  assert.ok(aged.includes(`Coming up · posted ${manifest.classroomWelcome.updatedOn}`));
   assert.match(nextDay,/Dates to plan around/);
   assert.match(nextDay,/Learning milestones · no family action needed/);
   assert.match(nextDay,/October 17:.*Surrey votes for/);
@@ -109,7 +109,7 @@ test('dated class copy ages honestly and civic learning keeps the two votes dist
   assert.match(nextDay,/school ballot district and full candidate roster still need verification/);
   assert.match(nextDay,/No municipal Student Vote is planned/);
   assert.doesNotMatch(nextDay,/Oct. 13–15|By Oct. 16/);
-  assert.match(render('home','2026-10-06'),/CURRENT SOURCE · CHECKED OCT\.? 6/);
+  assert.match(render('home','2026-10-06'),/CURRENT SOURCE/);
   assert.match(nextDay,/Equity learning/);
   assert.match(render('families','2026-10-01'),/PAC Hot Lunch/);
   assert.match(render('families','2026-10-01'),/ordering details/);

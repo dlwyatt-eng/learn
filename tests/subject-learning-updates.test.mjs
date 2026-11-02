@@ -25,7 +25,7 @@ test('all ten subject cards render independently with their status and detail',(
  assert.equal(new Set([...section.matchAll(/<h3>(.*?)<\/h3>/g)].map(x=>x[1])).size,10);
  assert.match(section,/November 2, 2026/);
  assert.doesNotMatch(section,/Government, human rights, media, systems/);
- assert.match(html,/Flexible monthly outlook/);
+ assert.match(html,/Ideas for the month/);
 });
 test('current arrival routes do not present annual-plan activities as tasks or deadlines',()=>{
  for(const route of ['home','students','families','portfolio']){
@@ -36,4 +36,13 @@ test('current arrival routes do not present annual-plan activities as tasks or d
  }
  assert.match(render('students'),/An unfinished class activity is not automatically homework/);
  assert.match(render('families'),/Separate daily homework is not routinely assigned/);
+});
+
+test('public copy explains learning without update-process commentary',()=>{
+ const unwanted=/latest confirmed classroom context|unconfirmed focus is labelled|not verified for this update|not confirmation that the lesson|no chapter is assumed|Follow actual classroom progress|Read the dated subject updates/;
+ for(const route of ['home','students','families','learning','portfolio','guide','homework','newsroom','rights','truth-and-reconciliation'])assert.doesNotMatch(render(route),unwanted,route);
+ const html=render('learning');
+ assert.match(html,/Coming up Monday, November 2/);assert.match(html,/Starting Thursday, November 5/);
+ assert.match(html,/materials and instructions from your French teacher/);
+ assert.match(render('guide'),/Ask Mr. Wyatt where to start/);
 });

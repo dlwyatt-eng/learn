@@ -8,7 +8,7 @@ export function LearningUpdateSummary() {
   <p className="eyebrow">CLASSROOM UPDATE · {learningUpdates.updatedOn}</p>
   <h2>{learningUpdates.title}</h2><p>{learningUpdates.summary}</p>
   <p>{learningUpdates.note}</p>
-  <Link href="/learning#subject-now-title">See each subject’s update →</Link>
+  <Link href="/learning#subject-now-title">See what we’re learning →</Link>
  </section>;
 }
 

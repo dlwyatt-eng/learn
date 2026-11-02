@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-11-02-subject-learning-refresh",
+  "contentVersion": "2026-11-02-family-copy-refresh",
   "sourceUpdatedAt": "2026-11-02",
   "window": {
     "id": "september-opening",
@@ -1310,32 +1310,31 @@
   "guideSections": [
     {
       "title": "Absent",
-      "lead": "Recover the essential learning—not every missed minute.",
+      "lead": "Ask Mr. Wyatt where to start.",
       "items": [
-        "Students should recover the essential learning, not recreate every missed minute. The teacher will identify the smallest useful catch-up pathway.",
-        "Check Now and SpacesEDU, then ask Mr. Wyatt what matters most."
+        "Check the planner, then ask which learning to catch up on. You do not need to recreate every missed activity."
       ]
     },
     {
       "title": "Homework",
-      "lead": "Homework should protect learning—not compete with childhood.",
+      "lead": "Separate daily homework is not routinely assigned.",
       "items": [
-        "If homework is regularly causing distress, conflict, sleep loss, or taking far longer than expected, stop and contact the teacher. That is useful information—not a failure."
+        "If homework is regularly causing distress, conflict, sleep loss, or taking far longer than expected, stop and contact the teacher."
       ]
     },
     {
       "title": "SpacesEDU",
-      "lead": "Selected evidence, feedback, and reflection live in SpacesEDU.",
+      "lead": "SpacesEDU and family access",
       "items": [
-        "Open it when the teacher asks or when your family wants to review recent learning.",
-        "Major projects get time to finish and revise; shorter posts may capture other worthwhile learning."
+        "Students are using SpacesEDU at school. Family access instructions will follow when ready. No home upload is due.",
+        "SpacesEDU brings together selected work, reflections and teacher feedback. Individual work stays in the secure portfolio."
       ]
     },
     {
       "title": "Contact",
-      "lead": "Email Mr. Wyatt when something is unclear or a pattern is becoming concerning.",
+      "lead": "Questions? Email Mr. Wyatt.",
       "items": [
-        "Use school email for questions, meeting requests, or the most important catch-up step after an absence."
+        "Use school email to ask about learning, arrange a conversation or get help after an absence. For time-sensitive matters, contact the school office."
       ]
     }
   ],
@@ -1352,11 +1351,11 @@
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Division 8 community",
     "intro": "Welcome, Division 8 families. Use this hub for class learning themes, optional home practice, school reminders and useful links.",
-    "recapTitle": "Our class learning",
-    "recap": "Our class is building number sense, reading and responding to stories, exploring community questions, and creating and sharing ideas.",
-    "nextTitle": "Our learning themes",
-    "next": "Our ongoing learning includes prime factorization and order of operations, reading and discussing Nevermoor, Career/SpacesEDU work, and original-story Bloxels projects. Follow classroom instructions and continue from actual stopping points.",
-    "later": "Learning plans may adjust as students need more time. The home-practice menu offers a few optional choices for families who find them useful; no new home submission is required.",
+    "recapTitle": "What we’re working on",
+    "recap": "We’re working on prime factorization and order of operations, reading Nevermoor, creating Bloxels games and reflecting on our interests and strengths.",
+    "nextTitle": "Coming up",
+    "next": "Monday, November 2: PE self-assessment and Health learning about feelings, needs and healthy boundaries. Thursday, November 5: we’ll begin artwork with a message of peace.",
+    "later": "For families who would like extra practice, the homework page has a few optional choices and useful links.",
     "reminders": [
       {
         "title": "Volunteer and driver registration · each school year",
@@ -1377,9 +1376,9 @@
     ],
     "spaces": {
       "status": "pending",
-      "title": "SpacesEDU in-class practice",
-      "message": "Students have begun using SpacesEDU at school, and selected learning posts may still need time to finish or improve. In-class time can be used for this before beginning another task. There is no new home upload due; family access instructions will follow when ready.",
-      "purpose": "Once access is ready, students will use SpacesEDU to organize and share selected work, reflect on their learning, and receive feedback. Families will be able to follow their child’s learning there. This public hub provides general information; individual work and feedback belong in the secure portfolio."
+      "title": "SpacesEDU and family access",
+      "message": "Students are using SpacesEDU at school. Family access instructions will follow when ready. No home upload is due.",
+      "purpose": "SpacesEDU brings together selected work, reflections and teacher feedback. Individual work stays in the secure portfolio."
     },
     "familyLinks": [
       {
@@ -1425,7 +1424,7 @@
       {
         "title": "Belonging & Community learning sequence",
         "url": "https://dlwyatt-eng.github.io/teacher-hub/?view=Games+%26+Activities&mode=student&deck=belonging-sequence",
-        "description": "Our planned lessons and shared question: how do we build communities where people actually belong? No home assignment or personal disclosures required."
+        "description": "Explore our classroom question: how do we help everyone belong?"
       }
     ],
     "hotLunchNotice": "Check current school or PAC notices for hot-lunch dates and ordering instructions.",
@@ -1622,69 +1621,69 @@
   },
   "learningUpdates": {
     "updatedOn": "November 2, 2026",
-    "title": "Number sense, stories, creative projects and reflection",
-    "summary": "Our current work connects prime factorization and order of operations, Nevermoor, original-story Bloxels projects, and existing Career reflections. PE self-assessment and Health are planned for Monday; peace artwork is planned to begin Thursday.",
-    "note": "These are the latest confirmed classroom updates, not a checklist or homework menu. Planned learning is not a record of completed lessons. Follow classroom instructions for the task and stopping point.",
+    "title": "Maths, Nevermoor and creative projects",
+    "summary": "We’re working on prime factorization and order of operations, reading Nevermoor, creating Bloxels games and reflecting on our interests and strengths.",
+    "note": "What we’re working on and what’s coming up.",
     "subjects": [
       {
         "subject": "Mathematics",
         "status": "Ongoing",
         "focus": "Prime factorization and order of operations",
-        "detail": "Recent work includes factor trees and prime factorization. Order of operations is ongoing; MathUP activities are available for planned classroom use. Students are still practising and explaining their thinking."
+        "detail": "We’re using factor trees to explore prime factorization and practising the order of operations. Explaining each step helps us check our thinking."
       },
       {
         "subject": "Language Arts",
         "status": "Ongoing",
         "focus": "Nevermoor: old life and new life",
-        "detail": "Reading and discussion continue from the actual class bookmark. Students have identified death and rebirth, or an old life ending and a new life beginning, as a theme. Interpretations use details already encountered; no chapter is assumed here."
+        "detail": "As we read Nevermoor, we’re exploring the theme of an old life ending and a new life beginning. We use details from the story to explain our ideas."
       },
       {
         "subject": "Career Education",
         "status": "Ongoing",
         "focus": "Interests, strengths and community needs",
-        "detail": "Students continue existing reflections and SpacesEDU work about interests, strengths and community needs, including responding to feedback. There is no new posting deadline or home upload requirement."
+        "detail": "We’re reflecting on interests, strengths and community needs, continuing our SpacesEDU work and responding to feedback."
       },
       {
         "subject": "Physical Education",
-        "status": "Planned",
+        "status": "Coming up",
         "focus": "PE self-assessment: evidence and next steps",
-        "detail": "The existing self-assessment was unfinished last week and is planned for Monday, November 2. Students will reflect on real participation and learning, then identify a realistic next step. This is class work, not new homework."
+        "detail": "Coming up Monday, November 2: time to finish our PE self-assessment, describe our participation and choose a next step."
       },
       {
         "subject": "Health",
-        "status": "Planned",
+        "status": "Coming up",
         "focus": "Feelings, needs and healthy boundaries",
-        "detail": "Monday’s plan uses fictional situations to explore feelings, needs, respectful requests and boundaries. Respecting a no or stop and getting adult help are central. This plan is not confirmation that the lesson has been taught."
+        "detail": "Coming up Monday, November 2: fictional situations to help us explore feelings, needs and respectful requests. We’ll practise respecting a no or stop and knowing when to ask an adult for help."
       },
       {
         "subject": "Social Studies",
         "status": "Recent learning",
         "focus": "Student Vote: views, evidence and civic understanding",
-        "detail": "Recent Student Vote work compared political views and the evidence behind claims. The focus is understanding public decisions and explaining reasons. Students’ voting preferences remain private."
+        "detail": "Our recent Student Vote work explored political views, evidence and public decisions. Students’ voting preferences stay private."
       },
       {
         "subject": "Arts Education",
-        "status": "Planned",
+        "status": "Coming up",
         "focus": "Remembrance artwork with a message of peace",
-        "detail": "An informal discussion and colouring artwork are planned to begin Thursday, November 5 and continue the following week. The assembly date and time are not confirmed here. This is planned classroom learning, with no required home task."
+        "detail": "Starting Thursday, November 5: a discussion and colouring artwork with a message of peace. We’ll continue the artwork the following week."
       },
       {
         "subject": "ADST",
         "status": "Ongoing",
         "focus": "Original-story games in Bloxels",
-        "detail": "Students continue developing original-story games, connecting storytelling with design and creative choices. Follow the existing project directions and actual progress; no new game or upload is assigned by this update."
+        "detail": "We’re turning original stories into Bloxels games, connecting storytelling with design and creative choices."
       },
       {
         "subject": "Science",
-        "status": "Update pending",
-        "focus": "Science: current focus awaiting confirmation",
-        "detail": "A new current Science unit has not been confirmed for this update. Follow the teacher’s classroom directions; the year overview shows possible learning, not work already taught or newly assigned."
+        "status": "Class materials",
+        "focus": "Science materials and help",
+        "detail": "Use your classroom materials and ask your teacher where to begin if you need help."
       },
       {
         "subject": "French",
-        "status": "Update pending",
-        "focus": "French: follow current class instructions",
-        "detail": "No new French topic has been verified for this update. Continue with the French teacher’s current materials and instructions; no additional home practice is assigned here."
+        "status": "Class materials",
+        "focus": "French with Mr. Eckert",
+        "detail": "Use the materials and instructions from your French teacher."
       }
     ]
   },
@@ -3116,5 +3115,5 @@
       }
     }
   ],
-  "checksum": "sha256:a34a86cfd69511a6ab0515fea31e3105576fbd77b865123bdd06e9a0dcc4f464"
+  "checksum": "sha256:7d7199d3be418b5eb411d0db5995f74c231b2ddb09240603ad3398200b10be57"
 }
