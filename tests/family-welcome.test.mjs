@@ -21,7 +21,7 @@ function render(route,date='2026-09-18') {
 test('family arrival shows learning themes, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','Our class learning','Our learning themes','number sense','community questions','Nevermoor','Boo Bash art','Bloxels','Matific','$5','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','Our class learning','Our learning themes','number sense','community questions','Nevermoor','order of operations','Bloxels','Matific','$5','School Cash Online','SpacesEDU in-class practice']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
@@ -55,6 +55,7 @@ test('confirmed school dates render on home and families, preserve times, and ex
     assert.match(november,/National Child Day/);
     assert.match(november,/Human Rights Day/);
     assert.doesNotMatch(november,/We Scare Hunger food drive/);
+    assert.doesNotMatch(render(route,'2026-11-02'),/Boo Bash|food drive launches|We Scare Hunger runs/);
     assert.doesNotMatch(render(route,'2026-11-21'),/dateTime="2026-11-20"/i);
     assert.doesNotMatch(render(route,'2026-12-11'),/>School dates</);
   }
@@ -63,11 +64,11 @@ test('confirmed school dates render on home and families, preserve times, and ex
 
 test('classroom logistics stay on the student page, not parent arrival pages',()=>{
   const students=render('students','2026-10-22');
-  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','in-class SpacesEDU work']) assert.ok(students.includes(text),text);
+  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','Regular classroom routines continue']) assert.ok(students.includes(text),text);
   for(const route of ['home','families']) {
     const html=render(route,'2026-10-19');
     assert.doesNotMatch(html,/Our class routines|Weekly times to remember|laptops are confirmed|student devices|computers for finishing|after recess|prep blocks|Mr\. Eckert/);
-    for(const text of ['Boo Bash art','Nevermoor','Bloxels','Photo retakes','Non-instructional day','Optional home practice']) assert.ok(html.includes(text),route+': '+text);
+    for(const text of ['order of operations','Nevermoor','Bloxels','Photo retakes','Non-instructional day','Optional home practice']) assert.ok(html.includes(text),route+': '+text);
   }
   assert.match(render('students','2026-09-29'),/School dates/);
   assert.match(render('families','2026-09-29'),/No purchase is needed/);
