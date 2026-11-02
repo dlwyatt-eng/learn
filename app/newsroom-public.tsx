@@ -115,14 +115,14 @@ export default function NewsroomPublic({ newsroom }: { newsroom?: PublicNewsroom
     <section className="source-feature" aria-labelledby="featured-source-title">
       <header className="source-feature-heading">
         <div><p className="eyebrow">{currentFeature ? "CURRENT SOURCE" : "SOURCE ARCHIVE"} · {feature.topic}</p><h1 id="featured-source-title">{feature.title}</h1></div>
-        <dl><div><dt>Time</dt><dd>{feature.minutes}</dd></div><div><dt>Checked</dt><dd>{formatDate(feature.checkedOn)}</dd></div></dl>
+        <dl><div><dt>Time</dt><dd>{feature.minutes}</dd></div></dl>
       </header>
 
       <div className="source-stage">
         <article className="primary-source-card">
           <div className="source-kind" aria-hidden="true">{sourceKindLabel(primarySource.sourceKind)}</div>
           <div>
-            <small>SOURCE 1 · {primarySource.organization} · {sourceDateLabel(primarySource)}</small>
+            <small>SOURCE 1 · {primarySource.organization}{sourceDateLabel(primarySource) ? ` · ${sourceDateLabel(primarySource)}` : ""}</small>
             <h2>{primarySource.title}</h2>
             {feature.preview && <blockquote className="source-excerpt">“{feature.preview.text}”</blockquote>}
             <p className="source-credit">{feature.preview?.credit ?? primarySource.organization}</p>
@@ -138,7 +138,7 @@ export default function NewsroomPublic({ newsroom }: { newsroom?: PublicNewsroom
       </div>
 
       {feature.factStrip.length > 0 && <section className="newsroom-fact-strip" aria-label="Key facts from the dated source">
-        <header><small>CLASSROOM INFOGRAPHIC · REPORTED {formatDate(primarySource.publishedOn ?? feature.checkedOn).toUpperCase()}</small><strong>Read the number, label, and note together.</strong></header>
+        <header><small>CLASSROOM INFOGRAPHIC{primarySource.publishedOn ? ` · REPORTED ${formatDate(primarySource.publishedOn).toUpperCase()}` : ""}</small><strong>Read the number, label, and note together.</strong></header>
         <div>{feature.factStrip.map(fact => <article key={fact.label}><b>{fact.value}</b><strong>{fact.label}</strong><span>{fact.note}</span></article>)}</div>
       </section>}
 
@@ -148,7 +148,7 @@ export default function NewsroomPublic({ newsroom }: { newsroom?: PublicNewsroom
 
       {feature.sources.length > 1 && <details className="more-sources">
         <summary>Open the other sources in this set</summary>
-        <div>{feature.sources.slice(1).map((source, index) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><span>{sourceKindLabel(source.sourceKind)}</span><div><small>SOURCE {index + 2} · {source.organization} · {sourceDateLabel(source)}</small><strong>{source.title}</strong><p>{source.sourceFocus}</p></div><b>OPEN ↗</b></a>)}</div>
+        <div>{feature.sources.slice(1).map((source, index) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><span>{sourceKindLabel(source.sourceKind)}</span><div><small>SOURCE {index + 2} · {source.organization}{sourceDateLabel(source) ? ` · ${sourceDateLabel(source)}` : ""}</small><strong>{source.title}</strong><p>{source.sourceFocus}</p></div><b>OPEN ↗</b></a>)}</div>
       </details>}
     </section>
 
@@ -179,8 +179,8 @@ export default function NewsroomPublic({ newsroom }: { newsroom?: PublicNewsroom
     </details>}
 
     {newsroom.election && <section className="newsroom-election-window" id="surrey-election" aria-labelledby="surrey-election-window-title">
-      <header><span>SURREY ELECTION SOURCES</span><strong id="surrey-election-window-title">{newsroom.election.title}</strong><em>Explore the election sources</em></header>
-      <div><h2>{newsroom.election.question}</h2><ol>{newsroom.election.calendar.map(item => <li key={item.date}><b>{item.date}</b><span>{item.label}</span></li>)}</ol><nav aria-label="Official Surrey election sources">{newsroom.election.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><strong>{electionSourceLabel(source)}</strong><span>{source.organization}{source.dated ? ` · ${source.dated}` : ""} · OPEN ↗</span></a>)}</nav><blockquote>Talk at home: “{newsroom.election.familyPrompt}”</blockquote></div>
+      <header><span>SURREY ELECTION SOURCES</span><strong id="surrey-election-window-title">{newsroom.election.title}</strong><em>Election reference</em></header>
+      <div><h2>{newsroom.election.question}</h2><nav aria-label="Official Surrey election sources">{newsroom.election.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><strong>{electionSourceLabel(source)}</strong><span>{source.organization}{electionSourceDateLabel(source) ? ` · ${electionSourceDateLabel(source)}` : ""} · OPEN ↗</span></a>)}</nav><blockquote>Talk at home: “{newsroom.election.familyPrompt}”</blockquote></div>
     </section>}
 
     {newsroom.issues && newsroom.issues.length > 0 && <details className="newsroom-issue-library">
@@ -218,7 +218,7 @@ function NoCurrentFeature({ newsroom }: { newsroom: PublicNewsroom }) {
   return <main className="content-page newsroom-page source-first-newsroom">
     <section className="newsroom-empty-state">
       <p className="eyebrow">GRADE 6 NEWSROOM</p>
-      <h1>The next source is being checked.</h1>
+      <h1>Explore a source with your teacher.</h1>
       <p>Students can still use a teacher-selected current or historical source in class.</p>
       <div><article><small>QUICK LOOK</small><strong>{newsroom.shared.routes[0]?.minutes}</strong><span>{newsroom.shared.routes[0]?.path}</span></article><article><small>DEEP DIVE</small><strong>{newsroom.shared.routes[1]?.minutes}</strong><span>{newsroom.shared.routes[1]?.path}</span></article></div>
       <Link href="/learning">See what we are learning →</Link>
@@ -228,7 +228,7 @@ function NoCurrentFeature({ newsroom }: { newsroom: PublicNewsroom }) {
 
 function NewsroomUnavailable() {
   return <main className="content-page newsroom-page source-first-newsroom">
-    <section className="newsroom-empty-state"><p className="eyebrow">GRADE 6 NEWSROOM</p><h1>The public source set is being prepared.</h1><p>Nothing is posted until its source, question, and dates have been checked.</p><Link href="/">Return to current learning →</Link></section>
+    <section className="newsroom-empty-state"><p className="eyebrow">GRADE 6 NEWSROOM</p><h1>Newsroom sources</h1><p>Ask your teacher which source to explore.</p><Link href="/">Return to current learning →</Link></section>
   </main>;
 }
 
@@ -264,7 +264,13 @@ function formatDate(isoDate: string) {
 function sourceDateLabel(source: PublicNewsroomFeature["sources"][number]) {
   if (source.updatedOn) return `UPDATED ${formatDate(source.updatedOn).toUpperCase()}`;
   if (source.publishedOn) return `PUBLISHED ${formatDate(source.publishedOn).toUpperCase()}`;
-  return `CHECKED ${formatDate(source.checkedOn).toUpperCase()}`;
+  return "";
+}
+
+// Editorial review dates are not publication dates. Keep them in the source data,
+// while public cards show publisher dates and meaningful event dates only.
+function electionSourceDateLabel(source: PublicElection["sources"][number]) {
+  return source.dated && !/checked|recheck|^updated for/i.test(source.dated) ? source.dated : "";
 }
 
 function surreyElectionPhase(today: string) {
