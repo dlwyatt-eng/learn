@@ -1720,7 +1720,7 @@
         "subject": "Social Studies",
         "status": "Planned next steps",
         "focus": "Two Countries Shared Questions",
-        "detail": "Begin with rights and real access, then choose a question and two countries. Practise checking sources and questioning advice, including AI suggestions when used. November 20 is a connection to children’s rights, not a submission deadline."
+        "detail": "How can we create a better world? Groups will explore an issue they care about, compare two countries and develop ideas for change. Sources and AI can help them investigate, check information and consider different perspectives. November 20 connects to children’s rights; it is not a submission deadline."
       },
       {
         "subject": "Arts Education",
@@ -3183,8 +3183,8 @@
       "shared": {
         "eyebrow": "NOVEMBER 9–13 · PEACE, RIGHTS AND QUESTIONS",
         "title": "What helps people have a fair chance?",
-        "bigQuestion": "How can we use evidence to understand a right and the chance to use it?",
-        "summary": "Planned learning connects peace artwork, a short rights-and-access challenge, and questions for a two-country inquiry. Students continue from their actual class progress; the inquiry begins with a question and a source plan, not a finished presentation.",
+        "bigQuestion": "How can we create a better world?",
+        "summary": "How can we make the world better? Students will work in groups to explore an issue they care about, compare experiences in two countries and develop their own ideas for change. They’ll use sources and AI as thinking partners, checking information and considering different perspectives along the way.",
         "learningArc": [
           {
             "timing": "Monday",
@@ -3253,12 +3253,12 @@
       },
       "student": {
         "label": "STUDENT PATH",
-        "title": "Start with a question worth checking",
+        "title": "What would you like to make better?",
         "why": "A right can exist on paper while people still face barriers to using it.",
-        "summary": "Use a short fictional case to practise checking evidence, then begin your own question about two countries.",
+        "summary": "Explore an issue with your group, compare two countries and imagine ideas for change. Use sources and AI as thinking partners, not answer writers.",
         "duration": "November 9–13",
-        "grouping": "Whole class, partners and your own questions",
-        "routeTitle": "Notice, check, question, plan",
+        "grouping": "Group inquiry with your own reflections",
+        "routeTitle": "Wonder, explore, imagine, test, improve",
         "bring": [
           "Paper and pencil or another way to record thinking",
           "One question about a decision affecting people your age"
@@ -3271,16 +3271,16 @@
           "missed": "Ask which one next step is most useful; do not recreate every missed activity."
         },
         "steps": [
-          "Read or listen to the source cards.",
-          "Explain a difference between a right and access.",
-          "Choose a question and two countries.",
-          "Plan where to look and how to check information."
+          "Share issues you care about and choose a group question.",
+          "Choose two countries and explore different experiences.",
+          "Imagine possibilities, then check what sources support.",
+          "Save one discovery or idea and decide what to investigate next."
         ],
         "choices": [
           "Talk, write, draw or use a language that helps you think.",
           "Work on paper with a partner or teacher; AI is optional."
         ],
-        "product": "A question, two countries and a source-search plan.",
+        "product": "A shared question, early ideas and a next step for your group.",
         "finish": "You can explain why your question matters and what you will check next.",
         "handInOrSave": "Save work for the next class session.",
         "ifAbsentOrStuck": "Ask for one source and one useful next question.",
@@ -3288,20 +3288,20 @@
       },
       "family": {
         "label": "FAMILY WINDOW",
-        "title": "Peace, rights and a new inquiry",
-        "summary": "Planned learning connects peace artwork, a short rights-and-access challenge, and questions for a two-country inquiry. Students continue from their actual class progress; the inquiry begins with a question and a source plan, not a finished presentation.",
-        "whyThisMatters": "Students learn to ask thoughtful questions, check evidence and consider whether people can use rights in practice.",
-        "whatStudentsDo": "Compare a short fictional case, begin a question about two countries and make purposeful creative choices.",
+        "title": "Big questions for a better world",
+        "summary": "How can we make the world better? Students will work in groups to explore an issue they care about, compare experiences in two countries and develop their own ideas for change. They’ll use sources and AI as thinking partners, checking information and considering different perspectives along the way.",
+        "whyThisMatters": "Children can ask important questions, learn from others and imagine thoughtful ways to make a difference.",
+        "whatStudentsDo": "Explore an issue together, learn about two countries and test ideas for making things better.",
         "quickReference": {
-          "atSchool": "Rights-and-access practice and an inquiry question; lessons adjust to actual progress.",
+          "atSchool": "Group exploration of two countries and ideas for a better world.",
           "home": "No routine homework or new upload is required.",
-          "assessment": "Discussion and work in progress help plan the next teaching step.",
+          "assessment": "Each child explains their thinking and what they are discovering.",
           "spaces": "Family access instructions will follow when ready."
         },
-        "product": "A starting question and source plan, not a finished report.",
-        "assessment": "Formative attention to explanations, source checks and thoughtful questions.",
+        "product": "Questions and early ideas now, growing into a group proposal as the inquiry develops.",
+        "assessment": "Students will explain their ideas, show what they learned from sources and reflect on their own contributions.",
         "agreementNote": "Personal experiences and beliefs do not need to be shared.",
-        "groupAndIndividualEvidence": "Partner discussion can support each student’s own explanation and next question.",
+        "groupAndIndividualEvidence": "Groups work together, and each child shares their own learning.",
         "milestones": [
           {
             "date": "Nov. 9",
@@ -3326,16 +3326,16 @@
         ],
         "homework": "No new routine homework or fixed inquiry deadline.",
         "supportAtHome": [
-          "Ask what question your child wants to investigate.",
-          "Ask what a source says and what still needs checking."
+          "Ask what your child would like to make better in the world.",
+          "Talk about an idea they are exploring and what they would like to find out."
         ],
         "conversationPrompts": [
-          "What might make a right harder to use?",
-          "What evidence would help answer your question?"
+          "What could we learn from how people do things elsewhere?",
+          "Has anything you discovered changed your idea?"
         ],
         "spacesNote": "Selected work is a snapshot of progress, with more learning and posts still to come. Family invitations have not been assumed complete."
       }
     }
   ],
-  "checksum": "sha256:32e4b3e115ebf3af39f240855359ef53ee9d0c3b6ea5eaf67ccc34f8cdba0332"
+  "checksum": "sha256:a6abd18a7eaf4379e5d6e1c3c2733b29cd4ac479e332ef03bd7586aa8c6f734f"
 }
