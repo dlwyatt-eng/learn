@@ -21,7 +21,7 @@ function render(route,date='2026-09-18') {
 test('family arrival shows learning themes, next plans and take-home reminders',()=>{
   for(const route of ['home','families']) {
     const html=render(route);
-    for(const text of ['Division 8','Room 112','Annex','What we’re working on','Coming up','prime factorization','Nevermoor','order of operations','Bloxels','Matific','$5','School Cash Online','SpacesEDU and family access']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
+    for(const text of ['Division 8','Room 112','Annex','What we’re working on','Coming up','mathematical explanations','Nevermoor','Diwali','swimming','Matific','$5','School Cash Online','SpacesEDU and family access']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),route+': '+text);
     assert.doesNotMatch(html,/Nothing due|On Monday, students tell a story|Friday Learning Story · optional sharing/);
   }
 });
@@ -64,11 +64,11 @@ test('confirmed school dates render on home and families, preserve times, and ex
 
 test('classroom logistics stay on the student page, not parent arrival pages',()=>{
   const students=render('students','2026-10-22');
-  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','Regular classroom routines continue']) assert.ok(students.includes(text),text);
+  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','Wednesday November 11: school closed']) assert.ok(students.includes(text),text);
   for(const route of ['home','families']) {
     const html=render(route,'2026-10-19');
     assert.doesNotMatch(html,/Our class routines|Weekly times to remember|laptops are confirmed|student devices|computers for finishing|after recess|prep blocks|Mr\. Eckert/);
-    for(const text of ['order of operations','Nevermoor','Bloxels','Photo retakes','Non-instructional day','Optional home practice']) assert.ok(html.includes(text),route+': '+text);
+    for(const text of ['mathematical explanations','Nevermoor','creative projects','Photo retakes','Non-instructional day','Optional home practice']) assert.ok(html.includes(text),route+': '+text);
   }
   assert.match(render('students','2026-09-29'),/School dates/);
   assert.match(render('families','2026-09-29'),/No purchase is needed/);
@@ -125,4 +125,21 @@ test('compact reminders use confirmed events and disappear after their dates', (
   assert.doesNotMatch(section('2026-10-07'),/permission form due/);
   assert.equal(section('2026-10-10'),'');
   assert.match(section('2026-10-12'),/Thanksgiving/);
+});
+
+
+test('November dates and inquiry resources render without promoting unconfirmed logistics to family pages',()=>{
+  for(const route of ['home','families']){
+    const html=render(route,'2026-11-09');
+    for(const text of ['Diwali','November 11','swimming','November 9–13']) assert.ok(html.includes(text),route+': '+text);
+    assert.match(html,/https:\/\/dlwyatt-eng.github.io\/teacher-hub\/activities\/rights-evidence-bridge.html/);
+    assert.doesNotMatch(html,/class="class-schedule"|Nolan|Sarang|IEP|support room|password/);
+    assert.doesNotMatch(html,/Technology bookings are not confirmed|12:45–1:45/);
+  }
+  const students=render('students','2026-11-09');
+  assert.match(students,/class="class-schedule"/);
+  assert.match(students,/November 9–13/);
+  assert.equal(selection.selectPublicWindow(manifest.windows,'2026-11-09').id,'november-peace-rights-and-inquiry');
+  assert.doesNotMatch(render('students','2026-11-14'),/class="week-reminders"/);
+  assert.match(render('students','2026-11-14'),/Our class routines/);
 });

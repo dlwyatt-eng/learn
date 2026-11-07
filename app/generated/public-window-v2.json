@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-11-03-country-inquiry-reconciliation",
-  "sourceUpdatedAt": "2026-11-03",
+  "contentVersion": "2026-11-07-week-november-9",
+  "sourceUpdatedAt": "2026-11-07",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -994,7 +994,7 @@
         "Arts"
       ],
       "highlights": [
-        "Around November 20 · launch with human and children’s rights; National Child Day is a starting connection, not a deadline",
+        "November 9–13 · begin rights and access questions; November 20 National Child Day is a connection, not a deadline",
         "Choose two countries and one question; model searching and check the question and source plan",
         "Teach short class challenges alongside the inquiry; Juniper Park and earlier government lessons are optional practice"
       ],
@@ -1342,16 +1342,16 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "November 2, 2026",
+    "updatedOn": "November 7, 2026",
     "classLabel": "Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Division 8 community",
     "intro": "Welcome, Division 8 families. Use this hub for class learning themes, optional home practice, school reminders and useful links.",
     "recapTitle": "What we’re working on",
-    "recap": "We’re working on prime factorization and order of operations, reading Nevermoor, creating Bloxels games and reflecting on our interests and strengths.",
+    "recap": "Our learning includes Nevermoor, mathematical explanations, creative projects and thoughtful reflection. We will check where everyone stopped and continue from there.",
     "nextTitle": "Coming up",
-    "next": "Monday, November 2: PE self-assessment and Health learning about feelings, needs and healthy boundaries. Thursday, November 5: we’ll begin artwork with a message of peace.",
-    "later": "For families who would like extra practice, the homework page has a few optional choices and useful links.",
+    "next": "November 9–13: school Diwali observance on Monday, peace artwork and reflection, and swimming on Thursday. School is closed Wednesday, November 11 for Remembrance Day.",
+    "later": "We plan to explore mixed numbers with models and begin questions for a two-country inquiry. Friday’s art can connect to children’s rights and a fair community. Plans may adjust as we check class progress.",
     "reminders": [
       {
         "title": "Volunteer and driver registration · each school year",
@@ -1421,6 +1421,11 @@
         "title": "Belonging & Community learning sequence",
         "url": "https://dlwyatt-eng.github.io/teacher-hub/?view=Games+%26+Activities&mode=student&deck=belonging-sequence",
         "description": "Explore our classroom question: how do we help everyone belong?"
+      },
+      {
+        "title": "Rights and real access · classroom activity",
+        "url": "https://dlwyatt-eng.github.io/teacher-hub/activities/rights-evidence-bridge.html",
+        "description": "The short fictional source-card activity supporting our inquiry. A classroom resource, not extra homework."
       }
     ],
     "hotLunchNotice": "Check current school or PAC notices for hot-lunch dates and ordering instructions.",
@@ -1574,13 +1579,73 @@
       "dateLabel": "Thu, October 22",
       "title": "Provincial Student Vote",
       "detail": "Class voting starts at 12:50 pm. Preparation builds on existing party posters. Voting choices remain private."
+    },
+    {
+      "id": "diwali-school",
+      "date": "2026-11-09",
+      "month": "2026-11",
+      "dateLabel": "Mon, November 9",
+      "title": "School Diwali observance",
+      "detail": "Our school is observing Diwali on Monday. Follow school arrangements; timing is still to be confirmed."
+    },
+    {
+      "id": "remembrance-day",
+      "date": "2026-11-11",
+      "month": "2026-11",
+      "dateLabel": "Wed, November 11",
+      "title": "Remembrance Day",
+      "detail": "School closed."
+    },
+    {
+      "id": "swimming-nov12",
+      "date": "2026-11-12",
+      "month": "2026-11",
+      "dateLabel": "Thu, November 12",
+      "title": "Class swimming",
+      "detail": "Follow the class trip notice for preparations and permissions. Planned school departure 11:30 am; pool time noon–2 pm; return about 2:30 pm."
     }
   ],
   "classSchedule": {
-    "updatedOn": "October 26, 2026",
-    "weekOf": "October 26–30",
-    "through": "2026-10-30",
-    "days": [],
+    "updatedOn": "November 7, 2026",
+    "weekOf": "November 9–13",
+    "through": "2026-11-13",
+    "days": [
+      {
+        "date": "2026-11-09",
+        "morning": "School Diwali observance, peace artwork, Nevermoor and fraction models; sequence follows school timing.",
+        "later": "Continue and improve existing work.",
+        "reminder": "School observance and assembly times remain to be confirmed.",
+        "label": "Monday, November 9"
+      },
+      {
+        "date": "2026-11-10",
+        "morning": "Fraction models, Nevermoor and rights-and-access source cards.",
+        "later": "French 12:35–1:35, then quiet work and reflection.",
+        "reminder": "No school Wednesday.",
+        "label": "Tuesday, November 10"
+      },
+      {
+        "date": "2026-11-11",
+        "morning": "Remembrance Day · school closed.",
+        "later": "",
+        "reminder": "",
+        "label": "Wednesday, November 11"
+      },
+      {
+        "date": "2026-11-12",
+        "morning": "Library 9:20–9:35 and preparation for swimming.",
+        "later": "Swimming noon–2; approximate school return 2:30.",
+        "reminder": "Follow the trip notice. Swimming replaces normal PE and afternoon blocks.",
+        "label": "Thursday, November 12"
+      },
+      {
+        "date": "2026-11-13",
+        "morning": "Maths, French 9:35–10:35 and PE 11:10–11:50.",
+        "later": "Begin inquiry questions and a short related art activity.",
+        "reminder": "Save a question, two countries and a source-search plan; no new upload deadline.",
+        "label": "Friday, November 13"
+      }
+    ],
     "regular": [
       {
         "day": "Tuesday",
@@ -1613,19 +1678,19 @@
         "time": "11:10–11:50 am"
       }
     ],
-    "note": "Follow classroom directions for current learning; plans may adjust. Regular classroom routines continue."
+    "note": "Wednesday November 11: school closed. Thursday swimming replaces normal PE and afternoon blocks. Monday observance and assembly timing follow school confirmation. Technology bookings are not confirmed."
   },
   "learningUpdates": {
-    "updatedOn": "November 2, 2026",
-    "title": "Maths, Nevermoor and creative projects",
-    "summary": "We’re working on prime factorization and order of operations, reading Nevermoor, creating Bloxels games and reflecting on our interests and strengths.",
-    "note": "What we’re working on and what’s coming up.",
+    "updatedOn": "November 7, 2026",
+    "title": "Peace, fraction models and questions worth investigating",
+    "summary": "Plans for November 9–13 connect peace and belonging, Nevermoor, fraction models and a two-country inquiry. We will continue from actual class progress.",
+    "note": "Planned next steps, not a record of completed lessons.",
     "subjects": [
       {
         "subject": "Mathematics",
-        "status": "Ongoing",
-        "focus": "Prime factorization and order of operations",
-        "detail": "We’re using factor trees to explore prime factorization and practising the order of operations. Explaining each step helps us check our thinking."
+        "status": "Planned next steps",
+        "focus": "Mixed numbers and improper fractions",
+        "detail": "Use equal-part models to show that a mixed number and an improper fraction can name the same amount. Revisit earlier maths where needed."
       },
       {
         "subject": "Language Arts",
@@ -1642,26 +1707,26 @@
       {
         "subject": "Physical Education",
         "status": "Coming up",
-        "focus": "PE self-assessment: evidence and next steps",
-        "detail": "Coming up Monday, November 2: time to finish our PE self-assessment, describe our participation and choose a next step."
+        "focus": "Swimming · Thursday November 12",
+        "detail": "Swimming is planned for Thursday. Follow the class trip notice for preparation and permissions."
       },
       {
         "subject": "Health",
-        "status": "Coming up",
+        "status": "Ongoing learning",
         "focus": "Feelings, needs and healthy boundaries",
-        "detail": "Coming up Monday, November 2: fictional situations to help us explore feelings, needs and respectful requests. We’ll practise respecting a no or stop and knowing when to ask an adult for help."
+        "detail": "Continue using fictional situations to practise respectful requests, accepting a no or stop, and asking a trusted adult for help as needed."
       },
       {
         "subject": "Social Studies",
-        "status": "Recent learning and coming next",
-        "focus": "Student Vote and a rights-led country inquiry",
-        "detail": "Our recent Student Vote work explored political views, evidence and public decisions. Students’ voting preferences stay private. Coming next: Two Countries Shared Questions, starting with human and children’s rights around November 20. Students will choose a question and two countries, investigate sources and news, and prepare for proposed January sharing with flexible timing. No holiday homework is built in."
+        "status": "Planned next steps",
+        "focus": "Two Countries Shared Questions",
+        "detail": "Begin with rights and real access, then choose a question and two countries. Practise checking sources and questioning advice, including AI suggestions when used. November 20 is a connection to children’s rights, not a submission deadline."
       },
       {
         "subject": "Arts Education",
-        "status": "Coming up",
-        "focus": "Remembrance artwork with a message of peace",
-        "detail": "Starting Thursday, November 5: a discussion and colouring artwork with a message of peace. We’ll continue the artwork the following week."
+        "status": "Planned next steps",
+        "focus": "Peace artwork and a fair community",
+        "detail": "Continue peace artwork as needed. Friday’s short art connection can show how a design choice helps people access a right or community space. No separate major project is required."
       },
       {
         "subject": "ADST",
@@ -3109,7 +3174,168 @@
         ],
         "spacesNote": "No additional portfolio post is planned, and no ballot choice is collected or shared."
       }
+    },
+    {
+      "id": "november-peace-rights-and-inquiry",
+      "effectiveFrom": "2026-11-09",
+      "effectiveTo": "2026-11-13",
+      "state": "published",
+      "shared": {
+        "eyebrow": "NOVEMBER 9–13 · PEACE, RIGHTS AND QUESTIONS",
+        "title": "What helps people have a fair chance?",
+        "bigQuestion": "How can we use evidence to understand a right and the chance to use it?",
+        "summary": "Planned learning connects peace artwork, a short rights-and-access challenge, and questions for a two-country inquiry. Students continue from their actual class progress; the inquiry begins with a question and a source plan, not a finished presentation.",
+        "learningArc": [
+          {
+            "timing": "Monday",
+            "label": "Peace and community",
+            "studentAction": "Continue peace artwork as needed and take part in the school Diwali observance.",
+            "outcome": "Use respectful questions and thoughtful creative choices."
+          },
+          {
+            "timing": "Tuesday",
+            "label": "Rights and real access",
+            "studentAction": "Compare fictional source cards. Say what each supports and what it does not prove.",
+            "outcome": "Distinguish a right on paper from access in practice."
+          },
+          {
+            "timing": "Friday",
+            "label": "Begin an inquiry",
+            "studentAction": "Choose one question, two countries and a source-search plan. Sketch a fair-community design if time allows.",
+            "outcome": "Prepare for a careful comparison, with a useful next question."
+          }
+        ],
+        "visual": {
+          "src": "/images/visual-review/newsroom-source-desk-v1.webp",
+          "alt": "Fictional source-analysis desk with an unlabeled map, photograph, bar chart, text page, blank note card, pencil, and magnifying glass.",
+          "caption": "SOURCE CHECKING · Illustration only, not evidence. Use the fictional practice cards, then find traceable sources for your real-country question."
+        },
+        "primaryResource": {
+          "label": "Rights and real access · student source cards",
+          "href": "https://dlwyatt-eng.github.io/teacher-hub/printables/rights-evidence-bridge-student.pdf",
+          "format": "PDF · fictional practice case",
+          "description": "A fictional practice case, not facts about real countries."
+        },
+        "thinkingMoves": [
+          {
+            "id": "verify",
+            "label": "Check the evidence",
+            "prompt": "What does this source actually support?"
+          },
+          {
+            "id": "perspective",
+            "label": "Consider access",
+            "prompt": "Who can use this right in practice? What might get in the way?"
+          },
+          {
+            "id": "reflect",
+            "label": "Plan a next step",
+            "prompt": "What do we still need to check?"
+          }
+        ],
+        "subjectSnapshot": [
+          {
+            "subject": "Social Studies and ADST",
+            "now": "Rights, source checks and a two-country inquiry question",
+            "why": "Use evidence rather than accepting a claim or AI suggestion automatically."
+          },
+          {
+            "subject": "Mathematics",
+            "now": "Planned mixed-number and improper-fraction models",
+            "why": "Explain how two names can describe the same amount."
+          },
+          {
+            "subject": "Language Arts and Arts",
+            "now": "Nevermoor, peace artwork and fair-community sketches",
+            "why": "Support interpretations and design choices with details."
+          }
+        ]
+      },
+      "student": {
+        "label": "STUDENT PATH",
+        "title": "Start with a question worth checking",
+        "why": "A right can exist on paper while people still face barriers to using it.",
+        "summary": "Use a short fictional case to practise checking evidence, then begin your own question about two countries.",
+        "duration": "November 9–13",
+        "grouping": "Whole class, partners and your own questions",
+        "routeTitle": "Notice, check, question, plan",
+        "bring": [
+          "Paper and pencil or another way to record thinking",
+          "One question about a decision affecting people your age"
+        ],
+        "firstMove": "Read the source your teacher gives you. Say one thing it supports and one thing it cannot prove.",
+        "firstMoveNote": "The source-card case is fictional. It is practice, not evidence about a real country.",
+        "quickReference": {
+          "firstMove": "Check what the source says.",
+          "handIn": "Keep your question and source plan ready for next time.",
+          "missed": "Ask which one next step is most useful; do not recreate every missed activity."
+        },
+        "steps": [
+          "Read or listen to the source cards.",
+          "Explain a difference between a right and access.",
+          "Choose a question and two countries.",
+          "Plan where to look and how to check information."
+        ],
+        "choices": [
+          "Talk, write, draw or use a language that helps you think.",
+          "Work on paper with a partner or teacher; AI is optional."
+        ],
+        "product": "A question, two countries and a source-search plan.",
+        "finish": "You can explain why your question matters and what you will check next.",
+        "handInOrSave": "Save work for the next class session.",
+        "ifAbsentOrStuck": "Ask for one source and one useful next question.",
+        "spacesNote": "No extra upload or homework deadline is added."
+      },
+      "family": {
+        "label": "FAMILY WINDOW",
+        "title": "Peace, rights and a new inquiry",
+        "summary": "Planned learning connects peace artwork, a short rights-and-access challenge, and questions for a two-country inquiry. Students continue from their actual class progress; the inquiry begins with a question and a source plan, not a finished presentation.",
+        "whyThisMatters": "Students learn to ask thoughtful questions, check evidence and consider whether people can use rights in practice.",
+        "whatStudentsDo": "Compare a short fictional case, begin a question about two countries and make purposeful creative choices.",
+        "quickReference": {
+          "atSchool": "Rights-and-access practice and an inquiry question; lessons adjust to actual progress.",
+          "home": "No routine homework or new upload is required.",
+          "assessment": "Discussion and work in progress help plan the next teaching step.",
+          "spaces": "Family access instructions will follow when ready."
+        },
+        "product": "A starting question and source plan, not a finished report.",
+        "assessment": "Formative attention to explanations, source checks and thoughtful questions.",
+        "agreementNote": "Personal experiences and beliefs do not need to be shared.",
+        "groupAndIndividualEvidence": "Partner discussion can support each student’s own explanation and next question.",
+        "milestones": [
+          {
+            "date": "Nov. 9",
+            "label": "School Diwali observance",
+            "shortLabel": "School observance"
+          },
+          {
+            "date": "Nov. 11",
+            "label": "Remembrance Day · school closed",
+            "shortLabel": "School closed"
+          },
+          {
+            "date": "Nov. 12",
+            "label": "Class swimming",
+            "shortLabel": "Swimming"
+          },
+          {
+            "date": "Nov. 13",
+            "label": "Inquiry questions and purposeful art",
+            "shortLabel": "Inquiry and art"
+          }
+        ],
+        "homework": "No new routine homework or fixed inquiry deadline.",
+        "supportAtHome": [
+          "Ask what question your child wants to investigate.",
+          "Ask what a source says and what still needs checking."
+        ],
+        "conversationPrompts": [
+          "What might make a right harder to use?",
+          "What evidence would help answer your question?"
+        ],
+        "spacesNote": "Selected work is a snapshot of progress, with more learning and posts still to come. Family invitations have not been assumed complete."
+      }
     }
   ],
-  "checksum": "sha256:0a42d1bba0a7e8c4c2f5fde5ef97d404382ec571a1c0b8f5eebc133d2488192b"
+  "checksum": "sha256:32e4b3e115ebf3af39f240855359ef53ee9d0c3b6ea5eaf67ccc34f8cdba0332"
 }
