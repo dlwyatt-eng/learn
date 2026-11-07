@@ -143,3 +143,11 @@ test('November dates and inquiry resources render without promoting unconfirmed 
   assert.doesNotMatch(render('students','2026-11-14'),/class="week-reminders"/);
   assert.match(render('students','2026-11-14'),/Our class routines/);
 });
+
+test('November inquiry welcomes families with the visible big idea',()=>{
+ const html=render('families','2026-11-09');
+ const hero=html.match(/<section class="family-dashboard-hero">[\s\S]*?<\/section>/)?.[0] ?? '';
+ assert.match(hero,/How can we make the world better/);
+ assert.match(hero,/Students will work in groups/);
+ assert.match(hero,/AI as thinking partners/);
+});

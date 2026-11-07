@@ -332,6 +332,7 @@ function FamilyPage() {
       <div>
         <p className="eyebrow">{isMonthlyWindow ? 'LATEST CLASSROOM UPDATE' : windowStateLabel()} · FOR FAMILIES</p>
         <h1>{isMonthlyWindow ? 'Learning in Division 8' : current.family.title}</h1>
+        {current.id === 'november-peace-rights-and-inquiry' && <p>{current.family.summary}</p>}
         <p className="welcome-class">{welcome.classLabel} · {welcome.location}</p>
         <div className="status-pills"><span>{assessmentStatus()}</span><span>{isMonthlyWindow ? learningUpdates.updatedOn : current.student.duration}</span></div>
       </div>
