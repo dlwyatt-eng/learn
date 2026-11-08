@@ -340,6 +340,7 @@ function FamilyPage() {
     </section>
 
     <WeekReminders />
+    {current.id === 'november-peace-rights-and-inquiry' && <section className="family-question-card"><div><small>CURIOUS ABOUT THE INQUIRY?</small><h2>From a question to an idea for change</h2><p>Groups explore two countries, test their ideas with evidence and explain what they would improve. Ask your child: “What surprised you, and what would you like to find out next?”</p><a href="https://dlwyatt-eng.github.io/teacher-hub/activities/better-world-journey.html">Explore the student inquiry journey →</a></div><p>This is a flexible classroom guide, not new homework. Students can talk, sketch, read together or use teacher-approved technology. No live SchoolAI Space is linked here.</p></section>}
     <section className="family-priority-grid">
       {isMonthlyWindow ? <article className="family-dates"><small>UPDATED {learningUpdates.updatedOn}</small><h2>Learning by subject</h2><p>Find out what we’re working on and what’s coming up.</p><Link href="/learning#subject-now-title">See each subject →</Link></article> : <article className="family-dates"><small>DATES</small><h2>Learning dates</h2><ol>{familyMilestones.map(item => <li key={item.date}><strong>{item.date}</strong><span>{item.label}</span></li>)}</ol></article>}
       <article><small>AT SCHOOL</small><h2>Our classroom focus</h2><p>{isMonthlyWindow ? learningUpdates.summary : current.family.quickReference.atSchool}</p></article>

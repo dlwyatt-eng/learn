@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+test('family inquiry entry offers student guide without adding homework or claiming live AI',()=>{const s=readFileSync('app/classroom-portal.tsx','utf8');for(const t of ['better-world-journey.html','not new homework','No live SchoolAI Space','What surprised you'])assert.ok(s.includes(t),t);});
