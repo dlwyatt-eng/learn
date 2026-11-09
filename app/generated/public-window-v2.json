@@ -1749,18 +1749,18 @@
     ]
   },
   "homePractice": {
-    "updatedOn": "November 2, 2026",
+    "updatedOn": "November 9, 2026",
     "policy": "Separate daily homework is not routinely assigned. This is optional practice for families who want a regular routine. Choose what is useful; there is no expectation to complete the whole menu or submit optional practice.",
     "unfinished": "Check your planner and the instructions Mr. Wyatt has given you. Finish only the small piece identified for you, using the support agreed at school. An unfinished class activity is not automatically homework. If you were absent or are unsure, ask where to begin.",
     "routine": "Read or listen for 10–15 minutes, then choose one short activity. Families wanting a longer routine can add a second choice, keeping the total around 30–40 minutes including reading, or less when needed. Spread choices across evenings or select a few for the weekend; do not save up a catch-up pile.",
     "stopRule": "Stop if the work is confusing, upsetting or taking much longer than expected. Let Mr. Wyatt know which part was difficult. Rest, play, family time and activities outside school matter too.",
     "access": "Use paper, drawings, spoken explanations or a language that helps you think. Every menu activity can be done without an online account. No purchase, AI tool or routine portfolio upload is required.",
     "week": {
-      "id": "2026-11-02",
-      "label": "Read, practise factor trees and create",
-      "from": "2026-11-02",
-      "through": "2026-11-08",
-      "connection": "This week's optional choices connect to our ongoing reading, prime factorization and creative work. Pick one that is useful. These are not new assignments, and there is no routine upload or hand-in deadline.",
+      "id": "2026-11-09",
+      "label": "Read, revisit familiar maths and create",
+      "from": "2026-11-09",
+      "through": "2026-11-15",
+      "connection": "These optional choices revisit reading, factor trees and creative work. Our plans for November 9–13 also introduce mixed numbers and improper fractions; the optional fraction explorer below is available when useful. Choose what helps, not the whole menu. These are not new assignments, and there is no routine upload or hand-in deadline.",
       "activities": [
         {
           "id": "math",
@@ -1998,6 +1998,13 @@
       ]
     },
     "resources": [
+      {
+        "title": "Fraction explorer",
+        "subject": "Math · optional visual exploration",
+        "href": "https://dlwyatt-eng.github.io/teacher-hub/?subject=Mathematics&experience=fraction-ratio-remix&mode=student",
+        "description": "An optional connection to our planned mixed-number and improper-fraction learning. Explore equal parts and whole amounts when you are ready. There is no required activity or submission; ask at school if the idea is unfamiliar.",
+        "offline": "Draw equal-sized wholes on paper, divide each into the same number of equal parts, and explain what the parts represent. Familiar factor-tree practice above is also available."
+      },
       {
         "title": "Matific",
         "subject": "Math · extra practice & challenge",
@@ -3337,5 +3344,5 @@
       }
     }
   ],
-  "checksum": "sha256:a6abd18a7eaf4379e5d6e1c3c2733b29cd4ac479e332ef03bd7586aa8c6f734f"
+  "checksum": "sha256:2702cd0d4c047543eb46a3f2aeabbd648b6e52dac991758fe377da9892ee4388"
 }
