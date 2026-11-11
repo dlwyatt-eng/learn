@@ -142,7 +142,7 @@ export default function ClassroomPortal({ route }: { route: PortalRoute }) {
           <Link href="/guide">Classroom help</Link>
           <a href="https://dlwyatt-eng.github.io/equity-hub/" target="_blank" rel="noreferrer">Equity learning ↗</a>
         </nav>
-        <p>Class update: {welcome.updatedOn}. No student names, work, grades, or private classroom information appear here.</p>
+        <p>Class update: {welcome.updatedOn}.</p>
       </footer>
     </div>
   );
