@@ -32,7 +32,7 @@ test('current arrival routes do not present annual-plan activities as tasks or d
   const html=render(route);
   assert.doesNotMatch(html,/team inquiry-question clinic|power-map feedback wall|power-in-the-room simulation|Juniper Park|HAPPENING NOW/);
   assert.match(html,/November 7, 2026/);
-  assert.doesNotMatch(html,/href="https:\/\/ca.spacesedu.com\//);
+  assert.match(html,/href="https:\/\/ca.spacesedu.com\//);
  }
  assert.match(render('students'),/An unfinished class activity is not automatically homework/);
  assert.match(render('families'),/Separate daily homework is not routinely assigned/);

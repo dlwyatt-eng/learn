@@ -179,3 +179,21 @@ html { scroll-padding-top: calc(var(--portal-header-height, 160px) + 16px); }
 .email-contact .email-contact-help{margin-bottom:6px;font-size:14px}.email-contact .email-copy-status{min-height:24px;margin:0;font-weight:700;font-size:14px}
 @media(max-width:1050px){.portal-v2 .current-hero{grid-template-columns:1fr}.portal-v2 .current-hero figure.family-welcome-art{max-height:340px;overflow:hidden}.portal-v2 .family-welcome-art img{height:340px;object-fit:cover;object-position:50% 55%}}
 @media(max-width:720px){.portal-v2 .current-hero figure.family-welcome-art{max-height:none}.portal-v2 .family-welcome-art img{height:auto;object-fit:contain}.portal-v2 .current-hero-copy{padding:25px}.email-contact{grid-template-columns:1fr;padding:22px;gap:12px}.email-contact-buttons>*{flex:1 1 100%}}
+
+/* Family dashboard: three plain-language starting points, not another task list. */
+.family-start{margin:30px 0 34px;color:#173f35}
+.family-start header{margin-bottom:18px;max-width:70ch}
+.family-start .eyebrow{margin:0 0 7px;color:#52654e}
+.family-start h2{font:650 clamp(1.7rem,3vw,2.2rem)/1.15 Georgia,serif;margin:0 0 10px}
+.family-start header>p:last-child{font-size:1.05rem;line-height:1.6;margin:0}
+.family-start-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.family-start-card{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:start;gap:12px;padding:24px 20px;min-width:0;border:1px solid #bdcfc4;border-radius:18px;background:#fffdf7;color:#173f35;box-shadow:0 5px 0 #e1e8de;text-decoration:none;overflow-wrap:anywhere}
+.family-start-card:nth-child(2){background:#edf4ef}.family-start-card:nth-child(3){background:#f9f0dd}
+.family-start-card strong{display:block;font-size:1.12rem;line-height:1.4;text-decoration:underline;text-underline-offset:4px}
+.family-start-card small{display:block;margin-top:9px;font-size:1rem;font-weight:400;line-height:1.55;color:#354e44}
+.family-start-card .family-start-icon{display:grid;place-items:center;width:30px;height:30px;background:#173f35;color:#fff;border-radius:50%;font-size:1.2rem;font-weight:700}
+.family-start-card:hover{border-color:#245a43;box-shadow:0 5px 0 #adc7b5}
+.family-start-card:focus-visible{outline:3px solid #9b5b11;outline-offset:5px}
+@media(max-width:1000px){.family-start-grid{grid-template-columns:1fr}.family-start-card{padding:20px;align-items:center}.family-start-card small{margin-top:4px}}
+@media(forced-colors:active){.family-start-card{border:2px solid LinkText}.family-start-card .family-start-icon{border:1px solid CanvasText}}
+@media print{.family-start{display:none}}

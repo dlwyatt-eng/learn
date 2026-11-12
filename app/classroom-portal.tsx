@@ -162,7 +162,7 @@ function SchoolDates() {
   if (!upcoming.length) return null;
   const learningOnly = new Set(["reconciliation-walk", "latin-american-heritage-month", "womens-history-month", "national-child-day", "human-rights-day"]);
   const dateList = (items: typeof upcoming) => <ol>{items.map(item => <li key={item.id}><div>{item.date ? <time dateTime={item.date}>{item.dateLabel}</time> : <span>{item.dateLabel}</span>}</div><div><strong>{item.title}</strong>{item.detail && <p>{item.detail}</p>}</div></li>)}</ol>;
-  return <section className="school-dates" aria-labelledby="school-dates-title"><header><small>MARK YOUR CALENDAR · 2026</small><h2 id="school-dates-title">School dates</h2><p>Times are local to Surrey.</p></header><h3>Dates to plan around</h3>{dateList(upcoming.filter(item => !learningOnly.has(item.id)))}{upcoming.some(item => learningOnly.has(item.id)) && <><h3>Learning milestones · no family action needed</h3>{dateList(upcoming.filter(item => learningOnly.has(item.id)))}</>}</section>;
+  return <section className="school-dates" aria-labelledby="school-dates-title"><header><small>MARK YOUR CALENDAR</small><h2 id="school-dates-title">School dates</h2><p>Times are local to Surrey.</p></header><h3>Dates to plan around</h3>{dateList(upcoming.filter(item => !learningOnly.has(item.id)))}{upcoming.some(item => learningOnly.has(item.id)) && <><h3>Learning milestones · no family action needed</h3>{dateList(upcoming.filter(item => learningOnly.has(item.id)))}</>}</section>;
 }
 
 function ClassSchedule() {
@@ -196,8 +196,7 @@ function FamilyLinks() {
   </section>;
 }
 function SpacesStatus({showLink=true}:{showLink?:boolean}) {
-  if (!spacesPending) return null;
-  return <aside className="spaces-setup" aria-labelledby="spaces-setup-title"><div><small>SPACES EDU · SETUP UPDATE</small><h2 id="spaces-setup-title">{welcome.spaces.title}</h2><p>{welcome.spaces.message}</p></div>{showLink && <Link href="/portfolio">How we will use SpacesEDU →</Link>}</aside>;
+  return <aside className="spaces-setup" aria-labelledby="spaces-setup-title"><div><small>SPACES EDU · FAMILY ACCESS</small><h2 id="spaces-setup-title">{welcome.spaces.title}</h2><p>{welcome.spaces.message}</p></div>{showLink && <Link href="/portfolio">SpacesEDU family guidance →</Link>}</aside>;
 }
 
 function HomePage() {
@@ -326,6 +325,17 @@ function StudentPage() {
   </main>;
 }
 
+function FamilyStart() {
+  return <section className="family-start" aria-labelledby="family-start-title">
+    <header><p className="eyebrow">A QUICK START</p><h2 id="family-start-title">What brings you here?</h2><p>Find your child’s work, check a reminder, or choose something to explore together.</p></header>
+    <div className="family-start-grid">
+      <Link href="/portfolio" className="family-start-card"><span className="family-start-icon" aria-hidden="true">↗</span><span><strong>See learning &amp; feedback</strong><small>Connect through your SpacesEDU invitation and find your child’s portfolio.</small></span><span aria-hidden="true">→</span></Link>
+      <Link href="/families#family-reminders-title" className="family-start-card"><span className="family-start-icon" aria-hidden="true">□</span><span><strong>Check school reminders</strong><small>Dates, forms and ways to help with class activities.</small></span><span aria-hidden="true">→</span></Link>
+      <Link href="/homework" className="family-start-card"><span className="family-start-icon" aria-hidden="true">✦</span><span><strong>Support learning at home</strong><small>Teacher-requested unfinished work is separate from optional practice.</small></span><span aria-hidden="true">→</span></Link>
+    </div>
+  </section>;
+}
+
 function FamilyPage() {
   return <main className="content-page audience-page family-page">
     <section className="family-dashboard-hero">
@@ -339,6 +349,7 @@ function FamilyPage() {
       <div className="family-arrival-links"><Link href="/guide#contact">Contact Mr. Wyatt →</Link><Link href="/homework">Optional home practice →</Link></div>
     </section>
 
+    <FamilyStart />
     <WeekReminders />
     {current.id === 'november-peace-rights-and-inquiry' && <section className="family-question-card"><div><small>CURIOUS ABOUT THE INQUIRY?</small><h2>From a question to an idea for change</h2><p>Groups explore two countries, test their ideas with evidence and explain what they would improve. Ask your child: “What surprised you, and what would you like to find out next?”</p><a href="https://dlwyatt-eng.github.io/teacher-hub/activities/better-world-journey.html">Explore the student inquiry journey →</a></div><p>This is a flexible classroom guide, not new homework. Students can talk, sketch, read together or use teacher-approved technology. No live SchoolAI Space is linked here.</p></section>}
     <section className="family-priority-grid">

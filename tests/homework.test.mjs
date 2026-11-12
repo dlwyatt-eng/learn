@@ -15,7 +15,7 @@ test('dated practice becomes reusable rather than a new assignment',()=>{
 });
 test('actual tasks, answers, offline routes and private support render',()=>{
  const html=render('2026-11-09');
- for(const text of ['Keep both 2s: 2 × 2 × 3 = 12','18 = 2 × 3 × 3','24 = 2 × 2 × 2 × 3','18 ÷ 3 = 6','1 is not prime','Matific','work ahead','school-provided account','Tell a tiny mystery','Screen-free choice','NoRedInk','Prodigy Math','no hand-in deadline','No home upload is due','Include checking guidance in print']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),text);
+ for(const text of ['Keep both 2s: 2 × 2 × 3 = 12','18 = 2 × 3 × 3','24 = 2 × 2 × 2 × 3','18 ÷ 3 = 6','1 is not prime','Matific','work ahead','school-provided account','Tell a tiny mystery','Screen-free choice','NoRedInk','Prodigy Math','no hand-in deadline','Optional practice does not require a routine upload','Include checking guidance in print']) assert.ok(html.toLowerCase().includes(text.toLowerCase()),text);
  assert.equal((html.match(/class="homework-activity"/g)||[]).length,11);
  assert.match(html,/href="\/homework#homework-menu"/);
  assert.doesNotMatch(html,/href="https:\/\/ca.spacesedu.com\//);
@@ -39,6 +39,6 @@ test('three featured choices come first and the full optional library remains',(
  assert.equal((library.match(/class="homework-activity"/g)||[]).length,8);
  assert.equal((library.match(/open=""/g)||[]).length,0);
  assert.ok(featured.indexOf('Read, notice and explain') < featured.indexOf('Factor trees'));
- for(const text of ['Draw the same object twice','Print featured choices','Include more practice choices in print','Choose something different whenever you like','ask Mr. Wyatt privately','November 9, 2026']) assert.ok(html.includes(text),text);
+ for(const text of ['Draw the same object twice','Print featured choices','Include more practice choices in print','Choose something different whenever you like','ask Mr. Wyatt privately','November 12, 2026']) assert.ok(html.includes(text),text);
  assert.doesNotMatch(html,/class="content-page homework-page include-library"/);
 });

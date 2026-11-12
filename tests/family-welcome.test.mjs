@@ -26,12 +26,12 @@ test('family arrival shows learning themes, next plans and take-home reminders',
   }
 });
 
-test('pending SpacesEDU status suppresses sign-in prompts across routes and next-week rollover',()=>{
+test('invited SpacesEDU status enables access across routes without requiring uploads',()=>{
   for(const date of ['2026-09-18','2026-09-22']) for(const route of ['home','students','families','portfolio','guide','learning']) {
     const html=render(route,date);
-    assert.doesNotMatch(html,/href="https:\/\/ca\.spacesedu\.com\//,date+': '+route);
-    assert.match(html,/SpacesEDU setup/);
-    if(route==='portfolio') assert.match(html,/Sharing your learning/);
+    assert.match(html,/href="https:\/\/ca\.spacesedu\.com\//,date+': '+route);
+    assert.match(html,/SpacesEDU/);
+    if(route==='portfolio') assert.match(html,/Family invitations have been sent/);
   }
 });
 
@@ -131,7 +131,7 @@ test('compact reminders use confirmed events and disappear after their dates', (
 test('November dates and inquiry resources render without promoting unconfirmed logistics to family pages',()=>{
   for(const route of ['home','families']){
     const html=render(route,'2026-11-09');
-    for(const text of ['Diwali','November 11','swimming','November 9–13']) assert.ok(html.includes(text),route+': '+text);
+    for(const text of ['Diwali','November 11','swimming','November 12–13']) assert.ok(html.includes(text),route+': '+text);
     assert.match(html,/https:\/\/dlwyatt-eng.github.io\/teacher-hub\/activities\/rights-evidence-bridge.html/);
     assert.doesNotMatch(html,/class="class-schedule"|Nolan|Sarang|IEP|support room|password/);
     assert.doesNotMatch(html,/Technology bookings are not confirmed|12:45–1:45/);
