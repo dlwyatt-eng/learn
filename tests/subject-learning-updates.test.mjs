@@ -23,7 +23,7 @@ test('all ten subject cards render independently with their status and detail',(
   assert.ok(card.includes(item.focus));assert.ok(card.includes(item.status));assert.ok(card.includes(item.detail));
  }
  assert.equal(new Set([...section.matchAll(/<h3>(.*?)<\/h3>/g)].map(x=>x[1])).size,10);
- assert.match(section,/November 7, 2026/);
+ assert.match(section,/November 12, 2026/);
  assert.doesNotMatch(section,/Government, human rights, media, systems/);
  assert.match(html,/Ideas for the month/);
 });
@@ -31,7 +31,7 @@ test('current arrival routes do not present annual-plan activities as tasks or d
  for(const route of ['home','students','families','portfolio']){
   const html=render(route);
   assert.doesNotMatch(html,/team inquiry-question clinic|power-map feedback wall|power-in-the-room simulation|Juniper Park|HAPPENING NOW/);
-  assert.match(html,/November 7, 2026/);
+  assert.match(html,/November 12, 2026/);
   assert.match(html,/href="https:\/\/ca.spacesedu.com\//);
  }
  assert.match(render('students'),/An unfinished class activity is not automatically homework/);
@@ -42,7 +42,7 @@ test('public copy explains learning without update-process commentary',()=>{
  const unwanted=/latest confirmed classroom context|unconfirmed focus is labelled|not verified for this update|not confirmation that the lesson|no chapter is assumed|Follow actual classroom progress|Read the dated subject updates/;
  for(const route of ['home','students','families','learning','portfolio','guide','homework','newsroom','rights','truth-and-reconciliation'])assert.doesNotMatch(render(route),unwanted,route);
  const html=render('learning');
- assert.match(html,/Swimming is planned for Thursday/);assert.match(html,/Friday’s short art connection/);
+ assert.match(html,/Swimming is planned for Thursday/);assert.match(html,/No separate art activity is planned for Friday/);assert.match(html,/brief inquiry introduction may begin on Friday if students are ready/);
  assert.match(html,/materials and instructions from your French teacher/);
  assert.match(render('guide'),/Ask Mr. Wyatt where to start/);
 });
