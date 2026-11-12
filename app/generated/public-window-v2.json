@@ -1,6 +1,6 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-11-12-family-invitation-friday",
+  "contentVersion": "2026-11-12-friday-health-spaces-first",
   "sourceUpdatedAt": "2026-11-12",
   "window": {
     "id": "september-opening",
@@ -1350,8 +1350,8 @@
     "recapTitle": "What we’re working on",
     "recap": "Our learning includes Nevermoor, mathematical explanations, creative projects and thoughtful reflection. We will check where everyone stopped and continue from there.",
     "nextTitle": "Coming up",
-    "next": "November 12–13: swimming on Thursday; time to finish first-term work, prepare SpacesEDU postings and begin the inquiry on Friday.",
-    "later": "Friday’s priorities are finishing first-term work and SpacesEDU postings, alongside an introduction to our inquiry. We also plan to continue Nevermoor. Fractions will likely begin next week, depending on class progress.",
+    "next": "November 12–13: swimming on Thursday; time to finish first-term work and prepare SpacesEDU postings on Friday.",
+    "later": "Friday begins with feelings and needs, with Nevermoor if time. The main priority is finishing first-term work and SpacesEDU postings; a brief inquiry introduction may follow if students are ready. Fractions will likely begin next week, depending on class progress.",
     "reminders": [
       {
         "title": "Volunteer and driver registration · each school year",
@@ -1606,7 +1606,7 @@
     }
   ],
   "classSchedule": {
-    "updatedOn": "November 9, 2026",
+    "updatedOn": "November 12, 2026",
     "weekOf": "November 9–13",
     "through": "2026-11-13",
     "days": [
@@ -1640,9 +1640,9 @@
       },
       {
         "date": "2026-11-13",
-        "morning": "Maths, French 9:35–10:35 and PE 11:10–11:50.",
-        "later": "Begin inquiry questions and a short related art activity.",
-        "reminder": "Save a question, two countries and a source-search plan; no new upload deadline.",
+        "morning": "Health: feelings and needs, with Nevermoor if time; French 9:35–10:35 and PE 11:10–11:50.",
+        "later": "Use the booked afternoon laptops to finish first-term work and SpacesEDU postings. A short inquiry introduction is optional if enough students are ready.",
+        "reminder": "Finish existing work first. No separate art or fractions lesson today, and no new inquiry upload deadline.",
         "label": "Friday, November 13"
       }
     ],
@@ -1678,19 +1678,19 @@
         "time": "11:10–11:50 am"
       }
     ],
-    "note": "Wednesday November 11: school closed. Thursday swimming replaces normal PE and afternoon blocks. Tuesday Remembrance Day assembly starts at 9:00 am; its end time is not confirmed. Technology bookings are not confirmed."
+    "note": "Wednesday November 11: school closed. Thursday swimming replaces normal PE and afternoon blocks. Tuesday Remembrance Day assembly starts at 9:00 am; its end time is not confirmed. Friday afternoon laptops are booked. Other proposed device windows are not confirmed."
   },
   "learningUpdates": {
-    "updatedOn": "November 7, 2026",
-    "title": "Peace, fraction models and questions worth investigating",
-    "summary": "Plans for November 9–13 connect peace and belonging, Nevermoor, fraction models and a two-country inquiry. We will continue from actual class progress.",
+    "updatedOn": "November 12, 2026",
+    "title": "Feelings, needs and finishing first-term learning",
+    "summary": "Friday’s plan prioritises feelings and needs, finishing first-term work and SpacesEDU postings. Continue Nevermoor if time; introduce the inquiry briefly only if students are ready. We will continue from actual class progress.",
     "note": "Planned next steps, not a record of completed lessons.",
     "subjects": [
       {
         "subject": "Mathematics",
         "status": "Planned next steps",
         "focus": "Mixed numbers and improper fractions",
-        "detail": "Use equal-part models to show that a mixed number and an improper fraction can name the same amount. Revisit earlier maths where needed."
+        "detail": "Fractions will likely begin next week, depending on class progress. We plan to use equal-part models to show that a mixed number and an improper fraction can name the same amount, revisiting earlier maths where needed."
       },
       {
         "subject": "Language Arts",
@@ -1714,19 +1714,19 @@
         "subject": "Health",
         "status": "Ongoing learning",
         "focus": "Feelings, needs and healthy boundaries",
-        "detail": "Continue using fictional situations to practise respectful requests, accepting a no or stop, and asking a trusted adult for help as needed."
+        "detail": "Friday’s planned focus is finishing our feelings-and-needs work. Use fictional situations to practise respectful requests, accepting a no or stop, and asking a trusted adult for help as needed. Personal sharing is optional."
       },
       {
         "subject": "Social Studies",
         "status": "Planned next steps",
         "focus": "Two Countries Shared Questions",
-        "detail": "How can we create a better world? Groups will explore an issue they care about, compare two countries and develop ideas for change. Sources and AI can help them investigate, check information and consider different perspectives. November 20 connects to children’s rights; it is not a submission deadline."
+        "detail": "A brief inquiry introduction may begin on Friday if students are ready after their first-term work. Groups will explore an issue they care about, compare two countries and develop ideas for change. Sources and AI can support investigation and checking different perspectives. November 20 connects to children’s rights; it is not a submission deadline."
       },
       {
         "subject": "Arts Education",
         "status": "Planned next steps",
-        "focus": "Peace artwork and a fair community",
-        "detail": "Continue peace artwork as needed. Friday’s short art connection can show how a design choice helps people access a right or community space. No separate major project is required."
+        "focus": "Creative choices across our learning",
+        "detail": "No separate art activity is planned for Friday. Keep space for purposeful creative work as future lessons and themes develop."
       },
       {
         "subject": "ADST",
@@ -3207,9 +3207,9 @@
           },
           {
             "timing": "Friday",
-            "label": "Begin an inquiry",
-            "studentAction": "Choose one question, two countries and a source-search plan. Sketch a fair-community design if time allows.",
-            "outcome": "Prepare for a careful comparison, with a useful next question."
+            "label": "Finish work first",
+            "studentAction": "Finish first-term work and SpacesEDU postings. Join a brief inquiry introduction only if the class is ready.",
+            "outcome": "Complete existing learning and, if time allows, collect an inquiry question for a later lesson."
           }
         ],
         "visual": {
@@ -3248,12 +3248,12 @@
           },
           {
             "subject": "Mathematics",
-            "now": "Planned mixed-number and improper-fraction models",
+            "now": "Fractions likely begin next week, depending on class progress",
             "why": "Explain how two names can describe the same amount."
           },
           {
             "subject": "Language Arts and Arts",
-            "now": "Nevermoor, peace artwork and fair-community sketches",
+            "now": "Nevermoor when time allows; complete existing learning first",
             "why": "Support interpretations and design choices with details."
           }
         ]
@@ -3327,8 +3327,8 @@
           },
           {
             "date": "Nov. 13",
-            "label": "Finish first-term work and introduce the inquiry",
-            "shortLabel": "Finish work and inquiry"
+            "label": "Finish first-term work; inquiry introduction if ready",
+            "shortLabel": "Finish work first"
           }
         ],
         "homework": "No new routine homework or fixed inquiry deadline.",
@@ -3344,5 +3344,5 @@
       }
     }
   ],
-  "checksum": "sha256:3cb83d6967651d6b0842be11111a1517f5176527f88089ae05a93b8a69fc4178"
+  "checksum": "sha256:2f1280690461053babedd819a846ec69f7a563e5ee29f79d7f2e650a4607e696"
 }
