@@ -1,6 +1,6 @@
 # Student and Learning refresh · November 13, 2026
 
-This review restores the November 12 visual preview on top of published Family Hub commit d3e5c69 and Teacher Hub commit b5ae2eb. It does not replace either live site yet.
+The November 12 visual preview was restored and published on November 13. Family Hub commit `66d67d2` and Teacher Hub commit `eec5f28` both passed their GitHub Pages deployments. The Teacher publication also preserves the separately completed fractions update.
 
 ## Changes
 - A warm, visual Student launchpad separates continuing assigned work, sharing thinking and optional exploration.
@@ -12,13 +12,19 @@ This review restores the November 12 visual preview on top of published Family H
 - The no-routine-homework policy, optional choices, private sharing boundaries and Fieldnotes save warning remain.
 
 ## Verification
-- Family Hub: complete npm test passed, including build, artifact validation and 51 tests.
-- Teacher Hub: complete npm test passed, including public-window consistency, typecheck, 320 tests, build and emitted-artifact validation.
+- Family Hub release: complete npm test passed, including build, artifact validation and 51 tests. The follow-up navigation fix adds four behavioural regression tests.
+- Teacher Hub: complete npm test passed after rebasing the fractions update, including public-window consistency, typecheck, 326 tests, build and emitted-artifact validation.
 - Generated public manifests match byte for byte across repositories.
 - Main resource links returned HTTP 200. Query-driven routes also inspected against router/subject sources.
 - New tests cover current student copy, anchor routing, all ten subjects, unique labelled destinations, asset existence, responsive/focus/print rules and historical lessons.
 - Preview HTML contains the real current components and CSS, embedded hero images, working disclosure panels, jump links and large-text buttons. Its other navigation opens existing live resources.
-- Browser visual, keyboard interaction and print-output QA remain unverified: local Chromium cannot create its required socket in this executor, including through the approved escalation path. No browser screenshots or claim of live deployment is made.
+- Live Student and Learning pages were checked in a desktop browser at 1212 CSS pixels. Images loaded, headings and links were visible, and the standard and large-text layouts had no horizontal overflow. Keyboard activation, section focus, expandable panels and Back navigation were exercised.
+- An additional repeated-activation check found that a section link stopped jumping after its hash was already current. The follow-up fix restores both keyboard focus and scrolling for repeated section or page navigation, without intercepting modifier clicks, downloads, external links or new tabs.
+- All ten reviewed source text/background colour pairs exceed the 4.5:1 AA normal-text contrast threshold. This is a source-colour check, not a full computed-style accessibility audit.
+- Actual phone/narrow-viewport and print-output appearance remain unverified. The available browser does not expose viewport or print-emulation controls; no mobile or print pass is claimed.
 
-## Release boundary
-Keep this as a review. Obtain approval of the updated preview before merging or deploying the major redesign. After approval, recheck both remote main branches, preserve newer changes, rerun both quality gates, publish matching canonical/source and renderer changes, and verify the exact deployed commits.
+## Live pages
+- https://dlwyatt-eng.github.io/learn/#/students
+- https://dlwyatt-eng.github.io/learn/#/learning
+
+Future updates must still preserve current remote work, use the canonical Teacher Hub source for public classroom copy, run the relevant quality gates and verify deployed changes. Do not treat planned learning as completed work or add new assignments or policies through a visual refresh.

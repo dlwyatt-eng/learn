@@ -9,6 +9,7 @@ const manifest = JSON.parse(await readFile(path.join(root, "app/generated/public
 const portal = await readFile(path.join(root, "app/classroom-portal.tsx"), "utf8");
 const linkAdapter = await readFile(path.join(root, "pages/next-link.tsx"), "utf8");
 const router = await readFile(path.join(root, "pages/main.tsx"), "utf8");
+const routeFocus = await readFile(path.join(root, "pages/route-focus.ts"), "utf8");
 const styles = await readFile(path.join(root, "app/classroom-portal-v2.css"), "utf8");
 const workflow = await readFile(path.join(root, ".github/workflows/pages.yml"), "utf8");
 const exactWindowKeys = ["id", "effectiveFrom", "effectiveTo", "state", "shared", "student", "family"];
@@ -61,7 +62,8 @@ test("Discovery is the opening window and has its complete public route", () => 
 test("route-plus-anchor links retain both the route and destination", () => {
   assert.match(linkAdapter, /anchor=/);
   assert.match(router, /anchorFromHash/);
-  assert.match(router, /scrollIntoView/);
+  assert.match(router, /focusRouteDestination\(anchor\)/);
+  assert.match(routeFocus, /scrollIntoView/);
 });
 
 test("hash routing manages skip focus, route focus, titles, and announcements", () => {
@@ -69,7 +71,7 @@ test("hash routing manages skip focus, route focus, titles, and announcements", 
   assert.match(portal, /event\.preventDefault\(\)/);
   assert.match(router, /const routeLabels:/);
   assert.match(router, /document\.title =/);
-  assert.match(router, /target\.focus\(\{ preventScroll: true \}\)/);
+  assert.match(routeFocus, /target\.focus\(\{ preventScroll: true \}\)/);
   assert.match(router, /update\(\);/);
   assert.match(router, /aria-live="polite"/);
   assert.match(router, /aria-atomic="true"/);

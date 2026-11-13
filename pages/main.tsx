@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import ReactDOM from "react-dom/client";
 import ClassroomPortal from "../app/classroom-portal";
 import EarthFamilyEntry from "../app/earth-family-entry";
+import { focusRouteDestination } from "./route-focus";
 import "../app/globals.css";
 import "../app/classroom-portal-v2.css";
 import "../app/newsroom-public.css";
@@ -29,16 +30,6 @@ function routeFromHash(): Route {
 function anchorFromHash() {
   const query = window.location.hash.split("?", 2)[1] ?? "";
   return new URLSearchParams(query).get("anchor");
-}
-
-function focusRouteDestination(anchor: string | null) {
-  window.requestAnimationFrame(() => window.requestAnimationFrame(() => {
-    const target = document.getElementById(anchor ?? "public-main");
-    if (!target) return;
-    if (!target.hasAttribute("tabindex")) target.setAttribute("tabindex", "-1");
-    target.focus({ preventScroll: true });
-    target.scrollIntoView({ block: "start", behavior: "auto" });
-  }));
 }
 
 function App() {
