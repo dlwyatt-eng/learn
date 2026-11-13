@@ -64,7 +64,7 @@ test('confirmed school dates render on home and families, preserve times, and ex
 
 test('classroom logistics stay on the student page, not parent arrival pages',()=>{
   const students=render('students','2026-10-22');
-  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','Wednesday November 11: school closed']) assert.ok(students.includes(text),text);
+  for(const text of ['Our class routines','Library book exchange','9:20–9:35 am','Core French','usual weekly routines']) assert.ok(students.includes(text),text);
   for(const route of ['home','families']) {
     const html=render(route,'2026-10-19');
     assert.doesNotMatch(html,/Our class routines|Weekly times to remember|laptops are confirmed|student devices|computers for finishing|after recess|prep blocks|Mr\. Eckert/);
@@ -131,7 +131,7 @@ test('compact reminders use confirmed events and disappear after their dates', (
 test('November dates and inquiry resources render without promoting unconfirmed logistics to family pages',()=>{
   for(const route of ['home','families']){
     const html=render(route,'2026-11-09');
-    for(const text of ['Diwali','November 11','swimming','November 12–13']) assert.ok(html.includes(text),route+': '+text);
+    for(const text of ['Diwali','November 11','swimming','Friday November 13']) assert.ok(html.includes(text),route+': '+text);
     assert.match(html,/https:\/\/dlwyatt-eng.github.io\/teacher-hub\/activities\/rights-evidence-bridge.html/);
     assert.doesNotMatch(html,/class="class-schedule"|Nolan|Sarang|IEP|support room|password/);
     assert.doesNotMatch(html,/Technology bookings are not confirmed|12:45–1:45/);

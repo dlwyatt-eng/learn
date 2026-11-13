@@ -1,7 +1,7 @@
 {
   "schemaVersion": "classroom-os-public-window/v2",
-  "contentVersion": "2026-11-12-friday-health-spaces-first",
-  "sourceUpdatedAt": "2026-11-12",
+  "contentVersion": "2026-11-13-student-learning-preview",
+  "sourceUpdatedAt": "2026-11-13",
   "window": {
     "id": "september-opening",
     "effectiveFrom": "2026-09-08",
@@ -984,9 +984,9 @@
     {
       "month": "November",
       "timing": "Nov. 2–30 · about 19 instructional days",
-      "phase": "Launch a rights-led country inquiry",
-      "focus": "Human and children’s rights, student questions, two countries, and careful source searching",
-      "learning": "Students begin with short class challenges, choose a question and two countries, and practise finding and comparing sources with support.",
+      "phase": "Begin a two-country inquiry",
+      "focus": "People, places, choices and our shared world",
+      "learning": "Students choose a question and compare two countries. Government, migration, resources, cooperation and rights offer different ways into the inquiry, with careful source checking throughout.",
       "subjects": [
         "Social Studies",
         "ELA",
@@ -994,9 +994,9 @@
         "Arts"
       ],
       "highlights": [
-        "November 9–13 · begin rights and access questions; November 20 National Child Day is a connection, not a deadline",
-        "Choose two countries and one question; model searching and check the question and source plan",
-        "Teach short class challenges alongside the inquiry; Juniper Park and earlier government lessons are optional practice"
+        "Begin when existing work is ready · choose a question worth exploring and compare two countries",
+        "Investigate government, migration, resources, cooperation or rights; consider different perspectives and check sources",
+        "November 20 · National Child Day offers one useful connection, not a submission deadline"
       ],
       "anticipatedShare": "Share questions and emerging evidence when useful; no fixed November presentation or separate rights product."
     },
@@ -1342,7 +1342,7 @@
     "email": "mailto:wyatt_daryl@surreyschools.ca"
   },
   "classroomWelcome": {
-    "updatedOn": "November 12, 2026",
+    "updatedOn": "November 13, 2026",
     "classLabel": "Division 8",
     "location": "Room 112 · Annex · Walnut Road Elementary",
     "title": "Welcome to our Division 8 community",
@@ -1350,7 +1350,7 @@
     "recapTitle": "What we’re working on",
     "recap": "Our learning includes Nevermoor, mathematical explanations, creative projects and thoughtful reflection. We will check where everyone stopped and continue from there.",
     "nextTitle": "Coming up",
-    "next": "November 12–13: swimming on Thursday; time to finish first-term work and prepare SpacesEDU postings on Friday.",
+    "next": "Friday November 13: feelings and needs, time to finish first-term work and prepare SpacesEDU postings.",
     "later": "Friday begins with feelings and needs, with Nevermoor if time. The main priority is finishing first-term work and SpacesEDU postings; a brief inquiry introduction may follow if students are ready. Fractions will likely begin next week, depending on class progress.",
     "reminders": [
       {
@@ -1678,10 +1678,10 @@
         "time": "11:10–11:50 am"
       }
     ],
-    "note": "Wednesday November 11: school closed. Thursday swimming replaces normal PE and afternoon blocks. Tuesday Remembrance Day assembly starts at 9:00 am; its end time is not confirmed. Friday afternoon laptops are booked. Other proposed device windows are not confirmed."
+    "note": "These are our usual weekly routines. Check the Shape of the Day and your teacher’s instructions for changes."
   },
   "learningUpdates": {
-    "updatedOn": "November 12, 2026",
+    "updatedOn": "November 13, 2026",
     "title": "Feelings, needs and finishing first-term learning",
     "summary": "Friday’s plan prioritises feelings and needs, finishing first-term work and SpacesEDU postings. Continue Nevermoor if time; introduce the inquiry briefly only if students are ready. We will continue from actual class progress.",
     "note": "Planned next steps, not a record of completed lessons.",
@@ -1695,8 +1695,8 @@
       {
         "subject": "Language Arts",
         "status": "Ongoing",
-        "focus": "Nevermoor: old life and new life",
-        "detail": "As we read Nevermoor, we’re exploring the theme of an old life ending and a new life beginning. We use details from the story to explain our ideas."
+        "focus": "Nevermoor: read, notice and explain",
+        "detail": "As we read Nevermoor, we use details from the story to explain characters’ choices, changes and questions about fairness. Continue from the place reached together in class."
       },
       {
         "subject": "Career Education",
@@ -1706,9 +1706,9 @@
       },
       {
         "subject": "Physical Education",
-        "status": "Coming up",
-        "focus": "Swimming · Thursday November 12",
-        "detail": "Swimming is planned for Thursday. Follow the class trip notice for preparation and permissions."
+        "status": "Class focus",
+        "focus": "Swimming, safe participation and reflection",
+        "detail": "Our November 12 swimming trip connects movement, safe participation and reflection. Continue the PE work identified by your teacher."
       },
       {
         "subject": "Health",
@@ -1719,8 +1719,8 @@
       {
         "subject": "Social Studies",
         "status": "Planned next steps",
-        "focus": "Two Countries Shared Questions",
-        "detail": "A brief inquiry introduction may begin on Friday if students are ready after their first-term work. Groups will explore an issue they care about, compare two countries and develop ideas for change. Sources and AI can support investigation and checking different perspectives. November 20 connects to children’s rights; it is not a submission deadline."
+        "focus": "Two countries, shared questions",
+        "detail": "A brief inquiry introduction may begin on Friday if students are ready after their first-term work. We will compare how choices in different places shape people’s lives and our shared world, exploring government, migration, resources, cooperation and rights. We will check sources and consider different perspectives. November 20 offers a children’s-rights connection, not a submission deadline."
       },
       {
         "subject": "Arts Education",
@@ -3344,5 +3344,5 @@
       }
     }
   ],
-  "checksum": "sha256:2f1280690461053babedd819a846ec69f7a563e5ee29f79d7f2e650a4607e696"
+  "checksum": "sha256:490ff61a6baa37c6a7ccb24676a03052d7e4bba9ec0afacdfd0ddc0453b6d9b2"
 }

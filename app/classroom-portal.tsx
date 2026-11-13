@@ -1,5 +1,6 @@
 "use client";
 
+import { StudentLaunchpad, LearningTrails } from "./student-learning-refresh";
 import RightsStrand, { RightsEntry } from "./rights-strand";
 import HomeworkPage, { HomeworkDoorway } from "./homework-page";
 import TruthFamilyPage, { TruthLearningLink } from "./truth-family-page";
@@ -245,6 +246,9 @@ function HomePage() {
 }
 
 function StudentPage() {
+  if (today >= "2026-11-12") return <StudentLaunchpad spacesPending={spacesPending} spacesUrl={spacesUrl} unfinished={publicWindowManifest.homePractice.unfinished} updatedOn={learningUpdates.updatedOn}>
+    <details className="launch-archive"><summary>Class routines and school dates</summary><ClassSchedule /><SchoolDates /></details>
+  </StudentLaunchpad>;
   if (isMonthlyWindow) return <main className="content-page audience-page student-page">
     <section className="functional-page-header"><p className="eyebrow">FOR STUDENTS</p><h1>Our classroom learning</h1><p>Use the Shape of the Day and your teacher’s instructions for today’s work. </p></section>
     <nav className="student-classroom-shortcuts" aria-label="Open our classroom"><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Morning+Screen&mode=student">Shape of the Day</a><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Home&mode=student">Classroom learning</a><a href="https://dlwyatt-eng.github.io/teacher-hub/?view=Math+Thinking+Routines&mode=student">Math thinking routines</a></nav>
@@ -404,26 +408,25 @@ function FamilyPage() {
 
 function LearningPage() {
   return <main className="content-page learning-page compact-content-page">
-    <section className="functional-page-header">
-      <p className="eyebrow">WHAT WE&apos;RE LEARNING · 2026–27</p>
-      <h1>Now and across the year</h1>
-      <p>What we’re working on and what’s coming up.</p>
+    <section className="launch-hero learning-hero">
+      <div><p className="eyebrow">OUR LEARNING MAP</p><h1>Big questions.<br /><em>Real connections.</em></h1><p>Stories, numbers, communities and creativity help us make sense of the world. See what we’re exploring and how you can join the conversation.</p><Link className="launch-primary" href="/learning#subject-now-title">Explore the subjects ↓</Link></div>
+      <figure><Image unoptimized src="/images/public-student-learning-mosaic-v1.webp" alt="Fictional classroom panorama of Grade 6 students observing an object and photograph, discussing ideas, building a model, moving, and reading together" width={1792} height={1008} sizes="(max-width: 760px) 100vw, 48vw" /><figcaption>Think. Make. Notice. Connect.</figcaption></figure>
     </section>
-
-    <figure className="learning-mosaic"><Image unoptimized src="/images/public-student-learning-mosaic-v1.webp" alt="Fictional classroom panorama of Grade 6 students observing an object and photograph, discussing ideas, building a model, moving, and reading together" width={1792} height={1008} sizes="(max-width: 1180px) 100vw, 1180px" /><figcaption>ILLUSTRATION · OBSERVATION, DISCUSSION, MODEL-MAKING, MOVEMENT, AND READING</figcaption></figure>
-
-    <TruthLearningLink />
-    <RightsEntry href="#/rights" />
+    <LearningTrails />
+    <section className="conversation-strip" aria-labelledby="conversation-title">
+      <div><p className="eyebrow">FOR FAMILIES</p><h2 id="conversation-title">A conversation, not a quiz.</h2><p>Let your child choose a piece of learning to talk about. Listening is a useful way to help.</p></div>
+      <ul><li>What surprised you?</li><li>Can you show me how you figured that out?</li><li>What would you like to try next?</li></ul>
+      <Link href="/homework">Optional ways to practise together →</Link>
+    </section>
     <SubjectLearningUpdates />
     {isMonthlyWindow && <details className="compact-disclosure monthly-outlook"><summary>Ideas for the month</summary><h2>{current.shared.title}</h2><p>{current.shared.summary}</p><p>These are ideas we may explore as the month unfolds.</p></details>}
-
-    <ExplorationRevisits />
-
-    <section className="year-at-a-glance" aria-labelledby="year-title">
-      <header><small>YEAR AT A GLANCE</small><h2 id="year-title">A look at each of the ten months</h2><p>Plans stay flexible when students need more time or a strong question deserves attention.</p></header>
-      <div>{publicWindowManifest.yearMonths.map((item, index) => <article key={item.month}><b>{String(index + 1).padStart(2, "0")}</b><div><small>{item.month}</small><h3>{item.focus}</h3><span>{item.phase}</span></div></article>)}</div>
-    </section>
-
+    <details className="launch-archive"><summary>Explore more resources and the year ahead</summary>
+      <ExplorationRevisits /><TruthLearningLink /><RightsEntry href="#/rights" />
+      <section className="year-at-a-glance" aria-labelledby="year-title">
+        <header><small>YEAR AT A GLANCE</small><h2 id="year-title">A look at each of the ten months</h2><p>Plans stay flexible when students need more time or a strong question deserves attention.</p></header>
+        <div>{publicWindowManifest.yearMonths.map((item, index) => <article key={item.month}><b>{String(index + 1).padStart(2, "0")}</b><div><small>{item.month}</small><h3>{item.focus}</h3><span>{item.phase}</span></div></article>)}</div>
+      </section>
+    </details>
     <section className="simple-callout"><div><small>STUDENTS</small><h2>Need today&apos;s starting point?</h2></div><Link href="/students">Open Student page →</Link></section>
   </main>;
 }

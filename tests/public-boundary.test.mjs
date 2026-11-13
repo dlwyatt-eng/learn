@@ -95,7 +95,7 @@ test("the current public window renders its purpose, finish, and products", () =
 });
 
 test("the learning panorama alternative describes only visible actions", () => {
-  const mosaic = portal.match(/<figure className="learning-mosaic">[\s\S]*?<\/figure>/)?.[0];
+  const mosaic = portal.match(/<figure><Image unoptimized src="\/images\/public-student-learning-mosaic-v1.webp"[\s\S]*?<\/figure>/)?.[0];
   assert.ok(mosaic);
   assert.match(mosaic, /alt="Fictional classroom panorama of Grade 6 students observing an object and photograph, discussing ideas, building a model, moving, and reading together"/);
   assert.doesNotMatch(mosaic, /analyzing a map|using a shared projector|SHARED-SCREEN INQUIRY/);
